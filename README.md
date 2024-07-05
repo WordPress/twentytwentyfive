@@ -37,7 +37,7 @@ To get started with development:
 
 - Gutenberg plugin (latest)
 - WordPress 6.6+ (Will be 6.7 at the time of release)
-- PHP 7.0+
+- PHP 7.2.24+
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
 Some theme features / PRs may require Gutenberg trunk and will be described or tagged accordingly.

@@ -7,6 +7,12 @@ Welcome to the development repository for the default theme that will launch wit
 Twenty Twenty-Five is built as a [block theme](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/). The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through [`theme.json`](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/) and editable through Global Styles. The theme development team will work closely with [Gutenberg](https://github.com/wordpress/gutenberg) contributors to build design tools in the block editor that enable this goal.
 
 ## Current status
+
+### August 14
+The theme design has been approved. A draft blog post that will introduce the design to everyone is under review.
+The implementation of the design continues once the post is published and the squad for WordPress 6.7 has been announced.
+
+### July 1
 As of July first 2024, the theme is in the planning stages, and ideas for the theme are being collected. There is no design to implement yet.
 
 ## Contributing

@@ -17,14 +17,18 @@
 	"bugs": {
 		"url": "https://github.com/WordPress/twentytwentyfive/issues"
 	},
+	"engines": {
+		"node": ">=20.10.0",
+		"npm": ">=10.2.3"
+	},
 	"devDependencies": {
-		"@wordpress/stylelint-config": "^20.0.2",
-		"stylelint": "^14.10.0"
+		"@wordpress/stylelint-config": "^22.5.0",
+		"stylelint": "^14.16.1"
 	},
 	"scripts": {
 		"lint:css": "stylelint **/*.css -i .gitignore",
 		"lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
-		"lint:php": "./vendor/bin/phpcs",
-		"lint:php:fix": "./bin/phpcbf.sh"
+		"lint:php": "composer run-script lint",
+		"lint:php:fix": "composer run-script format"
 	}
 }

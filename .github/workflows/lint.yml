@@ -8,8 +8,6 @@ on:
 
 # Cancel previous workflow run groups that have not completed.
 concurrency:
-  # Group workflow runs by workflow name, along with the head branch ref of the pull request
-  # or otherwise the branch or tag ref.
   group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.head_ref || github.ref }}
   cancel-in-progress: true
 
@@ -68,4 +66,4 @@ jobs:
         run: composer --no-interaction validate --no-check-all
 
       - name: Detect coding standard violations (PHPCS)
-        run: vendor/bin/phpcs -q --report=checkstyle --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 | cs2pr --graceful-warnings
+        run: composer run lint:php

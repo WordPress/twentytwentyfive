@@ -4,18 +4,18 @@ Welcome to the development repository for the default theme that will launch wit
 
 ## About
 
+While ideating Twenty Twenty-Five, one recurring idea was that simple things should be intuitive while complex things should be possible. This concept of simplicity and complexity leads to a reliable foundation for extending a default WordPress experience to make it yours.
+
+Twenty Twenty-Five embodies ultimate flexibility and adaptability, showcasing the many ways WordPress enables people to tell their stories with many patterns and styles to choose from. The glimpses of natural beauty and ancestry woven into the theme evoke ideas of impermanence, the passage of time, and continuous evolution.
+
+[Introducing Twenty Twenty-Five](https://make.wordpress.org/core/2024/08/15/introducing-twenty-twenty-five/)
+
 Twenty Twenty-Five is built as a [block theme](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/). The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through [`theme.json`](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/) and editable through Global Styles. The theme development team will work closely with [Gutenberg](https://github.com/wordpress/gutenberg) contributors to build design tools in the block editor that enable this goal.
 
-## Current status
-
-### August 14
-The theme design has been approved. A draft blog post that will introduce the design to everyone is under review.
-The implementation of the design continues once the post is published and the squad for WordPress 6.7 has been announced.
-
-### July 1
-As of July first 2024, the theme is in the planning stages, and ideas for the theme are being collected. There is no design to implement yet.
-
 ## Contributing
+
+Connect your GitHub account to your WordPress.org account to receive props for your contributions.
+Please see the tutorials on [Linking your GitHub and w.org profiles](https://make.wordpress.org/core/handbook/tutorials/linking-your-github-and-w-org-profiles/).
 
 If you would like to contribute code, the list of [open issues](https://github.com/WordPress/twentytwentyfive/issues) is a great place to start looking for tasks. [Pull requests](https://github.com/WordPress/twentytwentyfive/pulls) are preferred when linked to an existing issue.
 
@@ -27,7 +27,7 @@ If you'd like to help with triage, open a new issue and one of the maintainers w
 
 To get started with development:
 
-1. Set up a WordPress instance, we recommend [wp-env](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/) or [Local](https://localwp.com/) as an alternative to docker. Alternatively you can use [WordPress Playground](https://developer.wordpress.org/playground/) to test the theme directly in the browser.
+1. Set up a WordPress instance, we recommend [wp-env](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/) or [Local](https://localwp.com/) as an alternative to Docker. Alternatively you can use [WordPress Playground](https://developer.wordpress.org/playground/) to test the theme directly in the browser.
 2. Install the [Gutenberg plugin](https://wordpress.org/plugins/gutenberg/)
 3. Clone / download this repository into your `/wp-content/themes/` directory.
 
@@ -37,7 +37,7 @@ To get started with development:
 - Similarly, let's refrain from building any custom-built PHP or JavaScript-based workarounds for functionality that might reasonably be provided by the Block Editor, let's keep the code simple to help with future maintenance.
 - In accordance to those last two bullets, this theme has no required build process.
 - Refrain from creating pull requests for translatable strings until all patterns, parts, and templates are completed.
-- If you've helped contribute to the theme in any way, you deserve credit! Folks will be updating [CONTRIBUTORS.md](CONTRIBUTORS.md) periodically with names of contributors, but feel free to open a PR or issue if we leave someone out.
+
 
 ## Requirements
 
@@ -46,13 +46,16 @@ To get started with development:
 - PHP 7.2.24+
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
-Some theme features / PRs may require Gutenberg trunk and will be described or tagged accordingly.
+Some theme features / PRs may require the development version of Gutenberg and will be described or tagged accordingly.
 
 ## Resources
 
+- [The theme design on Figma](https://www.figma.com/design/dzGCSntVch4EQdVERTqyVK/Twenty-Twenty-Five)
+
 - [Setting up a development environment](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/)
-- [Block Theme documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview)
-- [Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
+- [Theme Developer Handbook](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/)
+- [Block Edtior Handbook: Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
+- [Block Edtior Handbook: theme.json reference](https://developer.wordpress.org/block-editor/reference-guides/theme-json-reference/theme-json-living/)
 
 ## Timeline
 

@@ -499,6 +499,29 @@
                             "fontFamily": "\"Ysabeau Office\""
                         }
                     ]
+                },
+                {
+                    "name": "Platypi",
+                    "slug": "platypi",
+                    "fontFamily": "Platypi",
+                    "fontFace": [
+                        {
+                            "fontFamily": "Platypi",
+                            "fontStyle": "italic",
+                            "fontWeight": "300 800",
+                            "src": [
+                                "file:./assets/fonts/Platypi-Italic-VariableFont_wght.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Platypi",
+                            "fontStyle": "normal",
+                            "fontWeight": "300 800",
+                            "src": [
+                                "file:./assets/fonts/Platypi-VariableFont_wght.ttf"
+                            ]
+                        }
+                    ]
                 }
             ]
         }

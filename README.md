@@ -54,8 +54,8 @@ Some theme features / PRs may require the development version of Gutenberg and w
 
 - [Setting up a development environment](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/)
 - [Theme Developer Handbook](https://developer.wordpress.org/themes/getting-started/what-is-a-theme/)
-- [Block Edtior Handbook: Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
-- [Block Edtior Handbook: theme.json reference](https://developer.wordpress.org/block-editor/reference-guides/theme-json-reference/theme-json-living/)
+- [Block Editor Handbook: Global Styles & theme.json documentation](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/)
+- [Block Editor Handbook: theme.json reference](https://developer.wordpress.org/block-editor/reference-guides/theme-json-reference/theme-json-living/)
 
 ## Timeline
 

@@ -7,3 +7,6 @@
 | @MaggieCabrera | @onemaggie |
 | @kafleg | @kafleg |
 | @SeanAverS | |
+| @jeherve | @jeherve |
+| @aaronjorbin | @jorbin |
+| @juanfra | @juanfra |

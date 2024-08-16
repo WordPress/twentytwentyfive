@@ -1,548 +1,548 @@
 {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
-    "version": 3,
-    "settings": {
-        "appearanceTools": true,
-        "layout": {
-            "contentSize": "840px",
-            "wideSize": "1100px"
-        },
-        "useRootPaddingAwareAlignments": true,
-        "typography": {
-            "fontFamilies": [
-                {
-                    "name": "Manrope",
-                    "slug": "manrope",
-                    "fontFamily": "Manrope, sans-serif",
-                    "fontFace": [
-                        {
-                            "src": [
-                                "file:./assets/fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_A87jxeN7B.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontFamily": "Manrope"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_A87jxeN7B.woff2"
-                            ],
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "fontFamily": "Manrope"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_A87jxeN7B.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "normal",
-                            "fontFamily": "Manrope"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_A87jxeN7B.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontFamily": "Manrope"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_A87jxeN7B.woff2"
-                            ],
-                            "fontWeight": "800",
-                            "fontStyle": "normal",
-                            "fontFamily": "Manrope"
-                        }
-                    ]
-                },
-                {
-                    "name": "Literata",
-                    "slug": "literata",
-                    "fontFamily": "Literata, serif",
-                    "fontFace": [
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_F_PcTWCWp8g.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbCO_F_PcTWCWp8g.woff2"
-                            ],
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbM-4F_PcTWCWp8g.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "normal",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbPa4F_PcTWCWp8g.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbJG4F_PcTWCWp8g.woff2"
-                            ],
-                            "fontWeight": "800",
-                            "fontStyle": "normal",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbLi4F_PcTWCWp8g.woff2"
-                            ],
-                            "fontWeight": "900",
-                            "fontStyle": "normal",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8f7XWTEKTt8iVow.woff2"
-                            ],
-                            "fontWeight": "200",
-                            "fontStyle": "italic",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8obXWTEKTt8iVow.woff2"
-                            ],
-                            "fontWeight": "300",
-                            "fontStyle": "italic",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8_7XWTEKTt8iVow.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "italic",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8zbXWTEKTt8iVow.woff2"
-                            ],
-                            "fontWeight": "500",
-                            "fontStyle": "italic",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8IbLWTEKTt8iVow.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "italic",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8GLLWTEKTt8iVow.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "italic",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8f7LWTEKTt8iVow.woff2"
-                            ],
-                            "fontWeight": "800",
-                            "fontStyle": "italic",
-                            "fontFamily": "Literata"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8VrLWTEKTt8iVow.woff2"
-                            ],
-                            "fontWeight": "900",
-                            "fontStyle": "italic",
-                            "fontFamily": "Literata"
-                        }
-                    ]
-                },
-                {
-                    "name": "Vollkorn",
-                    "slug": "vollkorn",
-                    "fontFamily": "Vollkorn, serif",
-                    "fontFace": [
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2MHGuHGOdEbD63w.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DLvXWmcM7Xq34g9.woff2"
-                            ],
-                            "fontWeight": "900",
-                            "fontStyle": "italic",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DKhXWmcM7Xq34g9.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "italic",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DLGXWmcM7Xq34g9.woff2"
-                            ],
-                            "fontWeight": "800",
-                            "fontStyle": "italic",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DKYXWmcM7Xq34g9.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "italic",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DJ0WmmcM7Xq34g9.woff2"
-                            ],
-                            "fontWeight": "500",
-                            "fontStyle": "italic",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DJGWmmcM7Xq34g9.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "italic",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2mXauHGOdEbD63w.woff2"
-                            ],
-                            "fontWeight": "900",
-                            "fontStyle": "normal",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2sHauHGOdEbD63w.woff2"
-                            ],
-                            "fontWeight": "800",
-                            "fontStyle": "normal",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df213auHGOdEbD63w.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df27nauHGOdEbD63w.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "normal",
-                            "fontFamily": "Vollkorn"
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2AnGuHGOdEbD63w.woff2"
-                            ],
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "fontFamily": "Vollkorn"
-                        }
-                    ]
-                },
-                {
-                    "name": "Fira Code",
-                    "slug": "fira-code",
-                    "fontFamily": "\"Fira Code\", monospace",
-                    "fontFace": [
-                        {
-                            "src": [
-                                "file:./assets/fonts/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_A9sFVLxN87gsj0.woff2"
-                            ],
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Fira Code\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_ONrFVLxN87gsj0.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Fira Code\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprFVLxN87gsj0.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Fira Code\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sFVLxN87gsj0.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Fira Code\""
-                        }
-                    ]
-                },
-                {
-                    "name": "Fira Sans",
-                    "slug": "fira-sans",
-                    "fontFamily": "\"Fira Sans\", sans-serif",
-                    "fontFace": [
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9E4kDNxMZdWfMOD5VflYLKSTbndQ.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9B4kDNxMZdWfMOD5VnZKvuRB37fF3Wlg.woff2"
-                            ],
-                            "fontWeight": "500",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9B4kDNxMZdWfMOD5VnSKzuRB37fF3Wlg.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9B4kDNxMZdWfMOD5VnLK3uRB37fF3Wlg.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9B4kDNxMZdWfMOD5VnMK7uRB37fF3Wlg.woff2"
-                            ],
-                            "fontWeight": "800",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9B4kDNxMZdWfMOD5VnFK_uRB37fF3Wlg.woff2"
-                            ],
-                            "fontWeight": "900",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9A4kDNxMZdWfMOD5VvkrCqYTLVcFTPj0s.woff2"
-                            ],
-                            "fontWeight": "100",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrAGQBf6XljGllLX.woff2"
-                            ],
-                            "fontWeight": "200",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrBiQxf6XljGllLX.woff2"
-                            ],
-                            "fontWeight": "300",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9C4kDNxMZdWfMOD5VvkojLazP3dUTP.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrA6Qhf6XljGllLX.woff2"
-                            ],
-                            "fontWeight": "500",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrAWRRf6XljGllLX.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrByRBf6XljGllLX.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrBuRxf6XljGllLX.woff2"
-                            ],
-                            "fontWeight": "800",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Fira Sans\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrBKRhf6XljGllLX.woff2"
-                            ],
-                            "fontWeight": "900",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Fira Sans\""
-                        }
-                    ]
-                },
-                {
-                    "name": "Ysabeau Office",
-                    "slug": "ysabeau-office",
-                    "fontFamily": "\"Ysabeau Office\", sans-serif",
-                    "fontFace": [
-                        {
-                            "src": [
-                                "file:./assets/fonts/LDImapaZKhM9RuQIp8FmdYrPPNjFm07hbpKNlPPbLqQfZCfpQj7IGQ.woff2"
-                            ],
-                            "fontWeight": "900",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Ysabeau Office\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/LDImapaZKhM9RuQIp8FmdYrPPNjFm07hbpKNlPPbB6QfZCfpQj7IGQ.woff2"
-                            ],
-                            "fontWeight": "800",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Ysabeau Office\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/LDImapaZKhM9RuQIp8FmdYrPPNjFm07hbpKNlPPbYKQfZCfpQj7IGQ.woff2"
-                            ],
-                            "fontWeight": "700",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Ysabeau Office\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/LDImapaZKhM9RuQIp8FmdYrPPNjFm07hbpKNlPPbWaQfZCfpQj7IGQ.woff2"
-                            ],
-                            "fontWeight": "600",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Ysabeau Office\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/LDImapaZKhM9RuQIp8FmdYrPPNjFm07hbpKNlPPbh6MfZCfpQj7IGQ.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "normal",
-                            "fontFamily": "\"Ysabeau Office\""
-                        },
-                        {
-                            "src": [
-                                "file:./assets/fonts/LDIkapaZKhM9RuQIp8FmdYrPPPLMqbE5B_kXOvTOT-D3Ii3oYDvYGbGh.woff2"
-                            ],
-                            "fontWeight": "400",
-                            "fontStyle": "italic",
-                            "fontFamily": "\"Ysabeau Office\""
-                        }
-                    ]
-                },
-                {
-                    "name": "Platypi",
-                    "slug": "platypi",
-                    "fontFamily": "Platypi",
-                    "fontFace": [
-                        {
-                            "fontFamily": "Platypi",
-                            "fontStyle": "italic",
-                            "fontWeight": "300 800",
-                            "src": [
-                                "file:./assets/fonts/Platypi-Italic-VariableFont_wght.ttf"
-                            ]
-                        },
-                        {
-                            "fontFamily": "Platypi",
-                            "fontStyle": "normal",
-                            "fontWeight": "300 800",
-                            "src": [
-                                "file:./assets/fonts/Platypi-VariableFont_wght.ttf"
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "styles": {
-        "spacing": {
-            "blockGap": "1.2rem",
-            "padding": {
-                "left": "var(--wp--preset--spacing--50)",
-                "right": "var(--wp--preset--spacing--50)"
-            }
-        }
-    },
-    "templateParts": [
-        {
-            "area": "header",
-            "name": "Header"
-        },
-        {
-            "area": "footer",
-            "name": "Footer"
-        }
-    ]
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "840px",
+			"wideSize": "1100px"
+		},
+		"useRootPaddingAwareAlignments": true,
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Manrope",
+					"slug": "manrope",
+					"fontFamily": "Manrope, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/manrope/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_A87jxeN7B.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "Manrope"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/manrope/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_A87jxeN7B.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "Manrope"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/manrope/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_A87jxeN7B.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "Manrope"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/manrope/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_A87jxeN7B.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "Manrope"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/manrope/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_A87jxeN7B.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "Manrope"
+						}
+					]
+				},
+				{
+					"name": "Literata",
+					"slug": "literata",
+					"fontFamily": "Literata, serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_F_PcTWCWp8g.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbCO_F_PcTWCWp8g.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbM-4F_PcTWCWp8g.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbPa4F_PcTWCWp8g.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbJG4F_PcTWCWp8g.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbLi4F_PcTWCWp8g.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8f7XWTEKTt8iVow.woff2"
+							],
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8obXWTEKTt8iVow.woff2"
+							],
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8_7XWTEKTt8iVow.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8zbXWTEKTt8iVow.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8IbLWTEKTt8iVow.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8GLLWTEKTt8iVow.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8f7LWTEKTt8iVow.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/or3NQ6P12-iJxAIgLYT1PLs1Zd0nfUwAbeGVKoRYzNiCp1OUedn8VrLWTEKTt8iVow.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						}
+					]
+				},
+				{
+					"name": "Vollkorn",
+					"slug": "vollkorn",
+					"fontFamily": "Vollkorn, serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2MHGuHGOdEbD63w.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DLvXWmcM7Xq34g9.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DKhXWmcM7Xq34g9.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DLGXWmcM7Xq34g9.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DKYXWmcM7Xq34g9.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DJ0WmmcM7Xq34g9.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybuGDoxxrvAnPhYGxksckM2WMCpRjDj-DJGWmmcM7Xq34g9.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2mXauHGOdEbD63w.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2sHauHGOdEbD63w.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df213auHGOdEbD63w.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df27nauHGOdEbD63w.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/0ybgGDoxxrvAnPhYGzMlQLzuMasz6Df2AnGuHGOdEbD63w.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						}
+					]
+				},
+				{
+					"name": "Fira Code",
+					"slug": "fira-code",
+					"fontFamily": "\"Fira Code\", monospace",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_A9sFVLxN87gsj0.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_ONrFVLxN87gsj0.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_NprFVLxN87gsj0.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/uU9eCBsR6Z2vfE9aq3bL0fxyUs4tcw4W_D1sFVLxN87gsj0.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						}
+					]
+				},
+				{
+					"name": "Fira Sans",
+					"slug": "fira-sans",
+					"fontFamily": "\"Fira Sans\", sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/va9E4kDNxMZdWfMOD5VflYLKSTbndQ.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9B4kDNxMZdWfMOD5VnZKvuRB37fF3Wlg.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9B4kDNxMZdWfMOD5VnSKzuRB37fF3Wlg.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9B4kDNxMZdWfMOD5VnLK3uRB37fF3Wlg.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9B4kDNxMZdWfMOD5VnMK7uRB37fF3Wlg.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9B4kDNxMZdWfMOD5VnFK_uRB37fF3Wlg.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9A4kDNxMZdWfMOD5VvkrCqYTLVcFTPj0s.woff2"
+							],
+							"fontWeight": "100",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrAGQBf6XljGllLX.woff2"
+							],
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrBiQxf6XljGllLX.woff2"
+							],
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9C4kDNxMZdWfMOD5VvkojLazP3dUTP.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrA6Qhf6XljGllLX.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrAWRRf6XljGllLX.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrByRBf6XljGllLX.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrBuRxf6XljGllLX.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/va9f4kDNxMZdWfMOD5VvkrBKRhf6XljGllLX.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						}
+					]
+				},
+				{
+					"name": "Ysabeau Office",
+					"slug": "ysabeau-office",
+					"fontFamily": "\"Ysabeau Office\", sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/LDImapaZKhM9RuQIp8FmdYrPPNjFm07hbpKNlPPbLqQfZCfpQj7IGQ.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontFamily": "\"Ysabeau Office\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/LDImapaZKhM9RuQIp8FmdYrPPNjFm07hbpKNlPPbB6QfZCfpQj7IGQ.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "\"Ysabeau Office\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/LDImapaZKhM9RuQIp8FmdYrPPNjFm07hbpKNlPPbYKQfZCfpQj7IGQ.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "\"Ysabeau Office\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/LDImapaZKhM9RuQIp8FmdYrPPNjFm07hbpKNlPPbWaQfZCfpQj7IGQ.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "\"Ysabeau Office\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/LDImapaZKhM9RuQIp8FmdYrPPNjFm07hbpKNlPPbh6MfZCfpQj7IGQ.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "\"Ysabeau Office\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/LDIkapaZKhM9RuQIp8FmdYrPPPLMqbE5B_kXOvTOT-D3Ii3oYDvYGbGh.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontFamily": "\"Ysabeau Office\""
+						}
+					]
+				},
+				{
+					"name": "Platypi",
+					"slug": "platypi",
+					"fontFamily": "Platypi",
+					"fontFace": [
+						{
+							"fontFamily": "Platypi",
+							"fontStyle": "italic",
+							"fontWeight": "300 800",
+							"src": [
+								"file:./assets/fonts/Platypi-Italic-VariableFont_wght.ttf"
+							]
+						},
+						{
+							"fontFamily": "Platypi",
+							"fontStyle": "normal",
+							"fontWeight": "300 800",
+							"src": [
+								"file:./assets/fonts/Platypi-VariableFont_wght.ttf"
+							]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"spacing": {
+			"blockGap": "1.2rem",
+			"padding": {
+				"left": "var(--wp--preset--spacing--50)",
+				"right": "var(--wp--preset--spacing--50)"
+			}
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "Footer"
+		}
+	]
 }

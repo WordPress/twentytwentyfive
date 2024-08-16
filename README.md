@@ -164,4 +164,4 @@ Some theme features / PRs may require the development version of Gutenberg and w
 
 ## Timeline
 
-The theme will be released with WordPress 6.7 and follow the key dates / milestones associated with its future development schedule.
+The theme will be released with [WordPress 6.7](https://make.wordpress.org/core/6-7/) and follow the key dates / milestones associated with its future development schedule.

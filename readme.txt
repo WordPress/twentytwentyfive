@@ -32,6 +32,37 @@ GNU General Public License for more details.
 This theme bundles the following third-party resources:
 
 === Fonts ===
+Fira Code Font
+Copyright (c) 2014, The Fira Code Project Authors
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/tonsky/FiraCode
+
+Manrope Font
+Copyright (c) 2018 The Manrope Project Authors 
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/sharanda/manrope
+
+Vollkorn Font
+Copyright (c) 2005–2018, Friedrich Althausen 
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/FAlthausen/Vollkorn-Typeface
+
+Fira Sans Font
+Digitized data copyright (c) 2012-2015, The Mozilla Foundation and Telefonica S.A.
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/mozilla/Fira
+
+Platypi Font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/d-sargent/platypi
+
+Ysabeau Office Font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/CatharsisFonts/Ysabeau
+
+Literata Font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://github.com/googlefonts/literata 
 
 === Images ===
 

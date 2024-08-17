@@ -42,6 +42,26 @@ To get started with development:
 
 Some theme features / PRs may require Gutenberg trunk and will be described or tagged accordingly.
 
+## Testing
+
+To run the tests locally, you'll need:
+
+- **Node.js:** It's recommended to install Node.js using `nvm`, which helps manage the Node.js version required by the project.
+- **Composer:**
+
+Once you have these tools set up, install the necessary development dependencies by running:
+
+```bash
+npm i && composer install
+```
+
+You can then use the following commands to test the code:
+
+- **`npm run lint:css`**: Lints all CSS files.
+- **`npm run lint:css:fix`**: Lints and attempts to autofix any issues in the CSS files.
+- **`npm run lint:php`**: Checks PHP files for syntax and standards errors according to [WordPress coding standards](https://developer.wordpress.org/coding-standards/).
+- **`npm run lint:php:fix`**: Attempts to automatically fix PHP errors.
+
 ## Resources
 
 - [Setting up a development environment](https://developer.wordpress.org/block-editor/handbook/tutorials/devenv/)

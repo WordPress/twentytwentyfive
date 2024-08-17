@@ -66,7 +66,7 @@ WordPress block patterns should be [internationalized](https://developer.wordpre
 
 `esc_html_e`: works just like `esc_html__()` but you don't need to use `echo` to output the string
 
-When we have simple HTML tags in our translatable strings we would use `echo wp_kses_post( __( 'Lorem ipsum <em>Hello</em> dolor sit amet.', 'texdomain' ) );`. This syntax is clearer for translators than using `sprintf()` and it allows them to remove the markup if it doesn't work on their own language.
+When we have simple HTML tags in our translatable strings we would use `echo wp_kses_post( __( 'Lorem ipsum <em>Hello</em> dolor sit amet.', 'textdomain' ) );`. This syntax is clearer for translators than using `sprintf()` and it allows them to remove the markup if it doesn't work on their own language.
 
 These functions enhance security and support localization efforts in WordPress block patterns, ensuring that text is safe and can be easily translated.
 

@@ -141,7 +141,7 @@ One way to control the order in which patterns are displayed in the inserter is 
 
 ## Discussions
 
-Starting on Wednesday 21 August 2024 at 17:00 CEST, there will be weekly Slack meetings in the `#core-themes` channel in [Make WordPress Slack](https://make.wordpress.org/chat) (registration required) to coordinate development of the theme. Agenda notes will be posted before meetings and summaries posted after the meeting.
+On Wednesdays at [15:00 UTC](https://time.is/1500_in_UTC), there are weekly Slack meetings in the `#core-themes` channel in [Make WordPress Slack](https://make.wordpress.org/chat) (registration required) to coordinate development of the theme. Agenda notes will be posted before meetings and summaries posted after the meeting.
 
 
 ## Requirements

@@ -80,6 +80,12 @@
 					}
 				}
 			},
+			"core/site-tagline": {
+				"typography": {
+					"fontSize": "var:preset|fontSize|small",
+					"letterSpacing": "-1"
+				}
+			},
 			"core/navigation": {
 				"typography": {
 					"fontSize": "var:preset|fontSize|small",

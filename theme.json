@@ -64,6 +64,28 @@
 				"left": "var(--wp--preset--spacing--50)",
 				"right": "var(--wp--preset--spacing--50)"
 			}
+		},
+		"blocks":{
+			"core/site-title": {
+				"typography": {
+					"fontSize": "var:preset|fontSize|regular",
+					"fontWeight": "700",
+					"letterSpacing": "-2"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontSize": "var:preset|fontSize|small",
+					"letterSpacing": "-1"
+				}
+			}
 		}
 	},
 	"templateParts": [

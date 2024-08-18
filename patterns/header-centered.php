@@ -3,7 +3,7 @@
  * Title: Centered Header
  * Slug: twentytwentyfive/header-centered
  * Categories: header
- * Block Types: core/template-part
+ * Block Types: core/template-part/header
  * Description: Header with centered site title and navigation
  */
 ?>

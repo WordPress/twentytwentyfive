@@ -3,6 +3,50 @@
 	"version": 3,
 	"settings": {
 		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#FFFFFF",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#111111",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#686868",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#FBFAF3",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#FFFFFF33",
+					"name": "Opacity 20%",
+					"slug": "opacity-20"
+				},
+				{
+					"color": "#FFEE58",
+					"name": "Accent 1",
+					"slug": "accent-1"
+				},
+				{
+					"color": "#F6CFF4", 
+					"name": "Accent 2",
+					"slug": "accent-2"
+				},
+				{
+					"color": "#503AA8",
+					"name": "Accent 3",
+					"slug": "accent-3"
+				}
+			]
+		},
 		"layout": {
 			"contentSize": "840px",
 			"wideSize": "1100px"
@@ -10,6 +54,10 @@
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
+		"color": {
+			"background": "var:preset|color|base",
+			"text": "var:preset|color|contrast"
+		},
 		"spacing": {
 			"blockGap": "1.2rem",
 			"padding": {

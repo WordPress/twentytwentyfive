@@ -9,6 +9,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
+Twenty Twenty-Five is designed to be modern, adaptable, and suited for any type of website. Its extensive collection of block patterns and layouts caters to various needs, whether you're creating a business site, writing a blog, or showcasing a portfolio. With just a few tweaks to colors and typography, you can unlock countless possibilities. Twenty Twenty-Five features enhanced style variations and pre-built full-page designs, making the site-building process faster and more intuitive. Fully compatible with the site editor and harnessing the latest design tools introduced in WordPress 6.7, Twenty Twenty-Five is your key to building a stunning, responsive website effortlessly.
+
 
 == Changelog ==
 

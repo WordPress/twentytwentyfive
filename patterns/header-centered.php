@@ -5,7 +5,12 @@
  * Categories: header
  * Block Types: core/template-part/header
  * Description: Header with centered site title and navigation
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_Five
+ * @since Twenty Twenty-Five 1.0
  */
+
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|30","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--30);padding-left:var(--wp--preset--spacing--50)">

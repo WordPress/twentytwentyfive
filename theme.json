@@ -104,7 +104,7 @@
 				{
 					"fluid": false,
 					"name": "Extra Small",
-					"size": "14px",
+					"size": "0.875rem",
 					"slug": "x-small"
 				},
 				{

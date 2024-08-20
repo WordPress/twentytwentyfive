@@ -46,8 +46,8 @@ Some theme features / PRs may require Gutenberg trunk and will be described or t
 
 To run the tests locally, you'll need:
 
-- **Node.js:** It's recommended to install Node.js using `nvm`, which helps manage the Node.js version required by the project.
-- **Composer:**
+- **Node.js:** It's recommended to install Node.js using `nvm`, which helps manage the Node.js version required by the project. Installation instructions [here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating).
+- **Composer:** you can find the instructions for your OS [here](https://getcomposer.org/doc/00-intro.md#system-requirements).
 
 Once you have these tools set up, install the necessary development dependencies by running:
 

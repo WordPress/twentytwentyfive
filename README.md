@@ -33,7 +33,7 @@ To get started with development:
 
 Also, consider enabling [development mode](https://make.wordpress.org/core/2023/07/14/configuring-development-mode-in-6-3/) with `define( 'WP_DEVELOPMENT_MODE', 'theme' );` in your `wp-config.php`. This will help minimize caching of `theme.json` while you're developing.
 
-To enable development mode using [WP CLI](https://developer.wordpress.org/cli/commands/config/set/) use the following command in your terminal inside your installation directory `wp config set 'WP_DEVELOPMENT_MODE' theme --raw`.
+To enable development mode using [WP CLI](https://developer.wordpress.org/cli/commands/config/set/) use the following command in your terminal inside your installation directory `wp config set 'WP_DEVELOPMENT_MODE' theme`.
 
 ### Pattern creation guidelines
 

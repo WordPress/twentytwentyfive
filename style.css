@@ -25,6 +25,6 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 
 /* Focus styles */
 :where(.wp-site-blocks *:focus) {
-    outline-width: 2px;
-    outline-style: solid;
+	outline-width: 2px;
+	outline-style: solid;
 }

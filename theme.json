@@ -114,7 +114,7 @@
 		"blocks":{
 			"core/site-title": {
 				"typography": {
-					"fontSize": "var:preset|fontSize|regular",
+					"fontSize": "var:preset|fontSize|medium",
 					"fontWeight": "700",
 					"letterSpacing": "-2"
 				},

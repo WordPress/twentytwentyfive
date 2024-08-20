@@ -10,6 +10,7 @@
  * @subpackage Twenty_Twenty_Five
  * @since Twenty Twenty-Five 1.0
  */
+
 ?>
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->

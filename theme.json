@@ -118,8 +118,8 @@
 				},
 				{
 					"fluid": {
-						"max": "22px",
-						"min": "18px"
+						"max": "1.375rem",
+						"min": "1.125rem"
 					},
 					"name": "Medium",
 					"size": "1.38rem",

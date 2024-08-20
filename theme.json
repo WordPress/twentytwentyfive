@@ -127,8 +127,8 @@
 				},
 				{
 					"fluid": {
-						"max": "32px",
-						"min": "28px"
+						"max": "2rem",
+						"min": "1.75rem"
 					},
 					"name": "Large",
 					"size": "1.75rem",

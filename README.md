@@ -153,6 +153,26 @@ On Wednesdays at [15:00 UTC](https://time.is/1500_in_UTC), there are weekly Slac
 
 Some theme features / PRs may require the development version of Gutenberg and will be described or tagged accordingly.
 
+## Testing
+
+To run the tests locally, you'll need:
+
+- **Node.js:** It's recommended to install Node.js using `nvm`, which helps manage the Node.js version required by the project. Installation instructions [here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating).
+- **Composer:** you can find the instructions for your OS [here](https://getcomposer.org/doc/00-intro.md#system-requirements).
+
+Once you have these tools set up, install the necessary development dependencies by running:
+
+```bash
+npm i && composer install
+```
+
+You can then use the following commands to test the code:
+
+- **`npm run lint:css`**: Lints all CSS files.
+- **`npm run lint:css:fix`**: Lints and attempts to autofix any issues in the CSS files.
+- **`npm run lint:php`**: Checks PHP files for syntax and standards errors according to [WordPress coding standards](https://developer.wordpress.org/coding-standards/).
+- **`npm run lint:php:fix`**: Attempts to automatically fix PHP errors.
+
 ## Resources
 
 - [The theme design on Figma](https://www.figma.com/design/dzGCSntVch4EQdVERTqyVK/Twenty-Twenty-Five)

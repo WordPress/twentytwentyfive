@@ -109,8 +109,8 @@
 				},
 				{
 					"fluid": {
-						"max": "18px",
-						"min": "18px"
+						"max": "1.125rem",
+						"min": "1rem"
 					},
 					"name": "Small",
 					"size": "1rem",

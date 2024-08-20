@@ -24,8 +24,8 @@
 		<!-- /wp:group -->
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|80"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 		<div class="wp-block-group">
-			<!-- wp:group {"layout":{"type":"constrained"}} -->
-			<div class="wp-block-group">
+			<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group" style="padding-right:0;padding-left:0">
 				<!-- wp:heading {"fontSize":"small"} -->
 				<h2 class="wp-block-heading has-small-font-size">Stories</h2>
 				<!-- /wp:heading -->
@@ -37,8 +37,8 @@
 				<!-- /wp:navigation -->
 			</div>
 			<!-- /wp:group -->
-			<!-- wp:group {"layout":{"type":"constrained"}} -->
-			<div class="wp-block-group">
+			<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
+			<div class="wp-block-group" style="padding-right:0;padding-left:0">
 				<!-- wp:heading {"fontSize":"small"} -->
 				<h2 class="wp-block-heading has-small-font-size">Featured</h2>
 				<!-- /wp:heading -->

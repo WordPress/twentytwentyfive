@@ -35,3 +35,7 @@ This theme bundles the following third-party resources:
 
 === Images ===
 
+Small totara tree on ridge above Long Point, Porirua Harbour, by Leslie Adkin.
+Public domain.
+image-from-rawpixel-id-13029755-jpeg.webp
+https://www.rawpixel.com/image/13029755

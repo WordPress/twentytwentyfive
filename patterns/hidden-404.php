@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Title: 404
  * Slug: twentytwentyfive/hidden-404
@@ -10,7 +9,7 @@
 <!-- wp:columns {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px","left":"50px","right":"50px"},"blockGap":{"left":"22px"}}}} -->
 <div class="wp-block-columns" style="padding-top:50px;padding-right:50px;padding-bottom:50px;padding-left:50px"><!-- wp:column {"width":"40%"} -->
     <div class="wp-block-column" style="flex-basis:40%"><!-- wp:image {"id":17,"width":"524px","height":"670px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-        <figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/pexels-lena-khrupina-1386611-20871281.webp" alt="" class="" style="object-fit:cover;width:524px;height:670px" /></figure>
+        <figure class="wp-block-image size-large is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-13029755-jpeg.webp" alt="" class="" style="object-fit:cover;width:524px;height:670px" /></figure>
         <!-- /wp:image -->
     </div>
     <!-- /wp:column -->

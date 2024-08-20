@@ -145,8 +145,8 @@
 				},
 				{
 					"fluid": {
-						"max": "58px",
-						"min": "42px"
+						"max": "3.625rem",
+						"min": "2.625rem"
 					},
 					"name": "Extra Extra Large",
 					"size": "42px",

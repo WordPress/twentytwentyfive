@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Coding Standards">
+    <description>WordPress Coding Standards for HTML and PHP files in the project.</description>
+    <rule ref="WordPress"/>
+    <rule ref="WordPress-Core"/>
+    <rule ref="WordPress-Docs"/>
+    <rule ref="WordPress-Extra"/>
+
+    <!-- Paths to exclude from the scan -->
+    <exclude-pattern>vendor/*</exclude-pattern>
+    <exclude-pattern>node_modules/*</exclude-pattern>
+    <exclude-pattern>assets/*</exclude-pattern>
+    <exclude-pattern>styles/*</exclude-pattern>
+
+    <!-- Paths to scan -->
+    <file>.</file>
+</ruleset>

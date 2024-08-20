@@ -12,7 +12,7 @@
  * Enqueue stylesheet.css in the editors.
  */
  function twenty_twenty_five_editor_style() {
-	add_editor_style( get_parent_theme_file_uri( 'style.css' ) );
+	add_editor_style( get_parent_theme_file_uri( 'editor-style.css' ) );
 }
 add_action( 'after_setup_theme', 'twenty_twenty_five_editor_style' );
 

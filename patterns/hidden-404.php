@@ -3,7 +3,9 @@
  * Title: 404
  * Slug: twentytwentyfive/hidden-404
  * Inserter: no
+ * @package TwentyTwentyFive
  */
+
 ?>
 
 <!-- wp:columns {"style":{"spacing":{"padding":{"top":"50px","bottom":"50px","left":"50px","right":"50px"},"blockGap":{"left":"22px"}}}} -->

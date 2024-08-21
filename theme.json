@@ -36,7 +36,7 @@
 					"slug": "accent-1"
 				},
 				{
-					"color": "#F6CFF4", 
+					"color": "#F6CFF4",
 					"name": "Accent 2",
 					"slug": "accent-2"
 				},
@@ -1033,6 +1033,13 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "700"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			},
 			"core/term-description": {
@@ -1046,6 +1053,18 @@
 			"core/navigation": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
+				},
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			}
 		},

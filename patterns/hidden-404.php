@@ -13,7 +13,7 @@
 <div class="wp-block-columns" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 	<!-- wp:column {"width":"40%"} -->
 	<div class="wp-block-column" style="flex-basis:40%">
-		<!-- wp:image {"id":17,"width":"524px","height":"670px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
+		<!-- wp:image {"width":"524px","height":"670px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
 		<figure class="wp-block-image size-large is-resized">
 			<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-13029755-jpeg.webp" alt="" class="" style="object-fit:cover;width:524px;height:670px" />
 		</figure>

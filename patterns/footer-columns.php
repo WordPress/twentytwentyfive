@@ -18,7 +18,7 @@
 	<div class="wp-block-group alignfull">
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-			<!-- wp:site-title {"level":0,"fontSize":"xx-large"} /-->
+			<!-- wp:site-title {"level":2,"fontSize":"xx-large"} /-->
 			<!-- wp:site-tagline /-->
 		</div>
 		<!-- /wp:group -->
@@ -26,8 +26,8 @@
 		<div class="wp-block-group">
 			<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group" style="padding-right:0;padding-left:0">
-				<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"small"} -->
-				<h2 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">Stories</h2>
+				<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"small"} -->
+				<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">Stories</h3>
 				<!-- /wp:heading -->
 				<!-- wp:navigation {"overlayMenu":"never","fontSize":"small","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Stories', 'twentytwentyfive' ); ?>"} -->
 					<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'twentytwentyfive' ); ?>","url":"#"} /-->
@@ -39,8 +39,8 @@
 			<!-- /wp:group -->
 			<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group" style="padding-right:0;padding-left:0">
-				<!-- wp:heading {"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"small"} -->
-				<h2 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">Featured</h2>
+				<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"small"} -->
+				<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">Featured</h3>
 				<!-- /wp:heading -->
 				<!-- wp:navigation {"overlayMenu":"never","fontSize":"small","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Featured', 'twentytwentyfive' ); ?>"} -->
 					<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Example.com', 'twentytwentyfive' ); ?>","url":"#"} /-->

@@ -390,18 +390,50 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-Black.woff2"
+								"file:./assets/fonts/vollkorn/Vollkorn-Italic.woff2"
 							],
-							"fontWeight": "900",
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Regular.woff2"
+							],
+							"fontWeight": "400",
 							"fontStyle": "normal",
 							"fontFamily": "Vollkorn"
 						},
 						{
 							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-BlackItalic.woff2"
+								"file:./assets/fonts/vollkorn/Vollkorn-Medium.woff2"
 							],
-							"fontWeight": "900",
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-MediumItalic.woff2"
+							],
+							"fontWeight": "500",
 							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-SemiBold.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-SemiBoldItalic.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
 							"fontFamily": "Vollkorn"
 						},
 						{
@@ -438,50 +470,18 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-Italic.woff2"
+								"file:./assets/fonts/vollkorn/Vollkorn-Black.woff2"
 							],
-							"fontWeight": "400",
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-BlackItalic.woff2"
+							],
+							"fontWeight": "900",
 							"fontStyle": "italic",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-Medium.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "normal",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-MediumItalic.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "italic",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-Regular.woff2"
-							],
-							"fontWeight": "400",
-							"fontStyle": "normal",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-SemiBoldItalic.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
 							"fontFamily": "Vollkorn"
 						}
 					]

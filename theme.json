@@ -110,16 +110,46 @@
 				"left": "var(--wp--preset--spacing--50)",
 				"right": "var(--wp--preset--spacing--50)"
 			}
+		},
+		"blocks":{
+			"core/site-title": {
+				"typography": {
+					"fontSize": "var:preset|fontSize|medium",
+					"fontWeight": "700",
+					"letterSpacing": "-2"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				}
+			},
+			"core/site-tagline": {
+				"typography": {
+					"fontSize": "var:preset|fontSize|small",
+					"letterSpacing": "-1"
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontSize": "var:preset|fontSize|small",
+					"letterSpacing": "-1"
+				}
+			}
 		}
 	},
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "Header"
+			"name": "header",
+			"title": "Header"
 		},
 		{
 			"area": "footer",
-			"name": "Footer"
+			"name": "footer",
+			"title": "Footer"
 		}
 	]
 }

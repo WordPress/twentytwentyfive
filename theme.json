@@ -493,25 +493,9 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-Bold.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "normal",
-							"fontFamily": "\"Fira Code\""
-						},
-						{
-							"src": [
 								"file:./assets/fonts/fira-code/FiraCode-Light.woff2"
 							],
 							"fontWeight": "300",
-							"fontStyle": "normal",
-							"fontFamily": "\"Fira Code\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-Medium.woff2"
-							],
-							"fontWeight": "500",
 							"fontStyle": "normal",
 							"fontFamily": "\"Fira Code\""
 						},
@@ -525,9 +509,25 @@
 						},
 						{
 							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-Medium.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						},
+						{
+							"src": [
 								"file:./assets/fonts/fira-code/FiraCode-SemiBold.woff2"
 							],
 							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-Bold.woff2"
+							],
+							"fontWeight": "700",
 							"fontStyle": "normal",
 							"fontFamily": "\"Fira Code\""
 						}

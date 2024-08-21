@@ -16,12 +16,12 @@
 	<p class="has-text-align-center has-contrast-color has-text-color has-link-color has-x-large-font-size"><?php echo esc_html_x( 'Got questions? Feel free to reach out.', 'Heading of the Contact social link pattern', 'twentytwentyfive' ); ?></p>
 	<!-- /wp:paragraph -->
 
-	<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#111111","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
+	<!-- wp:social-links {"iconColor":"contrast","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->
 	<ul class="wp-block-social-links has-icon-color is-style-logos-only">
-		<!-- wp:social-link {"service":"twitter"} /-->
-		<!-- wp:social-link {"service":"facebook"} /-->
-		<!-- wp:social-link {"service":"instagram"} /-->
-		<!-- wp:social-link {"service":"pinterest"} /-->
+		<!-- wp:social-link {"url":"#","service":"twitter"} /-->
+		<!-- wp:social-link {"url":"#","service":"facebook"} /-->
+		<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+		<!-- wp:social-link {"url":"#","service":"pinterest"} /-->
 	</ul>
 	<!-- /wp:social-links -->
 </div>

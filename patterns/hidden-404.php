@@ -3,6 +3,7 @@
  * Title: 404
  * Slug: twentytwentyfive/hidden-404
  * Inserter: no
+ *
  * @package TwentyTwentyFive
  */
 

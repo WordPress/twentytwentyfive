@@ -1023,6 +1023,18 @@
 			"core/navigation": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
+				},
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			}
 		},

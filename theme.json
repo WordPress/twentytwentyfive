@@ -152,10 +152,7 @@
 					"size": "2.625rem",
 					"slug": "xx-large"
 				}
-			]
-		},
-		"useRootPaddingAwareAlignments": true,
-		"typography": {
+			],
 			"fontFamilies": [
 				{
 					"name": "Manrope",
@@ -935,7 +932,8 @@
 					]
 				}
 			]
-		}
+		},
+		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
 		"color": {

@@ -1011,6 +1011,18 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "700"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
 				}
 			},
 			"core/navigation": {

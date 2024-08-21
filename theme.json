@@ -233,6 +233,11 @@
 					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "700"
 				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
+				}
 			}
 		},
 		"elements": {

@@ -987,6 +987,11 @@
 					"fontSize": "var:preset|font-size|small"
 				}
 			},
+			"core/post-navigation-link": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
+				}
+			},
 			"core/post-terms": {
 				"typography": {
 					"fontSize": "var:preset|font-size|x-small",

@@ -996,6 +996,17 @@
 					"lineHeight": "1.2"
 				}
 			},
+			"core/query-pagination": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "500"
+				}
+			},
+			"core/query-title":{
+				"typography": {
+					"fontSize": "var:preset|font-size|x-large"
+				}
+			},
 			"core/search": {
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
@@ -1011,6 +1022,14 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "700"
+				}
+			},
+			"core/term-description": {
+				"color":{
+					"text":"var:preset|color|primary"
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
 				}
 			},
 			"core/navigation": {

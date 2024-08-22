@@ -1010,7 +1010,8 @@
 			"core/site-title": {
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
-					"fontWeight": "700"
+					"fontWeight": "700",
+					"letterSpacing": "-.5px"
 				},
 				"elements": {
 					"link": {

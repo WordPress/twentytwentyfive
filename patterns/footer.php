@@ -50,7 +50,7 @@
 	<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignfull">
 		<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} /-->
-		<!-- wp:paragraph {"fontSize":"small"} -->
+		<!-- wp:paragraph {"fontSize":"x-small"} -->
 		<p class="has-x-small-font-size">Designed with <strong>WordPress</strong></p>
 		<!-- /wp:paragraph -->
 	</div>

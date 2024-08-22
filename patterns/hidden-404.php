@@ -15,7 +15,8 @@
 	<div class="wp-block-column" style="flex-basis:40%">
 		<!-- wp:image {"width":"524px","height":"670px","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
 		<figure class="wp-block-image size-large is-resized">
-			<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-13029755-jpeg.webp" alt="" class="" style="object-fit:cover;width:524px;height:670px" />
+			<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-13029755-jpeg.webp" alt="<?php echo esc_attr_x( 'Small totara tree on ridge above Long Point', 'image description', 'twentytwentyfive' ); ?>"
+			class="" style="object-fit:cover;width:524px;height:670px" />
 		</figure>
 		<!-- /wp:image -->
 	</div>
@@ -25,17 +26,17 @@
 	<div class="wp-block-column is-vertically-aligned-bottom" style="flex-basis:60%">
 		<!-- wp:heading {"level":1,"style":{"typography":{"fontStyle":"normal","fontWeight":"500"}},"fontSize":"x-large"} -->
 		<h1 class="wp-block-heading has-x-large-font-size" style="font-style:normal;font-weight:500">
-			<?php echo esc_html_x( 'Page not found', 'twentytwentyfive' ); ?>
+			<?php echo esc_html_x( 'Page not found', '404 error message', 'twentytwentyfive' ); ?>
 		</h1>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"style":{"typography":{"fontSize":"22px"}}} -->
 		<p style="font-size:22px">
-			<?php echo esc_html_x( 'The page you are looking for doesn\'t exist, or it has been moved. Please try searching using the form below.', 'twentytwentyfive' ); ?>
+			<?php echo esc_html_x( 'The page you are looking for doesn\'t exist, or it has been moved. Please try searching using the form below.', '404 error message', 'twentytwentyfive' ); ?>
 		</p>
 		<!-- /wp:paragraph -->
 
-		<!-- wp:search {"label":"","placeholder":"<?php echo esc_attr_x( 'Type something...', 'twentytwentyfive' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'twentytwentyfive' ); ?>","style":{"border":{"radius":"50px","width":"1px"},"typography":{"fontSize":"18px"}},"borderColor":"opacity-20"} /-->
+		<!-- wp:search {"label":"","placeholder":"<?php echo esc_attr_x( 'Type something...', 'input placeholder text', 'twentytwentyfive' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'button label', 'twentytwentyfive' ); ?>","style":{"border":{"radius":"50px","width":"1px"},"typography":{"fontSize":"18px"}},"borderColor":"opacity-20"} /-->
 	</div>
 	<!-- /wp:column -->
 </div>

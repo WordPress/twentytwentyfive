@@ -19,7 +19,7 @@ add_action( 'after_setup_theme', 'twentytwentyfive_editor_style' );
 /**
  * Enqueue stylesheet.css on the front.
  */
-function twenty_twenty_five_enqueue_styles() {
+function twentytwentyfive_enqueue_styles() {
 	wp_enqueue_style(
 		'twenty-twenty-five-style',
 		get_parent_theme_file_uri( 'style.css' ),

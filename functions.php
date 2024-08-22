@@ -21,7 +21,7 @@ add_action( 'after_setup_theme', 'twentytwentyfive_editor_style' );
  */
 function twentytwentyfive_enqueue_styles() {
 	wp_enqueue_style(
-		'twenty-twenty-five-style',
+		'twentytwentyfive-style',
 		get_parent_theme_file_uri( 'style.css' ),
 		array(),
 		wp_get_theme()->get( 'Version' ),

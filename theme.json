@@ -239,14 +239,6 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata-LightItalic.woff2"
-							],
-							"fontWeight": "300",
-							"fontStyle": "italic",
-							"fontFamily": "Literata"
-						},
-						{
-							"src": [
 								"file:./assets/fonts/literata/Literata60pt-Light.woff2"
 							],
 							"fontWeight": "300",
@@ -295,22 +287,6 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata60pt-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "Literata"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/literata/Literata60pt-BoldItalic.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "italic",
-							"fontFamily": "Literata"
-						},
-						{
-							"src": [
 								"file:./assets/fonts/literata/Literata-Bold.woff2"
 							],
 							"fontWeight": "700",
@@ -351,14 +327,6 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata60pt-ExtraBoldItalic.woff2"
-							],
-							"fontWeight": "800",
-							"fontStyle": "italic",
-							"fontFamily": "Literata"
-						},
-						{
-							"src": [
 								"file:./assets/fonts/literata/Literata-BlackItalic.woff2"
 							],
 							"fontWeight": "900",
@@ -371,14 +339,6 @@
 							],
 							"fontWeight": "900",
 							"fontStyle": "normal",
-							"fontFamily": "Literata"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/literata/Literata60pt-BlackItalic.woff2"
-							],
-							"fontWeight": "900",
-							"fontStyle": "italic",
 							"fontFamily": "Literata"
 						}
 					]
@@ -423,14 +383,6 @@
 						{
 							"src": [
 								"file:./assets/fonts/vollkorn/Vollkorn-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-SemiBoldItalic.woff2"
 							],
 							"fontWeight": "600",
 							"fontStyle": "normal",

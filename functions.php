@@ -27,4 +27,4 @@ function twentytwentyfive_enqueue_styles() {
 		wp_get_theme()->get( 'Version' ),
 	);
 }
-add_action( 'wp_enqueue_scripts', 'twenty_twenty_five_enqueue_styles' );
+add_action( 'wp_enqueue_scripts', 'twentytwentyfive_enqueue_styles' );

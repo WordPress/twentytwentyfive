@@ -942,6 +942,16 @@
 				}
 			},
 			"core/post-date": {
+				"color":{
+					"text": "var:preset|color|primary"
+				},
+				"elements": {
+					"link": {
+						"color"	: {
+							"text": "var:preset|color|primary"
+						}
+					}
+				},
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
 				}
@@ -982,6 +992,11 @@
 							}
 						}
 					}
+				}
+			},
+			"core/term-description": {
+				"color":{
+					"text": "var:preset|color|primary"
 				}
 			},
 			"core/navigation": {

@@ -14,9 +14,13 @@
 ?>
 <!-- wp:query {"query":{"perPage":3,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"align":"full","layout":{"type":"default"}} -->
 <div class="wp-block-query alignfull">
-	<!-- wp:query-no-results -->
-	<!-- wp:pattern {"slug":"twentytwentyfive/hidden-no-results"} /-->
-	<!-- /wp:query-no-results -->
+	<!-- wp:group {"layout":{"type":"constrained"}} -->
+	<div class="wp-block-group">
+		<!-- wp:query-no-results -->
+		<!-- wp:pattern {"slug":"twentytwentyfive/hidden-no-results"} /-->
+		<!-- /wp:query-no-results -->
+	</div>
+	<!-- /wp:group -->
 	<!-- wp:post-template {"align":"full","layout":{"type":"default"}} -->
 		<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">

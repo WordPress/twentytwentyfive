@@ -1,0 +1,30 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Beiruti & Literata",
+	"slug": "typography-preset-1",
+	"styles":{
+		"typography": {
+			"fontFamily": "var:preset|font-family|literata",
+			"fontSize": "var:preset|font-size|medium",
+			"fontStyle": "normal",
+			"fontWeight": "300",
+			"letterSpacing": "-1",
+			"lineHeight": "1.5"
+		},
+		"blocks":{
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|beiruti"
+				}
+			}
+		},
+		"elements": {
+			"heading":{
+				"typography": {
+					"fontFamily": "var:preset|font-family|beiruti"
+				}
+			}
+		}
+	}
+}

@@ -5,8 +5,8 @@
 	"slug": "typography-preset-2",
 	"styles":{
 		"typography": {
-			"fontFamily": "var:preset|font-family|literata",
-			"fontSize": "var:preset|font-size|medium",
+			"fontFamily": "var:preset|font-family|fira-code",
+			"fontSize": "var:preset|font-size|small",
 			"fontStyle": "normal",
 			"fontWeight": "300",
 			"letterSpacing": "-1",

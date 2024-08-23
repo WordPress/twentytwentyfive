@@ -17,6 +17,12 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|vollkorn"
 				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontWeight": "400",
+					"letterSpacing": "-2"
+				}
 			}
 		},
 		"elements": {

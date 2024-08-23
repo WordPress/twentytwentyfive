@@ -15,7 +15,14 @@
 		"blocks":{
 			"core/site-title": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|platypi"
+					"fontFamily": "var:preset|font-family|platypi",
+					"letterSpacing": "8"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"letterSpacing": "-2",
+					"fontWeight": "500"
 				}
 			}
 		},

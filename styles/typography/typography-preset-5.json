@@ -20,8 +20,8 @@
 			},
 			"core/post-title": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|literata",
-					"fontWeight": "900"
+					"fontWeight": "900",
+					"letterSpacing": "-2"
 				}
 			}
 		},

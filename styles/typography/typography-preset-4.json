@@ -7,7 +7,14 @@
 		"blocks":{
 			"core/site-title": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|robot-slab"
+					"fontFamily": "var:preset|font-family|robot-slab",
+					"letterSpacing": "-1"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontWeight": "200",
+					"letterSpacing": "-4"
 				}
 			}
 		},

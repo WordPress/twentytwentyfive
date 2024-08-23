@@ -5,7 +5,9 @@
  * Keywords: contact, social-link
  * Categories: contact
  *
- * @package Twenty Twenty-Five
+ * @package WordPress
+ * @subpackage Twenty_Twenty_Five
+ * @since Twenty Twenty-Five 1.0
  */
 
 ?>

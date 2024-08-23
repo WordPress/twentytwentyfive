@@ -38,17 +38,17 @@ This theme bundles the following third-party resources:
 Fira Code Font
 Copyright (c) 2014, The Fira Code Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Reference: https://github.com/tonsky/FiraCode 
+Reference: https://github.com/tonsky/FiraCode
 Source: https://fonts.google.com/specimen/Fira+Code
 
 Manrope Font
-Copyright (c) 2018 The Manrope Project Authors 
+Copyright (c) 2018 The Manrope Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Reference: https://github.com/sharanda/manrope
 Source: https://fonts.google.com/specimen/Manrope
 
 Vollkorn Font
-Copyright (c) 2005–2018, Friedrich Althausen 
+Copyright (c) 2005–2018, Friedrich Althausen
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Reference: https://github.com/FAlthausen/Vollkorn-Typeface
 Source: https://fonts.google.com/specimen/Vollkorn
@@ -57,7 +57,7 @@ Fira Sans Font
 Digitized data copyright (c) 2012-2015, The Mozilla Foundation and Telefonica S.A.
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Reference: https://github.com/mozilla/Fira
-Source: https://fonts.google.com/specimen/Fira+Sans 
+Source: https://fonts.google.com/specimen/Fira+Sans
 
 Platypi Font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
@@ -71,7 +71,7 @@ Source: https://fonts.google.com/specimen/Ysabeau+Office
 
 Literata Font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
-Reference: https://github.com/googlefonts/literata 
+Reference: https://github.com/googlefonts/literata
 Source: https://fonts.google.com/specimen/Literata
 
 === Images ===

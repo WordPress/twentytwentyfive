@@ -76,3 +76,17 @@ Source: https://fonts.google.com/specimen/Literata
 
 === Images ===
 
+Delphinium (Larkspur).
+Free public domain CC0 image.
+image-from-rawpixel-id-2224378.jpg
+https://www.rawpixel.com/image/2224378
+
+Campanula Alliariifolia (Cornish Bellflower).
+Free public domain CC0 image.
+image-from-rawpixel-id-2222755.jpg
+https://www.rawpixel.com/image/2222755
+
+Centaurea Ruthenica(Star Thristle).
+Free public domain CC0 image.
+image-from-rawpixel-id-2211732.jpg
+https://www.rawpixel.com/image/2211732

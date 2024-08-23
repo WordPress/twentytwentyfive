@@ -942,6 +942,16 @@
 				}
 			},
 			"core/post-date": {
+				"color":{
+					"text": "var:preset|color|primary"
+				},
+				"elements": {
+					"link": {
+						"color"	: {
+							"text": "var:preset|color|primary"
+						}
+					}
+				},
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
 				}
@@ -983,6 +993,11 @@
 							}
 						}
 					}
+				}
+			},
+			"core/term-description": {
+				"color":{
+					"text": "var:preset|color|primary"
 				}
 			},
 			"core/navigation": {
@@ -1052,6 +1067,11 @@
 					"fontStyle": "normal",
 					"fontWeight": "400",
 					"lineHeight": "1.125"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|contrast"
 				}
 			}
 		}

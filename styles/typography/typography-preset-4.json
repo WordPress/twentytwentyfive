@@ -1,0 +1,22 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Roboto Slab & Manrope",
+	"slug": "typography-preset-4",
+	"styles":{
+		"blocks":{
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|robot-slab"
+				}
+			}
+		},
+		"elements": {
+			"heading":{
+				"typography": {
+					"fontFamily": "var:preset|font-family|roboto-slab"
+				}
+			}
+		}
+	}
+}

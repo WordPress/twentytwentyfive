@@ -1,0 +1,36 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Literata & Ysabeau Office",
+	"slug": "typography-preset-5",
+	"styles":{
+		"typography": {
+			"fontFamily": "var:preset|font-family|ysabeau-office",
+			"fontSize": "var:preset|font-size|medium",
+			"fontStyle": "normal",
+			"fontWeight": "400",
+			"letterSpacing": "-1",
+			"lineHeight": "1.6"
+		},
+		"blocks":{
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|literata"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|literata",
+					"fontWeight": "900"
+				}
+			}
+		},
+		"elements": {
+			"heading":{
+				"typography": {
+					"fontFamily": "var:preset|font-family|literata"
+				}
+			}
+		}
+	}
+}

@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"title": "Platypi + Ysabeau Office",
+	"title": "Platypi & Ysabeau Office",
 	"slug": "typography-preset-3",
 	"styles":{
 		"typography": {

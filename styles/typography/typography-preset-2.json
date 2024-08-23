@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"title": "Volkorn & Fira Code",
+	"title": "Vollkorn & Fira Code",
 	"slug": "typography-preset-2",
 	"styles":{
 		"typography": {

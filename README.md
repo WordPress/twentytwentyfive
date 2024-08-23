@@ -33,6 +33,8 @@ To get started with development:
 
 Also, consider enabling [development mode](https://make.wordpress.org/core/2023/07/14/configuring-development-mode-in-6-3/) with `define( 'WP_DEVELOPMENT_MODE', 'theme' );` in your `wp-config.php`. This will help minimize caching of `theme.json` while you're developing.
 
+To enable development mode using [WP CLI](https://developer.wordpress.org/cli/commands/config/set/) use the following command in your terminal inside your installation directory `wp config set 'WP_DEVELOPMENT_MODE' theme`.
+
 ### Pattern creation guidelines
 
 [Reference guide for patterns in the handbook](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-patterns/).
@@ -152,6 +154,26 @@ On Wednesdays at [15:00 UTC](https://time.is/1500_in_UTC), there are weekly Slac
 - License: [GPLv2](http://www.gnu.org/licenses/gpl-2.0.html) or later
 
 Some theme features / PRs may require the development version of Gutenberg and will be described or tagged accordingly.
+
+## Testing
+
+To run the tests locally, you'll need:
+
+- **Node.js:** It's recommended to install Node.js using `nvm`, which helps manage the Node.js version required by the project. Installation instructions [here](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating).
+- **Composer:** you can find the instructions for your OS [here](https://getcomposer.org/doc/00-intro.md#system-requirements).
+
+Once you have these tools set up, install the necessary development dependencies by running:
+
+```bash
+npm i && composer install
+```
+
+You can then use the following commands to test the code:
+
+- **`npm run lint:css`**: Lints all CSS files.
+- **`npm run lint:css:fix`**: Lints and attempts to autofix any issues in the CSS files.
+- **`npm run lint:php`**: Checks PHP files for syntax and standards errors according to [WordPress coding standards](https://developer.wordpress.org/coding-standards/).
+- **`npm run lint:php:fix`**: Attempts to automatically fix PHP errors.
 
 ## Resources
 

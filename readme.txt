@@ -76,3 +76,7 @@ Source: https://fonts.google.com/specimen/Literata
 
 === Images ===
 
+Old gray paris map.
+Free public domain CC0 image.
+location.webp
+https://www.rawpixel.com/image/6033837

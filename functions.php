@@ -11,14 +11,20 @@
 
 /**
  * Enqueue editor-style.css in the editors.
+ * 
+ * @since Twenty Twenty-Five 1.0
+ * @return void
  */
 function twentytwentyfive_editor_style() {
-	add_editor_style( get_parent_theme_file_uri( 'editor-style.css' ) );
+	add_editor_style( get_parent_theme_file_uri( 'assets/css/editor-style.css' ) );
 }
 add_action( 'after_setup_theme', 'twentytwentyfive_editor_style' );
 
 /**
  * Enqueue stylesheet.css on the front.
+ * 
+ * @since Twenty Twenty-Five 1.0
+ * @return void
  */
 function twentytwentyfive_enqueue_styles() {
 	wp_enqueue_style(

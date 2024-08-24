@@ -16,8 +16,8 @@
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--70)">
     <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|70","left":"var:preset|spacing|70"}}}} -->
     <div class="wp-block-columns alignwide">
-        <!-- wp:column {"verticalAlignment":"top","width":"45%"} -->
-        <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:45%">
+        <!-- wp:column {"verticalAlignment":"top","width":"50%"} -->
+        <div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%">
             <!-- wp:heading {"level":3,"fontSize":"x-large"} -->
             <h3 class="wp-block-heading has-x-large-font-size">
                 <?php esc_html_e( 'Let’s hear about history and ancestry', 'twentytwentyfive' ); ?>
@@ -26,8 +26,8 @@
         </div>
         <!-- /wp:column -->
 
-        <!-- wp:column {"verticalAlignment":"center","width":"55%"} -->
-        <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:55%">
+        <!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
+        <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
             <!-- wp:paragraph {"style":{"typography":{"fontSize":"small","textTransform":"uppercase"}}} -->
             <p class="has-primary-color has-small-font-size" style="text-transform:uppercase">
                 <?php esc_html_e( 'What will happen at “Stories, historias, iсторії, iστορίες”:', 'twentytwentyfive' ); ?>

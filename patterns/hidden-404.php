@@ -8,6 +8,7 @@
  * @subpackage Twenty_Twenty_Five
  * @since Twenty Twenty-Five 1.0
  */
+
 ?>
 
 <!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->

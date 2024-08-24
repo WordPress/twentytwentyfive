@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Capsule",
+	"slug": "capsule",
+	"blockTypes": ["core/heading"],
+	"styles": {
+		"border": {
+			"color": "var:preset|color|contrast",
+			"style": "solid",
+			"width": "1px",
+			"radius": "99px"
+		},
+		"spacing": {
+			"padding": {
+				"top": "0.5em",
+				"right": "0.75em",
+				"bottom": "0.5em",
+				"left": "0.75em"
+			}
+		}
+	}
+}

@@ -11,7 +11,7 @@
 
 /**
  * Enqueue editor-style.css in the editors.
- * 
+ *
  * @since Twenty Twenty-Five 1.0
  * @return void
  */
@@ -22,7 +22,7 @@ add_action( 'after_setup_theme', 'twentytwentyfive_editor_style' );
 
 /**
  * Enqueue stylesheet.css on the front.
- * 
+ *
  * @since Twenty Twenty-Five 1.0
  * @return void
  */

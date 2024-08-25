@@ -34,6 +34,9 @@ GNU General Public License for more details.
 This theme bundles the following third-party resources:
 
 === Fonts ===
+.ttf files downloaded from fonts.google.com have been converted to .woff2 using
+https://github.com/google/woff2
+
 
 Fira Code Font
 Copyright (c) 2014, The Fira Code Project Authors
@@ -73,6 +76,16 @@ Literata Font
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Reference: https://github.com/googlefonts/literata
 Source: https://fonts.google.com/specimen/Literata
+
+Roboto Slab Font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Reference: hhttps://github.com/googlefonts/robotoslab
+Source: https://fonts.google.com/specimen/Roboto+Slab
+
+Beiruti Font
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Reference: https://github.com/googlefonts/beiruti
+Source: https://fonts.google.com/specimen/Beiruti
 
 === Images ===
 

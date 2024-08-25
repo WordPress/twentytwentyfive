@@ -26,7 +26,7 @@
 					"slug": "secondary"
 				},
 				{
-					"color": "#FFFFFF33",
+					"color": "#11111133",
 					"name": "Opacity 20%",
 					"slug": "opacity-20"
 				},
@@ -942,6 +942,16 @@
 				}
 			},
 			"core/post-date": {
+				"color":{
+					"text": "var:preset|color|primary"
+				},
+				"elements": {
+					"link": {
+						"color"	: {
+							"text": "var:preset|color|primary"
+						}
+					}
+				},
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
 				}
@@ -969,7 +979,8 @@
 			"core/site-title": {
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
-					"fontWeight": "700"
+					"fontWeight": "700",
+					"letterSpacing": "-.5px"
 				},
 				"elements": {
 					"link": {
@@ -982,6 +993,11 @@
 							}
 						}
 					}
+				}
+			},
+			"core/term-description": {
+				"color":{
+					"text": "var:preset|color|primary"
 				}
 			},
 			"core/navigation": {
@@ -1026,12 +1042,12 @@
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "var:preset|font-size|x-large"
+					"fontSize": "38px"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var:preset|font-size|large"
+					"fontSize": "28px"
 				}
 			},
 			"h5": {
@@ -1051,6 +1067,11 @@
 					"fontStyle": "normal",
 					"fontWeight": "400",
 					"lineHeight": "1.125"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|contrast"
 				}
 			}
 		}

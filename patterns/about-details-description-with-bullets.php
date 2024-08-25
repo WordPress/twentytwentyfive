@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: About Details Description
- * Slug: twentytwentyfive/about-details-description
+ * Title: About Details Description With Bullets
+ * Slug: twentytwentyfive/about-details-description-with-bullets
  * Categories: text, about, columns
  * Description: About Details Description With Bullet.
  *

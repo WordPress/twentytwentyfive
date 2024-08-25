@@ -1051,9 +1051,12 @@
 					"fontSize": "var:preset|font-size|x-large"
 				}
 			},
-      "core/quote": {
+			"core/quote": {
+				"spacing": {
+					"blockGap": "var:preset|spacing|40"
+				},
 				"typography": {
-					"fontSize": "var:preset|font-size|x-large",
+					"fontSize": "var:preset|font-size|large",
 					"lineHeight": "1.1"
 				},
 				"elements": {
@@ -1064,8 +1067,8 @@
 						},
 						"css": "& sub { font-size: var(--wp--preset--font-size--x-small); }"
 					}
-        }
-      },
+				}
+			},
 			"core/search": {
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",

@@ -1003,6 +1003,18 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|x-small",
 					"fontWeight": "600"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
 				}
 			},
 			"core/post-title": {

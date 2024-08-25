@@ -1084,6 +1084,24 @@
 					}
 				}
 			},
+			"core/quote": {
+				"spacing": {
+					"blockGap": "var:preset|spacing|40"
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|large",
+					"lineHeight": "1.1"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|medium",
+							"fontStyle": "normal"
+						},
+						"css": "& sub { font-size: var(--wp--preset--font-size--x-small); }"
+					}
+				}
+			},
 			"core/search": {
 				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;}",
 				"typography": {

@@ -26,7 +26,7 @@
 					"slug": "secondary"
 				},
 				{
-					"color": "#FFFFFF33",
+					"color": "#11111133",
 					"name": "Opacity 20%",
 					"slug": "opacity-20"
 				},
@@ -886,6 +886,36 @@
 							"fontWeight": "800",
 							"src": [
 								"file:./assets/fonts/platypi/Platypi-ExtraBoldItalic.woff2"
+							]
+						}
+					]
+				},
+				{
+					"name": "Roboto Slab",
+					"slug": "roboto-slab",
+					"fontFamily": "\"Roboto Slab\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/roboto-slab/RobotoSlab-VariableFont_wght.woff2"
+							]
+						}
+					]
+				},
+				{
+					"name": "Beiruti",
+					"slug": "beiruti",
+					"fontFamily": "Beiruti, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Beiruti",
+							"fontStyle": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/beiruti/Beiruti-VariableFont_wght.woff2"
 							]
 						}
 					]

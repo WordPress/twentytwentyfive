@@ -1053,7 +1053,11 @@
 			},
 			"core/quote": {
 				"spacing": {
-					"blockGap": "var:preset|spacing|40"
+					"blockGap": "var:preset|spacing|40",
+					"margin": {
+						"left": "0",
+						"right": "0"
+					}
 				},
 				"typography": {
 					"fontSize": "var:preset|font-size|large",

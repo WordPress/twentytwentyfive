@@ -977,8 +977,16 @@
 				},
 				"elements": {
 					"link": {
-						"color"	: {
+						"color" : {
 							"text": "var:preset|color|primary"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
 						}
 					}
 				},
@@ -995,6 +1003,20 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|x-small",
 					"fontWeight": "600"
+				}
+			},
+			"core/post-title": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			},
 			"core/pullquote": {

@@ -29,7 +29,7 @@
 		"elements": {
 			"heading":{
 				"typography": {
-					"fontFamily": "var:preset|font-family|platipy"
+					"fontFamily": "var:preset|font-family|platypi"
 				}
 			}
 		}

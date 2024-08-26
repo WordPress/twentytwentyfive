@@ -17,7 +17,7 @@
 	<div class="wp-block-columns alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
 		<!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%">
-			<!-- wp:image {"sizeSlug":"large","linkDestination":"none","className":"is-resized"} -->
+			<!-- wp:image {"sizeSlug":"large"} -->
 			<figure class="wp-block-image size-large is-resized">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-13029755-jpeg.webp" alt="<?php echo esc_attr_x( 'Small totara tree on ridge above Long Point', 'image description', 'twentytwentyfive' ); ?>"/>
 			</figure>
@@ -39,7 +39,7 @@
 			</p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:search {"label":"","placeholder":"<?php echo esc_attr_x( 'Type something...', 'input placeholder text', 'twentytwentyfive' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'button label', 'twentytwentyfive' ); ?>","style":{"border":{"radius":"50px","width":"1px"},"typography":{"fontSize":"18px"}},"borderColor":"opacity-20"} /-->
+			<!-- wp:search {"label":"","placeholder":"<?php echo esc_attr_x( 'Type something...', 'input placeholder text', 'twentytwentyfive' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'button label', 'twentytwentyfive' ); ?>","style":{"border":{"radius":"50px","width":"1px"},"typography":{"fontSize":"18px"}},"backgroundColor":"contrast","borderColor":"opacity-20"} /-->
 		</div>
 		<!-- /wp:column -->
 	</div>

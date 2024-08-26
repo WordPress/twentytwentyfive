@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Photo blog single template with post featured images
+ * Title: Photo blog single post template
  * Slug: twentytwentyfive/template-single-photo
  * Template Types: posts, single
  * Viewport width: 1400

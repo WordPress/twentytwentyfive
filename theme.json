@@ -1107,7 +1107,7 @@
 				}
 			},
 			"core/list": {
-				"css": "& {list-style-type:disc;} & li{margin-bottom: 0.5rem;}"
+				"css": "& li{margin-bottom: 0.5rem;}"
 			}
 		},
 		"elements": {

@@ -3,7 +3,7 @@
  * Title: About Details Description With Bullets
  * Slug: twentytwentyfive/about-details-description-with-bullets
  * Categories: text, about, columns
- * Description: About Details Description With Bullet.
+ * Description: An About section with a detailed description in a two-column layout, using bullet points.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -28,9 +28,9 @@
 
 		<!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
-			<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"textColor":"primary","fontSize":"small"} -->
-			<p class="has-primary-color has-text-color has-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'What will happen at “Stories, historias, iсторії, iστορίες”:', 'twentytwentyfive' ); ?></p>
-			<!-- /wp:paragraph -->
+			<!-- wp:heading {"level":4,"style":{"typography":{"textTransform":"uppercase"}},"textColor":"primary","fontSize":"small"} -->
+			<h4 class="wp-block-heading has-primary-color has-text-color has-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'What will happen at “Stories, historias, iсторії, iστορίες”:', 'twentytwentyfive' ); ?></h4>
+			<!-- /wp:heading -->
 
 			<!-- wp:list {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"fontSize":"small"} -->
 			<ul style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)" class="wp-block-list has-small-font-size">

@@ -4,8 +4,9 @@
  * Slug: twentytwentyfive/stories-podcast-hero
  * Categories: featured, hero
  * Keywords: podcast, hero, stories
- *
- * @package TwentyTwentyFive
+ * @package WordPress
+* @subpackage Twenty_Twenty_Five
+* @since Twenty Twenty-Five 1.0
  */
 
 ?>

@@ -26,7 +26,7 @@
 					"slug": "secondary"
 				},
 				{
-					"color": "#FFFFFF33",
+					"color": "#11111133",
 					"name": "Opacity 20%",
 					"slug": "opacity-20"
 				},
@@ -889,6 +889,36 @@
 							]
 						}
 					]
+				},
+				{
+					"name": "Roboto Slab",
+					"slug": "roboto-slab",
+					"fontFamily": "\"Roboto Slab\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/roboto-slab/RobotoSlab-VariableFont_wght.woff2"
+							]
+						}
+					]
+				},
+				{
+					"name": "Beiruti",
+					"slug": "beiruti",
+					"fontFamily": "Beiruti, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Beiruti",
+							"fontStyle": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/beiruti/Beiruti-VariableFont_wght.woff2"
+							]
+						}
+					]
 				}
 			]
 		},
@@ -947,13 +977,58 @@
 				},
 				"elements": {
 					"link": {
-						"color"	: {
+						"color" : {
 							"text": "var:preset|color|primary"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
 						}
 					}
 				},
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
+				}
+			},
+			"core/post-navigation-link": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontSize": "var:preset|font-size|x-small",
+					"fontWeight": "600"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
+				}
+			},
+			"core/post-title": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
 				}
 			},
 			"core/pullquote": {
@@ -963,6 +1038,17 @@
 					"fontWeight": "300",
 					"letterSpacing": "-0.76px",
 					"lineHeight": "1.2"
+				}
+			},
+			"core/query-pagination": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "500"
+				}
+			},
+			"core/query-title":{
+				"typography": {
+					"fontSize": "var:preset|font-size|x-large"
 				}
 			},
 			"core/search": {
@@ -997,7 +1083,10 @@
 			},
 			"core/term-description": {
 				"color":{
-					"text": "var:preset|color|primary"
+					"text":"var:preset|color|primary"
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
 				}
 			},
 			"core/navigation": {

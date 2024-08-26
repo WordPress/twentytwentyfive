@@ -1,7 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Afternoon",
+	"title": "Twilight",
 	"settings": {
 		"color": {
 			"palette": [
@@ -15,7 +15,6 @@
 					"name": "Contrast",
 					"slug": "contrast"
 				},
-				
 				{
 					"color": "#4B52FF",
 					"name": "Accent 1",
@@ -30,6 +29,21 @@
 					"color": "#FF6442",
 					"name": "Accent 3",
 					"slug": "accent-3"
+				},
+				{
+					"color": "#5F5F5F",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#252525",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Opacity 20%",
+					"slug": "opacity-20"
 				}
 			]
 		}

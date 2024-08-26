@@ -15,7 +15,6 @@
 					"name": "Contrast",
 					"slug": "contrast"
 				},
-				
 				{
 					"color": "#182949",
 					"name": "Accent 1",
@@ -30,6 +29,21 @@
 					"color": "#F8F5F0",
 					"name": "Accent 3",
 					"slug": "accent-3"
+				},
+				{
+					"color": "#F7E6FF",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#D7D3CC",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#1A1A1A33",
+					"name": "Opacity 20%",
+					"slug": "opacity-20"
 				}
 			]
 		}

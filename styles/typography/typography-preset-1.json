@@ -3,30 +3,31 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"title": "Beiruti & Literata",
 	"slug": "typography-preset-1",
-	"styles":{
+	"styles": {
 		"typography": {
 			"fontFamily": "var:preset|font-family|literata",
 			"fontSize": "var:preset|font-size|medium",
 			"fontStyle": "normal",
 			"fontWeight": "300",
-			"letterSpacing": "-1",
+			"letterSpacing": "-0.22px",
 			"lineHeight": "1.5"
 		},
-		"blocks":{
+		"blocks": {
 			"core/site-title": {
 				"typography": {
-					"fontWeight": "600"
+					"fontWeight": "600",
+					"letterSpacing": "2.4px"
 				}
 			},
 			"core/post-title": {
 				"typography": {
 					"fontWeight": "500",
-					"letterSpacing": "-2"
+					"letterSpacing": "-1.16px"
 				}
 			}
 		},
 		"elements": {
-			"heading":{
+			"heading": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|beiruti"
 				}

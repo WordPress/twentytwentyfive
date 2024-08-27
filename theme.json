@@ -1111,6 +1111,18 @@
 			"button": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
+				},
+				"color": {
+					"background": "var:preset|color|contrast",
+					"text": "var:preset|color|base"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "1rem",
+						"left": "2.25rem",
+						"right": "2.25rem",
+						"top": "1rem"
+					}
 				}
 			},
 			"caption": {

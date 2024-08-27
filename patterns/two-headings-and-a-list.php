@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: About Details Description With Bullets
- * Slug: twentytwentyfive/about-details-description-with-bullets
+ * Title: Two Headings and a List
+ * Slug: twentytwentyfive/two-headings-and-a-list
  * Categories: text, about, columns
  * Description: An About section with a detailed description in a two-column layout, using bullet points.
  *
@@ -18,8 +18,8 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"top","width":"50%"} -->
 		<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%">
-			<!-- wp:heading {"level":3,"fontSize":"x-large"} -->
-			<h3 class="wp-block-heading has-x-large-font-size">
+			<!-- wp:heading {"level":3} -->
+			<h3 class="wp-block-heading">
 				<?php esc_html_e( 'Let’s hear about history and ancestry', 'twentytwentyfive' ); ?>
 			</h3>
 			<!-- /wp:heading -->

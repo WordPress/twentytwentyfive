@@ -1,0 +1,30 @@
+{
+	"name": "wordpress/twentytwentyfive",
+	"type": "package",
+	"description": "The default WordPress theme for 2025",
+	"keywords": [
+		"WordPress",
+		"Themes"
+	],
+	"homepage": "https://github.com/WordPress/twentytwentyfive",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Contributors",
+			"homepage": "https://github.com/WordPress/twentytwentyfive/contributors.md"
+		}
+	],
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "^3.10",
+		"wp-coding-standards/wpcs": "^3.1"
+	},
+	"scripts": {
+		"format": "phpcbf --standard=phpcs.xml.dist --report-summary --report-source",
+		"lint": "phpcs --standard=phpcs.xml.dist"
+	}
+}

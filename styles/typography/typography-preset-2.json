@@ -15,7 +15,8 @@
 		"blocks": {
 			"core/site-title": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|vollkorn"
+					"fontFamily": "var:preset|font-family|vollkorn",
+					"fontSize": "var:preset|font-size|large"
 				}
 			},
 			"core/post-title": {
@@ -29,6 +30,14 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|vollkorn"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|fira-code",
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "400",
+					"letterSpacing": "-0.36px"
 				}
 			}
 		}

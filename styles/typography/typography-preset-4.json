@@ -48,6 +48,13 @@
 					"fontFamily": "var:preset|font-family|roboto-slab",
 					"fontWeight": "300"
 				}
+			},
+			"button": {
+				"typography": {
+					"fontWeight": "500",
+					"letterSpacing": "-0.36px",
+					"textTransform": "uppercase"
+				}
 			}
 		}
 	}

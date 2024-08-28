@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: List of posts with featured images
- * Slug: twentytwentyfive/posts-photo-blog
+ * Title: Photo blog posts
+ * Slug: twentytwentyfive/photo-blog-posts
  * Categories: query
  * Block Types: core/query
  * Description: A list of posts, 3 columns, with only featured images.

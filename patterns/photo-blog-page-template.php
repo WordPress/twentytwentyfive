@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Photo blog page template
- * Slug: twentytwentyfive/template-page-photo
+ * Title: Photo blog page
+ * Slug: twentytwentyfive/photo-blog-page
  * Template Types: page
  * Viewport width: 1400
  *

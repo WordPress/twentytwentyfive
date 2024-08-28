@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Photo blog search template with post featured images
- * Slug: twentytwentyfive/template-search-photo
+ * Title: Photo blog search results
+ * Slug: twentytwentyfive/photo-blog-search-results
  * Template Types: search
  * Viewport width: 1400
  * Inserter: no
@@ -23,7 +23,7 @@
 		<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","align":"center","style":{"border":{"radius":"50px"}},"fontSize":"small"} /-->
 	</div>
 	<!-- /wp:group -->
-	<!-- wp:pattern {"slug":"twentytwentyfive/posts-photo-blog"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/photo-blog-posts"} /-->
 </main>
 <!-- /wp:group -->
 

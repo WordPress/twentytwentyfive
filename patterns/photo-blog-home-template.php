@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Photo blog home template with post featured images
- * Slug: twentytwentyfive/template-home-photo
+ * Title: Photo blog home
+ * Slug: twentytwentyfive/photo-blog-home
  * Template Types: front-page, home
  * Viewport width: 1400
  * Inserter: no
@@ -25,7 +25,7 @@
 	<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size">Tell your story</h2>
 	<!-- /wp:heading -->
 
-	<!-- wp:pattern {"slug":"twentytwentyfive/posts-photo-blog"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/photo-blog-posts"} /-->
 </main>
 <!-- /wp:group -->
 

@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Photo blog archive template with post featured images
- * Slug: twentytwentyfive/template-archive-photo
+ * Title: Photo blog archive
+ * Slug: twentytwentyfive/photo-blog-archive
  * Template Types: archive
  * Viewport width: 1400
  * Inserter: no
@@ -19,7 +19,7 @@
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
 	<!-- wp:query-title {"type":"archive","textAlign":"center"} /-->
 	<!-- wp:term-description {"textAlign":"center"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/posts-photo-blog"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/photo-blog-posts"} /-->
 </main>
 <!-- /wp:group -->
 

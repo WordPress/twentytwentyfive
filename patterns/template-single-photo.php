@@ -75,7 +75,7 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:post-featured-image {"aspectRatio":"3/2","align":"full"} /-->
+		<!-- wp:post-featured-image {"aspectRatio":"3/2","align":"wide"} /-->
 
 		<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--60)">

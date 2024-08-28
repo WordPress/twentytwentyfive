@@ -27,6 +27,11 @@
 					"fontWeight": "500",
 					"letterSpacing": "-1.16px"
 				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontWeight": "400"
+				}
 			}
 		},
 		"elements": {

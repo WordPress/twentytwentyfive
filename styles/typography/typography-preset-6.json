@@ -25,12 +25,24 @@
 					"fontWeight": "800",
 					"letterSpacing": "-0.96px"
 				}
+			},
+			"core/query-title": {
+				"typography": {
+					"fontWeight": "800"
+				}
 			}
 		},
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|platypi"
+					"fontFamily": "var:preset|font-family|platypi",
+					"fontWeight": "800"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|platypi",
+					"fontWeight": "800"
 				}
 			}
 		}

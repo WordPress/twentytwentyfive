@@ -22,7 +22,7 @@
 	<!-- /wp:heading -->
 
 	<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-	<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size">Tell your story.</h2>
+	<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size">Tell your story</h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:pattern {"slug":"twentytwentyfive/posts-photo-blog"} /-->

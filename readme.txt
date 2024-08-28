@@ -89,3 +89,7 @@ Source: https://fonts.google.com/specimen/Beiruti
 
 === Images ===
 
+Northern Buttercups.
+Free public domain CC0 image.
+image-from-rawpixel-id-8802603-original.webp
+https://www.rawpixel.com/image/8802603

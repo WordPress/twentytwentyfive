@@ -17,7 +17,7 @@
 		<!-- wp:group {"layout":{"type":"constrained"}} -->
 		<div class="wp-block-group">
 		<!-- wp:query-no-results -->
-		<!-- wp:pattern {"slug":"twentytwentyfive/hidden-no-results"} /-->
+		<!-- wp:pattern {"slug":"twentytwentyfive/hidden-no-results-centered"} /-->
 		<!-- /wp:query-no-results -->
 	</div>
 	<!-- /wp:group -->

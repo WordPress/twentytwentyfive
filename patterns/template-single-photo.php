@@ -77,8 +77,8 @@
 
 		<!-- wp:post-featured-image {"aspectRatio":"3/2","align":"wide"} /-->
 
-		<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
-		<div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--60)">
+		<!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
+		<div class="wp-block-group alignwide" style="margin-top:var(--wp--preset--spacing--70)">
 			<!-- wp:post-content {"align":"full","layout":{"type":"constrained","justifyContent":"left"}} /-->
 		</div>
 		<!-- /wp:group -->

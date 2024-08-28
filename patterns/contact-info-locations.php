@@ -47,7 +47,7 @@
 				<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">New York</h3>
 				<!-- /wp:heading -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size">123 Example St.Manhattan, NY 10300 United States</p>
+				<p class="has-small-font-size">123 Example St. Manhattan, NY 10300 United States</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -58,7 +58,7 @@
 				<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">San Diego</h3>
 				<!-- /wp:heading -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size">123 Example St.Manhattan, NY 10300 United States</p>
+				<p class="has-small-font-size">123 Example St. Manhattan, NY 10300 United States</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -70,7 +70,7 @@
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size">123 Example St.Manhattan, NY 10300 United States</p>
+				<p class="has-small-font-size">123 Example St. Manhattan, NY 10300 United States</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -81,7 +81,7 @@
 				<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">Portland</h3>
 				<!-- /wp:heading -->
 				<!-- wp:paragraph {"fontSize":"small"} -->
-				<p class="has-small-font-size">123 Example St.Manhattan, NY 10300 United States</p>
+				<p class="has-small-font-size">123 Example St. Manhattan, NY 10300 United States</p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

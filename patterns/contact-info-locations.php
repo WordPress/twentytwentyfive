@@ -34,7 +34,7 @@
 			<h2 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">Email:</h2>
 			<!-- /wp:heading -->
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">Example@example.com</p>
+			<p class="has-small-font-size">example@example.com</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

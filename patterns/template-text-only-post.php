@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Text only single post template
+ * Title: Text only blog, single post
  * Slug: twentytwentyfive/template-text-only-post
  * Template Types: posts, single
  * Viewport width: 1400
@@ -12,7 +12,6 @@
  */
 
 ?>
-
 <!-- wp:template-part {"slug":"header","tagName":"header","area":"header"} /-->
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->

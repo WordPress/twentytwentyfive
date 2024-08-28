@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Text only search template
+ * Title: Text only blog, search
  * Slug: twentytwentyfive/template-text-only-search
  * Template Types: search
  * Viewport width: 1400
@@ -23,7 +23,7 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:block {"ref":2642} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/posts-text-only-blog"} /-->
 
 	<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
 	<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>

@@ -37,9 +37,9 @@
 
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons">
-				<!-- wp:button {"backgroundColor":"contrast"} -->
+				<!-- wp:button -->
 				<div class="wp-block-button">
-					<a class="wp-block-button__link has-contrast-background-color has-background wp-element-button"><?php echo esc_html_x( 'Learn More', 'Button text of intro section', 'twentytwentyfive' ); ?></a>
+					<a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Learn More', 'Button text of intro section', 'twentytwentyfive' ); ?></a>
 				</div>
 				<!-- /wp:button -->
 			</div>

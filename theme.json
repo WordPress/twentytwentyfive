@@ -953,7 +953,6 @@
 				"color": {
 					"background": "var:preset|color|secondary",
 					"text": "var:preset|color|contrast"
-
 				},
 				"spacing": {
 					"padding": {

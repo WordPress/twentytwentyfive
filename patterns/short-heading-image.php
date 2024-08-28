@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Short heading and paragraph and image on the right
- * Slug: twentytwentyfive/short-heading-image
+ * Slug: twentytwentyfive/intro-short-heading-image
  * Categories: banner
  * Description: A Intro pattern with Short heading, paragraph and image on the right.
  *

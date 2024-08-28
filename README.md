@@ -74,7 +74,7 @@ These functions enhance security and support localization efforts in WordPress b
 
 - **Patterns with images**
 
-You can find the images used in the theme designs, in the following link: https://tinyurl.com/tt5-images
+You can find the images used in the theme designs, [in this folder](https://tinyurl.com/tt5-images).
 
 To create dynamic image links in your block patterns, utilize the `get_template_directory_uri()` function. This function retrieves the URL of the current theme's directory, ensuring that the image links are relative to the theme and work correctly even if the website's directory structure changes or if we are using a child theme. This is essential for maintaining the stability and portability of your patterns.
 

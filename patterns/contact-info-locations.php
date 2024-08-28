@@ -66,7 +66,7 @@
 			<!-- wp:group {"style":{"layout":{"columnSpan":1,"rowSpan":1}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group">
 				<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"small"} -->
-				<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">New York</h3>
+				<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">Salt Lake City</h3>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"small"} -->

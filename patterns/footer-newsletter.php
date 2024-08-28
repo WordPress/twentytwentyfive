@@ -12,30 +12,34 @@
  */
 
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
-	<!-- wp:site-title {"level":2,"style":{"typography":{"fontSize":"10vw"}}} /-->
-	<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
-	<div class="wp-block-group" style="padding-right:0;padding-left:0">
-		<!-- wp:paragraph {"fontSize":"x-large"} -->
-		<p class="has-x-large-font-size">Subscribe to our newsletter</p>
-		<!-- /wp:paragraph -->
-		<!-- wp:buttons -->
-		<div class="wp-block-buttons"><!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Subscribe</a></div>
-		<!-- /wp:button --></div>
-		<!-- /wp:buttons -->
-	</div>
-	<!-- /wp:group -->
-	<!-- wp:spacer {"height":"20px"} -->
-	<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-	<!-- /wp:spacer -->
-	<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-	<div class="wp-block-group alignfull">
-		<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} /-->
-		<!-- wp:paragraph {"fontSize":"x-small"} -->
-		<p class="has-x-small-font-size">Designed with <strong>WordPress</strong></p>
-		<!-- /wp:paragraph -->
+<!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group">
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
+	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+		<!-- wp:site-title {"level":2,"style":{"typography":{"fontSize":"10vw"}}} /-->
+		<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+		<div class="wp-block-group" style="padding-right:0;padding-left:0">
+			<!-- wp:paragraph {"fontSize":"x-large"} -->
+			<p class="has-x-large-font-size">Subscribe to our newsletter</p>
+			<!-- /wp:paragraph -->
+			<!-- wp:buttons -->
+			<div class="wp-block-buttons"><!-- wp:button -->
+			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Subscribe</a></div>
+			<!-- /wp:button --></div>
+			<!-- /wp:buttons -->
+		</div>
+		<!-- /wp:group -->
+		<!-- wp:spacer {"height":"20px"} -->
+		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- /wp:spacer -->
+		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+		<div class="wp-block-group alignfull">
+			<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} /-->
+			<!-- wp:paragraph {"fontSize":"x-small"} -->
+			<p class="has-x-small-font-size">Designed with <strong>WordPress</strong></p>
+			<!-- /wp:paragraph -->
+		</div>
+		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
 </div>

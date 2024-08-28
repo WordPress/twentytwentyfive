@@ -15,8 +15,10 @@
 		"blocks":{
 			"core/site-title": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|platypi",
-					"letterSpacing": "1.44px"
+					"fontFamily": "var:preset|font-family|ysabeau-office",
+					"fontSize": "var:preset|font-size|small",
+					"letterSpacing": "1.44px",
+					"textTransform": "uppercase"
 				}
 			},
 			"core/post-title": {
@@ -30,6 +32,15 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|platypi"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|ysabeau-office",
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "500",
+					"letterSpacing": "1.44px",
+					"textTransform": "uppercase"
 				}
 			}
 		}

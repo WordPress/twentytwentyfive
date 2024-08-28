@@ -38,7 +38,7 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|ysabeau-office",
 					"fontSize": "var:preset|font-size|small",
-					"fontWeight": "500",
+					"fontWeight": "600",
 					"letterSpacing": "1.44px",
 					"textTransform": "uppercase"
 				}

@@ -15,12 +15,15 @@
 		"blocks": {
 			"core/site-title": {
 				"typography": {
+					"fontFamily": "var:preset|font-family|beuritu",
 					"fontWeight": "600",
+					"textTransform": "uppercase",
 					"letterSpacing": "2.4px"
 				}
 			},
 			"core/post-title": {
 				"typography": {
+					"fontSize": "var:preset|font-size|xx-large",
 					"fontWeight": "500",
 					"letterSpacing": "-1.16px"
 				}

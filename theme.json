@@ -947,6 +947,7 @@
 		"blocks": {
 			"core/code": {
 				"typography": {
+					"fontFamily": "var:preset|font-family|fira-code",
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "400"
 				},

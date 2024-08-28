@@ -16,21 +16,38 @@
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|literata",
+					"fontSize": "var:preset|font-size|large",
 					"fontWeight": "300",
-					"letterSpacing": "-0.56px"
+					"letterSpacing": "-0.56px",
+					"textTransform": "uppercase"
 				}
 			},
 			"core/post-title": {
 				"typography": {
-					"fontWeight": "250",
+					"fontWeight": "200",
 					"letterSpacing": "-2.72px"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"textTransform": "uppercase"
 				}
 			}
 		},
 		"elements": {
 			"heading": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|literata"
+					"fontFamily": "var:preset|font-family|literata",
+					"fontWeight": "200"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|literata",
+					"fontSize": "var:preset|font-size|medium",
+					"fontWeight": "600",
+					"letterSpacing": "-0.96px",
+					"textTransform": "uppercase"
 				}
 			}
 		}

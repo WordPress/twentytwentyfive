@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Text only blog, search
+ * Title: Text-only blog, search
  * Slug: twentytwentyfive/text-only-blog-search
  * Template Types: search
  * Viewport width: 1400

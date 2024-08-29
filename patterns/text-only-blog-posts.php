@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Text only blog, posts
+ * Title: Text-only blog, posts
  * Slug: twentytwentyfive/text-only-blog-posts
  * Inserter: no
  *

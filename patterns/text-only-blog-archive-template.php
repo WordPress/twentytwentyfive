@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Text only blog, archive
+ * Title: Text-only blog, archive
  * Slug: twentytwentyfive/text-only-blog-archive
  * Template Types: archive
  * Viewport width: 1400

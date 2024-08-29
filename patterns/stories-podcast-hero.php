@@ -9,7 +9,6 @@
  * @subpackage Twenty_Twenty_Five
  * @since Twenty Twenty-Five 1.0
  */
-
 ?>
 
 <!-- wp:group {"align":"full","className":"has-accent-2-background-color has-background","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"backgroundColor":"accent-2"},"layout":{"type":"constrained"}} -->

@@ -94,6 +94,27 @@ would turn into
 <!-- /wp:image -->
 ```
 
+- **Image license attribution**
+
+When we add images to the theme, we need to add the license attribution to the readme.txt file. For Twenty Twenty-Five almost all images come from rawpixel.com, and we have stored them [in this folder](https://tinyurl.com/tt5-images).
+
+The filename of each image includes the ID, and the way to get the license is by following the link `rawpixel.com/image/$id`. Let's take the following filename as an example:
+
+```
+image-from-rawpixel-id-2211732-jpeg.webp
+```
+
+For that particular image, the id would be `2211732`. And the link you should follow to get the license would be `rawpixel.com/image/2211732`.
+
+
+So, in order to find and add the license, what you need to do is the following:
+
+- Get the image from the [shared Google Drive folder](https://tinyurl.com/tt5-images).
+- Look for the id in the filename.
+- Visit `rawpixel.com/image/$id`, replacing `$id` with the value you get from the filename.
+- Get the license from the image page.
+- Put it in the `readme.txt` file.
+
 - **Use of Post Types, Block Types and Template Types**
 
 We use Block Types when the pattern uses custom markup for a specific block or one of the default template parts (footer and header). Using this will suggest the pattern when someone inserts said block or template part. This is commonly used for query, post-content block, template or footer.

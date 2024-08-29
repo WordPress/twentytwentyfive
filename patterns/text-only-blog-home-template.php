@@ -18,7 +18,7 @@
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
 	<!-- wp:heading {"level":1,"align":"wide","fontSize":"medium"} -->
-	<h1 class="wp-block-heading alignwide has-medium-font-size"><?php esc_html_e('Blog', 'twentytwentyfive');?></h1>
+	<h1 class="wp-block-heading alignwide has-medium-font-size"><?php esc_html_e( 'Blog', 'twentytwentyfive' ); ?></h1>
 	<!-- /wp:heading -->
 
 	<!-- wp:pattern {"slug":"twentytwentyfive/text-only-blog-posts"} /-->
@@ -40,4 +40,3 @@
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
-

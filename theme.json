@@ -947,8 +947,21 @@
 		"blocks": {
 			"core/code": {
 				"typography": {
-					"fontFamily": "monospace",
-					"fontSize": "var:preset|font-size|small"
+					"fontFamily": "var:preset|font-family|fira-code",
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "400"
+				},
+				"color": {
+					"background": "var:preset|color|secondary",
+					"text": "var:preset|color|contrast"
+				},
+				"spacing": {
+					"padding": {
+						"right": "var(--wp--preset--spacing--40)",
+						"bottom": "var(--wp--preset--spacing--40)",
+						"left": "var(--wp--preset--spacing--40)",
+						"top": "var(--wp--preset--spacing--40)"
+					}
 				}
 			},
 			"core/comment-author-name": {

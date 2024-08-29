@@ -1,0 +1,50 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Platypi & Literata",
+	"slug": "typography-preset-6",
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|literata",
+			"fontSize": "var:preset|font-size|medium",
+			"fontStyle": "normal",
+			"fontWeight": "300",
+			"letterSpacing": "-0.24px",
+			"lineHeight": "1.3"
+		},
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|platypi",
+					"fontWeight": "800",
+					"letterSpacing": "-0.6px"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontWeight": "800",
+					"letterSpacing": "-0.96px"
+				}
+			},
+			"core/query-title": {
+				"typography": {
+					"fontWeight": "800"
+				}
+			}
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|platypi",
+					"fontWeight": "800"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|platypi",
+					"fontWeight": "800"
+				}
+			}
+		}
+	}
+}

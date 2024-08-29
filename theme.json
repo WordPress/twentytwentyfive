@@ -55,11 +55,6 @@
 			"defaultSpacingSizes": false,
 			"spacingSizes": [
 				{
-					"name": "X-Tiny",
-					"size": "5px",
-					"slug": "10"
-				},
-				{
 					"name": "Tiny",
 					"size": "10px",
 					"slug": "20"
@@ -143,21 +138,12 @@
 				},
 				{
 					"fluid": {
-						"max": "3rem",
-						"min": "2.375rem"
-					},
-					"name": "Extra Large",
-					"size": "3rem",
-					"slug": "x-large"
-				},
-				{
-					"fluid": {
 						"max": "3.625rem",
 						"min": "2.625rem"
 					},
-					"name": "Extra Extra Large",
+					"name": "Extra Large",
 					"size": "2.625rem",
-					"slug": "xx-large"
+					"slug": "x-large"
 				}
 			],
 			"fontFamilies": [

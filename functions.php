@@ -52,7 +52,7 @@ function twentytwentyfive_block_stylesheets() {
 	wp_enqueue_block_style(
 		'core/button',
 		array(
-			'handle' => 'twentytwentyfour-button-style-outline',
+			'handle' => 'twentytwentyfive-button-style-outline',
 			'src'    => get_parent_theme_file_uri( 'assets/css/button-outline.css' ),
 			'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
 			'path'   => get_parent_theme_file_path( 'assets/css/button-outline.css' ),

@@ -96,7 +96,7 @@ would turn into
 
 - **Image license attribution**
 
-When we add images to the theme, we need to add the license attribution to the readme.txt file. For Twenty Twenty-Five almost all images come from rawpixel.com, and we have stored them [in this folder](https://tinyurl.com/tt5-images).
+When adding images to the theme, we need to add the license attribution to the readme.txt file. For Twenty Twenty-Five almost all images come from rawpixel.com, and we have stored them [in this folder](https://tinyurl.com/tt5-images).
 
 The filename of each image includes the ID, and the way to get the license is by following the link `rawpixel.com/image/$id`. Let's take the following filename as an example:
 

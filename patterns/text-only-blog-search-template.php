@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Text only blog, search
- * Slug: twentytwentyfive/template-text-only-search
+ * Slug: twentytwentyfive/text-only-blog-search
  * Template Types: search
  * Viewport width: 1400
  * Inserter: no
@@ -23,7 +23,7 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:pattern {"slug":"twentytwentyfive/posts-text-only-blog"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/text-only-blog-posts"} /-->
 
 	<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
 	<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>

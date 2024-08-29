@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Text only blog, home
- * Slug: twentytwentyfive/template-text-only-home
- * Template Types: front-page, home
+ * Title: Text only blog, archive
+ * Slug: twentytwentyfive/text-only-blog-archive
+ * Template Types: archive
  * Viewport width: 1400
  * Inserter: no
  *
@@ -17,11 +17,10 @@
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
-    <!-- wp:heading {"level":1,"align":"wide","fontSize":"medium"} -->
-	<h1 class="wp-block-heading alignwide has-medium-font-size"><?php esc_html_e('Blog', 'twentytwentyfive');?></h1>
-	<!-- /wp:heading -->
+	<!-- wp:query-title {"type":"archive","align":"wide","fontSize":"medium"} /-->
+	<!-- wp:term-description {"align":"wide"} /-->
 
-    <!-- wp:pattern {"slug":"twentytwentyfive/posts-text-only-blog"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/text-only-blog-posts"} /-->
 
 	<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
 	<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
@@ -40,4 +39,3 @@
 <!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
-

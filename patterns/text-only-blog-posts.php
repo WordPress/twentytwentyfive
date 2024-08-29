@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: List of posts for the text only blog
- * Slug: twentytwentyfive/posts-text-only-blog
+ * Title: Text only blog, posts
+ * Slug: twentytwentyfive/text-only-blog-posts
  * Inserter: no
  *
  * @package WordPress
@@ -10,6 +10,7 @@
  */
 
 ?>
+<!-- wp:query {"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-query alignwide">
 	<!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">

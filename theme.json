@@ -1063,7 +1063,7 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontSize": "var:preset|font-size|medium",
+					"fontSize": "var:preset|font-size|large",
 					"fontWeight": "700",
 					"letterSpacing": "-.5px"
 				},
@@ -1090,7 +1090,7 @@
 			},
 			"core/navigation": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				},
 				"elements": {
 					"link": {

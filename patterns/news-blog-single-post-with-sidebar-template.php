@@ -1,3 +1,17 @@
+<?php
+/**
+ * Title: News blog single post with sidebar
+ * Slug: twentytwentyfive/news-blog-single-post
+ * Template Types: posts, single
+ * Viewport width: 1400
+ * Inserter: no
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_Five
+ * @since Twenty Twenty-Five 1.0
+ */
+
+?>
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
 <!-- wp:group {"metadata":{"name":"Title and post meta"},"layout":{"type":"constrained"}} -->

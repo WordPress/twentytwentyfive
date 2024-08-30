@@ -1,3 +1,18 @@
+<?php
+/**
+ * Title: News blog archive
+ * Slug: twentytwentyfive/news-blog-archive
+ * Template Types: archive
+ * Viewport width: 1400
+ * Inserter: no
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_Five
+ * @since Twenty Twenty-Five 1.0
+ */
+
+?>
+
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
 <!-- wp:group {"lock":{"move":false,"remove":false},"metadata":{"name":"Archive title and term description"},"layout":{"type":"constrained"}} -->

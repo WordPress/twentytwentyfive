@@ -1,7 +1,8 @@
 <?php
 /**
- * Title: wp-custom-template-blog-home-with-various-grids
- * Slug: twentytwentyfive/wp-custom-template-blog-home-with-various-grids
+ * Title: News blog home
+ * Slug: twentytwentyfive/news-blog-home
+ * Template Types: front-page, home
  * Categories: hidden
  * Inserter: no
  *

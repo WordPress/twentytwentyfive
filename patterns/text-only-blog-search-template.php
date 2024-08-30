@@ -19,9 +19,12 @@
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:query-title {"type":"search","align":"wide","fontSize":"x-large"} /-->
-		<!-- wp:search {"label":"Search","showLabel":false,"widthUnit":"%","buttonText":"Search","style":{"border":{"radius":"100px"}},"borderColor":"opacity-20"} /-->
+		<!-- wp:search {"label":"Search","showLabel":false,"widthUnit":"%","buttonText":"Search","style":{"border":{"radius":"100px"}},"fontSize":"small","borderColor":"opacity-20"} /-->
 	</div>
 	<!-- /wp:group -->
+	<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
+	<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
 	<!-- wp:pattern {"slug":"twentytwentyfive/text-only-blog-posts"} /-->
 </main>
 <!-- /wp:group -->

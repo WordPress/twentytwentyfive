@@ -18,7 +18,7 @@
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:query-title {"type":"search","align":"wide","fontSize":"large"} /-->
+		<!-- wp:query-title {"type":"search","align":"wide","fontSize":"x-large"} /-->
 		<!-- wp:search {"label":"Search","showLabel":false,"widthUnit":"%","buttonText":"Search","style":{"border":{"radius":"100px"}},"borderColor":"opacity-20"} /-->
 	</div>
 	<!-- /wp:group -->

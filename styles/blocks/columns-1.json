@@ -1,0 +1,28 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Outline",
+	"slug": "columns-1",
+	"blockTypes": ["core/columns"],
+	"styles": {
+		"blocks": {
+			"core/column": {
+				"border": {
+					"color": "var:preset|color|opacity-20",
+					"style": "solid",
+					"width": "1px",
+					"radius": "10px"
+				},
+				"spacing": {
+					"blockGap": "var:preset|spacing|40",
+					"padding": {
+						"top": "var:preset|spacing|40",
+						"right": "var:preset|spacing|40",
+						"bottom": "var:preset|spacing|40",
+						"left": "var:preset|spacing|40"
+					}
+				}
+			}
+		}
+	}
+}

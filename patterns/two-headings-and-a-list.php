@@ -27,12 +27,12 @@
 
 		<!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
-			<!-- wp:heading {"level":4,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"small"} -->
-			<h4 class="wp-block-heading has-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'What will happen at “Stories, historias, iсторії, iστορίες”:', 'twentytwentyfive' ); ?></h4>
+			<!-- wp:heading {"level":4,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"medium"} -->
+			<h4 class="wp-block-heading has-medium-font-size" style="text-transform:uppercase"><?php esc_html_e( 'What will happen at “Stories, historias, iсторії, iστορίες”:', 'twentytwentyfive' ); ?></h4>
 			<!-- /wp:heading -->
 
-			<!-- wp:list {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"fontSize":"small"} -->
-			<ul style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)" class="wp-block-list has-small-font-size">
+			<!-- wp:list {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"fontSize":"medium"} -->
+			<ul style="padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)" class="wp-block-list has-medium-font-size">
 				<!-- wp:list-item -->
 				<li><?php esc_html_e( 'Opportunity to learn from master photographers and historians', 'twentytwentyfive' ); ?></li>
 				<!-- /wp:list-item -->

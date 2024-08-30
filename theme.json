@@ -75,17 +75,17 @@
 					"slug": "50"
 				},
 				{
-					"name": "x-large",
+					"name": "Large",
 					"size": "clamp(30px, 7vw, 70px);",
 					"slug": "60"
 				},
 				{
-					"name": "xx-large",
+					"name": "X-Large",
 					"size": "clamp(50px, 7vw, 90px);",
 					"slug": "70"
 				},
 				{
-					"name": "Xxx-large",
+					"name": "XX-Large",
 					"size": "clamp(70px, 10vw, 140px);",
 					"slug": "80"
 				}

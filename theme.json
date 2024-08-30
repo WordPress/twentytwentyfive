@@ -924,7 +924,7 @@
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|manrope",
-			"fontSize": "var:preset|font-size|medium",
+			"fontSize": "var:preset|font-size|large",
 			"fontStyle": "normal",
 			"fontWeight": "300",
 			"letterSpacing": "-0.22px",

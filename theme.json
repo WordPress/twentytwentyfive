@@ -1112,7 +1112,7 @@
 		"elements": {
 			"button": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				},
 				"color": {
 					"background": "var:preset|color|contrast",

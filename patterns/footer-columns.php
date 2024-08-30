@@ -28,10 +28,10 @@
 			<div class="wp-block-group">
 				<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group" style="padding-right:0;padding-left:0">
-					<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"small"} -->
-					<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">Stories</h3>
+					<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"medium"} -->
+					<h3 class="wp-block-heading has-medium-font-size" style="font-style:normal;font-weight:700">Stories</h3>
 					<!-- /wp:heading -->
-					<!-- wp:navigation {"overlayMenu":"never","fontSize":"small","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Stories', 'twentytwentyfive' ); ?>"} -->
+					<!-- wp:navigation {"overlayMenu":"never","fontSize":"medium","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Stories', 'twentytwentyfive' ); ?>"} -->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Blog', 'twentytwentyfive' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'About', 'twentytwentyfive' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'FAQs', 'twentytwentyfive' ); ?>","url":"#"} /-->
@@ -41,10 +41,10 @@
 				<!-- /wp:group -->
 				<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group" style="padding-right:0;padding-left:0">
-					<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"small"} -->
-					<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">Featured</h3>
+					<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"medium"} -->
+					<h3 class="wp-block-heading has-medium-font-size" style="font-style:normal;font-weight:700">Featured</h3>
 					<!-- /wp:heading -->
-					<!-- wp:navigation {"overlayMenu":"never","fontSize":"small","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Featured', 'twentytwentyfive' ); ?>"} -->
+					<!-- wp:navigation {"overlayMenu":"never","fontSize":"medium","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Featured', 'twentytwentyfive' ); ?>"} -->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Example.com', 'twentytwentyfive' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Shop', 'twentytwentyfive' ); ?>","url":"#"} /-->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Patterns', 'twentytwentyfive' ); ?>","url":"#"} /-->
@@ -63,9 +63,9 @@
 
 		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignfull">
-			<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} /-->
-			<!-- wp:paragraph {"fontSize":"x-small"} -->
-			<p class="has-x-small-font-size">Designed with <strong>WordPress</strong></p>
+			<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} /-->
+			<!-- wp:paragraph {"fontSize":"small"} -->
+			<p class="has-small-font-size">Designed with <strong>WordPress</strong></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

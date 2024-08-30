@@ -1000,7 +1000,7 @@
 			},
 			"core/post-terms": {
 				"typography": {
-					"fontSize": "var:preset|font-size|x-small",
+					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "600"
 				},
 				"elements": {
@@ -1129,7 +1129,7 @@
 			},
 			"caption": {
 				"typography": {
-					"fontSize": "var:preset|font-size|x-small",
+					"fontSize": "var:preset|font-size|small",
 					"lineHeight": "1.4"
 				}
 			},

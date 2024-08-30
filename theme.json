@@ -975,7 +975,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|x-small",
+					"fontSize": "var:preset|font-size|small",
 					"fontStyle": "normal"
 				},
 				"spacing": {
@@ -987,7 +987,7 @@
 			},
 			"core/comment-content": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				},
 				"spacing": {
 					"margin": {
@@ -998,7 +998,7 @@
 			},
 			"core/comment-date": {
 				"typography": {
-					"fontSize": "var:preset|font-size|x-small"
+					"fontSize": "var:preset|font-size|small"
 				},
 				"color": {
 					"text": "var:preset|color|contrast"
@@ -1020,7 +1020,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|x-small"
+					"fontSize": "var:preset|font-size|small"
 				}
 			},
 			"core/comment-reply-link": {
@@ -1032,13 +1032,13 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|x-small"
+					"fontSize": "var:preset|font-size|small"
 				}
 			},
 			"core/post-comments-form": {
 				"css": "& textarea, input:not([type=submit]){border-radius:.25rem; border-color: var(--wp--preset--color--opacity-20) !important;} & input[type=checkbox]{margin:0 .2rem 0 0 !important;} & label {font-size: var(--wp--preset--font-size--x-small); }",
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				},
 				"spacing": {
 					"padding": {
@@ -1049,7 +1049,7 @@
 			},
 			"core/comments-pagination": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				},
 				"spacing": {
 					"margin": {
@@ -1060,17 +1060,17 @@
 			},
 			"core/comments-pagination-next": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/comments-pagination-numbers": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/comments-pagination-previous": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/post-date": {
@@ -1215,7 +1215,7 @@
 		"elements": {
 			"button": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				},
 				"color": {
 					"background": "var:preset|color|contrast",

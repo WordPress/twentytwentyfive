@@ -15,8 +15,8 @@
 <div class="wp-block-group alignfull" style="min-height:0vh;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--40);">
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">
-		<!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"right":"0","left":"0"},"padding":{"right":"0","left":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} -->
-		<h1 class="wp-block-heading has-text-align-center has-contrast-color has-text-color has-link-color" style="margin-right:0;margin-left:0;padding-right:0;padding-left:0">Tell your story</h1>
+		<!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"right":"0","left":"0"},"padding":{"right":"0","left":"0"}}}} -->
+		<h1 class="wp-block-heading has-text-align-center" style="margin-right:0;margin-left:0;padding-right:0;padding-left:0">Tell your story</h1>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center"} -->

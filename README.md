@@ -74,6 +74,8 @@ These functions enhance security and support localization efforts in WordPress b
 
 - **Patterns with images**
 
+You can find the images used in the theme designs, [in this folder](https://tinyurl.com/tt5-images).
+
 To create dynamic image links in your block patterns, utilize the `get_template_directory_uri()` function. This function retrieves the URL of the current theme's directory, ensuring that the image links are relative to the theme and work correctly even if the website's directory structure changes or if we are using a child theme. This is essential for maintaining the stability and portability of your patterns.
 
 Make sure to add alt text to your images and to make sure to remove the IDs from them. An example would be:
@@ -91,6 +93,27 @@ would turn into
 <figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/project.webp" alt="<?php echo esc_attr_x( 'Picture of a building', 'Alt text for project picture', 'twentytwentyfive' ); ?>"/></figure>
 <!-- /wp:image -->
 ```
+
+- **Image license attribution**
+
+When adding images to the theme, we need to add the license attribution to the readme.txt file. For Twenty Twenty-Five almost all images come from rawpixel.com, and we have stored them [in this folder](https://tinyurl.com/tt5-images).
+
+The filename of each image includes the ID, and the way to get the license is by following the link `rawpixel.com/image/$id`. Let's take the following filename as an example:
+
+```
+image-from-rawpixel-id-2211732-jpeg.webp
+```
+
+For that particular image, the id would be `2211732`. And the link you should follow to get the license would be `rawpixel.com/image/2211732`.
+
+
+So, in order to find and add the license, what you need to do is the following:
+
+- Get the image from the [shared Google Drive folder](https://tinyurl.com/tt5-images).
+- Look for the id in the filename.
+- Visit `rawpixel.com/image/$id`, replacing `$id` with the value you get from the filename.
+- Get the license from the image page.
+- Put it in the `readme.txt` file.
 
 - **Use of Post Types, Block Types and Template Types**
 

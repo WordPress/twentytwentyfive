@@ -28,7 +28,7 @@
 		<!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
 			<!-- wp:heading {"level":4,"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"medium"} -->
-			<h4 class="wp-block-heading has-small-font-size" style="text-transform:uppercase"><?php esc_html_e( 'What will happen at “Stories, historias, iсторії, iστορίες”:', 'twentytwentyfive' ); ?></h4>
+			<h4 class="wp-block-heading has-medium-font-size" style="text-transform:uppercase"><?php esc_html_e( 'What will happen at “Stories, historias, iсторії, iστορίες”:', 'twentytwentyfive' ); ?></h4>
 			<!-- /wp:heading -->
 
 			<!-- wp:list {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40"}}},"fontSize":"medium"} -->

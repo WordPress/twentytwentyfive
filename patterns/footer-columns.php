@@ -42,7 +42,7 @@
 				<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group" style="padding-right:0;padding-left:0">
 					<!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}},"fontSize":"medium"} -->
-					<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:700">Featured</h3>
+					<h3 class="wp-block-heading has-medium-font-size" style="font-style:normal;font-weight:700">Featured</h3>
 					<!-- /wp:heading -->
 					<!-- wp:navigation {"overlayMenu":"never","fontSize":"medium","layout":{"type":"flex","orientation":"vertical"},"ariaLabel":"<?php esc_attr_e( 'Featured', 'twentytwentyfive' ); ?>"} -->
 						<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Example.com', 'twentytwentyfive' ); ?>","url":"#"} /-->

@@ -16,6 +16,6 @@
 	<h1 class="wp-block-heading"><?php esc_html_e( 'What are you looking for?', 'twentytwentyfive' ); ?></h1>
 	<!-- /wp:heading -->
 
-	<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"<?php esc_html_e( 'Type here...', 'twentytwentyfive' ); ?>","width":100,"widthUnit":"%","buttonText":"Search"} /-->
+	<!-- wp:search {"label":"Search","showLabel":false,"placeholder":"<?php esc_html_e( 'Type here...', 'twentytwentyfive' ); ?>","buttonText":"<?php esc_html_e( 'Search', 'twentytwentyfive' ); ?>"} /-->
 </div>
 <!-- /wp:group -->

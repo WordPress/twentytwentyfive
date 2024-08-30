@@ -23,7 +23,7 @@
 			},
 			"core/post-title": {
 				"typography": {
-					"fontSize": "var:preset|font-size|xxx-large",
+					"fontSize": "var:preset|font-size|xx-large",
 					"fontWeight": "500",
 					"letterSpacing": "-1.16px"
 				}

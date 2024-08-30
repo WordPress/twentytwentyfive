@@ -20,7 +20,7 @@
 		<div class="wp-block-group alignfull">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
 			<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-				<!-- wp:site-title {"level":2,"fontSize":"xxx-large"} /-->
+				<!-- wp:site-title {"level":2,"fontSize":"xx-large"} /-->
 				<!-- wp:site-tagline /-->
 			</div>
 			<!-- /wp:group -->

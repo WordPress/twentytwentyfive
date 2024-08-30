@@ -12,15 +12,15 @@
  */
 
 ?>
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group">
+<!-- wp:group {"align":"full","className":"is-style-section-3","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-3">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
 		<!-- wp:site-title {"level":2,"style":{"typography":{"fontSize":"10vw"}}} /-->
 		<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
 		<div class="wp-block-group" style="padding-right:0;padding-left:0">
-			<!-- wp:paragraph {"fontSize":"xx-large"} -->
-			<p class="has-xx-large-font-size">Subscribe to our newsletter</p>
+			<!-- wp:paragraph {"fontSize":"x-large"} -->
+			<p class="has-x-large-font-size">Subscribe to our newsletter</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:buttons -->
 			<div class="wp-block-buttons"><!-- wp:button -->
@@ -36,7 +36,7 @@
 		<div class="wp-block-group alignfull">
 			<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} /-->
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-x-small-font-size">Designed with <strong>WordPress</strong></p>
+			<p class="has-small-font-size">Designed with <strong>WordPress</strong></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

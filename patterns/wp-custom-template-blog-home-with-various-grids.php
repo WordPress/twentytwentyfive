@@ -4,7 +4,12 @@
  * Slug: twentytwentyfive/wp-custom-template-blog-home-with-various-grids
  * Categories: hidden
  * Inserter: no
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_Five
+ * @since Twenty Twenty-Five 1.0
  */
+
 ?>
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
@@ -25,7 +30,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php esc_html_e('No posts were found.', 'twentytwentyfive');?></p>
+<p><?php esc_html_e( 'No posts were found.', 'twentytwentyfive' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query -->
@@ -43,7 +48,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php esc_html_e('No posts were found.', 'twentytwentyfive');?></p>
+<p><?php esc_html_e( 'No posts were found.', 'twentytwentyfive' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
@@ -66,7 +71,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php esc_html_e('No posts were found.', 'twentytwentyfive');?></p>
+<p><?php esc_html_e( 'No posts were found.', 'twentytwentyfive' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
@@ -87,7 +92,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php esc_html_e('No posts were found.', 'twentytwentyfive');?></p>
+<p><?php esc_html_e( 'No posts were found.', 'twentytwentyfive' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query -->
@@ -105,7 +110,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php esc_html_e('No posts were found.', 'twentytwentyfive');?></p>
+<p><?php esc_html_e( 'No posts were found.', 'twentytwentyfive' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
@@ -129,7 +134,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php esc_html_e('No posts were found.', 'twentytwentyfive');?></p>
+<p><?php esc_html_e( 'No posts were found.', 'twentytwentyfive' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query -->
@@ -147,7 +152,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php esc_html_e('No posts were found.', 'twentytwentyfive');?></p>
+<p><?php esc_html_e( 'No posts were found.', 'twentytwentyfive' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>
@@ -168,7 +173,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p><?php esc_html_e('No posts were found.', 'twentytwentyfive');?></p>
+<p><?php esc_html_e( 'No posts were found.', 'twentytwentyfive' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results -->
 

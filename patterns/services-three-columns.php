@@ -50,7 +50,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-small-font-size">Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience</p>
+			<p class="has-medium-font-size">Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

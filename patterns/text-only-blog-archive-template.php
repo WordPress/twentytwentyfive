@@ -16,7 +16,7 @@
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
-	<!-- wp:query-title {"type":"archive","align":"wide","fontSize":"medium"} /-->
+	<!-- wp:query-title {"type":"archive","align":"wide","fontSize":"large"} /-->
 	<!-- wp:term-description {"align":"wide"} /-->
 	<!-- wp:pattern {"slug":"twentytwentyfive/text-only-blog-posts"} /-->
 </main>

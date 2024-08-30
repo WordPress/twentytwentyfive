@@ -111,5 +111,5 @@ https://www.rawpixel.com/image/2211732
 
 Botany flowers.
 Free public domain CC0 image.
-image-from-rawpixel-id-8812207.jpeg
+botany-flowers.webp
 https://www.rawpixel.com/image/8812207

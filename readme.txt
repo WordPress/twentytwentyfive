@@ -108,3 +108,19 @@ Centaurea Ruthenica(Star Thristle).
 Free public domain CC0 image.
 image-from-rawpixel-id-2211732.webp
 https://www.rawpixel.com/image/2211732
+
+Ms. Gail Falk Seltzer, a Staff Lawyer for Field Services.
+team_photo_1.webp
+https://www.flickr.com/photos/usnationalarchives/3906419575/
+
+Young sugarcane field worker.
+team_photo_2.webp
+https://www.flickr.com/photos/usnationalarchives/7157920320
+
+Portraits of Miners.
+team_photo_3.webp
+https://www.flickr.com/photos/usnationalarchives/3906400735/
+
+Young Woman Soliciting Funds.
+team_photo_4.webp
+https://www.flickr.com/photos/usnationalarchives/8676029464

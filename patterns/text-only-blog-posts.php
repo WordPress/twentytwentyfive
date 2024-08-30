@@ -15,9 +15,6 @@
 	<!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">
 		<!-- wp:query-no-results {"align":"wide","fontSize":"medium"} -->
-			<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
-			<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
-			<!-- /wp:spacer -->
 			<!-- wp:paragraph -->
 			<p>No posts were found.</p>
 			<!-- /wp:paragraph -->

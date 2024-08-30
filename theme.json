@@ -75,17 +75,17 @@
 					"slug": "50"
 				},
 				{
-					"name": "Large",
+					"name": "x-large",
 					"size": "clamp(30px, 7vw, 70px);",
 					"slug": "60"
 				},
 				{
-					"name": "X-Large",
+					"name": "xx-large",
 					"size": "clamp(50px, 7vw, 90px);",
 					"slug": "70"
 				},
 				{
-					"name": "XX-Large",
+					"name": "Xxx-large",
 					"size": "clamp(70px, 10vw, 140px);",
 					"slug": "80"
 				}
@@ -105,45 +105,45 @@
 			"fontSizes": [
 				{
 					"fluid": false,
-					"name": "Extra Small",
+					"name": "Small",
 					"size": "0.875rem",
-					"slug": "x-small"
+					"slug": "small"
 				},
 				{
 					"fluid": {
 						"max": "1.125rem",
 						"min": "1rem"
 					},
-					"name": "Small",
+					"name": "Medium",
 					"size": "1rem",
-					"slug": "small"
+					"slug": "medium"
 				},
 				{
 					"fluid": {
 						"max": "1.375rem",
 						"min": "1.125rem"
 					},
-					"name": "Medium",
+					"name": "Large",
 					"size": "1.38rem",
-					"slug": "medium"
+					"slug": "large"
 				},
 				{
 					"fluid": {
 						"max": "2rem",
 						"min": "1.75rem"
 					},
-					"name": "Large",
+					"name": "Extra Large",
 					"size": "1.75rem",
-					"slug": "large"
+					"slug": "x-large"
 				},
 				{
 					"fluid": {
 						"max": "3.625rem",
 						"min": "2.625rem"
 					},
-					"name": "Extra Large",
+					"name": "Extra Extra Large",
 					"size": "2.625rem",
-					"slug": "x-large"
+					"slug": "xx-large"
 				}
 			],
 			"fontFamilies": [
@@ -1032,7 +1032,7 @@
 			},
 			"core/pullquote": {
 				"typography": {
-					"fontSize": "var:preset|font-size|x-large",
+					"fontSize": "var:preset|font-size|xx-large",
 					"fontStyle": "normal",
 					"fontWeight": "300",
 					"letterSpacing": "-0.76px",
@@ -1047,7 +1047,7 @@
 			},
 			"core/query-title":{
 				"typography": {
-					"fontSize": "var:preset|font-size|x-large"
+					"fontSize": "var:preset|font-size|xx-large"
 				}
 			},
 			"core/search": {

@@ -1,0 +1,48 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Platypi & Ysabeau Office",
+	"slug": "typography-preset-3",
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|ysabeau-office",
+			"fontSize": "var:preset|font-size|medium",
+			"fontStyle": "normal",
+			"fontWeight": "400",
+			"letterSpacing": "-0.22px",
+			"lineHeight": "1.6"
+		},
+		"blocks":{
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|ysabeau-office",
+					"fontSize": "var:preset|font-size|small",
+					"letterSpacing": "1.44px",
+					"textTransform": "uppercase"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"letterSpacing": "-0.8px",
+					"fontWeight": "500"
+				}
+			}
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|platypi"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|ysabeau-office",
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "600",
+					"letterSpacing": "1.44px",
+					"textTransform": "uppercase"
+				}
+			}
+		}
+	}
+}

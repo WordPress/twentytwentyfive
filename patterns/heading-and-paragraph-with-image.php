@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Overview text with image
- * Slug: twentytwentyfive/two-headings-and-a-list
+ * Title: Heading and paragraph with image on the right
+ * Slug: twentytwentyfive/heading-and-paragraph-with-image
  * Categories: text, about
  * Description: A two-column section with a heading and paragraph on the left, and an image on the right.
  *
@@ -10,7 +10,6 @@
  * @since Twenty Twenty-Five 1.0
  */
 ?>
-
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","right":"var:preset|spacing|50","left":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"contrast","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-contrast-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--80)">
     <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|80"}}}} -->
@@ -33,9 +32,9 @@
 
         <!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"default"}} -->
         <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
-            <!-- wp:image {"sizeSlug":"full"} -->
+            <!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
             <figure class="wp-block-image size-full">
-                <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/image-from-rawpixel-id-8803077-original.webp' ); ?>" alt="<?php echo esc_attr_x( 'A classic black and white photo of an old church', 'Alt text for Overview picture', 'twentytwentyfive' ); ?>"/>
+                <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/image-from-rawpixel-id-8803077-original.webp' ); ?>" alt="<?php echo esc_attr_x( 'A classic black and white photo of an old church', 'Alt text for Overview picture', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover" />
             </figure>
             <!-- /wp:image -->
         </div>

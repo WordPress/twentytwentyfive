@@ -1,0 +1,55 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Literata & Fira Sans",
+	"slug": "typography-preset-7",
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|fira-sans",
+			"fontSize": "var:preset|font-size|medium",
+			"fontStyle": "normal",
+			"fontWeight": "300",
+			"letterSpacing": "-0.24px",
+			"lineHeight": "1.4"
+		},
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|literata",
+					"fontSize": "var:preset|font-size|large",
+					"fontWeight": "300",
+					"letterSpacing": "-0.56px",
+					"textTransform": "uppercase"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontWeight": "200",
+					"letterSpacing": "-2.72px"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"textTransform": "uppercase"
+				}
+			}
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|literata",
+					"fontWeight": "200"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|literata",
+					"fontSize": "var:preset|font-size|medium",
+					"fontWeight": "600",
+					"letterSpacing": "-0.96px",
+					"textTransform": "uppercase"
+				}
+			}
+		}
+	}
+}

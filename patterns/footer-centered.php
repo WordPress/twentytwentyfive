@@ -21,8 +21,8 @@
 		<!-- wp:spacer {"height":"20px"} -->
 		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
-		<!-- wp:paragraph {"align":"center","fontSize":"x-small"} -->
-		<p class="has-text-align-center has-x-small-font-size">Designed with <strong>WordPress</strong></p>
+		<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
+		<p class="has-text-align-center has-small-font-size">Designed with <strong>WordPress</strong></p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

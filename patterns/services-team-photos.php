@@ -49,7 +49,7 @@
 
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team_photo_2.webp" alt="Young Woman Soliciting Funds." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team_photo_4.webp" alt="Young Woman Soliciting Funds." style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 			</div>

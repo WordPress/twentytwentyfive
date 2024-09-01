@@ -1,8 +1,10 @@
 <?php
 /**
  * Title: Comments
- * Slug: twentytwentyfive/hidden-comments
- * Inserter: no
+ * Slug: twentytwentyfive/comments
+ * Description: Comments area with comments list, pagination, and comment form.
+ * Categories: text
+ * Block Types: core/comments
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -12,10 +14,10 @@
 ?>
 <!-- wp:comments {"className":"wp-block-comments-query-loop","style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-comments wp-block-comments-query-loop" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70)">
-	<!-- wp:heading -->
-	<h4><?php esc_html_e( 'Comments', 'twentytwentyfive' ); ?></h4>
+	<!-- wp:heading {"fontSize":"x-large"} -->
+	<h2 class="wp-block-heading has-x-large-font-size">Comments</h2>
 	<!-- /wp:heading -->
-	<!-- wp:comments-title {"level":4} /-->
+	<!-- wp:comments-title {"level":3,"fontSize":"large"} /-->
 	<!-- wp:comment-template -->
 	<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|50"}}}} -->
 	<div class="wp-block-group" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--50)">

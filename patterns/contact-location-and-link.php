@@ -24,7 +24,7 @@
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"medium"} -->
-				<p class="has-small-font-size" style="text-transform:uppercase"><a href="#">Get directions</a></p>
+				<p class="has-medium-font-size" style="text-transform:uppercase"><a href="#">Get directions</a></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

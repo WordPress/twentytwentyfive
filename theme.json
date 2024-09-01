@@ -1098,7 +1098,7 @@
 			},
 			"core/post-navigation-link": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/post-terms": {
@@ -1144,7 +1144,7 @@
 			},
 			"core/query-pagination": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small",
+					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "500"
 				}
 			},

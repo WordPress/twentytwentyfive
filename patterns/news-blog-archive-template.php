@@ -12,7 +12,6 @@
  */
 
 ?>
-
 <!-- wp:template-part {"slug":"header","area":"header"} /-->
 
 <!-- wp:group {"lock":{"move":false,"remove":false},"metadata":{"name":"Archive title and term description"},"layout":{"type":"constrained"}} -->

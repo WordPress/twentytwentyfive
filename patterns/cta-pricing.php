@@ -79,7 +79,7 @@
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"large"} -->
-			<p class="has-large-font-size"><strong>20€/month</strong></p>
+			<p class="has-large-font-size">20€/month</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:list {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20","left":"var:preset|spacing|30"}}},"fontSize":"small"} -->

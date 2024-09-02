@@ -89,12 +89,11 @@ Source: https://fonts.google.com/specimen/Beiruti
 
 === Images ===
 
-<<<<<<< HEAD
 Northern Buttercups.
 Free public domain CC0 image.
 image-from-rawpixel-id-8802603-original.webp
 https://www.rawpixel.com/image/8802603
-=======
+
 Old gray paris map.
 Free public domain CC0 image.
 location.webp
@@ -119,4 +118,3 @@ Corner view showing mostly left wall, Church, Acoma Pueblo.
 Free public domain CC0 image.
 image-from-rawpixel-id-8803077-original.webp
 https://www.rawpixel.com/image/8803077
->>>>>>> trunk

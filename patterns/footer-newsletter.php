@@ -12,8 +12,8 @@
  */
 
 ?>
-<!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group">
+<!-- wp:group {"align":"full","className":"is-style-section-3","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-3">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
 		<!-- wp:site-title {"level":2,"style":{"typography":{"fontSize":"10vw"}}} /-->
@@ -34,9 +34,9 @@
 		<!-- /wp:spacer -->
 		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignfull">
-			<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-small"} /-->
-			<!-- wp:paragraph {"fontSize":"x-small"} -->
-			<p class="has-x-small-font-size">Designed with <strong>WordPress</strong></p>
+			<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} /-->
+			<!-- wp:paragraph {"fontSize":"small"} -->
+			<p class="has-small-font-size">Designed with <strong>WordPress</strong></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

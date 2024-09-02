@@ -31,8 +31,8 @@
 			<h4 class="wp-block-heading">Collect</h4>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience</p>
+			<!-- wp:paragraph {"fontSize":"medium"} -->
+			<p class="has-medium-font-size">Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -49,8 +49,8 @@
 			<h4 class="wp-block-heading">Assemble</h4>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience</p>
+			<!-- wp:paragraph {"fontSize":"medium"} -->
+			<p class="has-medium-font-size">Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->
@@ -67,8 +67,8 @@
 			<h4 class="wp-block-heading">Deliver</h4>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience</p>
+			<!-- wp:paragraph {"fontSize":"medium"} -->
+			<p class="has-medium-font-size">Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

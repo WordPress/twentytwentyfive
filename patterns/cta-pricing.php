@@ -38,8 +38,8 @@
 			<p class="has-primary-color has-text-color has-link-color has-large-font-size">0€</p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:list {"style":{"spacing":{"padding":{"left":"var:preset|spacing|30","bottom":"var:preset|spacing|20"}}},"fontSize":"small"} -->
-			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)" class="wp-block-list has-small-font-size">
+			<!-- wp:list {"className":"is-style-checkmark-list","style":{"spacing":{"padding":{"left":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"fontSize":"small"} -->
+			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)" class="wp-block-list has-small-font-size is-style-checkmark-list">
 				<!-- wp:list-item -->
 				<li>Get access to our paid articles and weekly newsletter.</li>
 				<!-- /wp:list-item -->
@@ -82,8 +82,8 @@
 			<p class="has-large-font-size">20€/month</p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:list {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20","left":"var:preset|spacing|30"}}},"fontSize":"small"} -->
-			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--30)" class="wp-block-list has-small-font-size">
+			<!-- wp:list {"className":"is-style-checkmark-list","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"fontSize":"small"} -->
+			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)" class="wp-block-list has-small-font-size is-style-checkmark-list">
 				<!-- wp:list-item -->
 				<li>Get access to our paid articles and weekly newsletter.</li>
 				<!-- /wp:list-item -->

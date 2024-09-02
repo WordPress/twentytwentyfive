@@ -908,6 +908,11 @@
 				}
 			]
 		},
+		"custom": {
+			"fontSize": {
+				"huge": "clamp(2.5rem, 4vw, 4.375rem)"
+			}
+		},
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {

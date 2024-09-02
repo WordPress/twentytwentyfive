@@ -23,7 +23,7 @@
 	<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-	<p class="has-small-font-size">Designed with <a href="https://wordpress.org">WordPress</a></p>
+	<p class="has-text-align-center has-small-font-size">Designed with <a href="https://wordpress.org">WordPress</a></p>
 	<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

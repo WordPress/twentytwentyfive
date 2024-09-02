@@ -113,3 +113,8 @@ Corner view showing mostly left wall, Church, Acoma Pueblo.
 Free public domain CC0 image.
 image-from-rawpixel-id-8803077-original.webp
 https://www.rawpixel.com/image/8803077
+
+Botany flowers.
+Free public domain CC0 image.
+image-from-rawpixel-id-8812207.webp
+https://www.rawpixel.com/image/8812207

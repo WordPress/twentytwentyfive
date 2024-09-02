@@ -51,11 +51,11 @@
 		<!-- /wp:spacer -->
 		<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignfull">
-			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"primary","fontSize":"x-small"} -->
-			<p class="has-primary-color has-text-color has-link-color has-x-small-font-size">Twenty Twenty-Five</p>
+			<!-- wp:paragraph {"fontSize":"small"} -->
+			<p class="has-small-font-size">Twenty Twenty-Five</p>
 			<!-- /wp:paragraph -->
-			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"primary","fontSize":"x-small"} -->
-			<p class="has-primary-color has-text-color has-link-color has-x-small-font-size">Designed with <a href="https://wordpress.org">WordPress</a></p>
+			<!-- wp:paragraph {"fontSize":"small"} -->
+			<p class="has-small-font-size">Designed with <a href="https://wordpress.org">WordPress</a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

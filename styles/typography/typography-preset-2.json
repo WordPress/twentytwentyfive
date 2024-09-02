@@ -1,0 +1,45 @@
+{
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"title": "Vollkorn & Fira Code",
+	"slug": "typography-preset-2",
+	"styles": {
+		"typography": {
+			"fontFamily": "var:preset|font-family|fira-code",
+			"fontSize": "var:preset|font-size|small",
+			"fontStyle": "normal",
+			"fontWeight": "300",
+			"letterSpacing": "-0.18px",
+			"lineHeight": "1.5"
+		},
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|vollkorn",
+					"fontSize": "var:preset|font-size|large"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontWeight": "400",
+					"letterSpacing": "-0.96px"
+				}
+			}
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|vollkorn"
+				}
+			},
+			"button": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|fira-code",
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "400",
+					"letterSpacing": "-0.36px"
+				}
+			}
+		}
+	}
+}

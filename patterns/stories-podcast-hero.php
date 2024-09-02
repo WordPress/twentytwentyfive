@@ -11,8 +11,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","className":"has-accent-2-background-color has-background","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}},"backgroundColor":"accent-2"},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-accent-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"align":"wide"} -->
+<!-- wp:group {"align":"full",""style":{"spacing":{"margin":{"top":"0","bottom":"0"},"className":"is-style-style-1","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-accent-2-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
 	<div class="wp-block-columns alignwide"><!-- wp:column {"width":"40%"} -->
 		<div class="wp-block-column" style="flex-basis:40%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none"} -->
 		<figure class="wp-block-image size-large">
@@ -20,23 +20,18 @@
 		</figure>
 		<!-- /wp:image -->
 		</div>
-
 		<!-- /wp:column -->
-
 		<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
 			<!-- wp:heading {"level":2,"fontSize":"x-large"} -->
 			<h2 class="wp-block-heading has-x-large-font-size">The Stories® Podcast</h2>
 			<!-- /wp:heading -->
-
 			<!-- wp:paragraph {"fontSize":"medium"} -->
 			<p class="has-medium-font-size">Storytelling, expert analysis, and vivid descriptions. The Stories® Podcast brings history to life, making it accessible and engaging for a global audience.</p>
 			<!-- /wp:paragraph -->
-
 			<!-- wp:heading {"level":3} -->
 			<h3 class="wp-block-heading">Subscribe on your favorite platform</h3>
 			<!-- /wp:heading -->
-
 			<!-- wp:buttons {"fontSize":"x-small","layout":{"type":"flex","justifyContent":"left"}} -->
 				<div class="wp-block-buttons has-custom-font-size has-x-small-font-size"><!-- wp:button {"className":"is-style-outline","fontSize":"extra-small"} -->
 				<div class="wp-block-button has-custom-font-size is-style-outline has-extra-small-font-size"><a class="wp-block-button__link wp-element-button">Youtube</a></div>

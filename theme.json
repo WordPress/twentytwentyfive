@@ -943,7 +943,7 @@
 			},
 			"core/button": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				},
 				"spacing": {
 					"padding": {
@@ -1248,9 +1248,6 @@
 		},
 		"elements": {
 			"button": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				},
 				"color": {
 					"background": "var:preset|color|contrast",
 					"text": "var:preset|color|base"

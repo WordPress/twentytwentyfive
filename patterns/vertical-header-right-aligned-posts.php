@@ -18,7 +18,7 @@
 		<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 		<div class="wp-block-group">
 			<!-- wp:post-title {"isLink":true} /-->
-			<!-- wp:post-date {"fontSize":"x-small"} /-->
+			<!-- wp:post-date {"fontSize":"small"} /-->
 		</div>
 		<!-- /wp:group -->
 		<!-- wp:spacer {"height":"var:preset|spacing|40"} -->

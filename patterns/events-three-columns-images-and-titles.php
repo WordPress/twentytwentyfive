@@ -5,11 +5,12 @@
  * Categories: featured, query
  * Description: A header with title and text and three columns that show 3 events with their images and titles.
  * Keywords: events, columns, images
- * 
+ *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
  * @since Twenty Twenty-Five 1.0
  */
+
 ?>
 <!-- wp:group {"metadata":{"categories":["featured"],"patternName":"twentytwentyfive/events-three-columns-images-and-titles","name":"Events three columns with event images and titles"},"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->

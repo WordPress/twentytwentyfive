@@ -16,7 +16,7 @@
 	<div class="wp-block-cover__inner-container">
 		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"718px","wideSize":"1340px"}} -->
 		<div class="wp-block-group alignwide">
-			<!-- wp:heading {"textAlign":"left","level":1,"align":"wide"} -->
+			<!-- wp:heading {"textAlign":"left","level":1} -->
 			<h1 class="wp-block-heading has-text-align-left"><?php echo esc_html_x( 'Tell your story', 'Sample hero heading', 'twentytwentyfive' ); ?></h1>
 			<!-- /wp:heading -->
 

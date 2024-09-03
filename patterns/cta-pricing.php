@@ -14,8 +14,8 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-	<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--60)">
+	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+	<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--50)">
 		<!-- wp:heading {"textAlign":"center","align":"wide"} -->
 		<h2 class="wp-block-heading alignwide has-text-align-center">Pricing</h2>
 		<!-- /wp:heading -->
@@ -26,8 +26,16 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"bottom":"0"},"padding":{"right":"var:preset|spacing|80","left":"var:preset|spacing|80","top":"0","bottom":"0"}}}} -->
-	<div class="wp-block-columns alignwide" style="margin-bottom:0;padding-top:0;padding-right:var(--wp--preset--spacing--80);padding-bottom:0;padding-left:var(--wp--preset--spacing--80)">
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"bottom":"0"},"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"0","bottom":"0"},"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|50"}}}} -->
+	<div class="wp-block-columns alignwide" style="margin-bottom:0;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)">
+		<!-- wp:column {"width":"8%"} -->
+		<div class="wp-block-column" style="flex-basis:8%">
+			<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
+			<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
+		</div>
+		<!-- /wp:column -->
+
 		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"width":"1px","color":"var:preset|color|opacity-20","radius":"10px"}}} -->
 		<div class="wp-block-column has-border-color" style="border-color:var(--wp--preset--color--opacity-20);border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 			<!-- wp:heading {"level":3} -->
@@ -113,6 +121,13 @@
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
+		</div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"8%"} -->
+		<div class="wp-block-column" style="flex-basis:8%"><!-- wp:spacer {"height":"var:preset|spacing|30"} -->
+			<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
 		</div>
 		<!-- /wp:column -->
 	</div>

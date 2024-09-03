@@ -73,7 +73,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"id":76,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="http://localhost/c/wp-content/uploads/2024/08/screens.webp" alt="" class="wp-image-76"/></figure>
+<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/services-subscriber-photo.webp" alt="Smartphones capturing a scenic wildflower meadow with trees" class="wp-image-76"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

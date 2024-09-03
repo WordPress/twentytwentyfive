@@ -11,12 +11,12 @@
  */
 
 ?>
-<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 	<div class="wp-block-columns alignwide">
-		<!-- wp:column {"width":"55%"} -->
-		<div class="wp-block-column" style="flex-basis:55%">
+		<!-- wp:column {"width":"56%"} -->
+		<div class="wp-block-column" style="flex-basis:56%">
 			<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 			<figure class="wp-block-image size-full">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/botany-flowers.webp" alt="<?php echo esc_attr_x( 'Picture of a flower', 'Alt text for intro picture', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover" />

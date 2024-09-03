@@ -28,7 +28,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:heading {"level":3} -->
-			<h4 class="wp-block-heading">Collect</h4>
+			<h3 class="wp-block-heading">Collect</h4>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -46,7 +46,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:heading {"level":3} -->
-			<h4 class="wp-block-heading">Assemble</h4>
+			<h3 class="wp-block-heading">Assemble</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -64,7 +64,7 @@
 			<!-- /wp:image -->
 
 			<!-- wp:heading {"level":3} -->
-			<h4 class="wp-block-heading">Deliver</h4>
+			<h3 class="wp-block-heading">Deliver</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->

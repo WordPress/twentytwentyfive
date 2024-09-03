@@ -89,6 +89,12 @@ Source: https://fonts.google.com/specimen/Beiruti
 
 === Images ===
 
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+Small totara tree on ridge above Long Point, Porirua Harbour, by Leslie Adkin.
+Free public domain CC0 image.
+image-from-rawpixel-id-13029755.webp
+https://www.rawpixel.com/image/13029755
+
 Old gray paris map.
 Free public domain CC0 image.
 location.webp

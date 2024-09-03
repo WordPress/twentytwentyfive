@@ -89,6 +89,11 @@ Source: https://fonts.google.com/specimen/Beiruti
 
 === Images ===
 
+Northern Buttercups.
+Free public domain CC0 image.
+image-from-rawpixel-id-8802603-original.webp
+https://www.rawpixel.com/image/8802603
+
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Small totara tree on ridge above Long Point, Porirua Harbour, by Leslie Adkin.
 Free public domain CC0 image.

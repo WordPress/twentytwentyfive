@@ -36,11 +36,12 @@
 				<!-- /wp:paragraph -->
 
 				<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#111111","className":"is-style-logos-only"} -->
-				<ul class="wp-block-social-links has-icon-color is-style-logos-only"><!-- wp:social-link {"url":"#","service":"x"} /-->
+				<ul class="wp-block-social-links has-icon-color is-style-logos-only">
+					<!-- wp:social-link {"url":"#","service":"x"} /-->
 
-				<!-- wp:social-link {"url":"#","service":"instagram"} /-->
+					<!-- wp:social-link {"url":"#","service":"instagram"} /-->
 
-				<!-- wp:social-link {"url":"#","service":"whatsapp"} /-->
+					<!-- wp:social-link {"url":"#","service":"whatsapp"} /-->
 				</ul>
 				<!-- /wp:social-links -->
 			</div>

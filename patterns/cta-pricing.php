@@ -26,10 +26,10 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"bottom":"0"},"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"0","bottom":"0"},"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|50"}}}} -->
-	<div class="wp-block-columns alignwide" style="margin-bottom:0;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)">
-		<!-- wp:column {"width":"8%"} -->
-		<div class="wp-block-column" style="flex-basis:8%">
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|50"}}}} -->
+	<div class="wp-block-columns alignwide">
+		<!-- wp:column {"width":"9%"} -->
+		<div class="wp-block-column" style="flex-basis:9%">
 			<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
 			<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
@@ -124,8 +124,9 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"8%"} -->
-		<div class="wp-block-column" style="flex-basis:8%"><!-- wp:spacer {"height":"var:preset|spacing|30"} -->
+		<!-- wp:column {"width":"9%"} -->
+		<div class="wp-block-column" style="flex-basis:9%">
+			<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
 			<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
 		</div>

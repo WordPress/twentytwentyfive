@@ -908,6 +908,11 @@
 				}
 			]
 		},
+		"custom": {
+			"fontSize": {
+				"huge": "clamp(2.5rem, 4vw, 4.375rem)"
+			}
+		},
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
@@ -1238,7 +1243,7 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "70px"
+					"fontSize":"var(--wp--custom--font-size--huge)"
 				}
 			},
 			"h2": {

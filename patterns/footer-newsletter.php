@@ -16,8 +16,8 @@
 <div class="wp-block-group is-style-section-3" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:heading {"style":{"typography":{"fontSize":"20vw","letterSpacing":"-0.04em"}}} -->
-		<h2 class="wp-block-heading" style="font-size:20vw;letter-spacing:-0.04em">Stories®</h2>
+		<!-- wp:heading {"style":{"typography":{"fontSize":"18vw","letterSpacing":"-0.04em"}}} -->
+		<h2 class="wp-block-heading" style="font-size:18vw;letter-spacing:-0.04em">Stories</h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"default"}} -->

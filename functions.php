@@ -37,7 +37,7 @@ function twentytwentyfive_enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'twentytwentyfive_enqueue_styles' );
 
 /**
- * Enqueue custom block stylesheets
+ * Enqueue custom block stylesheets.
  *
  * @since Twenty Twenty-Five 1.0
  * @return void
@@ -60,3 +60,28 @@ function twentytwentyfive_block_stylesheets() {
 	);
 }
 add_action( 'init', 'twentytwentyfive_block_stylesheets' );
+
+/**
+ * Register custom block styles.
+ *
+ * @since Twenty Twenty-Five 1.0
+ * @return void
+ */
+function twentytwentyfive_block_styles() {
+	register_block_style(
+		'core/list',
+		array(
+			'name'         => 'checkmark-list',
+			'label'        => __( 'Checkmark', 'twentytwentyfive' ),
+			'inline_style' => '
+			ul.is-style-checkmark-list {
+				list-style-type: "\2713";
+			}
+
+			ul.is-style-checkmark-list li {
+				padding-inline-start: 1ch;
+			}',
+		)
+	);
+}
+add_action( 'init', 'twentytwentyfive_block_styles' );

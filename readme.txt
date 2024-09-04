@@ -150,6 +150,11 @@ Free public domain CC0 image.
 image-from-rawpixel-id-8803077-original.webp
 https://www.rawpixel.com/image/8803077
 
+Two Girls, Mill Workers by Lewis W Hine.
+Free public domain CC0 image.
+link-in-bio-background.webp
+https://www.rawpixel.com/image/14265869
+
 Cliff Palace, Mesa Verde National Park, Colorado (vertical orientation)
 Free public domain CC0 image.
 poster-image-background.webp

@@ -16,7 +16,7 @@
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|vollkorn",
-					"fontSize": "var:preset|font-size|large"
+					"fontSize": "var:preset|font-size|x-large"
 				}
 			},
 			"core/post-title": {

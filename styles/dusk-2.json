@@ -69,6 +69,15 @@
 					"background": "var:preset|color|secondary"
 				}
 			},
+			"core/paragraph": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						}
+					}
+				}
+			},
 			"core/post-author-name": {
 				"typography": {
 					"fontWeight": "300"
@@ -119,6 +128,13 @@
 				"typography": {
 					"fontWeight": "400",
 					"letterSpacing": "-0.96px"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					}
 				}
 			},
 			"core/pullquote": {
@@ -157,9 +173,19 @@
 				}
 			},
 			"core/site-title": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|vollkorn",
 					"fontSize": "var:preset|font-size|large"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					}
 				}
 			}
 		},
@@ -180,6 +206,9 @@
 				}
 			},
 			"heading": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|vollkorn"
 				}
@@ -219,6 +248,11 @@
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "700",
 					"textTransform": "uppercase"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|accent-3"
 				}
 			}
 		},
@@ -264,7 +298,7 @@
 					"button": {
 						"color": {
 							"background": "var:preset|color|accent-2",
-							"text": "var:preset|color|white"
+							"text": "var:preset|color|accent-1"
 						}
 					}
 				}
@@ -277,7 +311,7 @@
 					"button": {
 						"color": {
 							"background": "var:preset|color|accent-2",
-							"text": "var:preset|color|white"
+							"text": "var:preset|color|accent-1"
 						}
 					}
 				}

@@ -12,6 +12,8 @@ Twenty Twenty-Five embodies ultimate flexibility and adaptability, showcasing th
 
 Twenty Twenty-Five is built as a [block theme](https://developer.wordpress.org/block-editor/how-to-guides/themes/block-theme-overview/). The theme aims to ship with as little CSS as possible: our goal is for all theme styles to be configured through [`theme.json`](https://developer.wordpress.org/block-editor/how-to-guides/themes/theme-json/) and editable through Global Styles. The theme development team will work closely with [Gutenberg](https://github.com/wordpress/gutenberg) contributors to build design tools in the block editor that enable this goal.
 
+If you'd like to see the latest and greatest version of Twenty Twenty-Five, [there is a demo site](https://2025.wordpress.net) that is automatically updated every five minutes with the newest commits to this repo.
+
 ## Contributing
 
 Connect your GitHub account to your WordPress.org account to receive props for your contributions.

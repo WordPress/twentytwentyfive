@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Title: Events – List with Call to Action
  * Slug: twentytwentyfive/events-list-with-cta
@@ -10,7 +9,6 @@
  * @subpackage Twenty_Twenty_Five
  * @since Twenty Twenty-Five 1.0
  */
-
 ?>
 <!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"level":3} -->

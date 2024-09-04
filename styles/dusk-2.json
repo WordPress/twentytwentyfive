@@ -242,6 +242,21 @@
 						}
 					}
 				}
+			},
+			"section-1": {
+				"color": {
+					"text": "var:preset|color|base"
+				}
+			},
+			"section-2": {
+				"color": {
+					"text": "var:preset|color|base"
+				}
+			},
+			"section-3": {
+				"color": {
+					"text": "var:preset|color|accent-2"
+				}
 			}
 		}
 	}

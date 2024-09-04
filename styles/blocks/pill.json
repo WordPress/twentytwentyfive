@@ -18,7 +18,7 @@
 		},
 		"spacing": {
 			"padding": {
-				"top": "5px",
+				"top": "0.31rem",
 				"right": "var:preset|spacing|20",
 				"bottom": "0.31rem",
 				"left": "var:preset|spacing|20"

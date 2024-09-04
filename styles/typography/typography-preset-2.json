@@ -6,7 +6,7 @@
 	"styles": {
 		"typography": {
 			"fontFamily": "var:preset|font-family|fira-code",
-			"fontSize": "var:preset|font-size|small",
+			"fontSize": "var:preset|font-size|large",
 			"fontStyle": "normal",
 			"fontWeight": "300",
 			"letterSpacing": "-0.18px",
@@ -35,7 +35,7 @@
 			"button": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|fira-code",
-					"fontSize": "var:preset|font-size|small",
+					"fontSize": "var:preset|font-size|large",
 					"fontWeight": "400",
 					"letterSpacing": "-0.36px"
 				}

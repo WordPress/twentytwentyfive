@@ -149,3 +149,8 @@ Corner view showing mostly left wall, Church, Acoma Pueblo.
 Free public domain CC0 image.
 image-from-rawpixel-id-8803077-original.webp
 https://www.rawpixel.com/image/8803077
+
+Cliff Palace, Mesa Verde National Park, Colorado (vertical orientation)
+Free public domain CC0 image.
+poster-image-background.webp
+https://www.rawpixel.com/image/8802835

@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Pill",
+	"slug": "pill",
+	"blockTypes": ["core/heading", "core/paragraph"],
+	"styles": {
+		"border": {
+			"color": "var:preset|color|contrast",
+			"style": "solid",
+			"width": "1px",
+			"radius": "20px"
+		},
+		"spacing": {
+			"padding": {
+				"top": "5px",
+				"right": "var:preset|spacing|tiny",
+				"bottom": "5px",
+				"left": "var:preset|spacing|tiny"
+			}
+		}
+	}
+}

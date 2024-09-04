@@ -5,6 +5,11 @@
 	"slug": "pill",
 	"blockTypes": ["core/heading", "core/paragraph"],
 	"styles": {
+        "typography": {
+            "fontSize": "var:preset|font-size|small",
+            "lineHeight": "1",
+            "letterSpacing": "normal"
+        },
 		"border": {
 			"color": "var:preset|color|contrast",
 			"style": "solid",
@@ -14,9 +19,9 @@
 		"spacing": {
 			"padding": {
 				"top": "5px",
-				"right": "var:preset|spacing|tiny",
+				"right": "var:preset|spacing|20",
 				"bottom": "5px",
-				"left": "var:preset|spacing|tiny"
+				"left": "var:preset|spacing|20"
 			}
 		}
 	}

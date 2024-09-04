@@ -20,7 +20,7 @@
 			"padding": {
 				"top": "5px",
 				"right": "var:preset|spacing|20",
-				"bottom": "5px",
+				"bottom": "0.31rem",
 				"left": "var:preset|spacing|20"
 			}
 		}

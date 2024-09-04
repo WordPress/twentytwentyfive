@@ -18,7 +18,6 @@
 				"bottom": "0.5em",
 				"left": "0.75em"
 			}
-		},
-		"css": "display: inline-block"
+		}
 	}
 }

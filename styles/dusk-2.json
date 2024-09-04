@@ -46,6 +46,11 @@
 					"slug": "opacity-20"
 				}
 			]
+		},
+		"custom": {
+			"color": {
+				"accent-2-opacity-20": "#650DD433"
+			}
 		}
 	},
 	"styles": {
@@ -214,6 +219,28 @@
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "700",
 					"textTransform": "uppercase"
+				}
+			}
+		},
+		"variations": {
+			"post-terms-1": {
+				"elements": {
+					"link": {
+						"border": {
+							"color": "var:custom|color|accent-2-opacity-20",
+							"radius": "4px",
+							"width": "0.8px",
+							"style": "solid"
+						},
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
 				}
 			}
 		}

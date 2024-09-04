@@ -21,8 +21,8 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"40%","layout":{"type":"constrained","justifyContent":"right"}} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"right","orientation":"horizontal","flexWrap":"nowrap"}} -->
-<div class="wp-block-buttons alignwide"><!-- wp:button {"className":"is-style-outline","style":{"border":{"style":"solid","width":"1px"},"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"small","borderColor":"contrast"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size" style="font-style:normal;font-weight:400"><a class="wp-block-button__link has-border-color has-contrast-border-color wp-element-button" style="border-style:solid;border-width:1px" rel="#">Become a member</a></div>
+<div class="wp-block-buttons alignwide"><!-- wp:button {"textColor":"base","className":"is-style-outline","style":{"border":{"radius":"4px","style":"none","width":"0px"},"typography":{"fontStyle":"normal","fontWeight":"400"},"color":{"background":"#808080"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"fontSize":"small"} -->
+<div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size" style="font-style:normal;font-weight:400"><a class="wp-block-button__link has-base-color has-text-color has-background has-link-color wp-element-button" style="border-style:none;border-width:0px;border-radius:4px;background-color:#808080" rel="#">Become a member</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>

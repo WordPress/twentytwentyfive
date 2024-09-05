@@ -85,3 +85,13 @@ function twentytwentyfive_block_styles() {
 	);
 }
 add_action( 'init', 'twentytwentyfive_block_styles' );
+
+/**
+ * Register the "pages" pattern category.
+ *
+ * @since Twenty Twenty-Five 1.0
+ */
+register_block_pattern_category(
+	'pages',
+	array( 'label' => __( 'Pages', 'twentytwentyfive' ) )
+);

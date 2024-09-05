@@ -89,7 +89,6 @@ add_action( 'init', 'twentytwentyfive_block_styles' );
 /**
  * Register pattern categories.
  */
-
 if ( ! function_exists( 'twentytwentyfive_pattern_categories' ) ) :
 	/**
 	 * Register pattern categories

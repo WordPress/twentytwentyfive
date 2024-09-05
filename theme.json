@@ -1307,34 +1307,36 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize":"var(--wp--custom--font-size--huge)"
+					"fontSize": "2.62rem"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "48px"
+					"fontSize": "1.8rem"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "38px"
+					"fontSize": "1.64rem"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "28px"
+					"fontSize": "1.5rem"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "24px"
+					"fontSize": "1.25rem"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var:preset|font-size|medium",
+					"fontSize": "0.875rem",
 					"fontStyle": "normal",
-					"fontWeight": "700"
+					"fontWeight": "700",
+					"letterSpacing": "1.4px",
+					"textTransform": "uppercase"
 				}
 			},
 			"heading": {

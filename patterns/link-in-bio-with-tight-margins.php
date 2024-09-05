@@ -1,8 +1,12 @@
 <?php
 /**
  * Title: Link in bio with tight margins
- * Slug: twentytwentyfive/link-in-bio-with-tight-margins
- * Categories: banner, about, featured
+ * Slug: twentytwentyfive/page-link-in-bio-with-tight-margins
+ * Categories: twentytwentyfive_page, banner, about, featured
+ * Keywords: starter
+ * Block Types: core/post-content
+ * Post Types: page, wp_template
+ * Viewport width: 1400
  * Description: A full-width, full-height link in bio section with an image, a paragraph and social links.
  *
  * @package WordPress

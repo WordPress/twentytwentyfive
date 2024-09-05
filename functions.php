@@ -85,3 +85,27 @@ function twentytwentyfive_block_styles() {
 	);
 }
 add_action( 'init', 'twentytwentyfive_block_styles' );
+
+/**
+ * Register pattern categories.
+ */
+if ( ! function_exists( 'twentytwentyfive_pattern_categories' ) ) :
+	/**
+	 * Register pattern categories
+	 *
+	 * @since Twenty Twenty-Five 1.0
+	 * @return void
+	 */
+	function twentytwentyfive_pattern_categories() {
+
+		register_block_pattern_category(
+			'twentytwentyfive_page',
+			array(
+				'label'       => __( 'Pages', 'twentytwentyfive' ),
+				'description' => __( 'A collection of full page layouts.', 'twentytwentyfive' ),
+			)
+		);
+	}
+endif;
+
+add_action( 'init', 'twentytwentyfive_pattern_categories' );

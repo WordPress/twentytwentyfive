@@ -1174,7 +1174,14 @@
 					"fontWeight": "300",
 					"letterSpacing": "-0.76px",
 					"lineHeight": "1.2"
+				},
+				"spacing": {
+					"padding": {
+						"top": "20px",
+						"bottom": "20px"
+					}
 				}
+
 			},
 			"core/query-pagination": {
 				"typography": {

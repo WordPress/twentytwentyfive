@@ -4,6 +4,7 @@
  * Slug: twentytwentyfive/event-rsvp
  * Keywords: call-to-action, rsvp, event
  * Categories: call-to-action
+ * Post Types: page, wp_template
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

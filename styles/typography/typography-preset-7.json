@@ -3,6 +3,282 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"title": "Literata & Fira Sans",
 	"slug": "typography-preset-7",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Literata",
+					"slug": "literata",
+					"fontFamily": "Literata, serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata60pt-ExtraLightItalic.woff2"
+							],
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata60pt-Light.woff2"
+							],
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata60pt-LightItalic.woff2"
+							],
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata60pt-Regular.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata60pt-MediumItalic.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata-SemiBold.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata-SemiBoldItalic.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata-Bold.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata-BoldItalic.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata-ExtraBold.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata-ExtraBoldItalic.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata60pt-ExtraBold.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata-BlackItalic.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata60pt-Black.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						}
+					]
+				},
+				{
+					"name": "Fira Sans",
+					"slug": "fira-sans",
+					"fontFamily": "\"Fira Sans\", sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-Thin.woff2"
+							],
+							"fontWeight": "100",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-ThinItalic.woff2"
+							],
+							"fontWeight": "100",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-ExtraLight.woff2"
+							],
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-ExtraLightItalic.woff2"
+							],
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-Light.woff2"
+							],
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-LightItalic.woff2"
+							],
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-Italic.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-Regular.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-Medium.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-MediumItalic.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-SemiBold.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-SemiBoldItalic.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-Bold.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-BoldItalic.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-ExtraBold.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-ExtraBoldItalic.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-Black.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Sans\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-sans/FiraSans-BlackItalic.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontFamily": "\"Fira Sans\""
+						}
+					]
+				}
+			]
+		}
+	},
 	"styles": {
 		"typography": {
 			"fontFamily": "var:preset|font-family|fira-sans",

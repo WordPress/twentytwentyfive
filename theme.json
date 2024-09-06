@@ -1361,6 +1361,16 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
-		}
+		},
+		{
+            "area": "sidebar",
+            "name": "right-aligned-sidebar",
+            "title": "Right Aligned Sidebar"
+        },
+		{
+            "area": "sidebar",
+            "name": "sidebar",
+            "title": "Sidebar"
+        }
 	]
 }

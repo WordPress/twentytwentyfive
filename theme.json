@@ -1167,6 +1167,33 @@
 					}
 				}
 			},
+			"core/quote": {
+				"border": {
+					"style": "solid",
+					"width": "0 0 0 2px",
+					"color": "var:preset|color|contrast"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|30",
+						"left": "var:preset|spacing|40",
+						"top": "var:preset|spacing|30"
+					}
+				},
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|small",
+							"fontStyle": "normal",
+							"fontWeight": "300"
+						}
+					}
+				}
+			},
 			"core/pullquote": {
 				"typography": {
 					"fontSize": "var:preset|font-size|xx-large",
@@ -1174,7 +1201,22 @@
 					"fontWeight": "300",
 					"letterSpacing": "-0.76px",
 					"lineHeight": "1.2"
-				}
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|small",
+							"fontStyle": "normal"
+						}
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|30",
+						"top": "var:preset|spacing|30"
+					}
+				},
+				"css": "& p:last-of-type {margin-bottom: var(--wp--preset--spacing--30);}"
 			},
 			"core/query-pagination": {
 				"typography": {
@@ -1307,34 +1349,36 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize":"var(--wp--custom--font-size--huge)"
+					"fontSize": "2.62rem"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "48px"
+					"fontSize": "1.8rem"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "38px"
+					"fontSize": "1.64rem"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "28px"
+					"fontSize": "1.5rem"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "24px"
+					"fontSize": "1.25rem"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var:preset|font-size|medium",
+					"fontSize": "0.875rem",
 					"fontStyle": "normal",
-					"fontWeight": "700"
+					"fontWeight": "700",
+					"letterSpacing": "1.4px",
+					"textTransform": "uppercase"
 				}
 			},
 			"heading": {

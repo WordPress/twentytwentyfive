@@ -1365,12 +1365,12 @@
 			"title": "Footer"
 		},
 		{
-            "area": "sidebar",
+            "area": "uncategorized",
             "name": "right-aligned-sidebar",
             "title": "Right Aligned Sidebar"
         },
 		{
-            "area": "sidebar",
+            "area": "uncategorized",
             "name": "sidebar",
             "title": "Sidebar"
         }

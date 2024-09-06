@@ -12,31 +12,40 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","className":"is-style-section-3","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-section-3">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
-	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
-		<!-- wp:site-title {"level":2,"style":{"typography":{"fontSize":"10vw"}}} /-->
-		<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"constrained","justifyContent":"left"}} -->
+<!-- wp:group {"className":"is-style-section-3","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group is-style-section-3" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
+	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+	<div class="wp-block-group alignwide">
+		<!-- wp:heading {"style":{"typography":{"fontSize":"18vw","letterSpacing":"-0.02em","fontWeight":"600"}}} -->
+		<h2 class="wp-block-heading" style="font-size:18vw;letter-spacing:-0.02em;font-weight:600">Stories</h2>
+		<!-- /wp:heading -->
+		<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"default"}} -->
 		<div class="wp-block-group" style="padding-right:0;padding-left:0">
-			<!-- wp:paragraph {"fontSize":"x-large"} -->
-			<p class="has-x-large-font-size">Subscribe to our newsletter</p>
-			<!-- /wp:paragraph -->
-			<!-- wp:buttons -->
-			<div class="wp-block-buttons"><!-- wp:button -->
-			<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Subscribe</a></div>
-			<!-- /wp:button --></div>
-			<!-- /wp:buttons -->
+			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+			<div class="wp-block-group">
+				<!-- wp:paragraph {"fontSize":"x-large"} -->
+				<p class="has-x-large-font-size">Receive our articles in your inbox.</p>
+				<!-- /wp:paragraph -->
+				<!-- wp:buttons -->
+				<div class="wp-block-buttons">
+					<!-- wp:button -->
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Subscribe</a></div>
+				<!-- /wp:button --></div>
+				<!-- /wp:buttons -->
+			</div>
+			<!-- /wp:group -->
 		</div>
 		<!-- /wp:group -->
-		<!-- wp:spacer {"height":"20px"} -->
-		<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
+		<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
 		<!-- /wp:spacer -->
 		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignfull">
-			<!-- wp:site-title {"level":0,"style":{"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"small"} /-->
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">Designed with <strong>WordPress</strong></p>
+			<p class="has-small-font-size">Twenty Twenty-Five</p>
+			<!-- /wp:paragraph -->
+			<!-- wp:paragraph {"fontSize":"small"} -->
+			<p class="has-small-font-size">Designed with <a href="https://wordpress.org">WordPress</a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

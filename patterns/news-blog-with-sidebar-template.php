@@ -1,7 +1,8 @@
 <?php
 /**
- * Title: wp-custom-template-news-blog-with-sidebar
- * Slug: twentytwentyfive/wp-custom-template-news-blog-with-sidebar
+ * Title: News blog with sidebar
+ * Slug: twentytwentyfive/news-blog-with-sidebar-template
+ * Template Types: front-page, index, home
  * Categories: hidden
  * Inserter: no
  *

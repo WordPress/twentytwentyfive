@@ -1216,7 +1216,7 @@
 						"top": "var:preset|spacing|30"
 					}
 				},
-				"css": "& p:last-of-type {margin-bottom: 0;}"
+				"css": "& p:last-of-type {margin-bottom: var(--wp--preset--spacing--30);}"
 			},
 			"core/query-pagination": {
 				"typography": {

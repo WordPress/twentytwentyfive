@@ -174,3 +174,18 @@ Phacelia tanacetifolia (Lacy Phacelia) enlarged 4 times from Urformen der Kunst 
 Free public domain CC0 image.
 grid-flower-2.webp
 https://www.rawpixel.com/image/2222743
+
+At Hawaiian Greenhouse, Inc, near Pahoa, anthuriums grow under a sun screen.
+Free public domain CC0 image.
+category-anthuriums.webp
+https://www.rawpixel.com/image/8799473
+
+Sunflower
+Free public domain CC0 image.
+category-sunflowers.webp
+https://www.rawpixel.com/image/8799614
+
+Detail of cactus "Saguaros, Saguro National Monument," Arizona. Photographer: Adams, Ansel, 1902-1984
+Free public domain CC0 image.
+category-cactus.webp
+https://www.rawpixel.com/image/8799351

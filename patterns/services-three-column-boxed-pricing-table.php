@@ -2,7 +2,7 @@
 /**
  * Title: Services - Three-column boxed pricing table
  * Slug: twentytwentyfive/services-three-column-boxed-pricing-table
- * Categories: call-to-action, banner, featured, services,
+ * Categories: call-to-action, banner, featured, services
  * Description: A three-column boxed pricing table designed to showcase services, descriptions, and pricing options.
  *
  * @package WordPress

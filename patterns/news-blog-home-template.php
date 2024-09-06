@@ -2,7 +2,7 @@
 /**
  * Title: News blog home
  * Slug: twentytwentyfive/news-blog-home
- * Template Types: front-page, home
+ * Template Types: front-page, index, home
  * Categories: hidden
  * Inserter: no
  *

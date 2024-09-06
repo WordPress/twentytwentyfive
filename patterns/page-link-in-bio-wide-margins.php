@@ -1,8 +1,11 @@
 <?php
 /**
  * Title: Link in bio with profile, links and wide margins
- * Slug: twentytwentyfive/link-in-bio-wide-margins
- * Categories: banner, about, featured
+ * Slug: twentytwentyfive/page-link-in-bio-wide-margins
+ * Categories: twentytwentyfive_page, banner, about, featured
+ * Keywords: starter
+ * Block Types: core/post-content
+ * Viewport width: 1400
  * Description: A link in bio landing page with social links, a profile photo and a brief description.
  *
  * @package WordPress

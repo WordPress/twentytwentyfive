@@ -1248,6 +1248,16 @@
 					}
 				}
 			},
+			"core/separator": {
+				"border": {
+					"color": "currentColor",
+					"style": "solid",
+					"width": "0 0 1px 0"
+				},
+				"color": {
+					"text": "var:preset|color|opacity-20"
+				}
+			},
 			"core/site-tagline": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"

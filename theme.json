@@ -1169,21 +1169,15 @@
 			},
 			"core/quote": {
 				"border": {
-					"color": null,
-					"left": {
-						"style": "solid",
-						"width": "2px"
-					},
-					"style": null,
-					"width": null
+					"style": "solid",
+					"width": "0 0 0 2px",
+					"color": "var:preset|color|contrast"
 				},
 				"spacing": {
-					"margin": {
-						"left": "0",
-						"right": "0"
-					},
 					"padding": {
-						"left": "var(--wp--preset--spacing--40)"
+						"bottom": "var:preset|spacing|30",
+						"left": "var:preset|spacing|40",
+						"top": "var:preset|spacing|30"
 					}
 				},
 				"typography": {
@@ -1215,7 +1209,14 @@
 							"fontStyle": "normal"
 						}
 					}
-				}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|30",
+						"top": "var:preset|spacing|30"
+					}
+				},
+				"css": "& p:last-of-type {margin-bottom: 0;}"
 			},
 			"core/query-pagination": {
 				"typography": {

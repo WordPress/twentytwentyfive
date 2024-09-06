@@ -2,7 +2,7 @@
 /**
  * Title: Services - Three-column boxed pricing table
  * Slug: twentytwentyfive/services-three-column-boxed-pricing-table
- * Categories: call-to-action, banner, featured, services, pricing
+ * Categories: call-to-action, banner, featured, services,
  * Description: A three-column boxed pricing table designed to showcase services, descriptions, and pricing options.
  *
  * @package WordPress
@@ -11,25 +11,18 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)"><!-- wp:columns {"align":"wide"} -->
-<div class="wp-block-columns alignwide"><!-- wp:column {"width":"60%","layout":{"type":"constrained","justifyContent":"left"}} -->
-<div class="wp-block-column" style="flex-basis:60%"><!-- wp:heading -->
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50)"><!-- wp:heading -->
 <h2 class="wp-block-heading">Choose your membership</h2>
-<!-- /wp:heading --></div>
-<!-- /wp:column -->
+<!-- /wp:heading -->
 
-<!-- wp:column {"verticalAlignment":"center","width":"40%","layout":{"type":"constrained","justifyContent":"right"}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:40%"><!-- wp:buttons {"align":"wide","layout":{"type":"flex","justifyContent":"right","orientation":"horizontal","flexWrap":"nowrap"}} -->
-<div class="wp-block-buttons alignwide"><!-- wp:button {"textColor":"base","className":"is-style-outline","style":{"border":{"radius":"4px","style":"none","width":"0px"},"typography":{"fontStyle":"normal","fontWeight":"400"},"color":{"background":"#808080"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"fontSize":"small"} -->
-<div class="wp-block-button has-custom-font-size is-style-outline has-small-font-size" style="font-style:normal;font-weight:400"><a class="wp-block-button__link has-base-color has-text-color has-background has-link-color wp-element-button" style="border-style:none;border-width:0px;border-radius:4px;background-color:#808080" rel="#">Become a member</a></div>
-<!-- /wp:button --></div>
-<!-- /wp:buttons --></div>
-<!-- /wp:column --></div>
-<!-- /wp:columns -->
+<!-- wp:paragraph {"className":"is-style-pill"} -->
+<p class="is-style-pill">Become a member</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
 
-<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"0"}}}} -->
-<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--70);margin-bottom:0"><!-- wp:column {"layout":{"type":"constrained","justifyContent":"center"}} -->
+<!-- wp:columns {"align":"wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}}} -->
+<div class="wp-block-columns alignwide" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><!-- wp:column {"layout":{"type":"constrained","justifyContent":"center"}} -->
 <div class="wp-block-column"><!-- wp:group {"style":{"border":{"width":"1px","color":"#11111133","radius":"10px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group has-border-color" style="border-color:#11111133;border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"isStackedOnMobile":false} -->
 <div class="wp-block-columns is-not-stacked-on-mobile"><!-- wp:column {"style":{"typography":{"fontSize":"22px","fontStyle":"normal","fontWeight":"400","lineHeight":"1.8"}}} -->
@@ -136,5 +129,4 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
-<!-- /wp:columns --></div>
-<!-- /wp:group -->
+<!-- /wp:columns -->

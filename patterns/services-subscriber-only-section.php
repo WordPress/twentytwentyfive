@@ -2,7 +2,7 @@
 /**
  * Title: Services - Subscriber only section
  * Slug: twentytwentyfive/services-subscriber-only-section
- * Categories: call-to-action, featured, services,
+ * Categories: call-to-action, featured, services
  * Description: A subscriber-only section highlighting exclusive services and offerings.
  *
  * @package WordPress
@@ -22,8 +22,8 @@
 <h2 class="wp-block-heading has-xx-large-font-size">Subscribe to get unlimited access</h2>
 <!-- /wp:heading -->
 
-<!-- wp:list {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|30"}}}} -->
-<ul style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--30)" class="wp-block-list"><!-- wp:list-item {"fontSize":"medium"} -->
+<!-- wp:list {"className":"is-style-checkmark-list","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}}} -->
+<ul style="margin-top:var(--wp--preset--spacing--40);margin-bottom:var(--wp--preset--spacing--40)" class="wp-block-list is-style-checkmark-list"><!-- wp:list-item {"fontSize":"medium"} -->
 <li class="has-medium-font-size">Get access to our paid articles and weekly newsletter.</li>
 <!-- /wp:list-item -->
 

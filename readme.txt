@@ -30,6 +30,11 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+This theme incorporates code from:
+
+Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org
+License: GPLv2 or later. License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 
 This theme bundles the following third-party resources:
 
@@ -89,6 +94,11 @@ Source: https://fonts.google.com/specimen/Beiruti
 
 === Images ===
 
+Northern Buttercups.
+Free public domain CC0 image.
+image-from-rawpixel-id-8802603-original.webp
+https://www.rawpixel.com/image/8802603
+
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Small totara tree on ridge above Long Point, Porirua Harbour, by Leslie Adkin.
 Free public domain CC0 image.
@@ -115,6 +125,11 @@ Free public domain CC0 image.
 image-from-rawpixel-id-2211732.webp
 https://www.rawpixel.com/image/2211732
 
+Botany flowers.
+Free public domain CC0 image.
+botany-flowers.webp
+https://www.rawpixel.com/image/8812207
+
 Ms. Gail Falk Seltzer, a Staff Lawyer for Field Services.
 No known copyright restrictions
 team_photo_1.webp
@@ -134,8 +149,33 @@ Young Woman Soliciting Funds.
 No known copyright restrictions
 team_photo_4.webp
 https://www.flickr.com/photos/usnationalarchives/8676029464
-=======
+
 Corner view showing mostly left wall, Church, Acoma Pueblo.
 Free public domain CC0 image.
 image-from-rawpixel-id-8803077-original.webp
 https://www.rawpixel.com/image/8803077
+
+Two Girls, Mill Workers by Lewis W Hine.
+Free public domain CC0 image.
+link-in-bio-background.webp
+https://www.rawpixel.com/image/14265869
+
+Cliff Palace, Mesa Verde National Park, Colorado (vertical orientation)
+Free public domain CC0 image.
+poster-image-background.webp
+https://www.rawpixel.com/image/8802835
+
+Flower meadow in Llano, Texas.
+Free public domain CC0 image.
+coming-soon-bg-image.webp
+https://www.rawpixel.com/image/8800058
+
+Hibiscus flower.
+Free public domain CC0 image.
+grid-flower-1.webp
+https://www.rawpixel.com/image/8799471
+
+Phacelia tanacetifolia (Lacy Phacelia) enlarged 4 times from Urformen der Kunst (1928) by Karl Blossfeldt.
+Free public domain CC0 image.
+grid-flower-2.webp
+https://www.rawpixel.com/image/2222743

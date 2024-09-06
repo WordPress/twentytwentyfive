@@ -52,7 +52,7 @@
 				</div>
 				<!-- /wp:column -->
 				<!-- wp:column {"width":"25%"} -->
-				<div class="wp-block-column" style="flex-basis:25%">¨
+				<div class="wp-block-column" style="flex-basis:25%">
 				<!-- wp:template-part {"slug":"right-aligned-sidebar"} /-->
 				</div>
 				<!-- /wp:column -->

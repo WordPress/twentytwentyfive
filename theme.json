@@ -941,6 +941,35 @@
 					"radius": "100px"
 				}
 			},
+			"core/button": {
+				"typography": {
+					"fontSize": "var:preset|font-size|medium"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "1rem",
+						"left": "2.25rem",
+						"right": "2.25rem",
+						"top": "1rem"
+					}
+				},
+				"variations": {
+					"outline": {
+						"border": {
+							"color": "var:preset|color|contrast",
+							"width": "1px"
+						},
+						"spacing": {
+							"padding": {
+								"bottom": "1rem",
+								"left": "2.25rem",
+								"right": "2.25rem",
+								"top": "1rem"
+							}
+						}
+					}
+				}
+			},
 			"core/code": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|fira-code",
@@ -1138,6 +1167,33 @@
 					}
 				}
 			},
+			"core/quote": {
+				"border": {
+					"style": "solid",
+					"width": "0 0 0 2px",
+					"color": "var:preset|color|contrast"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|30",
+						"left": "var:preset|spacing|40",
+						"top": "var:preset|spacing|30"
+					}
+				},
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|small",
+							"fontStyle": "normal",
+							"fontWeight": "300"
+						}
+					}
+				}
+			},
 			"core/pullquote": {
 				"typography": {
 					"fontSize": "var:preset|font-size|xx-large",
@@ -1145,7 +1201,22 @@
 					"fontWeight": "300",
 					"letterSpacing": "-0.76px",
 					"lineHeight": "1.2"
-				}
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|small",
+							"fontStyle": "normal"
+						}
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|30",
+						"top": "var:preset|spacing|30"
+					}
+				},
+				"css": "& p:last-of-type {margin-bottom: var(--wp--preset--spacing--30);}"
 			},
 			"core/query-pagination": {
 				"typography": {
@@ -1159,9 +1230,32 @@
 				}
 			},
 			"core/search": {
+				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;}",
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
 					"lineHeight": "1.6"
+				},
+				"elements": {
+					"button": {
+						"border": {
+							"radius": "3.125rem"
+						},
+						"spacing": {
+							"margin": {
+								"left": "1.125rem"
+							}
+						}
+					}
+				}
+			},
+			"core/separator": {
+				"border": {
+					"color": "currentColor",
+					"style": "solid",
+					"width": "0 0 1px 0"
+				},
+				"color": {
+					"text": "var:preset|color|opacity-20"
 				}
 			},
 			"core/site-tagline": {
@@ -1219,20 +1313,42 @@
 		},
 		"elements": {
 			"button": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				},
 				"color": {
 					"background": "var:preset|color|contrast",
 					"text": "var:preset|color|base"
 				},
-				"spacing": {
-					"padding": {
-						"bottom": "1rem",
-						"left": "2.25rem",
-						"right": "2.25rem",
-						"top": "1rem"
+				":active": {
+					"color": {
+						"background": "var:preset|color|accent-1",
+						"text": "var:preset|color|contrast"
 					}
+				},
+				":focus": {
+					"color": {
+						"background": "var:preset|color|accent-1",
+						"text": "var:preset|color|contrast"
+					},
+					"outline": {
+						"color": "var:preset|color|primary",
+						"offset": "2px",
+						"style": "dotted",
+						"width": "1px"
+					}
+				},
+				":hover": {
+					"color": {
+						"background": "var:preset|color|accent-1",
+						"text": "var:preset|color|contrast"
+					},
+					"border": {
+						"color": "var:preset|color|accent-1"
+					}
+				},
+				"border": {
+					"color": "var:preset|color|contrast",
+					"radius": "100px",
+					"width": "1px",
+					"style": "solid"
 				}
 			},
 			"caption": {
@@ -1243,34 +1359,36 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize":"var(--wp--custom--font-size--huge)"
+					"fontSize": "2.62rem"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "48px"
+					"fontSize": "1.8rem"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "38px"
+					"fontSize": "1.64rem"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "28px"
+					"fontSize": "1.5rem"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "24px"
+					"fontSize": "1.25rem"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var:preset|font-size|medium",
+					"fontSize": "0.875rem",
 					"fontStyle": "normal",
-					"fontWeight": "700"
+					"fontWeight": "700",
+					"letterSpacing": "1.4px",
+					"textTransform": "uppercase"
 				}
 			},
 			"heading": {

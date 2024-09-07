@@ -1415,6 +1415,16 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
-		}
+		},
+		{
+            "area": "uncategorized",
+            "name": "right-aligned-sidebar",
+            "title": "Right Aligned Sidebar"
+        },
+		{
+            "area": "uncategorized",
+            "name": "sidebar",
+            "title": "Sidebar"
+        }
 	]
 }

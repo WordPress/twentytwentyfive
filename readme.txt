@@ -30,6 +30,11 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+This theme incorporates code from:
+
+Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org
+License: GPLv2 or later. License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 
 This theme bundles the following third-party resources:
 

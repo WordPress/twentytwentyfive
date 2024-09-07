@@ -6,7 +6,7 @@
 	"styles": {
 		"typography": {
 			"fontFamily": "var:preset|font-family|fira-code",
-			"fontSize": "var:preset|font-size|small",
+			"fontSize": "var:preset|font-size|medium",
 			"fontStyle": "normal",
 			"fontWeight": "300",
 			"letterSpacing": "-0.18px",
@@ -16,7 +16,7 @@
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|vollkorn",
-					"fontSize": "var:preset|font-size|large"
+					"fontSize": "var:preset|font-size|x-large"
 				}
 			},
 			"core/post-title": {
@@ -35,7 +35,7 @@
 			"button": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|fira-code",
-					"fontSize": "var:preset|font-size|small",
+					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "400",
 					"letterSpacing": "-0.36px"
 				}

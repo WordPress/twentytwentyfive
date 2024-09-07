@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Short heading and paragraph and image on the right
+ * Title: Short heading and paragraph and image on the left
  * Slug: twentytwentyfive/intro-short-heading-image
  * Categories: banner
- * Description: A Intro pattern with Short heading, paragraph and image on the right.
+ * Description: A Intro pattern with Short heading, paragraph and image on the left.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

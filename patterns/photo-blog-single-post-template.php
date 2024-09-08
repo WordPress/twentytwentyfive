@@ -86,5 +86,5 @@
 	<!-- /wp:group -->
 </main>
 <!-- /wp:group -->
-<!-- wp:pattern {"slug:":"comments"} /-->
+<!-- wp:pattern {"slug:":"twentytwentyfive/comments"} /-->
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

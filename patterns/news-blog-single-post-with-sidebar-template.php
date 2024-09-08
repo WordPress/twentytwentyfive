@@ -77,5 +77,5 @@
 <!-- wp:post-navigation-link {"showTitle":true,"arrow":"arrow"} /--></nav>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
-<!-- wp:pattern {"slug:":"comments"} /-->
+<!-- wp:pattern {"slug:":"twentytwentyfive/comments"} /-->
 <!-- wp:template-part {"slug":"footer","area":"footer"} /-->

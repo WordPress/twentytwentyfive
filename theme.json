@@ -217,7 +217,15 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata60pt-ExtraLightItalic.woff2"
+								"file:./assets/fonts/literata/Literata72pt-ExtraLight.woff2"
+							],
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-ExtraLightItalic.woff2"
 							],
 							"fontWeight": "200",
 							"fontStyle": "italic",
@@ -225,7 +233,7 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata60pt-Light.woff2"
+								"file:./assets/fonts/literata/Literata72pt-Light.woff2"
 							],
 							"fontWeight": "300",
 							"fontStyle": "normal",
@@ -233,7 +241,7 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata60pt-LightItalic.woff2"
+								"file:./assets/fonts/literata/Literata72pt-LightItalic.woff2"
 							],
 							"fontWeight": "300",
 							"fontStyle": "italic",
@@ -241,7 +249,7 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata60pt-Regular.woff2"
+								"file:./assets/fonts/literata/Literata72pt-Regular.woff2"
 							],
 							"fontWeight": "400",
 							"fontStyle": "normal",
@@ -249,7 +257,23 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata60pt-MediumItalic.woff2"
+								"file:./assets/fonts/literata/Literata72pt-Italic.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-Medium.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-MediumItalic.woff2"
 							],
 							"fontWeight": "500",
 							"fontStyle": "italic",
@@ -257,7 +281,7 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata-SemiBold.woff2"
+								"file:./assets/fonts/literata/Literata72pt-SemiBold.woff2"
 							],
 							"fontWeight": "600",
 							"fontStyle": "normal",
@@ -265,7 +289,7 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata-SemiBoldItalic.woff2"
+								"file:./assets/fonts/literata/Literata72pt-SemiBoldItalic.woff2"
 							],
 							"fontWeight": "600",
 							"fontStyle": "italic",
@@ -273,7 +297,7 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata-Bold.woff2"
+								"file:./assets/fonts/literata/Literata72pt-Bold.woff2"
 							],
 							"fontWeight": "700",
 							"fontStyle": "normal",
@@ -281,7 +305,7 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata-BoldItalic.woff2"
+								"file:./assets/fonts/literata/Literata72pt-BoldItalic.woff2"
 							],
 							"fontWeight": "700",
 							"fontStyle": "italic",
@@ -289,7 +313,7 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata-ExtraBold.woff2"
+								"file:./assets/fonts/literata/Literata72pt-ExtraBold.woff2"
 							],
 							"fontWeight": "800",
 							"fontStyle": "normal",
@@ -297,7 +321,7 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata-ExtraBoldItalic.woff2"
+								"file:./assets/fonts/literata/Literata72pt-ExtraBoldItalic.woff2"
 							],
 							"fontWeight": "800",
 							"fontStyle": "italic",
@@ -305,26 +329,18 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata60pt-ExtraBold.woff2"
+								"file:./assets/fonts/literata/Literata72pt-Black.woff2"
 							],
-							"fontWeight": "800",
+							"fontWeight": "900",
 							"fontStyle": "normal",
 							"fontFamily": "Literata"
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata-BlackItalic.woff2"
+								"file:./assets/fonts/literata/Literata72pt-BlackItalic.woff2"
 							],
 							"fontWeight": "900",
 							"fontStyle": "italic",
-							"fontFamily": "Literata"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/literata/Literata60pt-Black.woff2"
-							],
-							"fontWeight": "900",
-							"fontStyle": "normal",
 							"fontFamily": "Literata"
 						}
 					]

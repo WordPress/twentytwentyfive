@@ -257,7 +257,7 @@
 						},
 						{
 							"src": [
-								"file:./assets/fonts/literata/Literata72pt-Italic.woff2"
+								"file:./assets/fonts/literata/Literata72pt-RegularItalic.woff2"
 							],
 							"fontWeight": "400",
 							"fontStyle": "italic",

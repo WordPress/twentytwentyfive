@@ -2,7 +2,7 @@
 /**
  * Title: Overlap images and paragraph on right
  * Slug: twentytwentyfive/overlap-images-and-paragraph
- * Categories: banner, media, featured
+ * Categories: about, media, text
  * Description: A section with a Overlap Images, Paragraph and Pill Style Text.
  *
  * @package WordPress
@@ -13,8 +13,8 @@
 ?>
 <!-- wp:group {"align":"full","className":"is-style-section-5","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|80","right":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-section-5" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--80)"><!-- wp:columns {"verticalAlignment":null,"className":"is-style-default","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|80"}}}} -->
-<div class="wp-block-columns is-style-default"><!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"sizeSlug":"full","linkDestination":"none"} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"45%"} -->
+<div class="wp-block-column" style="flex-basis:45%"><!-- wp:image {"sizeSlug":"full"} -->
 <figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-8799471.webp" alt="<?php esc_html_e( 'Photography close up of a red flower.', 'twentytwentyfive' ); ?>" /></figure>
 <!-- /wp:image -->
 
@@ -25,8 +25,8 @@
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"verticalAlignment":"center","width":"50%","style":{"spacing":{"padding":{"left":"0","right":"0"}}}} -->
-<div class="wp-block-column is-vertically-aligned-center" style="padding-right:0;padding-left:0;flex-basis:50%"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+<!-- wp:column {"verticalAlignment":"center","width":"55%","style":{"spacing":{"padding":{"left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}}} -->
+<div class="wp-block-column is-vertically-aligned-center" style="padding-right:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50);flex-basis:55%"><!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 <div class="wp-block-group"><!-- wp:heading {"className":"is-style-pill","fontSize":"medium"} -->
 <h2 class="wp-block-heading is-style-pill has-medium-font-size"><?php esc_html_e( 'About Us', 'twentytwentyfive' ); ?></h2>
 <!-- /wp:heading --></div>

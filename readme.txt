@@ -179,3 +179,8 @@ Phacelia tanacetifolia (Lacy Phacelia) enlarged 4 times from Urformen der Kunst 
 Free public domain CC0 image.
 grid-flower-2.webp
 https://www.rawpixel.com/image/2222743
+
+Photograph - New York [Portrait - Washington Square] by Paul Strand.
+Free public domain CC0 image.
+hero-podcast.webp
+https://www.rawpixel.com/image/14264288

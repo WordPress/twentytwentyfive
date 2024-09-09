@@ -33,8 +33,8 @@
 
 		<!-- wp:column {"verticalAlignment":"top","width":"40%"} -->
 		<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:40%">
-			<!-- wp:image {"aspectRatio":"1","scale":"cover","linkDestination":"none","className":"wp-block-image size-large is-style-default"} -->
-			<figure class="wp-block-image size-large is-style-default"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/location.webp" alt="The business location" /></figure>
+			<!-- wp:image {"aspectRatio":"1","scale":"cover","linkDestination":"none","className":"wp-block-image size-large"} -->
+			<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/location.webp" alt="The business location" /></figure>
 			<!-- /wp:image --></div>
 		<!-- /wp:column -->
 		</div>

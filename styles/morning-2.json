@@ -192,6 +192,11 @@
 					}
 				}
 			},
+			"core/site-tagline": {
+				"typography": {
+					"fontSize": "var:preset|font-size|large"
+				}
+			},
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|ysabeau-office",

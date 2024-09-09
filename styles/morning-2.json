@@ -54,7 +54,7 @@
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|ysabeau-office",
-			"fontSize": "24px",
+			"fontSize": "1.5rem",
 			"fontStyle": "normal",
 			"fontWeight": "400",
 			"letterSpacing": "-0.24px",
@@ -78,7 +78,7 @@
 			},
 			"core/navigation": {
 				"typography": {
-					"fontSize": "20px"
+					"fontSize": "1.25rem"
 				}
 			},
 			"core/paragraph": {
@@ -161,7 +161,7 @@
 				"elements": {
 					"cite": {
 						"typography": {
-							"fontSize": "18px",
+							"fontSize": "1.12rem",
 							"letterSpacing": "-0.14px"
 						},
 						"color": {
@@ -175,14 +175,14 @@
 					"text": "var:preset|color|contrast"
 				},
 				"typography": {
-					"fontSize": "24px",
+					"fontSize": "1.5rem",
 					"fontWeight": "500",
 					"letterSpacing": "-0.18px"
 				},
 				"elements": {
 					"cite": {
 						"typography": {
-							"fontSize": "18px",
+							"fontSize": "1.12rem",
 							"fontWeight": "300",
 							"letterSpacing": "-0.14px"
 						},
@@ -205,7 +205,7 @@
 			"button": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|literata",
-					"fontSize": "22px",
+					"fontSize": "1.375rem",
 					"fontWeight": "900",
 					"letterSpacing": "-0.36px"
 				},

@@ -84,7 +84,11 @@
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
-	<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
+	<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
+	<div class="wp-block-group alignwide">	
+		<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
+	</div>
+	<!-- /wp:group -->
 </main>
 <!-- /wp:group -->
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

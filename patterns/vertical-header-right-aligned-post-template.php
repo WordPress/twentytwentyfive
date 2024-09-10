@@ -96,5 +96,9 @@
 	<!-- /wp:column -->
 </div>
 <!-- /wp:columns -->
-<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
+<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"right"}} -->
+<div class="wp-block-group alignwide">	
+	<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
+</div>
+<!-- /wp:group -->
 <!-- wp:template-part {"slug":"footer","area":"footer"} /-->

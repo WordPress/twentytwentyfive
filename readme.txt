@@ -30,6 +30,11 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+This theme incorporates code from:
+
+Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org
+License: GPLv2 or later. License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 
 This theme bundles the following third-party resources:
 
@@ -165,3 +170,13 @@ Flower meadow in Llano, Texas.
 Free public domain CC0 image.
 coming-soon-bg-image.webp
 https://www.rawpixel.com/image/8800058
+
+Hibiscus flower.
+Free public domain CC0 image.
+grid-flower-1.webp
+https://www.rawpixel.com/image/8799471
+
+Phacelia tanacetifolia (Lacy Phacelia) enlarged 4 times from Urformen der Kunst (1928) by Karl Blossfeldt.
+Free public domain CC0 image.
+grid-flower-2.webp
+https://www.rawpixel.com/image/2222743

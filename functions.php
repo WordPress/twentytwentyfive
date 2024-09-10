@@ -27,11 +27,11 @@ endif;
 add_action( 'after_setup_theme', 'twentytwentyfive_editor_style' );
 
 /**
- * Enqueue stylesheet.css on the front.
+ * Enqueue style.css on the front.
  */
 if ( ! function_exists( 'twentytwentyfive_enqueue_styles' ) ) :
 	/**
-	 * Enqueue stylesheet.css on the front.
+	 * Enqueue style.css on the front.
 	 *
 	 * @since Twenty Twenty-Five 1.0
 	 * @return void

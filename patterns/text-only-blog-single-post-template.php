@@ -41,7 +41,7 @@
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:group -->
+	<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
 </main>
 <!-- /wp:group -->
-<!-- wp:pattern {"slug:":"twentytwentyfive/comments"} /-->
 <!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

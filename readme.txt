@@ -156,22 +156,6 @@ Free public domain CC0 image.
 image-from-rawpixel-id-8803077-original.webp
 https://www.rawpixel.com/image/8803077
 
-Marshland birds at the Lake Havasu National Wildlife Refuge.
-Free public domain CC0 image.
-agenda-img-1.webp
-https://www.rawpixel.com/image/8799403
-
-One of the 40 Or More Species of Coral at John Pennekamp Coral Reef State Park, 
-a Few Miles Off Key Largo.
-Free public domain CC0 image.
-agenda-img-2.webp
-https://www.rawpixel.com/image/8799931
-
-Parthenon op de Akropolis in Athene (westzijde) (c. 1880 - c. 1890) by Rhomaides Frères
-Free public domain CC0 image.
-agenda-img-3.webp
-https://www.rawpixel.com/image/13759051
-
 African Woman by Pascal Sébah and Jean Pascal Sébah
 Free public domain CC0 image.
 agenda-img-4.webp

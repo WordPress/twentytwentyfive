@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Full-width Cover Banner
- * Slug: twentytwentyfive/page-full-width-cover-banner
+ * Title: Coming soon page
+ * Slug: twentytwentyfive/page-coming-soon
  * Categories: twentytwentyfive_page, banner, call-to-action, media, featured
  * Keywords: starter
  * Block Types: core/post-content

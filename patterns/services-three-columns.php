@@ -39,8 +39,8 @@
 
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","className":"is-style-default"} -->
-			<figure class="wp-block-image size-full is-style-default">
+			<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full"} -->
+			<figure class="wp-block-image size-full">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-2224378.webp" alt="Image for service" style="aspect-ratio:4/3;object-fit:cover"/>
 			</figure>
 			<!-- /wp:image -->

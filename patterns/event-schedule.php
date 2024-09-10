@@ -54,7 +54,7 @@
 								<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 								<div class="wp-block-group">
 									<!-- wp:heading {"level":4} -->
-									<h4 class="wp-block-heading">Fauna from North America and its characteristics</h4>
+									<h4 class="wp-block-heading"><a href="#">Fauna from North America and its characteristics</a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
 									<p>9 AM — 11 AM</p>
@@ -86,7 +86,7 @@
 								<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 								<div class="wp-block-group">
 									<!-- wp:heading {"level":4} -->
-									<h4 class="wp-block-heading">Things you didn’t know about the deep ocean</h4>
+									<h4 class="wp-block-heading"><a href="#">Things you didn’t know about the deep ocean</a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
 									<p>9 AM — 11 AM</p>
@@ -139,7 +139,7 @@
 								<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 								<div class="wp-block-group">
 									<!-- wp:heading {"level":4} -->
-									<h4 class="wp-block-heading">Ancient buildings and symbols</h4>
+									<h4 class="wp-block-heading"><a href="#">Ancient buildings and symbols</a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
 									<p>9 AM — 11 AM</p>
@@ -171,7 +171,7 @@
 								<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 								<div class="wp-block-group">
 									<!-- wp:heading {"level":4} -->
-									<h4 class="wp-block-heading">An introduction to African dialects</h4>
+									<h4 class="wp-block-heading"><a href="#">An introduction to African dialects</a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
 									<p>9 AM — 11 AM</p>

@@ -79,7 +79,7 @@
 <!-- /wp:group -->
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group">
-    <!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
 </div>
 <!-- /wp:group -->
 <!-- wp:template-part {"slug":"footer","area":"footer"} /-->

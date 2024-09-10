@@ -156,22 +156,6 @@ Free public domain CC0 image.
 image-from-rawpixel-id-8803077-original.webp
 https://www.rawpixel.com/image/8803077
 
-Marshland birds at the Lake Havasu National Wildlife Refuge.
-Free public domain CC0 image.
-agenda-img-1.webp
-https://www.rawpixel.com/image/8799403
-
-One of the 40 Or More Species of Coral at John Pennekamp Coral Reef State Park, 
-a Few Miles Off Key Largo.
-Free public domain CC0 image.
-agenda-img-2.webp
-https://www.rawpixel.com/image/8799931
-
-Parthenon op de Akropolis in Athene (westzijde) (c. 1880 - c. 1890) by Rhomaides Frères
-Free public domain CC0 image.
-agenda-img-3.webp
-https://www.rawpixel.com/image/13759051
-
 African Woman by Pascal Sébah and Jean Pascal Sébah
 Free public domain CC0 image.
 agenda-img-4.webp
@@ -190,6 +174,7 @@ https://www.rawpixel.com/image/8802835
 Flower meadow in Llano, Texas.
 Free public domain CC0 image.
 coming-soon-bg-image.webp
+flower-meadow-square.webp
 https://www.rawpixel.com/image/8800058
 
 Hibiscus flower.
@@ -216,3 +201,33 @@ Detail of cactus "Saguaros, Saguro National Monument," Arizona. Photographer: Ad
 Free public domain CC0 image.
 category-cactus.webp
 https://www.rawpixel.com/image/8799351
+
+Vash Gon - Jicarilla by Edward S Curtis.
+Free public domain CC0 image.
+vash-gon-square.webp
+https://www.rawpixel.com/image/14262822
+
+One of the 40 Or More Species of Coral at John Pennekamp Coral Reef State Park, a Few Miles Off Key Largo.
+Free public domain CC0 image.
+coral-square.webp
+https://www.rawpixel.com/image/8799931
+
+[The fair "Sauimatani"] (23 July 1884) by Burton Brothers and Alfred Burton.
+Free public domain CC0 image.
+fair-sauimatani-square.webp
+https://www.rawpixel.com/image/13028387
+
+Parthenon op de Akropolis in Athene (westzijde) (c. 1880 - c. 1890) by Rhomaides Frères.
+Free public domain CC0 image.
+parthenon-square.webp
+https://www.rawpixel.com/image/13759051
+
+Near East Dallas Creek, 05/1972. Photographer: Norton, Boyd.
+Free public domain CC0 image.
+dallas-creek-square.webp
+https://www.rawpixel.com/image/8802688
+
+Marshland birds at the Lake Havasu National Wildlife Refuge.
+Free public domain CC0 image.
+marshland-birds-square.webp
+https://www.rawpixel.com/image/8799403

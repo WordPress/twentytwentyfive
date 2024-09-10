@@ -17,10 +17,10 @@
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
-	<!-- wp:query-title {"type":"search","textAlign":"center"} /-->
+	<!-- wp:query-title {"type":"search","textAlign":"center","align":"wide"} /-->
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","align":"center","style":{"border":{"radius":"50px"}},"fontSize":"small"} /-->
+		<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","align":"center","style":{"border":{"radius":"50px"}},"fontSize":"medium"} /-->
 	</div>
 	<!-- /wp:group -->
 	<!-- wp:pattern {"slug":"twentytwentyfive/photo-blog-posts"} /-->

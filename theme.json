@@ -1287,7 +1287,7 @@
 					"text":"var:preset|color|primary"
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/navigation": {

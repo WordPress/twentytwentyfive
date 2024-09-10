@@ -2,7 +2,7 @@
 /**
  * Title: Events three columns with event images and titles
  * Slug: twentytwentyfive/events-three-columns-images-and-titles
- * Categories: featured, query
+ * Categories: featured
  * Description: A header with title and text and three columns that show 3 events with their images and titles.
  * Keywords: events, columns, images
  *

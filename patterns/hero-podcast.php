@@ -27,8 +27,8 @@
 
 		<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
-			<!-- wp:heading -->
-			<h2 class="wp-block-heading">The Stories Podcast</h2>
+			<!-- wp:heading {"fontSize":"xx-large"} -->
+			<h2 class="wp-block-heading has-xx-large-font-size">The Stories Podcast</h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}}}} -->
@@ -39,29 +39,29 @@
 			<h3 class="wp-block-heading has-large-font-size" style="padding-top:var(--wp--preset--spacing--30)"><strong><?php echo esc_html_x( 'Subscribe on your favorite platform', 'Subscription heading', 'twentytwentyfive' ); ?></strong></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"small","layout":{"type":"flex","justifyContent":"left","orientation":"horizontal","flexWrap":"wrap"}} -->
-			<div class="wp-block-buttons has-custom-font-size has-small-font-size">
-				<!-- wp:button {"className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Youtube', 'Button text', 'twentytwentyfive' ); ?></a></div>
-				<!-- /wp:button -->
+			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+			<div class="wp-block-group">
+				<!-- wp:paragraph {"className":"is-style-pill"} -->
+				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Youtube', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- /wp:paragraph -->
 
-				<!-- wp:button {"className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Apple Podcasts', 'Button text', 'twentytwentyfive' ); ?></a></div>
-				<!-- /wp:button -->
+				<!-- wp:paragraph {"className":"is-style-pill"} -->
+				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Apple Podcasts', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- /wp:paragraph -->
 
-				<!-- wp:button {"className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Spotify', 'Button text', 'twentytwentyfive' ); ?></a></div>
-				<!-- /wp:button -->
+				<!-- wp:paragraph {"className":"is-style-pill"} -->
+				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Spotify', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- /wp:paragraph -->
 
-				<!-- wp:button {"className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Pocket Casts', 'Button text', 'twentytwentyfive' ); ?></a></div>
-				<!-- /wp:button -->
+				<!-- wp:paragraph {"className":"is-style-pill"} -->
+				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Pocket Casts', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- /wp:paragraph -->
 
-				<!-- wp:button {"className":"is-style-outline"} -->
-				<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'RSS', 'Button text', 'twentytwentyfive' ); ?></a></div>
-				<!-- /wp:button -->
+				<!-- wp:paragraph {"className":"is-style-pill"} -->
+				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'RSS', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- /wp:paragraph -->
 			</div>
-			<!-- /wp:buttons -->
+			<!-- /wp:group -->
 		</div>
 		<!-- /wp:column -->
 	</div>

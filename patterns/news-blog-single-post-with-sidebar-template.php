@@ -180,5 +180,4 @@
 </div>
 <!-- /wp:group -->
 
-
 <!-- wp:template-part {"slug":"footer","area":"footer"} /-->

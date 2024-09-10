@@ -55,6 +55,3 @@
 </div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->

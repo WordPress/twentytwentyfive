@@ -30,6 +30,11 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+This theme incorporates code from:
+
+Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org
+License: GPLv2 or later. License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 
 This theme bundles the following third-party resources:
 
@@ -123,6 +128,7 @@ https://www.rawpixel.com/image/2211732
 Botany flowers.
 Free public domain CC0 image.
 botany-flowers.webp
+image-from-rawpixel-id-8812207.webp
 https://www.rawpixel.com/image/8812207
 
 Ms. Gail Falk Seltzer, a Staff Lawyer for Field Services.
@@ -149,6 +155,27 @@ Corner view showing mostly left wall, Church, Acoma Pueblo.
 Free public domain CC0 image.
 image-from-rawpixel-id-8803077-original.webp
 https://www.rawpixel.com/image/8803077
+
+Marshland birds at the Lake Havasu National Wildlife Refuge.
+Free public domain CC0 image.
+agenda-img-1.webp
+https://www.rawpixel.com/image/8799403
+
+One of the 40 Or More Species of Coral at John Pennekamp Coral Reef State Park, 
+a Few Miles Off Key Largo.
+Free public domain CC0 image.
+agenda-img-2.webp
+https://www.rawpixel.com/image/8799931
+
+Parthenon op de Akropolis in Athene (westzijde) (c. 1880 - c. 1890) by Rhomaides Frères
+Free public domain CC0 image.
+agenda-img-3.webp
+https://www.rawpixel.com/image/13759051
+
+African Woman by Pascal Sébah and Jean Pascal Sébah
+Free public domain CC0 image.
+agenda-img-4.webp
+https://www.rawpixel.com/image/14263497
 
 Two Girls, Mill Workers by Lewis W Hine.
 Free public domain CC0 image.

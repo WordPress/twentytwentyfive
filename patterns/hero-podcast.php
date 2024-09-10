@@ -39,7 +39,7 @@
 			<h3 class="wp-block-heading has-large-font-size" style="padding-top:var(--wp--preset--spacing--30)"><strong><?php echo esc_html_x( 'Subscribe on your favorite platform', 'Subscription heading', 'twentytwentyfive' ); ?></strong></h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph {"className":"is-style-pill"} -->
 				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Youtube', 'Button text', 'twentytwentyfive' ); ?></a></p>

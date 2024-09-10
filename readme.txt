@@ -174,18 +174,33 @@ https://www.rawpixel.com/image/8802835
 Flower meadow in Llano, Texas.
 Free public domain CC0 image.
 coming-soon-bg-image.webp
-ig-grid-image-1.webp
+flower-meadow-square.webp
 https://www.rawpixel.com/image/8800058
 
 Hibiscus flower.
 Free public domain CC0 image.
-hibiscus-flower-square.webp
+grid-flower-1.webp
 https://www.rawpixel.com/image/8799471
 
 Phacelia tanacetifolia (Lacy Phacelia) enlarged 4 times from Urformen der Kunst (1928) by Karl Blossfeldt.
 Free public domain CC0 image.
 grid-flower-2.webp
 https://www.rawpixel.com/image/2222743
+
+At Hawaiian Greenhouse, Inc, near Pahoa, anthuriums grow under a sun screen.
+Free public domain CC0 image.
+category-anthuriums.webp
+https://www.rawpixel.com/image/8799473
+
+Sunflower
+Free public domain CC0 image.
+category-sunflowers.webp
+https://www.rawpixel.com/image/8799614
+
+Detail of cactus "Saguaros, Saguro National Monument," Arizona. Photographer: Adams, Ansel, 1902-1984
+Free public domain CC0 image.
+category-cactus.webp
+https://www.rawpixel.com/image/8799351
 
 Vash Gon - Jicarilla by Edward S Curtis.
 Free public domain CC0 image.

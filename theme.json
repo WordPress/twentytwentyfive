@@ -923,8 +923,8 @@
 		"spacing": {
 			"blockGap": "1.2rem",
 			"padding": {
-				"left": "var(--wp--preset--spacing--50)",
-				"right": "var(--wp--preset--spacing--50)"
+				"left": "var:preset|spacing|50",
+				"right": "var:preset|spacing|50"
 			}
 		},
 		"typography": {
@@ -1248,6 +1248,16 @@
 					}
 				}
 			},
+			"core/separator": {
+				"border": {
+					"color": "currentColor",
+					"style": "solid",
+					"width": "0 0 1px 0"
+				},
+				"color": {
+					"text": "var:preset|color|opacity-20"
+				}
+			},
 			"core/site-tagline": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
@@ -1405,6 +1415,16 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
-		}
+		},
+		{
+            "area": "uncategorized",
+            "name": "right-aligned-sidebar",
+            "title": "Right Aligned Sidebar"
+        },
+		{
+            "area": "uncategorized",
+            "name": "sidebar",
+            "title": "Sidebar"
+        }
 	]
 }

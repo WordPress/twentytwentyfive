@@ -1,8 +1,11 @@
 <?php
 /**
  * Title: Link in bio heading, paragraph, links and full-height image
- * Slug: twentytwentyfive/link-in-bio-heading-paragraph-links-image
- * Categories: banner, about, featured
+ * Slug: twentytwentyfive/page-link-in-bio-heading-paragraph-links-image
+ * Categories: twentytwentyfive_page, banner, about, featured
+ * Keywords: starter
+ * Block Types: core/post-content
+ * Viewport width: 1400
  * Description: A link in bio landing page with a heading, paragraph, links and a full height image.
  *
  * @package WordPress
@@ -11,7 +14,7 @@
  */
 
 ?>
-<!-- wp:group {"metadata":{"name":"Link in bio heading, paragraph, links and full-height image"},"align":"full","className":"is-style-section-2","style":{"dimensions":{"minHeight":"100vh"}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","className":"is-style-section-2","style":{"dimensions":{"minHeight":"100vh"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-section-2" style="min-height:100vh">
 	<!-- wp:columns {"align":"full"} -->
 	<div class="wp-block-columns alignfull">

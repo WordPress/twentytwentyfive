@@ -923,8 +923,8 @@
 		"spacing": {
 			"blockGap": "1.2rem",
 			"padding": {
-				"left": "var(--wp--preset--spacing--50)",
-				"right": "var(--wp--preset--spacing--50)"
+				"left": "var:preset|spacing|50",
+				"right": "var:preset|spacing|50"
 			}
 		},
 		"typography": {
@@ -1167,6 +1167,33 @@
 					}
 				}
 			},
+			"core/quote": {
+				"border": {
+					"style": "solid",
+					"width": "0 0 0 2px",
+					"color": "var:preset|color|contrast"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|30",
+						"left": "var:preset|spacing|40",
+						"top": "var:preset|spacing|30"
+					}
+				},
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "600"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|small",
+							"fontStyle": "normal",
+							"fontWeight": "300"
+						}
+					}
+				}
+			},
 			"core/pullquote": {
 				"typography": {
 					"fontSize": "var:preset|font-size|xx-large",
@@ -1174,7 +1201,22 @@
 					"fontWeight": "300",
 					"letterSpacing": "-0.76px",
 					"lineHeight": "1.2"
-				}
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|small",
+							"fontStyle": "normal"
+						}
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|30",
+						"top": "var:preset|spacing|30"
+					}
+				},
+				"css": "& p:last-of-type {margin-bottom: var(--wp--preset--spacing--30);}"
 			},
 			"core/query-pagination": {
 				"typography": {
@@ -1204,6 +1246,16 @@
 							}
 						}
 					}
+				}
+			},
+			"core/separator": {
+				"border": {
+					"color": "currentColor",
+					"style": "solid",
+					"width": "0 0 1px 0"
+				},
+				"color": {
+					"text": "var:preset|color|opacity-20"
 				}
 			},
 			"core/site-tagline": {
@@ -1363,6 +1415,16 @@
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
-		}
+		},
+		{
+            "area": "uncategorized",
+            "name": "right-aligned-sidebar",
+            "title": "Right Aligned Sidebar"
+        },
+		{
+            "area": "uncategorized",
+            "name": "sidebar",
+            "title": "Sidebar"
+        }
 	]
 }

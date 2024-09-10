@@ -23,6 +23,13 @@
 				"bottom": "0.31rem",
 				"left": "var:preset|spacing|20"
 			}
+		},
+		"elements": {
+			"link": {
+				"typography": {
+					"textDecoration": "none"
+				}
+			}
 		}
 	}
 }

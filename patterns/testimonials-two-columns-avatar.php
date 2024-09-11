@@ -53,8 +53,5 @@
 <!-- /wp:columns --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
-
-<!-- wp:paragraph -->
-<p></p>
-<!-- /wp:paragraph --></div>
+</div>
 <!-- /wp:group -->

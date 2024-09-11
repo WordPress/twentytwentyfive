@@ -1306,7 +1306,7 @@
 			},
 			"core/term-description": {
 				"color":{
-					"text":"var:preset|color|primary"
+					"text": "var:preset|color|primary"
 				},
 				"typography": {
 					"fontSize": "var:preset|font-size|small"

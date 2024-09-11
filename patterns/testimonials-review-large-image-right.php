@@ -15,8 +15,8 @@
 <div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left","flexWrap":"wrap","verticalAlignment":"space-between"}} -->
-<div class="wp-block-group" style="min-height:100%"><!-- wp:heading {"className":"is-style-capsule","style":{"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"x-small"} -->
-<h2 class="wp-block-heading is-style-capsule has-x-small-font-size"><?php echo esc_html_x( 'What people are saying', 'Testimonial heading', 'twentytwentyfive' ); ?></h2>
+<div class="wp-block-group" style="min-height:100%"><!-- wp:heading {"className":"is-style-pill","style":{"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"x-small"} -->
+<h2 class="wp-block-heading is-style-pill has-x-small-font-size"><?php echo esc_html_x( 'What people are saying', 'Testimonial heading', 'twentytwentyfive' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:quote {"className":"is-style-plain","style":{"spacing":{"blockGap":"var:preset|spacing|50"},"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"large"} -->

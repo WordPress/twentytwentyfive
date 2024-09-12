@@ -17,10 +17,8 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
-			<!-- wp:heading {"level":3,"className":"wp-block-heading"} -->
-			<h3 class="wp-block-heading">
-				<?php esc_html_e( 'About the Event', 'twentytwentyfive' ); ?>
-			</h3>
+			<!-- wp:heading {"style":{"typography":{"fontSize":"var(--wp--custom--font-size--heading-1)"}}} -->
+			<h2 class="wp-block-heading" style="font-size:var(--wp--custom--font-size--heading-1);"><?php esc_html_e( 'About the Event', 'twentytwentyfive' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -31,7 +29,7 @@
 		<!-- /wp:column -->
 
 		<!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"default"}} -->
-		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"> 
+		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
 			<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 			<figure class="wp-block-image size-full">
 				<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/image-from-rawpixel-id-8803077-original.webp' ); ?>" alt="<?php echo esc_attr_x( 'A classic black and white photo of an old church', 'Alt text for Overview picture', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover" />

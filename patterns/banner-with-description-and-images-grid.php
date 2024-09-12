@@ -19,8 +19,8 @@
 		<div class="wp-block-group">
 			<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
 			<div class="wp-block-group">
-				<!-- wp:heading {"className":"is-style-pill","fontSize":"small"} -->
-				<h2 class="wp-block-heading is-style-pill has-small-font-size">About Us</h2>
+				<!-- wp:heading {"className":"is-style-pill"} -->
+				<h2 class="wp-block-heading is-style-pill">About Us</h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->

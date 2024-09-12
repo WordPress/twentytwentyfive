@@ -926,7 +926,13 @@
 		},
 		"custom": {
 			"fontSize": {
-				"huge": "clamp(2.5rem, 4vw, 4.375rem)"
+				"huge": "clamp(2.5rem, 4vw, 4.375rem)",
+				"heading-1": "clamp(1.561rem, 1.2288rem + 1.661vw, 2.62rem)",
+				"heading-2": "clamp(1.146rem, 0.9408rem + 1.026vw, 1.8rem)",
+				"heading-3": "clamp(1.06rem, 0.878rem + 0.91vw, 1.64rem)",
+				"heading-4": "clamp(0.984rem, 0.8222rem + 0.809vw, 1.5rem)",
+				"heading-5": "clamp(0.875rem, 0.7574rem + 0.588vw, 1.25rem)",
+				"heading-6": "0.875rem"
 			}
 		},
 		"useRootPaddingAwareAlignments": true

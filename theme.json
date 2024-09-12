@@ -1273,11 +1273,6 @@
 					"fontWeight": "500"
 				}
 			},
-			"core/query-title": {
-				"typography": {
-					"fontSize": "var:preset|font-size|xx-large"
-				}
-			},
 			"core/search": {
 				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;}",
 				"typography": {

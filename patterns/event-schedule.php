@@ -16,8 +16,8 @@
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:heading {"fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-xx-large-font-size">Agenda</h2>
+		<!-- wp:heading {"style":{"typography":{"fontSize":"var(--wp--custom--font-size--heading-1)"}}} -->
+		<h2 class="wp-block-heading" style="font-size:var(--wp--custom--font-size--heading-1);">Agenda</h2>
 		<!-- /wp:heading -->
 		<!-- wp:paragraph -->
 		<p>These are some of the upcoming events.</p>

@@ -29,6 +29,11 @@
 		<!-- wp:heading {"textAlign":"left","level":1} -->
 		<h1 class="wp-block-heading has-text-align-left">Blog</h1>
 		<!-- /wp:heading -->
+
+		<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
+		<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- /wp:spacer -->
+
 		<!-- wp:pattern {"slug":"twentytwentyfive/right-aligned-posts"} /-->
 
 		<!-- wp:spacer {"height":"var:preset|spacing|50"} -->

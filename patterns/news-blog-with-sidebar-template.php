@@ -3,7 +3,6 @@
  * Title: News blog with sidebar
  * Slug: twentytwentyfive/news-blog-with-sidebar-template
  * Template Types: front-page, index, home
- * Categories: hidden
  * Inserter: no
  *
  * @package WordPress

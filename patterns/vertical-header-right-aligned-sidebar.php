@@ -2,7 +2,6 @@
 /**
  * Title: Sidebar for the right aligned blog
  * Slug: twentytwentyfive/right-aligned-sidebar
- * Categories: hidden
  * Inserter: no
  *
  * @package WordPress

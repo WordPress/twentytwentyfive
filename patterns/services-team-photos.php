@@ -17,10 +17,8 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading">
-				Our small team is a group of driven, detail-oriented people who are passionate about their customers.
-			</h3>
+			<!-- wp:heading {"style":{"typography":{"fontSize":"var(--wp--custom--font-size--heading-1)"}}} -->
+			<h2 class="wp-block-heading" style="font-size:var(--wp--custom--font-size--heading-1);">Our small team is a group of driven, detail-oriented people who are passionate about their customers.</h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->

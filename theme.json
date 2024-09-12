@@ -1304,7 +1304,7 @@
 					"text": "var:preset|color|primary"
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/navigation": {
@@ -1442,6 +1442,13 @@
 			"area": "uncategorized",
 			"name": "sidebar",
 			"title": "Sidebar"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "page-no-title",
+			"postTypes": ["page"],
+			"title": "Page No Title"
 		}
 	]
 }

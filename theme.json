@@ -1301,7 +1301,7 @@
 			},
 			"core/term-description": {
 				"color":{
-					"text":"var:preset|color|primary"
+					"text": "var:preset|color|primary"
 				},
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
@@ -1376,32 +1376,32 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "2.62rem"
+					"fontSize": "var:custom|font-size|heading-1"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "1.8rem"
+					"fontSize": "var:custom|font-size|heading-2"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "1.64rem"
+					"fontSize": "var:custom|font-size|heading-3"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "1.5rem"
+					"fontSize": "var:custom|font-size|heading-4"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "1.25rem"
+					"fontSize": "var:custom|font-size|heading-5"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "0.875rem",
+					"fontSize": "var:custom|font-size|heading-6",
 					"fontStyle": "normal",
 					"fontWeight": "700",
 					"letterSpacing": "1.4px",
@@ -1434,14 +1434,14 @@
 			"title": "Footer"
 		},
 		{
-            "area": "uncategorized",
-            "name": "right-aligned-sidebar",
-            "title": "Right Aligned Sidebar"
-        },
+			"area": "uncategorized",
+			"name": "right-aligned-sidebar",
+			"title": "Right Aligned Sidebar"
+		},
 		{
-            "area": "uncategorized",
-            "name": "sidebar",
-            "title": "Sidebar"
-        }
+			"area": "uncategorized",
+			"name": "sidebar",
+			"title": "Sidebar"
+		}
 	]
 }

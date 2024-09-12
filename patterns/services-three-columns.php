@@ -27,8 +27,8 @@
 			</figure>
 			<!-- /wp:image -->
 
-			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading">Collect</h4>
+			<!-- wp:heading {"level":3, "style":{"typography":{"fontSize":"var(--wp--custom--font-size--heading-4)"}}} -->
+			<h3 class="wp-block-heading" style="font-size:var(--wp--custom--font-size--heading-4)">Collect</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -45,8 +45,8 @@
 			</figure>
 			<!-- /wp:image -->
 
-			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading">Assemble</h3>
+			<!-- wp:heading {"level":3, "style":{"typography":{"fontSize":"var(--wp--custom--font-size--heading-4)"}}} -->
+			<h3 class="wp-block-heading" style="font-size:var(--wp--custom--font-size--heading-4)">Assemble</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
@@ -63,8 +63,8 @@
 			</figure>
 			<!-- /wp:image -->
 
-			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading">Deliver</h3>
+			<!-- wp:heading {"level":3, "style":{"typography":{"fontSize":"var(--wp--custom--font-size--heading-4)"}}} -->
+			<h3 class="wp-block-heading" style="font-size:var(--wp--custom--font-size--heading-4)">Deliver</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->

@@ -6,7 +6,7 @@
 	"styles": {
 		"typography": {
 			"fontFamily": "var:preset|font-family|ysabeau-office",
-			"fontSize": "var:preset|font-size|medium",
+			"fontSize": "var:preset|font-size|large",
 			"fontStyle": "normal",
 			"fontWeight": "400",
 			"letterSpacing": "-0.24px",

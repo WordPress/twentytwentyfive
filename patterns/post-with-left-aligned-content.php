@@ -4,7 +4,6 @@
  * Slug: twentytwentyfive/post-with-left-aligned-content
  * Template Types: posts, single
  * Viewport width: 1400
- * Categories: hidden
  * Inserter: no
  *
  * @package WordPress

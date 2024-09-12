@@ -1191,16 +1191,9 @@
 			},
 			"core/quote": {
 				"border": {
-					"left": {
-						"color": "var:preset|color|contrast",
-						"style": "solid",
-						"width": "2px"
-					},
-					"right": {
-						"color": "var:preset|color|contrast",
-						"style": "solid",
-						"width": "2px"
-					}
+					"style": "solid",
+					"width": "0 2px 0 2px",
+					"color": "var:preset|color|contrast"
 				},
 				"spacing": {
 					"blockGap": "var:preset|spacing|30",

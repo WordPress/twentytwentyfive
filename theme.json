@@ -1100,67 +1100,6 @@
 					}
 				}
 			},
-			"core/quote": {
-				"border": {
-					"left": {
-						"color": "var:preset|color|contrast",
-						"style": "solid",
-						"width": "2px"
-					},
-					"right": {
-						"color": "var:preset|color|contrast",
-						"style": "solid",
-						"width": "2px"
-					}
-				},
-				"spacing": {
-					"blockGap": "var:preset|spacing|30",
-					"margin": {
-						"left": "0",
-						"right": "0"
-					},
-					"padding": {
-						"top": "var:preset|spacing|30",
-						"right": "var:preset|spacing|40",
-						"bottom": "var:preset|spacing|30",
-						"left": "var:preset|spacing|40"
-					}
-				},
-				"typography": {
-					"fontSize": "var:preset|font-size|medium",
-					"lineHeight": "1.1",
-					"fontWeight": "600"
-				},
-				"elements": {
-					"cite": {
-						"typography": {
-							"fontSize": "0.65em",
-							"fontStyle": "normal",
-							"fontWeight": "400"
-						},
-						"css": "& sub { font-size: 0.65em }"
-					}
-				},
-				"css": "&.has-text-align-right { border-left: 0; padding-left: 0; } &.has-text-align-center { border-inline: 0; padding-inline: 0; } &:not(.has-text-align-right):not(.has-text-align-center) { border-right: 0; padding-right: 0; }",
-				"variations": {
-					"plain": {
-						"border": {
-							"color": "transparent",
-							"style": "none",
-							"width": "0",
-							"radius": "0"
-						},
-						"spacing": {
-							"padding": {
-								"top": "0",
-								"right": "0",
-								"bottom": "0",
-								"left": "0"
-							}
-						}
-					}
-				}
-			},
 			"core/search": {
 				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;}",
 				"typography": {

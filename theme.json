@@ -1442,6 +1442,11 @@
 			"area": "uncategorized",
 			"name": "sidebar",
 			"title": "Sidebar"
+		},
+		{
+			"area": "header",
+			"name": "vertical-header",
+			"title": "Vertical Header"
 		}
 	],
 	"customTemplates": [

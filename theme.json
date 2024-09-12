@@ -1189,41 +1189,6 @@
 					}
 				}
 			},
-			"core/pullquote": {
-				"typography": {
-					"fontSize": "var:preset|font-size|xx-large",
-					"fontStyle": "normal",
-					"fontWeight": "300",
-					"letterSpacing": "-0.76px",
-					"lineHeight": "1.2"
-				},
-				"elements": {
-					"cite": {
-						"typography": {
-							"fontSize": "var:preset|font-size|small",
-							"fontStyle": "normal"
-						}
-					}
-				},
-				"spacing": {
-					"padding": {
-						"bottom": "var:preset|spacing|30",
-						"top": "var:preset|spacing|30"
-					}
-				},
-				"css": "& p:last-of-type {margin-bottom: var(--wp--preset--spacing--30);}"
-			},
-			"core/query-pagination": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium",
-					"fontWeight": "500"
-				}
-			},
-			"core/query-title": {
-				"typography": {
-					"fontSize": "var:preset|font-size|xx-large"
-				}
-			},
 			"core/quote": {
 				"border": {
 					"left": {
@@ -1283,6 +1248,41 @@
 							}
 						}
 					}
+				}
+			},
+			"core/pullquote": {
+				"typography": {
+					"fontSize": "var:preset|font-size|xx-large",
+					"fontStyle": "normal",
+					"fontWeight": "300",
+					"letterSpacing": "-0.76px",
+					"lineHeight": "1.2"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|small",
+							"fontStyle": "normal"
+						}
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|30",
+						"top": "var:preset|spacing|30"
+					}
+				},
+				"css": "& p:last-of-type {margin-bottom: var(--wp--preset--spacing--30);}"
+			},
+			"core/query-pagination": {
+				"typography": {
+					"fontSize": "var:preset|font-size|medium",
+					"fontWeight": "500"
+				}
+			},
+			"core/query-title": {
+				"typography": {
+					"fontSize": "var:preset|font-size|xx-large"
 				}
 			},
 			"core/search": {

@@ -169,12 +169,14 @@ https://www.rawpixel.com/image/14265869
 Cliff Palace, Mesa Verde National Park, Colorado (vertical orientation)
 Free public domain CC0 image.
 poster-image-background.webp
+image-from-rawpixel-id-8802835-jpeg-scaled.webp
 https://www.rawpixel.com/image/8802835
 
 Flower meadow in Llano, Texas.
 Free public domain CC0 image.
 coming-soon-bg-image.webp
 flower-meadow-square.webp
+services-subscriber-photo.webp
 https://www.rawpixel.com/image/8800058
 
 Hibiscus flower.
@@ -231,3 +233,13 @@ Marshland birds at the Lake Havasu National Wildlife Refuge.
 Free public domain CC0 image.
 marshland-birds-square.webp
 https://www.rawpixel.com/image/8799403
+
+Photograph - New York [Portrait - Washington Square] by Paul Strand.
+Free public domain CC0 image.
+hero-podcast.webp
+https://www.rawpixel.com/image/14264288
+
+Evening Breeze by Asahachi Kono.
+Free public domain CC0 image.
+link-in-bio-image
+https://www.rawpixel.com/image/14262995

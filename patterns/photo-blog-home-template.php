@@ -2,7 +2,7 @@
 /**
  * Title: Photo blog home
  * Slug: twentytwentyfive/photo-blog-home
- * Template Types: front-page, home
+ * Template Types: front-page, index, home
  * Viewport width: 1400
  * Inserter: no
  *

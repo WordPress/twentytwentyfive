@@ -17,10 +17,8 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"top","width":"50%"} -->
 		<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:50%">
-			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading">
-				<?php esc_html_e( 'Let’s hear about history and ancestry', 'twentytwentyfive' ); ?>
-			</h3>
+			<!-- wp:heading {"style":{"typography":{"fontSize":"var(--wp--custom--font-size--heading-1)"}}} -->
+			<h2 class="wp-block-heading" style="font-size:var(--wp--custom--font-size--heading-1);"><?php esc_html_e( 'Let’s hear about history and ancestry', 'twentytwentyfive' ); ?></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->

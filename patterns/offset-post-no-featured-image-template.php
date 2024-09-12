@@ -4,7 +4,6 @@
  * Slug: twentytwentyfive/offset-post-no-featured-image-template
  * Template Types: posts, single
  * Viewport width: 1400
- * Categories: hidden
  * Inserter: no
  *
  * @package WordPress

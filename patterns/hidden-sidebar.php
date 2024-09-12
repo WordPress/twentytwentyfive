@@ -2,7 +2,6 @@
 /**
  * Title: Sidebar
  * Slug: twentytwentyfive/hidden-sidebar
- * Categories: hidden
  * Inserter: no
  *
  * @package WordPress

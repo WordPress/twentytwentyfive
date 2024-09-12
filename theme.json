@@ -1434,6 +1434,11 @@
 			"title": "Footer"
 		},
 		{
+			"area": "footer",
+			"name": "footer-newsletter",
+			"title": "Footer"
+		},
+		{
 			"area": "uncategorized",
 			"name": "right-aligned-sidebar",
 			"title": "Right Aligned Sidebar"

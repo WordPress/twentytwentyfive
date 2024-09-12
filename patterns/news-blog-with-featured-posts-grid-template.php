@@ -128,4 +128,4 @@
 <!-- /wp:buttons --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:template-part {"slug":"footer","area":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-newsletter","area":"footer"} /-->

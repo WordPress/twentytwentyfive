@@ -170,4 +170,4 @@
 <!-- /wp:query --></div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","area":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-newsletter","area":"footer"} /-->

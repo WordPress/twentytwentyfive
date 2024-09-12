@@ -17,8 +17,8 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
 		<div class="wp-block-group">
-			<!-- wp:heading {"fontSize":"x-large"} -->
-			<h2 class="wp-block-heading has-x-large-font-size">Top Categories</h2>
+			<!-- wp:heading {"style":{"typography":{"fontSize":"var(--wp--custom--font-size--heading-3)"}}} -->
+			<h2 class="wp-block-heading" style="font-size:var(--wp--custom--font-size--heading-3);">Top Categories</h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:group -->

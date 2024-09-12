@@ -10,8 +10,8 @@
 	],
 	"styles": {
 		"color": {
-			"background": "var(--wp--preset--color--contrast)",
-			"text": "var(--wp--preset--color--base)"
+			"background": "var:preset|color|contrast",
+			"text": "var:preset|color|base"
 		},
 		"blocks": {
 			"core/separator": {
@@ -23,13 +23,13 @@
 		"elements": {
 			"button": {
 				"color": {
-					"background": "var(--wp--preset--color--base)",
-					"text": "var(--wp--preset--color--contrast)"
+					"background": "var:preset|color|base",
+					"text": "var:preset|color|contrast"
 				}
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--base)"
+					"text": "var:preset|color|base"
 				}
 			}
 		}

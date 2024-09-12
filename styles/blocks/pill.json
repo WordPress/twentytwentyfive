@@ -11,7 +11,7 @@
 			"letterSpacing": "normal"
 		},
 		"border": {
-			"color": "var:preset|color|contrast",
+			"color": "currentColor",
 			"style": "solid",
 			"width": "1px",
 			"radius": "999px"

@@ -1130,12 +1130,12 @@
 				}
 			},
 			"core/post-date": {
-				"color": {
+				"color":{
 					"text": "var:preset|color|primary"
 				},
 				"elements": {
 					"link": {
-						"color": {
+						"color" : {
 							"text": "var:preset|color|primary"
 						},
 						":hover": {
@@ -1327,7 +1327,7 @@
 				}
 			},
 			"core/term-description": {
-				"color": {
+				"color":{
 					"text": "var:preset|color|primary"
 				},
 				"typography": {

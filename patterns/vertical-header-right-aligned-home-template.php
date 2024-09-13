@@ -2,7 +2,7 @@
 /**
  * Title: Homepage for right aligned blog
  * Slug: twentytwentyfive/right-aligned-home
- * Template Types: front-page, home
+ * Template Types: front-page, index, home
  * Viewport width: 1400
  * Inserter: no
  *

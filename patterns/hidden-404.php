@@ -27,8 +27,8 @@
 		<div class="wp-block-column is-vertically-aligned-bottom">
 			<!-- wp:group {"layout":{"type":"default"}} -->
 			<div class="wp-block-group">
-				<!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"48px"}}} -->
-				<h1 class="wp-block-heading" style="font-size:48px">
+				<!-- wp:heading {"level":1} -->
+				<h1 class="wp-block-heading">
 					<?php echo esc_html_x( 'Page not found', '404 error message', 'twentytwentyfive' ); ?>
 				</h1>
 				<!-- /wp:heading -->

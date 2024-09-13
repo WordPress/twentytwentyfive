@@ -133,6 +133,7 @@ if ( ! function_exists( 'twentytwentyfive_pattern_categories' ) ) :
 endif;
 
 add_action( 'init', 'twentytwentyfive_pattern_categories' );
+
 add_action( 'init', 'twentytwentyfive_register_block_bindings', 9 );
 
 /**

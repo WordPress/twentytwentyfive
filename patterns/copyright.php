@@ -18,7 +18,9 @@
 			}
 		}
 	},
-	"className":"copyright"
+	"className":"copyright",
+	"textColor":"primary",
+	"fontSize":"small"
 } -->
-<p class="copyright"><?php echo esc_html_x( '&copy; Copyright date', 'placeholder', 'twentytwentyfive' ); ?></p>
+<p class="copyright has-primary-color has-text-color has-small-font-size"><?php echo esc_html_x( '&copy; Copyright date', 'placeholder', 'twentytwentyfive' ); ?></p>
 <!-- /wp:paragraph -->

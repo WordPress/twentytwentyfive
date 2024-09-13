@@ -243,3 +243,8 @@ Evening Breeze by Asahachi Kono.
 Free public domain CC0 image.
 link-in-bio-image
 https://www.rawpixel.com/image/14262995
+
+Book Image - Created by Beatriz Fialho (@beafialho) using an image from rawpixel:
+Free public domain CC0 image.
+book-image.webp
+https://www.rawpixel.com/image/8799536

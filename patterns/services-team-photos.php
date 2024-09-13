@@ -17,8 +17,8 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading">
+			<!-- wp:heading {"level":3,"fontSize":"x-large"} -->
+			<h3 class="wp-block-heading has-x-large-font-size">
 				Our small team is a group of driven, detail-oriented people who are passionate about their customers.
 			</h3>
 			<!-- /wp:heading -->

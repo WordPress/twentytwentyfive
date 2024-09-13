@@ -243,3 +243,8 @@ Evening Breeze by Asahachi Kono.
 Free public domain CC0 image.
 link-in-bio-image
 https://www.rawpixel.com/image/14262995
+
+Bust by Mathew brady.
+Free public domain CC0 image.
+book-image-landing.webp
+https://www.rawpixel.com/image/8799536

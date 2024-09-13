@@ -1,12 +1,14 @@
 <?php
 /**
- * Title: Copyright symbol, date and site title
+ * Title: Copyright symbol and date
  * Slug: twentytwentyfive/copyright
  * Categories: text
  *
- * @package Twenty Twenty-Five
+ * @package WordPress
+ * @subpackage Twenty_Twenty_Five
  * @since Twenty Twenty-Five 1.0
  */
+
 ?>
 <!-- wp:paragraph {
 	"metadata":{

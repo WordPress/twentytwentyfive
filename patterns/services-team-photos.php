@@ -31,25 +31,25 @@
 			<div class="wp-block-group">
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team_photo_1.webp" alt="Ms. Gail Falk Seltzer, a Staff Lawyer for Field Services." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-1.webp" alt="Ms. Gail Falk Seltzer, a Staff Lawyer for Field Services." style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team_photo_2.webp" alt="Young sugarcane field worker." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-2.webp" alt="Young sugarcane field worker." style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team_photo_3.webp" alt="Portraits of Miners." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-3.webp" alt="Portraits of Miners." style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team_photo_4.webp" alt="Young Woman Soliciting Funds." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-4.webp" alt="Young Woman Soliciting Funds." style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 			</div>

@@ -2,8 +2,6 @@
 /**
  * Title: News blog query loop
  * Slug: twentytwentyfive/news-blog-query-loop
- * Template Types: archive
- * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress
@@ -60,5 +58,4 @@
 <!-- wp:spacer {"height":"var:preset|spacing|70"} -->
 <div style="height:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer --></div>
-<!-- /wp:query --></div>
-<!-- /wp:group -->
+<!-- /wp:query -->

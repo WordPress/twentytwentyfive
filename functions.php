@@ -150,7 +150,7 @@ if ( ! function_exists( 'twentytwentyfive_register_block_bindings' ) ) :
 			'twentytwentyfive/copyright',
 			array(
 				'label'              => __( 'Copyright', 'twentytwentyfive' ),
-				'get_value_callback' => 'twentytwentyfive_copyright_binding'
+				'get_value_callback' => 'twentytwentyfive_copyright_binding',
 			)
 		);
 	}
@@ -162,7 +162,7 @@ if ( ! function_exists( 'twentytwentyfive_register_block_bindings' ) ) :
 	 */
 	function twentytwentyfive_copyright_binding() {
 		/* translators: Copyright date format, see https://www.php.net/manual/datetime.format.php */
-		$date_format = _x( 'Y', 'copyright date format', 'twentytwentyfive' );
+		$date_format    = _x( 'Y', 'copyright date format', 'twentytwentyfive' );
 		$copyright_text = sprintf(
 			/* translators: 1: Copyright symbol or word, 2: Date */
 			__( '%1$s %2$s', 'twentytwentyfive' ),

@@ -133,22 +133,22 @@ https://www.rawpixel.com/image/8812207
 
 Ms. Gail Falk Seltzer, a Staff Lawyer for Field Services.
 No known copyright restrictions
-team_photo_1.webp
+team-photo-1.webp
 https://www.flickr.com/photos/usnationalarchives/3906419575/
 
 Young sugarcane field worker.
 No known copyright restrictions
-team_photo_2.webp
+team-photo-2.webp
 https://www.flickr.com/photos/usnationalarchives/7157920320
 
 Portraits of Miners.
 No known copyright restrictions
-team_photo_3.webp
+team-photo-3.webp
 https://www.flickr.com/photos/usnationalarchives/3906400735/
 
 Young Woman Soliciting Funds.
 No known copyright restrictions
-team_photo_4.webp
+team-photo-4.webp
 https://www.flickr.com/photos/usnationalarchives/8676029464
 
 Corner view showing mostly left wall, Church, Acoma Pueblo.

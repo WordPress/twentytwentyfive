@@ -32,8 +32,8 @@
 
 <!-- wp:group {"metadata":{"name":"Posts list"},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide"><!-- wp:block {"ref":2773} /--></div>
+<div class="wp-block-group alignwide"><!-- wp:pattern {"slug":"twentytwentyfive/news-blog-query-loop"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","area":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-newsletter","area":"footer"} /-->

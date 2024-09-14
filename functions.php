@@ -168,7 +168,7 @@ if ( ! function_exists( 'twentytwentyfive_copyright_binding' ) ) :
 	function twentytwentyfive_copyright_binding() {
 		$copyright_text = sprintf(
 			/* translators: 1: Copyright symbol or word, 2: Year */
-			esc_html( '%1$s %2$s', 'twentytwentyfive' ),
+			esc_html__( '%1$s %2$s', 'twentytwentyfive' ),
 			'&copy;',
 			wp_date( 'Y' ),
 		);
@@ -177,4 +177,4 @@ if ( ! function_exists( 'twentytwentyfive_copyright_binding' ) ) :
 	}
 endif;
 
-add_action( 'init', 'twentytwentyfive_register_block_bindings', 9 );
+add_action( 'init', 'twentytwentyfive_register_block_bindings' );

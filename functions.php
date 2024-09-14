@@ -134,10 +134,8 @@ endif;
 
 add_action( 'init', 'twentytwentyfive_pattern_categories' );
 
-add_action( 'init', 'twentytwentyfive_register_block_bindings', 9 );
-
 /**
- * Register block bindings.
+ * Register block binding sources.
  */
 if ( ! function_exists( 'twentytwentyfive_register_block_bindings' ) ) :
 	/**
@@ -155,6 +153,12 @@ if ( ! function_exists( 'twentytwentyfive_register_block_bindings' ) ) :
 			)
 		);
 	}
+endif;
+
+/**
+ * Register block binding callback function for the copyright.
+ */
+if ( ! function_exists( 'twentytwentyfive_copyright_binding' ) ) :
 	/**
 	 * Callback function for the copyright block binding source.
 	 *
@@ -162,15 +166,15 @@ if ( ! function_exists( 'twentytwentyfive_register_block_bindings' ) ) :
 	 * @return string Copyright text.
 	 */
 	function twentytwentyfive_copyright_binding() {
-		/* translators: Copyright date format, see https://www.php.net/manual/datetime.format.php */
-		$date_format    = _x( 'Y', 'copyright date format', 'twentytwentyfive' );
 		$copyright_text = sprintf(
-			/* translators: 1: Copyright symbol or word, 2: Date */
-			__( '%1$s %2$s', 'twentytwentyfive' ),
+			/* translators: 1: Copyright symbol or word, 2: Year */
+			esc_html( '%1$s %2$s', 'twentytwentyfive' ),
 			'&copy;',
-			wp_date( $date_format ),
+			wp_date( 'Y' ),
 		);
 
 		return $copyright_text;
 	}
 endif;
+
+add_action( 'init', 'twentytwentyfive_register_block_bindings', 9 );

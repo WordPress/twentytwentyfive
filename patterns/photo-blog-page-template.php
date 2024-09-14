@@ -4,6 +4,7 @@
  * Slug: twentytwentyfive/photo-blog-page
  * Template Types: page
  * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

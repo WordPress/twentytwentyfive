@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/contact-location-and-link
  * Categories: banner, call-to-action, featured
  * Description: A contact section with a location and a link to get directions.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

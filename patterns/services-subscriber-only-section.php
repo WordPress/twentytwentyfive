@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/services-subscriber-only-section
  * Categories: call-to-action, featured, services
  * Description: A subscriber-only section highlighting exclusive services and offerings.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

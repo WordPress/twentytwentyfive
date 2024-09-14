@@ -7,6 +7,7 @@
  * Block Types: core/post-content
  * Post Types: page, wp_template
  * Viewport width: 1400
+ * Inserter: no
  * Description: A full-width, full-height link in bio section with an image, a paragraph and social links.
  *
  * @package WordPress

@@ -4,6 +4,7 @@
  * Slug: twentytwentyfive/right-aligned-page
  * Template Types: page
  * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/banner-description-images-grid
  * Categories: banner, media, featured
  * Description: A banner with a short paragraph, and two images displayed in a grid layout.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

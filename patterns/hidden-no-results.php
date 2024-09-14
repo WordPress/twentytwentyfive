@@ -2,6 +2,7 @@
 /**
  * Title: No results
  * Slug: twentytwentyfive/hidden-no-results
+ * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress

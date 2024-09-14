@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/poster-like-section
  * Categories: banner, media, featured
  * Description: A section that can be used as a banner or a landing page to announce an event.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

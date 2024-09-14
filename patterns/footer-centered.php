@@ -5,6 +5,8 @@
  * Categories: footer
  * Block Types: core/template-part/footer
  * Description: Footer with centered site title and tagline
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

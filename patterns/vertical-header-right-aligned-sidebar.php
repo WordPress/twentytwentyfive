@@ -2,6 +2,7 @@
 /**
  * Title: Sidebar for the right aligned blog
  * Slug: twentytwentyfive/right-aligned-sidebar
+ * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress

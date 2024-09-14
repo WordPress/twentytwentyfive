@@ -2,6 +2,7 @@
 /**
  * Title: 404
  * Slug: twentytwentyfive/hidden-404
+ * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress

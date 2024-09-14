@@ -7,6 +7,7 @@
  * Block Types: core/post-content
  * Post Types: page, wp_template
  * Viewport width: 1400
+ * Inserter: no
  * Description: A full-width cover banner that can be applied to a page or it can work as a single landing page.
  *
  * @package WordPress

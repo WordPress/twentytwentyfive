@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/hero-centered-heading
  * Categories: banner, call-to-action, featured
  * Description: A hero with a centered heading, paragraph and button.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

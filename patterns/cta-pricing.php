@@ -5,6 +5,8 @@
  * Categories: call-to-action, featured
  * Viewport width: 1400
  * Description: A pricing section with a title, a paragraph and two pricing levels.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

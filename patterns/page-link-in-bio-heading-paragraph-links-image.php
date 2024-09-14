@@ -6,6 +6,7 @@
  * Keywords: starter
  * Block Types: core/post-content
  * Viewport width: 1400
+ * Inserter: no
  * Description: A link in bio landing page with a heading, paragraph, links and a full height image.
  *
  * @package WordPress

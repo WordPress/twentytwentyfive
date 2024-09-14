@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/cover-with-big-heading
  * Categories: banner, about, featured
  * Description: A cover section with an opinionated design.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

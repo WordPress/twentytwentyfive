@@ -5,6 +5,8 @@
  * Categories: query
  * Block Types: core/query
  * Description:
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

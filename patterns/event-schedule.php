@@ -5,6 +5,8 @@
  * Categories: about, media, featured
  * Description: A section with specified dates and times for an event.
  * Keywords: events, agenda, schedule, lectures
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

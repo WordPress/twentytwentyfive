@@ -5,6 +5,8 @@
  * Categories: text
  * Description: Next and previous post links.
  * Block Types: core/post-navigation-link
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

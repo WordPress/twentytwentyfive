@@ -3,6 +3,7 @@
  * Title: News blog with featured posts grid
  * Slug: twentytwentyfive/news-blog-with-featured-posts-grid-template
  * Template Types: front-page, index, home
+ * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress

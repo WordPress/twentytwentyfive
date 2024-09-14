@@ -3,6 +3,7 @@
  * Title: News blog home
  * Slug: twentytwentyfive/news-blog-home
  * Template Types: front-page, index, home
+ * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress

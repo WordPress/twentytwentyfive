@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/services-team-photos
  * Categories: banner, call-to-action, featured
  * Description: Team photos in services section.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/clients-section
  * Categories: banner, call-to-action, featured
  * Description: A group block that displays the clients of the podcast.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

@@ -5,6 +5,8 @@
  * Categories: header
  * Block Types: core/template-part/header
  * Description: Header with centered site title and navigation
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

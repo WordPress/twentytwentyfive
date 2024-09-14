@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/two-headings-and-a-list
  * Categories: text, about, columns
  * Description: An About section with a detailed description in a two-column layout, using bullet points.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

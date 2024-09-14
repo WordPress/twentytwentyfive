@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/hero-full-width-image
  * Categories: banner, featured
  * Description: A hero with a full width image, heading, short paragraph and button
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

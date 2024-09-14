@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/contact-info-locations
  * Keywords: contact, location
  * Categories: contact
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

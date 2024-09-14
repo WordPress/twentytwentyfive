@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/newsletter-sign-up
  * Keywords: call-to-action, newsletter
  * Categories: call-to-action
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

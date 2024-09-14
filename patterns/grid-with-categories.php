@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/grid-with-categories
  * Categories: media, featured
  * Description: A grid section with different categories.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

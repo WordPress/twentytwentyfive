@@ -2,6 +2,7 @@
 /**
  * Title: Text-only blog, posts
  * Slug: twentytwentyfive/text-only-blog-posts
+ * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress

@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/grid-videos
  * Categories: banner, about, featured
  * Description: A grid with videos.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

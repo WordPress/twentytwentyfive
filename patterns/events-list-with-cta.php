@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/events-list-with-cta
  * Categories: text, call-to-action
  * Description: A list of events with call to action
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

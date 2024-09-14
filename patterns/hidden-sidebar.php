@@ -2,6 +2,7 @@
 /**
  * Title: Sidebar
  * Slug: twentytwentyfive/hidden-sidebar
+ * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress

@@ -5,6 +5,8 @@
  * Categories: featured
  * Description: A header with title and text and three columns that show 3 events with their images and titles.
  * Keywords: events, columns, images
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

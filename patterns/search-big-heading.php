@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/search-big-heading
  * Categories: call-to-action, text
  * Description: heading with search form
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

@@ -6,6 +6,7 @@
  * Keywords: starter
  * Block Types: core/post-content
  * Viewport width: 1400
+ * Inserter: no
  * Description: A pattern for a CV/Bio landing page.
  *
  * @package WordPress

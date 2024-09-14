@@ -5,6 +5,8 @@
  * Categories: query
  * Block Types: core/query
  * Description: A list of posts, 3 columns, with only featured images.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

@@ -2,6 +2,7 @@
 /**
  * Title: News blog query loop
  * Slug: twentytwentyfive/news-blog-query-loop
+ * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress

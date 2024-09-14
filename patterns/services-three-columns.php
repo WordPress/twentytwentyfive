@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/services-three-columns
  * Categories: call-to-action, banner, featured, services
  * Description: Displays three columns with images and text for services.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

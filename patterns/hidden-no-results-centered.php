@@ -2,6 +2,7 @@
 /**
  * Title: Centered no results
  * Slug: twentytwentyfive/hidden-no-results-centered
+ * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress

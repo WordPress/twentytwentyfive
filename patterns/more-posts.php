@@ -5,6 +5,8 @@
  * Description: Displays a list of posts with title and date.
  * Categories: query
  * Block Types: core/query
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

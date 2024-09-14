@@ -4,6 +4,8 @@
  * Slug: twentytwentyfive/instagram-grid
  * Categories: media, featured
  * Description: A grid section with photos and a link to an Instagram profile.
+ * Viewport width: 1400
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

@@ -248,3 +248,4 @@ Bust by Mathew brady.
 Free public domain CC0 image.
 book-image-landing.webp
 https://www.rawpixel.com/image/8799536
+Book template by Beatriz Fialho, public domain.

@@ -221,9 +221,7 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 		<div class="wp-block-group alignwide">
-			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"small"} -->
-			<p class="has-primary-color has-text-color has-link-color has-small-font-size">© 2025</p>
-			<!-- /wp:paragraph -->
+			<!-- wp:pattern {"slug":"twentytwentyfive/copyright"} /-->
 
 			<!-- wp:paragraph {"fontSize":"small"} -->
 			<p class="has-small-font-size">email@example.com<br>+1 555 349 1806</p>

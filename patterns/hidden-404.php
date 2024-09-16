@@ -35,7 +35,7 @@
 				<!-- wp:paragraph -->
 				<p><?php echo esc_html_x( 'The page you are looking for doesn\'t exist, or it has been moved. Please try searching using the form below.', '404 error message', 'twentytwentyfive' ); ?></p>
 				<!-- /wp:paragraph -->
-				<!-- wp:search {"label":"<?php esc_html_e( 'Search', 'twentytwentyfive' ); ?>","showLabel":false,"placeholder":"<?php echo esc_attr_x( 'Type something...', 'input placeholder text', 'twentytwentyfive' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'button label', 'twentytwentyfive' ); ?>","style":{"border":{"radius":"999px"}}} /-->
+				<!-- wp:search {"label":"<?php esc_html_e( 'Search', 'twentytwentyfive' ); ?>","showLabel":false,"placeholder":"<?php echo esc_attr_x( 'Type something...', 'input placeholder text', 'twentytwentyfive' ); ?>","buttonText":"<?php echo esc_attr_x( 'Search', 'button label', 'twentytwentyfive' ); ?>"} /-->
 			</div>
 			<!-- /wp:group -->
 		</div>

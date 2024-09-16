@@ -35,18 +35,22 @@
 
 	<!-- wp:column {"width":"90%","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
 	<div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50);flex-basis:90%">
-		<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
-		<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
-		<!-- wp:query-title {"type":"search","fontSize":"large"} /-->
-		<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","style":{"border":{"radius":"50px"}},"fontSize":"small","borderColor":"opacity-20"} /-->
-		<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
-		<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
-		<!-- wp:pattern {"slug":"twentytwentyfive/right-aligned-posts"} /-->
-		<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
-		<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
+		<!-- wp:group {"tagName":"main","layout":{"type":"default"}} -->
+		<main class="wp-block-group">
+			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
+			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
+			<!-- wp:query-title {"type":"search","fontSize":"large"} /-->
+			<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","style":{"border":{"radius":"50px"}},"fontSize":"small","borderColor":"opacity-20"} /-->
+			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
+			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
+			<!-- wp:pattern {"slug":"twentytwentyfive/right-aligned-posts"} /-->
+			<!-- wp:spacer {"height":"var:preset|spacing|50"} -->
+			<div style="height:var(--wp--preset--spacing--50)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
+		</main>
+		<!-- /wp:group -->
 	</div>
 	<!-- /wp:column -->
 </div>

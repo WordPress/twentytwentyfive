@@ -220,7 +220,7 @@
 				},
 				"border":{
 					"color": "var:preset|color|accent-1",
-					"radius": "4px"
+					"radius": "0px"
 				}
 			},
 			"heading": {

@@ -148,7 +148,7 @@ if ( ! function_exists( 'twentytwentyfive_register_block_bindings' ) ) :
 		register_block_bindings_source(
 			'twentytwentyfive/copyright',
 			array(
-				'label'              => __( 'Copyright', 'twentytwentyfive' ),
+				'label'              => _x( '&copy; YEAR', 'Label for the copyright placeholder in the editor', 'twentytwentyfive' ),
 				'get_value_callback' => 'twentytwentyfive_copyright_binding',
 			)
 		);

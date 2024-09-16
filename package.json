@@ -23,12 +23,15 @@
 	},
 	"devDependencies": {
 		"@wordpress/stylelint-config": "^22.5.0",
-		"stylelint": "^14.16.1"
+		"stylelint": "^14.16.1",
+		"fs-extra": "^11.1.0",
+		"parse5-html-rewriting-stream": "^7.0.0"
 	},
 	"scripts": {
 		"lint:css": "stylelint **/*.css -i .gitignore",
 		"lint:css:fix": "stylelint **/*.css -i .gitignore --fix",
 		"lint:php": "composer run-script lint",
-		"lint:php:fix": "composer run-script format"
+		"lint:php:fix": "composer run-script format",
+		"patterns:escape": "node ./theme-utils.mjs escape-patterns"
 	}
 }

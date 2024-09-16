@@ -3,6 +3,7 @@
  * Title: Copyright symbol and date
  * Slug: twentytwentyfive/copyright
  * Categories: text
+ * Description: Displays a placeholder for the copyright year in the editors, and the current year on the front.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

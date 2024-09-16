@@ -139,7 +139,7 @@
 			},
 			"core/post-title": {
 				"typography": {
-					"fontWeight": "700",
+					"fontWeight": "900",
 					"letterSpacing": "-0.96px"
 				},
 				"elements": {

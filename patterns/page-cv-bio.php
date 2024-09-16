@@ -27,9 +27,8 @@
 					<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"22rem","letterSpacing":"-0.03em"}}} -->
 					<p class="has-text-align-left" style="font-size:22rem;letter-spacing:-0.03em">Hey,</p>
 					<!-- /wp:paragraph -->
-
-					<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
-					<p class="has-x-large-font-size" style="line-height:1.2">My name is Gail Falk Seltzer and I’m a passionate and Staff Lawyer. Based in Charleston, West Virginia, I have made significant contributions to labor rights and public health advocacy. A graduate of Yale University, I am proud to have played a key role in drafting the Equal Rights Amendment, reflecting my commitment to gender equality and labor justice. My work has been instrumental in securing better conditions and benefits for miners, showcasing my unwavering dedication to protecting the rights and well-being of America’s labor force.</p>
+					<!-- wp:paragraph {"className":"is-style-paragraph-1"} -->
+					<p class="is-style-paragraph-1">My name is Gail Falk Seltzer and I’m a passionate and Staff Lawyer. Based in Charleston, West Virginia, I have made significant contributions to labor rights and public health advocacy. A graduate of Yale University, I am proud to have played a key role in drafting the Equal Rights Amendment, reflecting my commitment to gender equality and labor justice. My work has been instrumental in securing better conditions and benefits for miners, showcasing my unwavering dedication to protecting the rights and well-being of America’s labor force.</p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->

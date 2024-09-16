@@ -96,13 +96,14 @@
 			<!-- /wp:group -->
 		</main>
 		<!-- /wp:group -->
+		<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
+			<div class="wp-block-group alignwide">	
+				<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
+			</div>
+		<!-- /wp:group -->
 	</div>
 	<!-- /wp:column -->
 </div>
 <!-- /wp:columns -->
-<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"right"}} -->
-<div class="wp-block-group alignwide">	
-	<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
-</div>
-<!-- /wp:group -->
+
 <!-- wp:template-part {"slug":"footer","area":"footer"} /-->

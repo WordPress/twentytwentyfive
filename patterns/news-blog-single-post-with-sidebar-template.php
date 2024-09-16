@@ -78,7 +78,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"layout":{"type":"constrained"}} -->
+<!-- wp:group {"layout":{"type":"constrained","justifyContent":"left"}} -->
 <div class="wp-block-group">
 	<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
 </div>

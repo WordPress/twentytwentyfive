@@ -34,7 +34,7 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size">Published on</p>
+							<p class="has-small-font-size"><?php esc_html__( 'Published on' ); ?></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"small"} /--></div>
 						<!-- /wp:group -->

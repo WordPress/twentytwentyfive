@@ -244,13 +244,9 @@ Free public domain CC0 image.
 link-in-bio-image
 https://www.rawpixel.com/image/14262995
 
-Book Image - Created by Beatriz Fialho (@beafialho) using an image from rawpixel:
-Free public domain CC0 image.
-book-image.webp
-https://www.rawpixel.com/image/8799536
-
 Bust by Mathew brady.
 Free public domain CC0 image.
 book-image-landing.webp
+book-image.webp
 https://www.rawpixel.com/image/8799536
 Book template by Beatriz Fialho, public domain.

@@ -71,7 +71,7 @@ function parseFlags( originalArgs ) {
 	const args = [ ...originalArgs ];
 	args.shift();
 	const options = {};
-	while ( args[ 0 ].startsWith( '--' ) ) {
+	while ( args?.[ 0 ]?.startsWith( '--' ) ) {
 		const flag = args.shift().slice( 2 );
 		const [ key, value ] = flag.split( '=' );
 		const camelCaseKey = key.replace( /-([a-z])/g, ( [ , c ] ) =>

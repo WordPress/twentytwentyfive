@@ -10,7 +10,7 @@
  */
 
 ?>
-<!-- wp:group {"style":{"spacing":{"blockGap":"5px","margin":{"bottom":"var:preset|spacing|60"}}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"0.2em","margin":{"bottom":"var:preset|spacing|60"}}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group has-small-font-size" style="margin-bottom:var(--wp--preset--spacing--60)">
 	<!-- wp:paragraph {"textColor":"primary"} -->
 	<p class="has-primary-color has-text-color">Written by </p>

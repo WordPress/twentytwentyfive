@@ -1,7 +1,6 @@
 import fs from 'fs';
 import util from 'util';
 import process from 'process';
-import inquirer from 'inquirer';
 import { RewritingStream } from 'parse5-html-rewriting-stream';
 import { table, getBorderCharacters } from 'table';
 import progressbar from 'string-progressbar';
@@ -13,9 +12,20 @@ import chalk, { Chalk } from 'chalk';
 
 const commands = {
 	'escape-patterns': {
-		helpText: 'Escapes block patterns for pattern files.',
-		additionalArgs: '<array of theme slugs>',
-		run: ( args ) => escapePatterns( args[ 1 ].split( /[ ,]+/ ) ),
+		helpText: [
+			'Escapes block patterns for pattern files.',
+			'--domains=DOMAINS',
+			wrapIndent( 'Array of domains mapping to themes' ),
+		].join( '\n\n' ),
+		additionalArgs: '[--domains=DOMAINS] <array of theme directories>',
+		run: ( args ) => {
+			const [ options, rest ] = parseFlags( args );
+			if ( typeof options.domains === 'string' ) {
+				options.domains = options.domains.split( /[ ,]+/ );
+			}
+			const themes = rest[ 0 ].split( /[ ,]+/ );
+			escapePatterns( themes, options );
+		},
 	},
 	'validate-theme': {
 		helpText: [
@@ -34,17 +44,8 @@ const commands = {
 		additionalArgs:
 			'[--format=FORMAT] [--color=WHEN] [--table-width=COLUMNS] <array of theme slugs>',
 		run: async ( args ) => {
-			args.shift();
-			const options = {};
-			while ( args[ 0 ].startsWith( '--' ) ) {
-				const flag = args.shift().slice( 2 );
-				const [ key, value ] = flag.split( '=' );
-				const camelCaseKey = key.replace( /-([a-z])/g, ( [ , c ] ) =>
-					c.toUpperCase()
-				);
-				options[ camelCaseKey ] = value ?? true;
-			}
-			const themes = args[ 0 ].split( /[ ,]+/ );
+			const [ options, rest ] = parseFlags( args );
+			const themes = rest[ 0 ].split( /[ ,]+/ );
 			await validateThemes( themes, options );
 		},
 	},
@@ -65,6 +66,21 @@ const commands = {
 
 	await commands[ command ].run( args );
 } )();
+
+function parseFlags( originalArgs ) {
+	const args = [ ...originalArgs ];
+	args.shift();
+	const options = {};
+	while ( args[ 0 ].startsWith( '--' ) ) {
+		const flag = args.shift().slice( 2 );
+		const [ key, value ] = flag.split( '=' );
+		const camelCaseKey = key.replace( /-([a-z])/g, ( [ , c ] ) =>
+			c.toUpperCase()
+		);
+		options[ camelCaseKey ] = value ?? true;
+	}
+	return [ options, args ];
+}
 
 function wrapIndent(
 	text,
@@ -119,56 +135,29 @@ export function getThemeMetadata( styleCss, attribute ) {
 		?.trim();
 }
 
-async function escapePatterns( themes ) {
-	// all patterns php
-	const patterns = await Promise.all(
-		themes.map( ( themeSlug ) => glob( `${ themeSlug }/patterns/*.php` ) )
-	).then( ( globs ) => globs.flat() );
+async function escapePatterns( themes, options ) {
+	for ( const themeSlug of themes ) {
+		const domain = options?.domains?.[ i ] ?? themeSlug;
+		const patterns = await glob( `${ themeSlug }/patterns/*.php` );
 
-	// arrange patterns by theme
-	const themePatterns = patterns.reduce( ( acc, file ) => {
-		console.log( file );
-		const themeSlug = file.split( '/' ).shift();
-		return {
-			...acc,
-			[ themeSlug ]: ( acc[ themeSlug ] || [] ).concat( file ),
-		};
-	}, {} );
+		console.log( getPatternTable( themeSlug, patterns ) );
 
-	Object.entries( themePatterns ).forEach(
-		async ( [ themeSlug, patterns ] ) => {
-			console.log( getPatternTable( themeSlug, patterns ) );
-
-			const prompt = await inquirer.prompt( [
-				{
-					type: 'input',
-					message: 'Verify the theme slug',
-					name: 'themeSlug',
-					default: themeSlug,
-				},
-			] );
-
-			if ( ! prompt.themeSlug ) {
-				return;
-			}
-
-			patterns.forEach( ( file ) => {
-				const rewriter = getReWriter( prompt.themeSlug );
-				const tmpFile = `${ file }-tmp`;
-				const readStream = fs.createReadStream( file, {
-					encoding: 'UTF-8',
-				} );
-				const writeStream = fs.createWriteStream( tmpFile, {
-					encoding: 'UTF-8',
-				} );
-				writeStream.on( 'finish', () => {
-					fs.renameSync( tmpFile, file );
-				} );
-
-				readStream.pipe( rewriter ).pipe( writeStream );
+		patterns.forEach( ( file ) => {
+			const rewriter = getReWriter( domain );
+			const tmpFile = `${ file }-tmp`;
+			const readStream = fs.createReadStream( file, {
+				encoding: 'UTF-8',
 			} );
-		}
-	);
+			const writeStream = fs.createWriteStream( tmpFile, {
+				encoding: 'UTF-8',
+			} );
+			writeStream.on( 'finish', () => {
+				fs.renameSync( tmpFile, file );
+			} );
+
+			readStream.pipe( rewriter ).pipe( writeStream );
+		} );
+	}
 
 	// Helper functions
 	function getReWriter( themeSlug ) {
@@ -278,6 +267,7 @@ async function escapePatterns( themes ) {
 		);
 	}
 }
+
 /**
  * Validates theme files against their respective JSON schemas.
  *

@@ -111,8 +111,8 @@
 				<!-- /wp:column -->
 				<!-- wp:column {"verticalAlignment":"top","width":"45%"} -->
 				<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:45%">
-					<!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
-					<figure class="wp-block-image aligncenter size-full">
+					<!-- wp:image {"aspectRatio":"3/4","scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+					<figure class="wp-block-image size-full">
 						<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/book-image.webp" alt="<?php echo esc_attr__( 'Book Image', 'twentytwentyfive' ); ?>" style="aspect-ratio:3/4;object-fit:cover"/>
 					</figure>
 					<!-- /wp:image -->

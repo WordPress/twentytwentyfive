@@ -34,14 +34,14 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size"><?php esc_html__( 'Published on' ); ?></p>
+							<p class="has-small-font-size"><?php esc_html__( 'Published on', 'twentytwentyfive' ); ?></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"small"} /--></div>
 						<!-- /wp:group -->
 						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size"><?php esc_html__( 'Posted by' ); ?></p>
+							<p class="has-small-font-size"><?php esc_html__( 'Posted by', 'twentytwentyfive' ); ?></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /-->
 						</div>
@@ -61,7 +61,7 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size">Tagged:</p>
+							<p class="has-small-font-size"><?php esc_html__( 'Tagged', 'twentytwentyfive' ); ?>:</p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-terms {"term":"post_tag","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>

@@ -1,4 +1,3 @@
-import { spawn } from 'child_process';
 import fs from 'fs';
 import util from 'util';
 import process from 'process';
@@ -11,8 +10,6 @@ import Ajv from 'ajv';
 import AjvDraft04 from 'ajv-draft-04';
 import glob from 'fast-glob';
 import chalk, { Chalk } from 'chalk';
-
-const isWin = process.platform === 'win32';
 
 const commands = {
 	'escape-patterns': {

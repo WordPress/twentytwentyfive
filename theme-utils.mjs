@@ -136,7 +136,7 @@ export function getThemeMetadata( styleCss, attribute ) {
 }
 
 async function escapePatterns( themes, options ) {
-	for ( const themeSlug of themes ) {
+	for ( const [ i, themeSlug ] of themes.entries() ) {
 		const textDomain = options?.domains?.[ i ] ?? themeSlug;
 		const patterns = await glob( `${ themeSlug }/patterns/*.php` );
 

@@ -14,6 +14,7 @@ import chalk, { Chalk } from 'chalk';
 const commands = {
 	'escape-patterns': {
 		helpText: 'Escapes block patterns for pattern files.',
+		additionalArgs: '<array of theme slugs>',
 		run: ( args ) => escapePatterns( args[ 1 ].split( /[ ,]+/ ) ),
 	},
 	'validate-theme': {

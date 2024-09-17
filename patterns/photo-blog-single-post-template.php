@@ -41,7 +41,7 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size">Posted by</p>
+							<p class="has-small-font-size"><?php esc_html__( 'Posted by' ); ?></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /-->
 						</div>

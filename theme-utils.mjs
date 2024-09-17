@@ -248,10 +248,10 @@ async function escapePatterns( themes ) {
 		const trimmedText = text && text.trim();
 		if ( ! themeSlug || ! trimmedText || trimmedText.startsWith( `<?php` ) )
 			return text;
-		const escFunction = isAttr ? 'esc_attr__' : 'esc_html__';
+		const escFunction = isAttr ? 'esc_attr_e' : 'esc_html_e';
 		const spaceChar = text.startsWith( ' ' ) ? '&nbsp;' : '';
 		const resultText = text.replace( "'", "\\'" ).trim();
-		return `${ spaceChar }<?php echo ${ escFunction }( '${ resultText }', '${ themeSlug }' ); ?>`;
+		return `${ spaceChar }<?php ${ escFunction }( '${ resultText }', '${ themeSlug }' ); ?>`;
 	}
 
 	function escapeImagePath( src ) {

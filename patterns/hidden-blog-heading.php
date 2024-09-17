@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Hidden index home page heading
- * Slug: twentytwentyfive/hidden-index-home-page-heading
+ * Title: Hidden Blog Heading
+ * Slug: twentytwentyfive/hidden-blog-heading
  * Description: Hidden heading for the home page and index template.
  * Inserter: no
  *

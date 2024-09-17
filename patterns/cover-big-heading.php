@@ -3,7 +3,7 @@
  * Title: Cover with big heading
  * Slug: twentytwentyfive/cover-with-big-heading
  * Categories: banner, about, featured
- * Description: A cover section with an opinionated design.
+ * Description: A full-width cover section with a large background image and an oversized heading.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

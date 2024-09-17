@@ -137,13 +137,13 @@ export function getThemeMetadata( styleCss, attribute ) {
 
 async function escapePatterns( themes, options ) {
 	for ( const themeSlug of themes ) {
-		const domain = options?.domains?.[ i ] ?? themeSlug;
+		const textDomain = options?.domains?.[ i ] ?? themeSlug;
 		const patterns = await glob( `${ themeSlug }/patterns/*.php` );
 
-		console.log( getPatternTable( themeSlug, patterns ) );
+		console.log( getPatternTable( themeSlug, textDomain, patterns ) );
 
 		patterns.forEach( ( file ) => {
-			const rewriter = getReWriter( domain );
+			const rewriter = getReWriter( textDomain );
 			const tmpFile = `${ file }-tmp`;
 			const readStream = fs.createReadStream( file, {
 				encoding: 'UTF-8',
@@ -160,11 +160,11 @@ async function escapePatterns( themes, options ) {
 	}
 
 	// Helper functions
-	function getReWriter( themeSlug ) {
+	function getReWriter( textDomain ) {
 		const rewriter = new RewritingStream();
 
 		rewriter.on( 'text', ( _, raw ) => {
-			rewriter.emitRaw( escapeText( raw, themeSlug ) );
+			rewriter.emitRaw( escapeText( raw, textDomain ) );
 		} );
 
 		rewriter.on( 'startTag', ( startTag, rawHtml ) => {
@@ -176,7 +176,7 @@ async function escapePatterns( themes, options ) {
 					if ( attr.name === 'src' ) {
 						attr.value = escapeImagePath( attr.value );
 					} else if ( attr.name === 'alt' ) {
-						attr.value = escapeText( attr.value, themeSlug, true );
+						attr.value = escapeText( attr.value, textDomain, true );
 					}
 				} );
 			}
@@ -191,7 +191,7 @@ async function escapePatterns( themes, options ) {
 			}
 			// escape the strings in block config (blocks that are represented as comments)
 			// ex: <!-- wp:search {label: "Search"} /-->
-			const block = escapeBlockAttrs( comment.text, themeSlug );
+			const block = escapeBlockAttrs( comment.text, textDomain );
 			rewriter.emitComment( { ...comment, text: block } );
 		} );
 
@@ -250,14 +250,14 @@ async function escapePatterns( themes, options ) {
 		return `<?php echo esc_url( get_template_directory_uri() ); ?>/${ resultSrc }`;
 	}
 
-	function getPatternTable( themeSlug, patterns ) {
+	function getPatternTable( themeSlug, textDomain, patterns ) {
 		const tableConfig = {
 			columnDefault: {
 				width: 40,
 			},
 			header: {
 				alignment: 'center',
-				content: `THEME: ${ themeSlug }\n\n Following patterns may get updated with escaped strings and/or image paths`,
+				content: `THEME: ${ themeSlug }\n\nTEXT DOMAIN: ${ textDomain }Following patterns may get updated with escaped strings and/or image paths`,
 			},
 		};
 

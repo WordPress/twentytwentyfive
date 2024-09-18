@@ -23,7 +23,7 @@ const commands = {
 			if ( typeof options.domains === 'string' ) {
 				options.domains = options.domains.split( /[ ,]+/ );
 			}
-			const themes = rest[ 0 ].split( /[ ,]+/ );
+			const themes = rest?.[ 0 ]?.split( /[ ,]+/ ) ?? [ '.' ];
 			escapePatterns( themes, options );
 		},
 	},
@@ -45,7 +45,7 @@ const commands = {
 			'[--format=FORMAT] [--color=WHEN] [--table-width=COLUMNS] <array of theme slugs>',
 		run: async ( args ) => {
 			const [ options, rest ] = parseFlags( args );
-			const themes = rest[ 0 ].split( /[ ,]+/ );
+			const themes = rest?.[ 0 ]?.split( /[ ,]+/ ) ?? [ '.' ];
 			await validateThemes( themes, options );
 		},
 	},

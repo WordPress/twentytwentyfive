@@ -1195,26 +1195,53 @@
 			"core/quote": {
 				"border": {
 					"style": "solid",
-					"width": "0 0 0 2px",
+					"width": "0 2px 0 2px",
 					"color": "var:preset|color|contrast"
 				},
 				"spacing": {
+					"blockGap": "var:preset|spacing|30",
+					"margin": {
+						"left": "0",
+						"right": "0"
+					},
 					"padding": {
+						"top": "var:preset|spacing|30",
+						"right": "var:preset|spacing|40",
 						"bottom": "var:preset|spacing|30",
-						"left": "var:preset|spacing|40",
-						"top": "var:preset|spacing|30"
+						"left": "var:preset|spacing|40"
 					}
 				},
 				"typography": {
-					"fontStyle": "normal",
+					"fontSize": "var:preset|font-size|medium",
+					"lineHeight": "1.1",
 					"fontWeight": "600"
 				},
 				"elements": {
 					"cite": {
 						"typography": {
-							"fontSize": "var:preset|font-size|small",
+							"fontSize": "0.65em",
 							"fontStyle": "normal",
-							"fontWeight": "300"
+							"fontWeight": "400"
+						},
+						"css": "& sub { font-size: 0.65em }"
+					}
+				},
+				"css": "&.has-text-align-right { border-left: 0; padding-left: 0; } &.has-text-align-center { border-inline: 0; padding-inline: 0; } &:not(.has-text-align-right):not(.has-text-align-center) { border-right: 0; padding-right: 0; }",
+				"variations": {
+					"plain": {
+						"border": {
+							"color": "transparent",
+							"style": "none",
+							"width": "0",
+							"radius": "0"
+						},
+						"spacing": {
+							"padding": {
+								"top": "0",
+								"right": "0",
+								"bottom": "0",
+								"left": "0"
+							}
 						}
 					}
 				}

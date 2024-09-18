@@ -181,6 +181,17 @@ async function escapePatterns( themes, options ) {
 				} );
 			}
 
+			const ariaLabel = startTag.attrs.find(
+				( attr ) => attr.name === 'aria-label'
+			);
+			if ( ariaLabel ) {
+				ariaLabel.value = escapeText(
+					ariaLabel.value,
+					textDomain,
+					true
+				);
+			}
+
 			rewriter.emitStartTag( startTag );
 		} );
 
@@ -206,6 +217,7 @@ async function escapePatterns( themes, options ) {
 			{ name: 'placeholder', isAttr: true },
 			{ name: 'buttonText' },
 			{ name: 'content' },
+			{ name: 'ariaLabel', isAttr: true },
 		];
 		const start = block.indexOf( '{' );
 		const end = block.lastIndexOf( '}' );

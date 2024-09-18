@@ -1,9 +1,8 @@
 <?php
 /**
  * Title: Search
- * Slug: twentytwentyfive/search
- * Categories: search
- * Description: Translatable search form
+ * Slug: twentytwentyfive/hidden-search
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

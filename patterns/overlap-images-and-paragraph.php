@@ -33,8 +33,8 @@
 		<div class="wp-block-column is-vertically-aligned-center" style="padding-right:0;padding-left:0;flex-basis:50%">
 			<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group">
-				<!-- wp:heading {"className":"is-style-pill","fontSize":"medium"} -->
-				<h2 class="wp-block-heading is-style-pill has-medium-font-size"><?php esc_html_e( 'About Us', 'twentytwentyfive' ); ?></h2>
+				<!-- wp:heading {"className":"is-style-pill"} -->
+				<h2 class="wp-block-heading is-style-pill"><?php esc_html_e( 'About Us', 'twentytwentyfive' ); ?></h2>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:group -->

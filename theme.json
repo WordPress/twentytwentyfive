@@ -1303,6 +1303,11 @@
 				},
 				"color": {
 					"text": "var:preset|color|opacity-20"
+				},
+				"variations": {
+					"wide": {
+						"css": " &:not(.alignfull){max-width: 1340px;}"
+					}
 				}
 			},
 			"core/site-tagline": {

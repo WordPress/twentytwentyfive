@@ -1306,7 +1306,7 @@
 				},
 				"variations": {
 					"wide": {
-						"css": " &:not(.alignfull){max-width: 1340px;}"
+						"css": " &:not(.alignfull){max-width: var(--wp--style--global--wide-size);}"
 					}
 				}
 			},

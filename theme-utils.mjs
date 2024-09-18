@@ -14,22 +14,31 @@ const commands = {
 	'escape-patterns': {
 		helpText: [
 			'Escapes block patterns for pattern files.',
-			'--domains=DOMAINS',
-			wrapIndent( 'Array of domains mapping to themes' ),
+			'<FILES|THEMES>',
+			wrapIndent(
+				'Individual pattern files to escape or root directories of themes with patterns to escape.'
+			),
+			'--text-domain=TEXT_DOMAIN',
+			wrapIndent(
+				'Text domain to use for translations. If omitted and theme directories are passed, this will default to the names of the directories.'
+			),
+			'EXAMPLE',
+			wrapIndent( 'Escape patterns for only modified files in git.' ),
+			wrapIndent(
+				"node theme-utils.mjs escape-patterns --text-domain=$(basename $PWD) $(git diff --name-only HEAD -- './patterns/*.php')"
+			),
 		].join( '\n\n' ),
-		additionalArgs: '[--domains=DOMAINS] <array of theme directories>',
+		additionalArgs: '[--text-domain=TEXT_DOMAIN] <FILES|THEMES>',
 		run: ( args ) => {
-			const [ options, rest ] = parseFlags( args );
-			if ( typeof options.domains === 'string' ) {
-				options.domains = options.domains.split( /[ ,]+/ );
-			}
-			const themes = rest?.[ 0 ]?.split( /[ ,]+/ ) ?? [ '.' ];
-			escapePatterns( themes, options );
+			const [ options, files ] = parseFlags( args );
+			escapePatterns( files, options );
 		},
 	},
 	'validate-theme': {
 		helpText: [
 			'Validates a theme against the WordPress theme requirements.',
+			'<THEMES>',
+			wrapIndent( 'Root directories for themes.' ),
 			'--format=FORMAT',
 			wrapIndent( 'Output format. Possible values: *table*, json, dir.' ),
 			'--color=WHEN',
@@ -42,11 +51,13 @@ const commands = {
 			),
 		].join( '\n\n' ),
 		additionalArgs:
-			'[--format=FORMAT] [--color=WHEN] [--table-width=COLUMNS] <array of theme slugs>',
+			'[--format=FORMAT] [--color=WHEN] [--table-width=COLUMNS] <THEMES>',
 		run: async ( args ) => {
-			const [ options, rest ] = parseFlags( args );
-			const themes = rest?.[ 0 ]?.split( /[ ,]+/ ) ?? [ '.' ];
-			await validateThemes( themes, options );
+			const [ options, themes ] = parseFlags( args );
+			const dirs = themes?.flatMap( ( maybeThemeArray ) =>
+				maybeThemeArray?.split( /[ ,]+/ )
+			);
+			await validateThemes( dirs, options );
 		},
 	},
 	help: {
@@ -135,12 +146,16 @@ export function getThemeMetadata( styleCss, attribute ) {
 		?.trim();
 }
 
-async function escapePatterns( themes, options ) {
-	for ( const [ i, themeSlug ] of themes.entries() ) {
-		const textDomain = options?.domains?.[ i ] ?? themeSlug;
-		const patterns = await glob( `${ themeSlug }/patterns/*.php` );
-
-		console.log( getPatternTable( themeSlug, textDomain, patterns ) );
+async function escapePatterns( patternsAndThemes, options ) {
+	for ( const themeOrPattern of patternsAndThemes ) {
+		const isTheme = fs.statSync( themeOrPattern ).isDirectory();
+		const themeSlug = isTheme
+			? themeOrPattern
+			: themeOrPattern.split( '/', 1 )[ 0 ];
+		const textDomain = options?.textDomain ?? themeSlug;
+		const patterns = isTheme
+			? await glob( `${ themeSlug }/patterns/*.php` )
+			: [ themeOrPattern ];
 
 		patterns.forEach( ( file ) => {
 			const rewriter = getReWriter( textDomain );
@@ -209,7 +224,7 @@ async function escapePatterns( themes, options ) {
 		return rewriter;
 	}
 
-	function escapeBlockAttrs( block, themeSlug ) {
+	function escapeBlockAttrs( block, textDomain ) {
 		// Set isAttr to true if it is an attribute in the result HTML
 		// If set to true, it generates esc_attr_, otherwise it generates esc_html_
 		const allowedAttrs = [
@@ -232,7 +247,7 @@ async function escapePatterns( themes, options ) {
 				if ( ! configJson[ attr.name ] ) return;
 				configJson[ attr.name ] = escapeText(
 					configJson[ attr.name ],
-					themeSlug,
+					textDomain,
 					attr.isAttr
 				);
 			} );
@@ -243,14 +258,19 @@ async function escapePatterns( themes, options ) {
 		}
 	}
 
-	function escapeText( text, themeSlug, isAttr = false ) {
+	function escapeText( text, textDomain, isAttr = false ) {
 		const trimmedText = text && text.trim();
-		if ( ! themeSlug || ! trimmedText || trimmedText.startsWith( `<?php` ) )
+		if (
+			! textDomain ||
+			! trimmedText ||
+			trimmedText.startsWith( `<?php` )
+		) {
 			return text;
+		}
 		const escFunction = isAttr ? 'esc_attr_e' : 'esc_html_e';
 		const spaceChar = text.startsWith( ' ' ) ? '&nbsp;' : '';
 		const resultText = text.replace( "'", "\\'" ).trim();
-		return `${ spaceChar }<?php ${ escFunction }( '${ resultText }', '${ themeSlug }' ); ?>`;
+		return `${ spaceChar }<?php ${ escFunction }( '${ resultText }', '${ textDomain }' ); ?>`;
 	}
 
 	function escapeImagePath( src ) {
@@ -260,23 +280,6 @@ async function escapePatterns( themes, options ) {
 		const parts = src.split( '/' );
 		const resultSrc = parts.slice( parts.indexOf( assetsDir ) ).join( '/' );
 		return `<?php echo esc_url( get_template_directory_uri() ); ?>/${ resultSrc }`;
-	}
-
-	function getPatternTable( themeSlug, textDomain, patterns ) {
-		const tableConfig = {
-			columnDefault: {
-				width: 40,
-			},
-			header: {
-				alignment: 'center',
-				content: `THEME: ${ themeSlug }\n\nTEXT DOMAIN: ${ textDomain }Following patterns may get updated with escaped strings and/or image paths`,
-			},
-		};
-
-		return table(
-			patterns.map( ( p ) => [ p ] ),
-			tableConfig
-		);
 	}
 }
 

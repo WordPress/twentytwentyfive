@@ -28,7 +28,7 @@
 					<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"500px","justifyContent":"left"}} -->
 					<div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--50)">
 						<!-- wp:heading {"level":3,"className":"wp-block-heading","fontSize":"x-large"} -->
-						<h3 class="wp-block-heading has-x-large-font-size">About the Book </h3>
+						<h3 class="wp-block-heading has-x-large-font-size">About the book</h3>
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph {"fontSize":"medium"} -->

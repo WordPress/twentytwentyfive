@@ -530,7 +530,7 @@ async function validateThemes( themes, { format, color, tableWidth } ) {
 				validators: [
 					{
 						validate: ( attr, value ) =>
-							validators.validateVersion( attr, value, [ 3 ] ),
+							validators.validateVersion( attr, value, [ 2, 3 ] ),
 						type: 'error',
 					},
 				],
@@ -552,7 +552,7 @@ async function validateThemes( themes, { format, color, tableWidth } ) {
 				validators: [
 					{
 						validate: ( attr, value ) =>
-							validators.validateVersion( attr, value, [ 2, 3 ] ),
+							validators.validateVersion( attr, value, [ 2 ] ),
 						type: 'error',
 					},
 					{

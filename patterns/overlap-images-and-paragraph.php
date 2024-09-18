@@ -3,7 +3,7 @@
  * Title: Overlap images and paragraph on right
  * Slug: twentytwentyfive/overlap-images-and-paragraph
  * Categories: about, media, text
- * Description: A section with a Overlap Images, Paragraph and Pill Style Text.
+ * Description: A section with overlap images, and a description.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

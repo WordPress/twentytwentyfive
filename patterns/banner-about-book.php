@@ -3,7 +3,7 @@
  * Title: Banner with book description
  * Slug: twentytwentyfive/banner-about-book
  * Categories: banner, call-to-action, featured
- * Description: A banner with the book description and an image.
+ * Description: Banner with book description and accompanying image for promotion.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

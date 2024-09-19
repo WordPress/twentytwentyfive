@@ -4,7 +4,7 @@
  * Slug: twentytwentyfive/footer-newsletter
  * Categories: footer
  * Block Types: core/template-part/footer
- * Description: Footer with large site title and newsletter signup
+ * Description: Footer with large site title and newsletter signup.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

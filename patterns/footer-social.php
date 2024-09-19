@@ -4,7 +4,7 @@
  * Slug: twentytwentyfive/footer-social
  * Categories: footer
  * Block Types: core/template-part/footer
- * Description: Footer with centered site title and social links
+ * Description: Footer with centered site title and social links.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

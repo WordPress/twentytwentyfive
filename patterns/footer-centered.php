@@ -4,7 +4,7 @@
  * Slug: twentytwentyfive/footer-centered
  * Categories: footer
  * Block Types: core/template-part/footer
- * Description: Footer with centered site title and tagline
+ * Description: Footer with centered site title and tagline.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

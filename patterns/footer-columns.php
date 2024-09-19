@@ -63,20 +63,10 @@
 		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignfull">
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><?php esc_html_e( 'Twenty Twenty-Five', 'twentytwentyfive' ); ?></p>
+			<p class="has-small-font-size">Twenty Twenty-Five</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">
-			<?php
-			/* Translators: WordPress link. */
-			$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfive' ) ) . '" rel="nofollow">WordPress</a>';
-			printf(
-				/* Translators: Designed with WordPress */
-				esc_html__( 'Designed with %1$s', 'twentytwentyfive' ),
-				$wordpress_link
-			);
-			?>
-			</p>
+			<p class="has-small-font-size">Designed with <a href="https://wordpress.org">WordPress</a></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

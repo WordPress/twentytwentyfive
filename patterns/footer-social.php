@@ -18,9 +18,9 @@
 	<div class="wp-block-group">
 		<!-- wp:site-title {"level":2,"textAlign":"center","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-large"} /-->
 		<!-- wp:navigation {"overlayMenu":"never","style":{"typography":{"textTransform":"uppercase","fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"var:preset|spacing|20"}},"fontSize":"x-large","layout":{"type":"flex","justifyContent":"center"},"ariaLabel":"<?php esc_attr_e( 'Social', 'twentytwentyfive' ); ?>"} -->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Facebook', 'twentytwentyfive' ); ?>","url":"#"} /-->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'Instagram', 'twentytwentyfive' ); ?>","url":"#"} /-->
-		<!-- wp:navigation-link {"label":"<?php esc_html_e( 'X', 'twentytwentyfive' ); ?>","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"Facebook","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"Instagram","url":"#"} /-->
+		<!-- wp:navigation-link {"label":"X","url":"#"} /-->
 		<!-- /wp:navigation -->
 	</div>
 	<!-- /wp:group -->
@@ -28,17 +28,7 @@
 	<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-	<p class="has-text-align-center has-small-font-size">
-		<?php
-		/* Translators: WordPress link. */
-		$wordpress_link = '<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfive' ) ) . '" rel="nofollow">WordPress</a>';
-		printf(
-			/* Translators: Designed with WordPress */
-			esc_html__( 'Designed with %1$s', 'twentytwentyfive' ),
-			$wordpress_link
-		);
-		?>
-	</p>
+	<p class="has-text-align-center has-small-font-size">Designed with <a href="https://wordpress.org">WordPress</a></p>
 	<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

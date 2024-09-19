@@ -31,7 +31,7 @@
 		printf(
 			/* Translators: Designed with WordPress */
 			esc_html__( 'Designed with %1$s', 'twentytwentyfive' ),
-			$wordpress_link
+			$wordpress_link // phpcs:ignore
 		);
 		?>
 	</p>

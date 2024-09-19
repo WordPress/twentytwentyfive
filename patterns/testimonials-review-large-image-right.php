@@ -4,6 +4,7 @@
  * Slug: twentytwentyfive/testimonials-review-large-image-right
  * Keywords: testimonial
  * Categories: testimonials
+ * Description: A testimonial with a large image on the right.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

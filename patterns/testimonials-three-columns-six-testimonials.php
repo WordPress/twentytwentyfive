@@ -4,6 +4,7 @@
  * Slug: twentytwentyfive/testimonials-three-columns-six-testimonials
  * Keywords: testimonial
  * Categories: testimonials
+ * Description: A section with three columns and two rows, each containing a testimonial and citation.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

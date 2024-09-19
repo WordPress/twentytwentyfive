@@ -4,6 +4,7 @@
  * Slug: twentytwentyfive/testimonials-two-columns-avatar
  * Keywords: testimonial
  * Categories: testimonials
+ * Description: Two columns with testimonials and avatars.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

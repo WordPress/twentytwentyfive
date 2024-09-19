@@ -53,7 +53,7 @@
 			printf(
 				/* Translators: Designed with WordPress */
 				esc_html__( 'Designed with %1$s', 'twentytwentyfive' ),
-				$wordpress_link // phpcs:ignore
+				$wordpress_link
 			);
 			?>
 			</p>

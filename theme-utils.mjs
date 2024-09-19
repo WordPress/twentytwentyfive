@@ -30,8 +30,11 @@ const commands = {
 		].join( '\n\n' ),
 		additionalArgs: '[--text-domain=TEXT_DOMAIN] <FILES|THEMES>',
 		run: ( args ) => {
-			const [ options, files ] = parseFlags( args );
-			escapePatterns( files, options );
+			const [ options, filesOrThemes ] = parseFlags( args );
+			if ( ! filesOrThemes.length ) {
+				filesOrThemes.push( '.' );
+			}
+			escapePatterns( filesOrThemes, options );
 		},
 	},
 	'validate-theme': {
@@ -54,10 +57,10 @@ const commands = {
 			'[--format=FORMAT] [--color=WHEN] [--table-width=COLUMNS] <THEMES>',
 		run: async ( args ) => {
 			const [ options, themes ] = parseFlags( args );
-			const dirs = themes?.flatMap( ( maybeThemeArray ) =>
-				maybeThemeArray?.split( /[ ,]+/ )
-			);
-			await validateThemes( dirs, options );
+			if ( ! themes.length ) {
+				themes.push( '.' );
+			}
+			await validateThemes( themes, options );
 		},
 	},
 	help: {

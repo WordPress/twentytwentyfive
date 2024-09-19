@@ -39,6 +39,6 @@
 		"lint:php": "composer run-script lint",
 		"lint:php:fix": "composer run-script format",
 		"lint:theme": "node theme-utils.mjs validate-theme",
-		"lint:patterns:fix": "node theme-utils.mjs escape-patterns --domains=twentytwentyfive"
+		"lint:patterns:fix": "node theme-utils.mjs escape-patterns --text-domain=twentytwentyfive"
 	}
 }

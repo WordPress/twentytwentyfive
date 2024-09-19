@@ -11,4 +11,4 @@
 
 ?>
 
-<!-- wp:search {"label":"<?php esc_html_e( 'Search', 'twentytwentyfive' ); ?>","showLabel":false,"buttonText":<?php echo esc_attr_x( 'Search', 'button label', 'twentytwentyfive' ); ?>","style":{"border":{"radius":"50px"}},"fontSize":"medium"} /-->
+<!-- wp:search {"label":"<?php esc_html_e( 'Search', 'twentytwentyfive' ); ?>","showLabel":false,"buttonText":"<?php echo esc_attr_x( 'Search', 'button label', 'twentytwentyfive' ); ?>","style":{"border":{"radius":"50px"}},"fontSize":"medium","borderColor":"opacity-20"} /-->

@@ -3,7 +3,6 @@
  * Title: News blog with sidebar
  * Slug: twentytwentyfive/news-blog-with-sidebar-template
  * Template Types: front-page, index, home
- * Categories: hidden
  * Inserter: no
  *
  * @package WordPress
@@ -112,4 +111,4 @@
 <!-- /wp:query --></div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-newsletter","area":"footer"} /-->

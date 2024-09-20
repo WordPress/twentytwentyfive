@@ -3,7 +3,6 @@
  * Title: News blog with featured posts grid
  * Slug: twentytwentyfive/news-blog-with-featured-posts-grid-template
  * Template Types: front-page, index, home
- * Categories: hidden
  * Inserter: no
  *
  * @package WordPress
@@ -128,4 +127,4 @@
 <!-- /wp:buttons --></div></div>
 <!-- /wp:cover -->
 
-<!-- wp:template-part {"slug":"footer","area":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-newsletter","area":"footer"} /-->

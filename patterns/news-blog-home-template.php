@@ -3,7 +3,6 @@
  * Title: News blog home
  * Slug: twentytwentyfive/news-blog-home
  * Template Types: front-page, index, home
- * Categories: hidden
  * Inserter: no
  *
  * @package WordPress
@@ -170,4 +169,4 @@
 <!-- /wp:query --></div>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","area":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-newsletter","area":"footer"} /-->

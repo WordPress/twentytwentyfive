@@ -27,8 +27,8 @@
 
 		<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
-			<!-- wp:heading {"fontSize":"xx-large"} -->
-			<h2 class="wp-block-heading has-xx-large-font-size">The Stories Podcast</h2>
+			<!-- wp:heading {"level":1,"fontSize":"xx-large"} -->
+			<h1 class="wp-block-heading has-xx-large-font-size">The Stories Podcast</h1>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}}}} -->

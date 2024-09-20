@@ -199,6 +199,9 @@ You can then use the following commands to test the code:
 - **`npm run lint:css:fix`**: Lints and attempts to autofix any issues in the CSS files.
 - **`npm run lint:php`**: Checks PHP files for syntax and standards errors according to [WordPress coding standards](https://developer.wordpress.org/coding-standards/).
 - **`npm run lint:php:fix`**: Attempts to automatically fix PHP errors.
+- **`lint:theme`**: Checks the theme.json and style.css metadata for issues.
+- **`lint:patterns:fix`**: Attempts to automatically wrap text in patterns for translation. Please check the updated files after running for adding additional context that may be needed or text that the tool wasn't able to automatically wrap.
+
 
 ## Resources
 

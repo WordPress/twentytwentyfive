@@ -7,7 +7,7 @@
  * Block Types: core/post-content
  * Post Types: page, wp_template
  * Viewport width: 1400
- * Description: .
+ * Description: A landing page for the podcast with a hero section, description, clients, grid with videos and newsletter signup.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

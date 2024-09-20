@@ -38,7 +38,7 @@
 					<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group has-small-font-size">
 						<!-- wp:paragraph -->
-						<p>Published on</p>
+						<p><?php esc_html_e( 'Published on', 'twentytwentyfive' ); ?></p>
 						<!-- /wp:paragraph -->
 						<!-- wp:post-date /-->
 					</div>

@@ -15,12 +15,16 @@
 <div class="wp-block-group alignfull is-style-section-5" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-		<!-- wp:heading {"textAlign":"center","level":3} -->
-		<h3 class="wp-block-heading has-text-align-center">The Stories Podcast is sponsored by</h3>
+		<!-- wp:heading {"textAlign":"center"} -->
+		<h2 class="wp-block-heading has-text-align-center">The Stories Podcast is sponsored by</h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20","padding":{"right":"0","left":"0","top":"var:preset|spacing|50","bottom":"0"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
-		<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-right:0;padding-bottom:0;padding-left:0">
+		<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
+		<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+		<!-- /wp:spacer -->
+
+		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"center"}} -->
+		<div class="wp-block-group alignwide">
 			<!-- wp:image {"width":"150px","aspectRatio":"4/3","scale":"contain","linkDestination":"none"} -->
 			<figure class="wp-block-image is-resized"><img alt="" style="aspect-ratio:4/3;object-fit:contain;width:150px"/></figure>
 			<!-- /wp:image -->

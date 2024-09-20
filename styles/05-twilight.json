@@ -1,4 +1,7 @@
 {
+	"title": "Twilight (Combined)",
+	"version": 3,
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"settings": {
 		"color": {
 			"palette": [
@@ -178,8 +181,5 @@
 			"fontWeight": "300",
 			"lineHeight": "1.3"
 		}
-	},
-	"title": "Twilight (Combined)",
-	"version": 3,
-	"$schema": "https://schemas.wp.org/trunk/theme.json"
+	}
 }

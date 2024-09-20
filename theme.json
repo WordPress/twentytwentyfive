@@ -1303,6 +1303,11 @@
 				},
 				"color": {
 					"text": "var:preset|color|opacity-20"
+				},
+				"variations": {
+					"wide": {
+						"css": " &:not(.alignfull){max-width: var(--wp--style--global--wide-size) !important;}"
+					}
 				}
 			},
 			"core/site-tagline": {

@@ -13,7 +13,8 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
-	<div class="wp-block-group alignwide"><!-- wp:heading -->
+	<div class="wp-block-group alignwide">
+		<!-- wp:heading -->
 		<h2 class="wp-block-heading">Upcoming events</h2>
 		<!-- /wp:heading -->
 
@@ -22,7 +23,8 @@
 		<!-- /wp:paragraph -->
 
 		<!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|70"}}},"layout":{"type":"default"}} -->
-		<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--70)"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+		<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--70)">
+			<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 				<!-- wp:group {"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
@@ -43,7 +45,8 @@
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
-					<div class="wp-block-buttons"><!-- wp:button {"fontSize":"small"} -->
+					<div class="wp-block-buttons">
+						<!-- wp:button {"fontSize":"small"} -->
 						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button">Buy Tickets</a></div>
 						<!-- /wp:button -->
 					</div>

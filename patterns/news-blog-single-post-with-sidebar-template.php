@@ -101,13 +101,13 @@
 <!-- wp:group {"layout":{"type":"constrained","justifyContent":"center"}} -->
 <div class="wp-block-group">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-		<div class="wp-block-group alignwide" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-				<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
-					<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
-						<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
-					</div>
-				<!-- /wp:group -->
+	<div class="wp-block-group alignwide" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+		<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
+		<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+			<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
 		</div>
+		<!-- /wp:group -->
+	</div>
 	<!-- /wp:group -->
 </div>
 <!-- /wp:group -->

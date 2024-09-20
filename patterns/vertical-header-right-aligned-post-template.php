@@ -97,9 +97,9 @@
 		</main>
 		<!-- /wp:group -->
 		<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
-			<div class="wp-block-group alignwide">	
-				<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
-			</div>
+		<div class="wp-block-group alignwide">	
+			<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
+		</div>
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:column -->

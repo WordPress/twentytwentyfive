@@ -125,6 +125,11 @@ Free public domain CC0 image.
 image-from-rawpixel-id-2211732.webp
 https://www.rawpixel.com/image/2211732
 
+Woman walking into the woods.
+Free public domain CC0 image.
+avatar.webp
+https://www.rawpixel.com/image/5918459
+
 Botany flowers.
 Free public domain CC0 image.
 botany-flowers.webp
@@ -247,5 +252,6 @@ https://www.rawpixel.com/image/14262995
 Bust by Mathew brady.
 Free public domain CC0 image.
 book-image-landing.webp
+book-image.webp
 https://www.rawpixel.com/image/8799536
 Book template by Beatriz Fialho, public domain.

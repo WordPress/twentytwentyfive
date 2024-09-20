@@ -4,6 +4,7 @@
  * Slug: twentytwentyfive/contact-centered-social-link
  * Keywords: contact, social-link
  * Categories: contact
+ * Description: Centered contact section with a prominent message and social media links.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

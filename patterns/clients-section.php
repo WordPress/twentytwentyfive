@@ -3,7 +3,7 @@
  * Title: Clients section
  * Slug: twentytwentyfive/clients-section
  * Categories: banner, call-to-action, featured
- * Description: A group block that displays the clients of the podcast.
+ * Description: Showcasing the podcast's clients with a heading and a series of client logos.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

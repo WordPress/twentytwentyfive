@@ -4,6 +4,7 @@
  * Slug: twentytwentyfive/contact-info-locations
  * Keywords: contact, location
  * Categories: contact
+ * Description: Contact section with social media links, email, and multiple location details.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

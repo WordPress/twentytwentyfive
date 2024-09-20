@@ -22,7 +22,7 @@
 
 <!-- wp:query-title {"type":"search"} /-->
 
-<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","style":{"border":{"radius":"50px"}},"fontSize":"medium","borderColor":"opacity-20"} /-->
+<!-- wp:pattern {"slug":"twentytwentyfive/hidden-search"} /-->
 
 <!-- wp:spacer {"height":"var:preset|spacing|40"} -->
 <div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>

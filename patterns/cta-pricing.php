@@ -4,7 +4,7 @@
  * Slug: twentytwentyfive/cta-pricing
  * Categories: call-to-action, featured
  * Viewport width: 1400
- * Description: A pricing section with a title, a paragraph and two pricing levels.
+ * Description: Pricing section with two columns, pricing plan, description, and call-to-action buttons.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

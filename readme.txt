@@ -30,6 +30,11 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+This theme incorporates code from:
+
+Twenty Twenty-Four WordPress Theme, (C) 2023 WordPress.org
+License: GPLv2 or later. License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 
 This theme bundles the following third-party resources:
 
@@ -120,35 +125,46 @@ Free public domain CC0 image.
 image-from-rawpixel-id-2211732.webp
 https://www.rawpixel.com/image/2211732
 
+Woman walking into the woods.
+Free public domain CC0 image.
+avatar.webp
+https://www.rawpixel.com/image/5918459
+
 Botany flowers.
 Free public domain CC0 image.
 botany-flowers.webp
+image-from-rawpixel-id-8812207.webp
 https://www.rawpixel.com/image/8812207
 
 Ms. Gail Falk Seltzer, a Staff Lawyer for Field Services.
 No known copyright restrictions
-team_photo_1.webp
+team-photo-1.webp
 https://www.flickr.com/photos/usnationalarchives/3906419575/
 
 Young sugarcane field worker.
 No known copyright restrictions
-team_photo_2.webp
+team-photo-2.webp
 https://www.flickr.com/photos/usnationalarchives/7157920320
 
 Portraits of Miners.
 No known copyright restrictions
-team_photo_3.webp
+team-photo-3.webp
 https://www.flickr.com/photos/usnationalarchives/3906400735/
 
 Young Woman Soliciting Funds.
 No known copyright restrictions
-team_photo_4.webp
+team-photo-4.webp
 https://www.flickr.com/photos/usnationalarchives/8676029464
 
 Corner view showing mostly left wall, Church, Acoma Pueblo.
 Free public domain CC0 image.
 image-from-rawpixel-id-8803077-original.webp
 https://www.rawpixel.com/image/8803077
+
+African Woman by Pascal Sébah and Jean Pascal Sébah
+Free public domain CC0 image.
+agenda-img-4.webp
+https://www.rawpixel.com/image/14263497
 
 Two Girls, Mill Workers by Lewis W Hine.
 Free public domain CC0 image.
@@ -158,11 +174,14 @@ https://www.rawpixel.com/image/14265869
 Cliff Palace, Mesa Verde National Park, Colorado (vertical orientation)
 Free public domain CC0 image.
 poster-image-background.webp
+image-from-rawpixel-id-8802835-jpeg-scaled.webp
 https://www.rawpixel.com/image/8802835
 
 Flower meadow in Llano, Texas.
 Free public domain CC0 image.
 coming-soon-bg-image.webp
+flower-meadow-square.webp
+services-subscriber-photo.webp
 https://www.rawpixel.com/image/8800058
 
 Hibiscus flower.
@@ -174,3 +193,64 @@ Phacelia tanacetifolia (Lacy Phacelia) enlarged 4 times from Urformen der Kunst 
 Free public domain CC0 image.
 grid-flower-2.webp
 https://www.rawpixel.com/image/2222743
+
+At Hawaiian Greenhouse, Inc, near Pahoa, anthuriums grow under a sun screen.
+Free public domain CC0 image.
+category-anthuriums.webp
+https://www.rawpixel.com/image/8799473
+
+Sunflower
+Free public domain CC0 image.
+category-sunflowers.webp
+https://www.rawpixel.com/image/8799614
+
+Detail of cactus "Saguaros, Saguro National Monument," Arizona. Photographer: Adams, Ansel, 1902-1984
+Free public domain CC0 image.
+category-cactus.webp
+https://www.rawpixel.com/image/8799351
+
+Vash Gon - Jicarilla by Edward S Curtis.
+Free public domain CC0 image.
+vash-gon-square.webp
+https://www.rawpixel.com/image/14262822
+
+One of the 40 Or More Species of Coral at John Pennekamp Coral Reef State Park, a Few Miles Off Key Largo.
+Free public domain CC0 image.
+coral-square.webp
+https://www.rawpixel.com/image/8799931
+
+[The fair "Sauimatani"] (23 July 1884) by Burton Brothers and Alfred Burton.
+Free public domain CC0 image.
+fair-sauimatani-square.webp
+https://www.rawpixel.com/image/13028387
+
+Parthenon op de Akropolis in Athene (westzijde) (c. 1880 - c. 1890) by Rhomaides Frères.
+Free public domain CC0 image.
+parthenon-square.webp
+https://www.rawpixel.com/image/13759051
+
+Near East Dallas Creek, 05/1972. Photographer: Norton, Boyd.
+Free public domain CC0 image.
+dallas-creek-square.webp
+https://www.rawpixel.com/image/8802688
+
+Marshland birds at the Lake Havasu National Wildlife Refuge.
+Free public domain CC0 image.
+marshland-birds-square.webp
+https://www.rawpixel.com/image/8799403
+
+Photograph - New York [Portrait - Washington Square] by Paul Strand.
+Free public domain CC0 image.
+hero-podcast.webp
+https://www.rawpixel.com/image/14264288
+
+Evening Breeze by Asahachi Kono.
+Free public domain CC0 image.
+link-in-bio-image
+https://www.rawpixel.com/image/14262995
+
+Bust by Mathew brady.
+Free public domain CC0 image.
+book-image-landing.webp
+https://www.rawpixel.com/image/8799536
+Book template by Beatriz Fialho, public domain.

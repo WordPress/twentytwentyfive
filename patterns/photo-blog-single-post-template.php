@@ -53,7 +53,7 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size"><?php esc_html_e( 'Categories', 'twentytwentyfive' ); ?>:</p>
+							<p class="has-small-font-size"><?php esc_html_e( 'Categories:', 'twentytwentyfive' ); ?></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-terms {"term":"category","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>
@@ -61,7 +61,7 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size"><?php esc_html_e( 'Tagged', 'twentytwentyfive' ); ?>:</p>
+							<p class="has-small-font-size"><?php esc_html_e( 'Tagged:', 'twentytwentyfive' ); ?></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-terms {"term":"post_tag","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>

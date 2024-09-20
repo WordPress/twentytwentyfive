@@ -3,7 +3,7 @@
  * Title: Services - Three Columns
  * Slug: twentytwentyfive/services-three-columns
  * Categories: call-to-action, banner, featured, services
- * Description: Displays three columns with images and text for services.
+ * Description: Three columns with images and text to showcase services.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

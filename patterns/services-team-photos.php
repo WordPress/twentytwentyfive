@@ -3,7 +3,7 @@
  * Title: Services - Team photos
  * Slug: twentytwentyfive/services-team-photos
  * Categories: banner, call-to-action, featured
- * Description: Team photos in services section.
+ * Description: Display team photos in a services section with grid layout.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

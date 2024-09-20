@@ -3,7 +3,7 @@
  * Title: Events – List with Call to Action
  * Slug: twentytwentyfive/events-list-with-cta
  * Categories: text, call-to-action
- * Description: A list of events with call to action
+ * Description: A list of events with call to action.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

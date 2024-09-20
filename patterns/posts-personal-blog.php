@@ -17,7 +17,9 @@
 	<!-- wp:group {"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">
 		<!-- wp:query-no-results -->
-		<!-- wp:pattern {"slug":"twentytwentyfive/hidden-no-results"} /-->
+		<!-- wp:paragraph -->
+		<p><?php echo esc_html_x( 'No posts were found.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?></p>
+		<!-- /wp:paragraph -->
 		<!-- /wp:query-no-results -->
 	</div>
 	<!-- /wp:group -->

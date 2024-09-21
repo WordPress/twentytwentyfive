@@ -11,8 +11,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","right":"var:preset|spacing|50","left":"var:preset|spacing|80"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-section-4" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--80)">
+<!-- wp:group {"align":"full","className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","right":"var:preset|spacing|50","left":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-4" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--80)">
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|80"}}}} -->
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
@@ -31,7 +31,7 @@
 		<!-- /wp:column -->
 
 		<!-- wp:column {"verticalAlignment":"center","width":"50%","layout":{"type":"default"}} -->
-		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%"> 
+		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
 			<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 			<figure class="wp-block-image size-full">
 				<img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/image-from-rawpixel-id-8803077-original.webp' ); ?>" alt="<?php echo esc_attr_x( 'A classic black and white photo of an old church', 'Alt text for Overview picture', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover" />

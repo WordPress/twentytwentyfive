@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"slug": "uppercase",
+	"title": "Uppercase",
+	"blockTypes": [ "core/heading", "core/paragraph", "core/post-terms" ],
+	"styles": {
+		"typography": {
+			"fontSize": "var:preset|font-size|small",
+			"fontWeight": "700",
+			"textTransform": "uppercase",
+			"letterSpacing": "1.4px"
+		}
+	}
+}

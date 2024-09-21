@@ -1464,6 +1464,11 @@
 			"title": "Header"
 		},
 		{
+			"area": "header",
+			"name": "vertical-header",
+			"title": "Vertical Header"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
@@ -1472,11 +1477,6 @@
 			"area": "footer",
 			"name": "footer-newsletter",
 			"title": "Footer Newsletter"
-		},
-		{
-			"area": "uncategorized",
-			"name": "right-aligned-sidebar",
-			"title": "Right Aligned Sidebar"
 		},
 		{
 			"area": "uncategorized",

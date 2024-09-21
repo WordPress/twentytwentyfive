@@ -15,10 +15,13 @@
  */
 
 ?>
-
-<!-- wp:pattern {"slug":"twentytwentyfive/hero-book"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/cta-book-links"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/banner-about-book"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/cta-book-locations"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/text-faqs"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull">
+	<!-- wp:pattern {"slug":"twentytwentyfive/hero-book"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/cta-book-links"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/banner-about-book"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/cta-book-locations"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/text-faqs"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
+</div>
+<!-- /wp:group -->

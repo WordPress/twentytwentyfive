@@ -1464,6 +1464,11 @@
 			"title": "Header"
 		},
 		{
+			"area": "header",
+			"name": "vertical-header",
+			"title": "Vertical Header"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"

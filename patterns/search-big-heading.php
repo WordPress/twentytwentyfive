@@ -3,7 +3,7 @@
  * Title: Search - Big heading and search form
  * Slug: twentytwentyfive/search-big-heading
  * Categories: call-to-action, text
- * Description: heading with search form
+ * Description: Large heading with a search form for quick navigation.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

@@ -21,8 +21,8 @@
 
 		<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 		<div class="wp-block-group">
-			<!-- wp:heading {"textAlign":"center","level":1,"className":"is-style-pill","fontSize":"small","borderColor":"accent-1"} -->
-			<h1 class="wp-block-heading has-text-align-center is-style-pill has-border-color has-accent-1-border-color has-small-font-size">Event</h1>
+			<!-- wp:heading {"textAlign":"center","level":1,"className":"is-style-pill"} -->
+			<h1 class="wp-block-heading has-text-align-center is-style-pill">Event</h1>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:group -->

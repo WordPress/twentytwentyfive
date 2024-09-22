@@ -19,8 +19,8 @@
 		<h3 class="wp-block-heading alignwide has-text-align-left">Explore the episodes</h3>
 		<!-- /wp:heading -->
 
-		<!-- wp:paragraph {"className":"is-style-pill","fontSize":"small"} -->
-		<p class="is-style-pill has-small-font-size">Podcast</p>
+		<!-- wp:paragraph {"className":"is-style-pill"} -->
+		<p class="is-style-pill">Podcast</p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

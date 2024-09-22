@@ -4,7 +4,7 @@
  * Slug: twentytwentyfive/footer
  * Categories: footer
  * Block Types: core/template-part/footer
- * Description: Footer columns with logo, title, tagline and links
+ * Description: Footer columns with logo, title, tagline and links.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

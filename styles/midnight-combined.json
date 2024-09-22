@@ -54,15 +54,6 @@
 				}
 			]
 		},
-		"duotone":
-				{
-					"colors": [
-						"#79F3B1",
-						"#4433A6"
-					],
-					"name": "Midnight filter",
-					"slug": "midnight-filter"
-		},
 		"typography": {
 			"fontSizes": [
 				{

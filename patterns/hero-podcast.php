@@ -27,16 +27,16 @@
 
 		<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
-			<!-- wp:heading {"fontSize":"xx-large"} -->
-			<h2 class="wp-block-heading has-xx-large-font-size">The Stories Podcast</h2>
+			<!-- wp:heading {"level":1,"fontSize":"xx-large"} -->
+			<h1 class="wp-block-heading has-xx-large-font-size">The Stories Podcast</h1>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}}}} -->
 			<p style="padding-top:var(--wp--preset--spacing--30)"><?php echo esc_html_x( 'Storytelling, expert analysis, and vivid descriptions. The Stories Podcast brings history to life, making it accessible and engaging for a global audience.', 'Podcast description', 'twentytwentyfive' ); ?></p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:heading {"level":3,"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}}},"fontSize":"large"} -->
-			<h3 class="wp-block-heading has-large-font-size" style="padding-top:var(--wp--preset--spacing--30)"><strong><?php echo esc_html_x( 'Subscribe on your favorite platform', 'Subscription heading', 'twentytwentyfive' ); ?></strong></h3>
+			<!-- wp:heading {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}}},"fontSize":"large"} -->
+			<h2 class="wp-block-heading has-large-font-size" style="padding-top:var(--wp--preset--spacing--30)"><strong>Subscribe on your favorite platform</strong></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->

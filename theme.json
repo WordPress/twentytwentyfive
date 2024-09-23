@@ -1277,7 +1277,7 @@
 				}
 			},
 			"core/search": {
-				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;}",
+				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;border-color:var(--wp--preset--color--opacity-20);}",
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
 					"lineHeight": "1.6"
@@ -1290,6 +1290,11 @@
 						"spacing": {
 							"margin": {
 								"left": "1.125rem"
+							}
+						},
+						":hover" : {
+							"border": {
+								"color": "transparent"
 							}
 						}
 					}
@@ -1393,7 +1398,7 @@
 						"text": "var:preset|color|contrast"
 					},
 					"border": {
-						"color": "var:preset|color|accent-1"
+						"color": "currentColor"
 					}
 				},
 				"border": {

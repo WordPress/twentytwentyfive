@@ -19,7 +19,7 @@
 	<!-- wp:query-title {"type":"search","textAlign":"center","align":"wide"} /-->
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","align":"center","style":{"border":{"radius":"50px"}},"fontSize":"medium"} /-->
+		<!-- wp:pattern {"slug":"twentytwentyfive/hidden-search"} /-->
 	</div>
 	<!-- /wp:group -->
 	<!-- wp:pattern {"slug":"twentytwentyfive/photo-blog-posts"} /-->

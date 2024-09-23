@@ -3,7 +3,7 @@
  * Title: Banner with book description
  * Slug: twentytwentyfive/banner-about-book
  * Categories: banner, call-to-action, featured
- * Description: A banner with the book description and an image.
+ * Description: Banner with book description and accompanying image for promotion.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -11,8 +11,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","right":"var:preset|spacing|50","left":"var:preset|spacing|50"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","right":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|80"}}}} -->
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
@@ -28,7 +28,7 @@
 					<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"500px","justifyContent":"left"}} -->
 					<div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--50)">
 						<!-- wp:heading {"level":3,"className":"wp-block-heading","fontSize":"x-large"} -->
-						<h3 class="wp-block-heading has-x-large-font-size">About the Book </h3>
+						<h3 class="wp-block-heading has-x-large-font-size">About the book</h3>
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph {"fontSize":"medium"} -->

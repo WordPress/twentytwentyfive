@@ -4,7 +4,7 @@
  * Slug: twentytwentyfive/cta-pricing
  * Categories: call-to-action, featured
  * Viewport width: 1400
- * Description: A pricing section with a title, a paragraph and two pricing levels.
+ * Description: Pricing section with two columns, pricing plan, description, and call-to-action buttons.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -12,10 +12,10 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-	<div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--50)">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
+	<!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
+	<div class="wp-block-group alignwide">
 		<!-- wp:heading {"textAlign":"center","align":"wide"} -->
 		<h2 class="wp-block-heading alignwide has-text-align-center">Pricing</h2>
 		<!-- /wp:heading -->
@@ -25,6 +25,10 @@
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->
+
+	<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
+	<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+	<!-- /wp:spacer -->
 
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|50"}}}} -->
 	<div class="wp-block-columns alignwide">

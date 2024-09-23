@@ -3,7 +3,7 @@
  * Title: Hero Full Width Image
  * Slug: twentytwentyfive/hero-full-width-image
  * Categories: banner, featured
- * Description: A hero with a full width image, heading, short paragraph and button
+ * Description: A hero with a full width image, heading, short paragraph and button.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

@@ -113,7 +113,7 @@
 			"core/post-terms": {
 				"typography": {
 					"fontWeight": "400",
-					"fontSize": "var:preset|font-size|medium"
+					"fontSize": "var:preset|font-size|small"
 				},
 				"color": {
 					"text": "var:preset|color|contrast"

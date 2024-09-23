@@ -304,6 +304,11 @@
 					"text": "var:preset|color|base"
 				},
 				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
 					"button": {
 						"color": {
 							"background": "var:preset|color|base",

@@ -41,7 +41,7 @@ if ( ! function_exists( 'twentytwentyfive_enqueue_styles' ) ) :
 			'twentytwentyfive-style',
 			get_parent_theme_file_uri( 'style.css' ),
 			array(),
-			wp_get_theme()->get( 'Version' ),
+			wp_get_theme()->get( 'Version' )
 		);
 	}
 endif;
@@ -170,7 +170,7 @@ if ( ! function_exists( 'twentytwentyfive_copyright_binding' ) ) :
 			/* translators: 1: Copyright symbol or word, 2: Year */
 			esc_html__( '%1$s %2$s', 'twentytwentyfive' ),
 			'&copy;',
-			wp_date( 'Y' ),
+			wp_date( 'Y' )
 		);
 
 		return $copyright_text;

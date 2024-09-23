@@ -106,15 +106,28 @@
 		<div class="wp-block-column" style="flex-basis:5%"></div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"width":"50%","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
-		<div class="wp-block-column" style="padding-top:0;padding-bottom:0;flex-basis:50%">
-			<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"constrained"}} -->
+		<!-- wp:column {"width":"65%","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}}} -->
+		<div class="wp-block-column" style="padding-top:0;padding-bottom:0;flex-basis:65%">
+			<!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}},"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 				<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
 			</div>
 			<!-- /wp:group -->
 		</div>
 		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"5%"} -->
+		<div class="wp-block-column" style="flex-basis:5%"></div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"25%"} -->
+		<div class="wp-block-column" style="flex-basis:25%"></div>
+		<!-- /wp:column -->
+
+		<!-- wp:column {"width":"5%"} -->
+		<div class="wp-block-column" style="flex-basis:5%"></div>
+		<!-- /wp:column -->
+
 	</div>
 	<!-- /wp:columns -->
 </div>

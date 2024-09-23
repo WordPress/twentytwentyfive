@@ -58,7 +58,7 @@
 					<!-- /wp:post-template -->
 
 					<!-- wp:query-no-results -->
-					<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+					<!-- wp:paragraph -->
 					<p>No posts were found.</p>
 					<!-- /wp:paragraph -->
 					<!-- /wp:query-no-results -->
@@ -84,7 +84,7 @@
 					<!-- /wp:post-template -->
 
 					<!-- wp:query-no-results -->
-					<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+					<!-- wp:paragraph -->
 					<p>No posts were found.</p>
 					<!-- /wp:paragraph -->
 					<!-- /wp:query-no-results -->
@@ -114,7 +114,7 @@
 			<!-- /wp:post-template -->
 
 			<!-- wp:query-no-results -->
-			<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+			<!-- wp:paragraph -->
 			<p>No posts were found.</p>
 			<!-- /wp:paragraph -->
 			<!-- /wp:query-no-results -->
@@ -144,7 +144,7 @@
 					<!-- /wp:post-template -->
 
 					<!-- wp:query-no-results -->
-					<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+					<!-- wp:paragraph -->
 					<p>No posts were found.</p>
 					<!-- /wp:paragraph -->
 					<!-- /wp:query-no-results -->
@@ -170,7 +170,7 @@
 					<!-- /wp:post-template -->
 
 					<!-- wp:query-no-results -->
-					<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+					<!-- wp:paragraph -->
 					<p>No posts were found.</p>
 					<!-- /wp:paragraph -->
 					<!-- /wp:query-no-results -->
@@ -200,7 +200,7 @@
 			<!-- /wp:post-template -->
 
 			<!-- wp:query-no-results -->
-			<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results."} -->
+			<!-- wp:paragraph -->
 			<p>No posts were found.</p>
 			<!-- /wp:paragraph -->
 			<!-- /wp:query-no-results -->

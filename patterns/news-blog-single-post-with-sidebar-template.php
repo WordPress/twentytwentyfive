@@ -35,7 +35,7 @@
 					<!-- wp:paragraph -->
 					<p>·</p>
 					<!-- /wp:paragraph -->
-					<!-- wp:post-terms {"term":"category","separator":",  ","className":"is-style-default","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
+					<!-- wp:post-terms {"term":"category","separator":",  ","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
 				</div>
 				<!-- /wp:group -->
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

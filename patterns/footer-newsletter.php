@@ -17,21 +17,20 @@
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:heading {"style":{"typography":{"fontSize":"18vw","letterSpacing":"-0.02em","fontWeight":"600"}}} -->
-		<h2 class="wp-block-heading" style="font-size:18vw;letter-spacing:-0.02em;font-weight:600"><?php esc_html_e( 'Stories', 'twentytwentyfive' ); ?></h2>
+		<h2 class="wp-block-heading" style="font-size:18vw;letter-spacing:-0.02em;font-weight:600">Stories</h2>
 		<!-- /wp:heading -->
 		<!-- wp:group {"style":{"spacing":{"padding":{"right":"0","left":"0"}}},"layout":{"type":"default"}} -->
 		<div class="wp-block-group" style="padding-right:0;padding-left:0">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group">
 				<!-- wp:paragraph {"fontSize":"x-large"} -->
-				<p class="has-x-large-font-size"><?php esc_html_e( 'Receive our articles in your inbox.', 'twentytwentyfive' ); ?></p>
+				<p class="has-x-large-font-size">Receive our articles in your inbox.</p>
 				<!-- /wp:paragraph -->
 				<!-- wp:buttons -->
 				<div class="wp-block-buttons">
 					<!-- wp:button -->
-					<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Subscribe', 'twentytwentyfive' ); ?></a></div>
-					<!-- /wp:button -->
-				</div>
+				<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Subscribe</a></div>
+				<!-- /wp:button --></div>
 				<!-- /wp:buttons -->
 			</div>
 			<!-- /wp:group -->
@@ -43,7 +42,7 @@
 		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignfull">
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size"><?php esc_html_e( 'Twenty Twenty-Five', 'twentytwentyfive' ); ?></p>
+			<p class="has-small-font-size">Twenty Twenty-Five</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"fontSize":"small"} -->
 			<p class="has-small-font-size">

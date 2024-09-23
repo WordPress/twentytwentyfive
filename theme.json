@@ -1303,6 +1303,11 @@
 				},
 				"color": {
 					"text": "var:preset|color|opacity-20"
+				},
+				"variations": {
+					"wide": {
+						"css": " &:not(.alignfull){max-width: var(--wp--style--global--wide-size) !important;}"
+					}
 				}
 			},
 			"core/site-tagline": {
@@ -1459,6 +1464,11 @@
 			"title": "Header"
 		},
 		{
+			"area": "header",
+			"name": "vertical-header",
+			"title": "Vertical Header"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
@@ -1467,11 +1477,6 @@
 			"area": "footer",
 			"name": "footer-newsletter",
 			"title": "Footer Newsletter"
-		},
-		{
-			"area": "uncategorized",
-			"name": "right-aligned-sidebar",
-			"title": "Right Aligned Sidebar"
 		},
 		{
 			"area": "uncategorized",

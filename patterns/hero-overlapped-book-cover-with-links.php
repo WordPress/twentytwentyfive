@@ -43,8 +43,8 @@
 						<div style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>
 						<!-- /wp:spacer -->
 
-						<!-- wp:group {"className":"is-style-default","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-						<div class="wp-block-group is-style-default">
+						<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+						<div class="wp-block-group">
 							<!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|20","left":"var:preset|spacing|20"}}}} -->
 							<div class="wp-block-columns">
 								<!-- wp:column {"verticalAlignment":"stretch"} -->

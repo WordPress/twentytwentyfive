@@ -281,6 +281,11 @@
 					"text": "var:preset|color|base"
 				},
 				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
 					"button": {
 						"color": {
 							"background": "var:preset|color|accent-2",

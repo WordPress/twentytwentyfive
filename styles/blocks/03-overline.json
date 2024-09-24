@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Subtitle",
-	"slug": "text-subtitle",
+	"title": "Overline",
+	"slug": "text-overline",
 	"blockTypes": ["core/heading", "core/paragraph"],
 	"styles": {
 		"css": "display: inline-flex",

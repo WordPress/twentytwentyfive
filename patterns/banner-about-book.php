@@ -27,8 +27,8 @@
 				<div class="wp-block-column" style="flex-basis:88%">
 					<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"500px","justifyContent":"left"}} -->
 					<div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--50)">
-						<!-- wp:heading {"className":"is-style-text-heading"} -->
-						<h2 class="wp-block-heading is-style-text-heading">About the book</h2>
+						<!-- wp:heading {"className":"is-style-text-subtitle"} -->
+						<h2 class="wp-block-heading is-style-text-subtitle">About the book</h2>
 						<!-- /wp:heading -->
 
 						<!-- wp:paragraph {"fontSize":"medium"} -->

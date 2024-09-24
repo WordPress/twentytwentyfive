@@ -38,8 +38,8 @@
 		<div class="wp-block-column">
 			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between","flexWrap":"nowrap","justifyContent":"stretch"}} -->
 			<div class="wp-block-group" style="min-height:100%">
-				<!-- wp:paragraph {"className":"is-style-text-heading"} -->
-				<p class="is-style-text-heading">I’m Asahachi Kōno, a Japanese&nbsp;photographer, a member of&nbsp;Los Angeles's Japanese Camera Pictorialists of California. Before returning to Japan, I worked as a photo retoucher.</p>
+				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
+				<p class="is-style-text-subtitle">I’m Asahachi Kōno, a Japanese&nbsp;photographer, a member of&nbsp;Los Angeles's Japanese Camera Pictorialists of California. Before returning to Japan, I worked as a photo retoucher.</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

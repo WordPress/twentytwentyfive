@@ -19,8 +19,8 @@
 		<h3 class="wp-block-heading alignwide has-text-align-left">Explore the episodes</h3>
 		<!-- /wp:heading -->
 
-		<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
-		<p class="is-style-text-subtitle">Podcast</p>
+		<!-- wp:paragraph {"className":"is-style-text-overline"} -->
+		<p class="is-style-text-overline">Podcast</p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

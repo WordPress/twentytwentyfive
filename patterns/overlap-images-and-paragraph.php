@@ -33,13 +33,13 @@
 		<div class="wp-block-column is-vertically-aligned-center" style="padding-right:0;padding-left:0;flex-basis:50%">
 			<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
 			<div class="wp-block-group">
-				<!-- wp:heading {"className":"is-style-text-subtitle"} -->
-				<h2 class="wp-block-heading is-style-text-subtitle"><?php esc_html_e( 'About Us', 'twentytwentyfive' ); ?></h2>
+				<!-- wp:heading {"className":"is-style-text-overline"} -->
+				<h2 class="wp-block-heading is-style-text-overline"><?php esc_html_e( 'About Us', 'twentytwentyfive' ); ?></h2>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:group -->
-			<!-- wp:paragraph {"className":"is-style-text-heading"} -->
-			<p class="is-style-text-heading"><?php echo wp_kses_post( _x( '<strong>Fleurs</strong> is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers.', 'Content of the overlap images and paragraph pattern', 'twentytwentyfive' ) ); ?></p>
+			<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
+			<p class="is-style-text-subtitle"><?php echo wp_kses_post( _x( '<strong>Fleurs</strong> is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers.', 'Content of the overlap images and paragraph pattern', 'twentytwentyfive' ) ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

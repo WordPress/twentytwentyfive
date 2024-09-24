@@ -41,24 +41,24 @@
 
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
-				<p class="is-style-text-subtitle"><a href="#"><?php echo esc_html_x( 'Youtube', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- wp:paragraph {"className":"is-style-text-overline"} -->
+				<p class="is-style-text-overline"><a href="#"><?php echo esc_html_x( 'Youtube', 'Button text', 'twentytwentyfive' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
-				<p class="is-style-text-subtitle"><a href="#"><?php echo esc_html_x( 'Apple Podcasts', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- wp:paragraph {"className":"is-style-text-overline"} -->
+				<p class="is-style-text-overline"><a href="#"><?php echo esc_html_x( 'Apple Podcasts', 'Button text', 'twentytwentyfive' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
-				<p class="is-style-text-subtitle"><a href="#"><?php echo esc_html_x( 'Spotify', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- wp:paragraph {"className":"is-style-text-overline"} -->
+				<p class="is-style-text-overline"><a href="#"><?php echo esc_html_x( 'Spotify', 'Button text', 'twentytwentyfive' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
-				<p class="is-style-text-subtitle"><a href="#"><?php echo esc_html_x( 'Pocket Casts', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- wp:paragraph {"className":"is-style-text-overline"} -->
+				<p class="is-style-text-overline"><a href="#"><?php echo esc_html_x( 'Pocket Casts', 'Button text', 'twentytwentyfive' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
-				<p class="is-style-text-subtitle"><a href="#"><?php echo esc_html_x( 'RSS', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- wp:paragraph {"className":"is-style-text-overline"} -->
+				<p class="is-style-text-overline"><a href="#"><?php echo esc_html_x( 'RSS', 'Button text', 'twentytwentyfive' ); ?></a></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

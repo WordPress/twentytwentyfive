@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Heading",
-	"slug": "text-heading",
+	"title": "Subtitle",
+	"slug": "text-subtitle",
 	"blockTypes": ["core/heading", "core/paragraph"],
 	"styles": {
 		"typography": {

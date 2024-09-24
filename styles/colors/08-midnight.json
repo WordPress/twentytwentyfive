@@ -21,7 +21,7 @@
 					"slug": "accent-1"
 				},
 				{
-					"color": "#79F3B1",
+					"color": "#372696",
 					"name": "Accent 2",
 					"slug": "accent-2"
 				},
@@ -31,12 +31,12 @@
 					"slug": "accent-3"
 				},
 				{
-					"color": "#D594F4",
+					"color": "#79F3B1",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#372696",
+					"color": "#E8B7FF",
 					"name": "Secondary",
 					"slug": "secondary"
 				},

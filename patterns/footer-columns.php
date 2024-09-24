@@ -4,7 +4,7 @@
  * Slug: twentytwentyfive/footer-columns
  * Categories: footer
  * Block Types: core/template-part/footer
- * Description: Footer columns with title, tagline and links
+ * Description: Footer columns with title, tagline and links.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -66,7 +66,15 @@
 			<p class="has-small-font-size">Twenty Twenty-Five</p>
 			<!-- /wp:paragraph -->
 			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">Designed with <a href="https://wordpress.org">WordPress</a></p>
+			<p class="has-small-font-size">
+			<?php
+			printf(
+				/* Translators: Designed with WordPress. %1$s: WordPress link. */
+				esc_html__( 'Designed with %1$s', 'twentytwentyfive' ),
+				'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfive' ) ) . '" rel="nofollow">WordPress</a>'
+			);
+			?>
+			</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

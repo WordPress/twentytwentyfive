@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Events – List with Call to Action
+ * Title: Events - List with Call to Action
  * Slug: twentytwentyfive/events-list-with-cta
  * Categories: text, call-to-action
- * Description: A list of events with call to action
+ * Description: A list of events with call to action.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -12,8 +12,10 @@
 
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
-	<div class="wp-block-group alignwide"><!-- wp:heading -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
+	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+	<div class="wp-block-group alignwide">
+		<!-- wp:heading -->
 		<h2 class="wp-block-heading">Upcoming events</h2>
 		<!-- /wp:heading -->
 
@@ -22,9 +24,12 @@
 		<!-- /wp:paragraph -->
 
 		<!-- wp:group {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|70"}}},"layout":{"type":"default"}} -->
-		<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--70)"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
-			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained"}} -->
-				<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+		<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--70)">
+			<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+			<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
+				<!-- wp:group {"layout":{"type":"constrained"}} -->
+				<div class="wp-block-group">
+					<!-- wp:heading {"level":3} -->
 					<h3 class="wp-block-heading">Tell your story</h3>
 					<!-- /wp:heading -->
 
@@ -34,13 +39,15 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
+				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+				<div class="wp-block-group">
+					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
 					<p style="text-transform:uppercase">Mon, Jan 1</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
-					<div class="wp-block-buttons"><!-- wp:button {"fontSize":"small"} -->
+					<div class="wp-block-buttons">
+						<!-- wp:button {"fontSize":"small"} -->
 						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button">Buy Tickets</a></div>
 						<!-- /wp:button -->
 					</div>
@@ -52,7 +59,8 @@
 
 			<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"top":{"color":"var:preset|color|opacity-20","width":"1px"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--opacity-20);border-top-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained"}} -->
-				<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+				<div class="wp-block-group">
+					<!-- wp:heading {"level":3} -->
 					<h3 class="wp-block-heading">“Stories, historias, iсторії, iστορίες”</h3>
 					<!-- /wp:heading -->
 
@@ -62,13 +70,15 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
+				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+				<div class="wp-block-group">
+					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
 					<p style="text-transform:uppercase">Mon, Jan 1</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
-					<div class="wp-block-buttons"><!-- wp:button {"fontSize":"small"} -->
+					<div class="wp-block-buttons">
+						<!-- wp:button {"fontSize":"small"} -->
 						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button">Buy Tickets</a></div>
 						<!-- /wp:button -->
 					</div>
@@ -80,7 +90,8 @@
 
 			<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"top":{"color":"var:preset|color|opacity-20","width":"1px"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--opacity-20);border-top-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained"}} -->
-				<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+				<div class="wp-block-group">
+					<!-- wp:heading {"level":3} -->
 					<h3 class="wp-block-heading">Tell your story</h3>
 					<!-- /wp:heading -->
 
@@ -90,13 +101,15 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
+				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+				<div class="wp-block-group">
+					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
 					<p style="text-transform:uppercase">Mon, Jan 1</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
-					<div class="wp-block-buttons"><!-- wp:button {"fontSize":"small"} -->
+					<div class="wp-block-buttons">
+						<!-- wp:button {"fontSize":"small"} -->
 						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button">Buy Tickets</a></div>
 						<!-- /wp:button -->
 					</div>
@@ -108,7 +121,8 @@
 
 			<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"border":{"top":{"color":"var:preset|color|opacity-20","width":"1px"}}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 			<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--opacity-20);border-top-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained"}} -->
-				<div class="wp-block-group"><!-- wp:heading {"level":3} -->
+				<div class="wp-block-group">
+					<!-- wp:heading {"level":3} -->
 					<h3 class="wp-block-heading">“Stories, historias, iсторії, iστορίες”</h3>
 					<!-- /wp:heading -->
 
@@ -118,13 +132,15 @@
 				</div>
 				<!-- /wp:group -->
 
-				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-				<div class="wp-block-group"><!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
+				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
+				<div class="wp-block-group">
+					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
 					<p style="text-transform:uppercase">Mon, Jan 1</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
-					<div class="wp-block-buttons"><!-- wp:button {"fontSize":"small"} -->
+					<div class="wp-block-buttons">
+						<!-- wp:button {"fontSize":"small"} -->
 						<div class="wp-block-button has-custom-font-size has-small-font-size"><a class="wp-block-button__link wp-element-button">Buy Tickets</a></div>
 						<!-- /wp:button -->
 					</div>

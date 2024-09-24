@@ -19,7 +19,7 @@
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:query-title {"type":"search","align":"wide","fontSize":"x-large"} /-->
-		<!-- wp:search {"label":"Search","showLabel":false,"widthUnit":"%","buttonText":"Search","style":{"border":{"radius":"100px"}},"fontSize":"small","borderColor":"opacity-20"} /-->
+		<!-- wp:pattern {"slug":"twentytwentyfive/hidden-search"} /-->
 	</div>
 	<!-- /wp:group -->
 	<!-- wp:spacer {"height":"var:preset|spacing|50"} -->

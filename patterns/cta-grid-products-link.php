@@ -20,7 +20,7 @@
 	<!-- wp:group {"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"10rem"}} -->
 	<div class="wp-block-group">
 		<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/image-from-rawpixel-id-2211732.webp' ); ?>" alt="Black and white flower" style="aspect-ratio:1;object-fit:cover"/></figure>
+		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/grid-flower-2.webp' ); ?>" alt="Black and white flower" style="aspect-ratio:1;object-fit:cover"/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:cover {"dimRatio":0,"isDark":false,"style":{"dimensions":{"aspectRatio":"1"}},"fontSize":"medium"} -->
@@ -32,7 +32,7 @@
 		<!-- /wp:cover -->
 
 		<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/image-from-rawpixel-id-2211732.webp' ); ?>" alt="Black and white flower" style="aspect-ratio:1;object-fit:cover"/></figure>
+		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/image-from-rawpixel-id-8799918.webp' ); ?>" alt="Closeup of plantlife in the Malibu Canyon area" style="aspect-ratio:1;object-fit:cover"/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:cover {"overlayColor":"contrast","isUserOverlayColor":true,"style":{"dimensions":{"aspectRatio":"1"}},"layout":{"type":"constrained"}} -->
@@ -64,7 +64,7 @@
 		<!-- /wp:cover -->
 
 		<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/image-from-rawpixel-id-2211732.webp' ); ?>" alt="Black and white flower" style="aspect-ratio:1;object-fit:cover"/></figure>
+		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/image-from-rawpixel-id-8802845.webp' ); ?>" alt="Flora of Akaka Falls State Park" style="aspect-ratio:1;object-fit:cover"/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:cover {"dimRatio":0,"isDark":false,"style":{"dimensions":{"aspectRatio":"1"}},"fontSize":"medium"} -->
@@ -108,7 +108,7 @@
 		<!-- /wp:cover -->
 
 		<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none"} -->
-		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/image-from-rawpixel-id-2211732.webp' ); ?>" alt="Black and white flower" style="aspect-ratio:1;object-fit:cover"/></figure>
+		<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/botany-flowers.webp' ); ?>" alt="Botany flowers" style="aspect-ratio:1;object-fit:cover"/></figure>
 		<!-- /wp:image -->
 
 		<!-- wp:cover {"overlayColor":"accent-1","isUserOverlayColor":true,"isDark":false,"style":{"dimensions":{"aspectRatio":"1"}},"layout":{"type":"constrained"}} -->

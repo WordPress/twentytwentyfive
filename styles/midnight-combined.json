@@ -108,7 +108,7 @@
 		"blocks": {
 			"core/avatar": {
 				"filter": {
-					"duotone": "var(--wp--preset--duotone--midnight-filter)"
+					"duotone": "var:preset|duotone|midnight-filter"
 				}
 			},
 			"core/button": {
@@ -160,12 +160,12 @@
 			},
 			"core/cover": {
 				"filter": {
-					"duotone": "var(--wp--preset--duotone--midnight-filter)"
+					"duotone": "var:preset|duotone|midnight-filter"
 				}
 			},
 			"core/image": {
 				"filter": {
-					"duotone": "var(--wp--preset--duotone--midnight-filter)"
+					"duotone": "var:preset|duotone|midnight-filter"
 				}
 			},
 			"core/post-author": {
@@ -192,7 +192,7 @@
 			},
 			"core/post-featured-image": {
 				"filter": {
-					"duotone": "var(--wp--preset--duotone--midnight-filter)"
+					"duotone": "var:preset|duotone|midnight-filter"
 				}
 			},
 			"core/post-terms": {
@@ -255,7 +255,7 @@
 			},
 			"core/site-logo": {
 				"filter": {
-					"duotone": "var(--wp--preset--duotone--midnight-filter)"
+					"duotone": "var:preset|duotone|midnight-filter"
 				}
 			},
 			"core/site-tagline": {

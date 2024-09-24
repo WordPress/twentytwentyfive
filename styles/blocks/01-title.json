@@ -5,7 +5,6 @@
 	"slug": "text-title",
 	"blockTypes": ["core/heading", "core/paragraph"],
 	"styles": {
-		"css": "display: inline-block;",
 		"typography": {
 			"fontSize": "var:preset|font-size|xx-large",
 			"lineHeight": "1.2"

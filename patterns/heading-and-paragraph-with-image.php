@@ -2,7 +2,7 @@
 /**
  * Title: Heading and paragraph with image on the right
  * Slug: twentytwentyfive/heading-and-paragraph-with-image
- * Categories: text, about
+ * Categories: about
  * Description: A two-column section with a heading and paragraph on the left, and an image on the right.
  *
  * @package WordPress

@@ -2,7 +2,7 @@
 /**
  * Title: Overlapping images and paragraph on right
  * Slug: twentytwentyfive/overlap-images-and-paragraph
- * Categories: about, media, text
+ * Categories: about
  * Description: A section with overlapping images, and a description.
  *
  * @package WordPress

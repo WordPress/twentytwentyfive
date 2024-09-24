@@ -21,17 +21,17 @@
 					"slug": "accent-1"
 				},
 				{
-					"color": "#252525",
+					"color": "#FF7A5C",
 					"name": "Accent 2",
 					"slug": "accent-2"
 				},
 				{
-					"color": "#FF6442",
+					"color": "#252525",
 					"name": "Accent 3",
 					"slug": "accent-3"
 				},
 				{
-					"color": "#5F5F5F",
+					"color": "#FFFFFF",
 					"name": "Primary",
 					"slug": "primary"
 				},
@@ -41,7 +41,7 @@
 					"slug": "secondary"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#FFFFFF33",
 					"name": "Opacity 20%",
 					"slug": "opacity-20"
 				}

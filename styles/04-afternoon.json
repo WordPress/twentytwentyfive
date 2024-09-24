@@ -1,4 +1,7 @@
 {
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Afternoon (Combined)",
 	"settings": {
 		"color": {
 			"palette": [
@@ -234,8 +237,5 @@
 			"letterSpacing": "-0.22px",
 			"lineHeight": "1.6"
 		}
-	},
-	"title": "Afternoon Combined",
-	"version": 3,
-	"$schema": "https://schemas.wp.org/trunk/theme.json"
+	}
 }

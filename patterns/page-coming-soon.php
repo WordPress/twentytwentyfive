@@ -27,8 +27,8 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size">Something great is coming soon</h2>
+		<!-- wp:heading {"className":"is-style-text-title"} -->
+		<h2 class="wp-block-heading has-text-align-center is-style-text-title">Something great is coming soon</h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center"} -->

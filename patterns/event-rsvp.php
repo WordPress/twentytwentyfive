@@ -24,8 +24,8 @@
 				<h1 class="wp-block-heading">Stories, historias, iсторії, iστορίες</h1>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"fontSize":"x-large"} -->
-				<p class="has-x-large-font-size">Dec 12, 2024 — 10AM to 6PM</p>
+				<!-- wp:paragraph {"className":"is-style-text-title"} -->
+				<p class="is-style-text-title">Dec 12, 2024 — 10AM to 6PM</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:spacer {"height":"0px","style":{"layout":{"selfStretch":"fixed","flexSize":"100px"}}} -->

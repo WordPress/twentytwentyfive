@@ -17,7 +17,7 @@
 		<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained","justifyContent":"left","contentSize":"718px","wideSize":"1340px"}} -->
 		<div class="wp-block-group alignwide">
 			<!-- wp:heading {"className":"is-style-text-title"} -->
-			<h1 class="wp-block-heading is-style-text-title"><?php echo esc_html_x( 'Tell your story', 'Sample hero heading', 'twentytwentyfive' ); ?></h1>
+			<h2 class="wp-block-heading is-style-text-title"><?php echo esc_html_x( 'Tell your story', 'Sample hero heading', 'twentytwentyfive' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

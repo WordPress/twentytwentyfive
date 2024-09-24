@@ -185,7 +185,7 @@
 				"elements": {
 					"cite": {
 						"typography": {
-							"fontSize": "var:preset|font-size|medium",
+							"fontSize": "var:preset|font-size|small",
 							"fontWeight": "300",
 							"letterSpacing": "-0.14px"
 						},

@@ -161,7 +161,7 @@
 				"elements": {
 					"cite": {
 						"typography": {
-							"fontSize": "1.12rem",
+							"fontSize": "var:preset|font-size|medium",
 							"letterSpacing": "-0.14px"
 						},
 						"color": {
@@ -182,7 +182,7 @@
 				"elements": {
 					"cite": {
 						"typography": {
-							"fontSize": "1.12rem",
+							"fontSize": "var:preset|font-size|medium",
 							"fontWeight": "300",
 							"letterSpacing": "-0.14px"
 						},

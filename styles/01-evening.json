@@ -11,12 +11,12 @@
 					"slug": "base"
 				},
 				{
-					"color": "#f0f0f0",
+					"color": "#F0F0F0",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#786d0a",
+					"color": "#786D0A",
 					"name": "Accent 1",
 					"slug": "accent-1"
 				},
@@ -26,12 +26,12 @@
 					"slug": "accent-2"
 				},
 				{
-					"color": "#d1d0ea",
+					"color": "#D1D0EA",
 					"name": "Accent 3",
 					"slug": "accent-3"
 				},
 				{
-					"color": "#cbcbcb",
+					"color": "#CBCBCB",
 					"name": "Primary",
 					"slug": "primary"
 				},

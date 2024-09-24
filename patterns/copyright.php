@@ -20,8 +20,7 @@
 		}
 	},
 	"className":"copyright",
-	"textColor":"primary",
 	"fontSize":"small"
 } -->
-<p class="copyright has-primary-color has-text-color has-small-font-size"></p>
+<p class="copyright has-small-font-size"></p>
 <!-- /wp:paragraph -->

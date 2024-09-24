@@ -2,7 +2,7 @@
 /**
  * Title: Link in bio heading, paragraph, links and full-height image
  * Slug: twentytwentyfive/page-link-in-bio-heading-paragraph-links-image
- * Categories: twentytwentyfive_page, banner, about, featured
+ * Categories: twentytwentyfive_page, banner, featured
  * Keywords: starter
  * Block Types: core/post-content
  * Viewport width: 1400

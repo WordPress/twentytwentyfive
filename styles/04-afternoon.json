@@ -108,11 +108,6 @@
 						"top": "1rem"
 					}
 				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)",
-					"fontStyle": "normal",
-					"fontWeight": "400"
-				},
 				"variations": {
 					"outline": {
 						"spacing": {

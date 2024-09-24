@@ -363,6 +363,36 @@
 						}
 					}
 				}
+			},
+			"section-3": {
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--accent-2)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--accent-2)"
+							}
+						}
+					}
+				}
+			},
+			"section-4": {
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--accent-2)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--accent-2)"
+							}
+						}
+					}
+				}
 			}
 		}
 	}

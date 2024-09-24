@@ -3,7 +3,7 @@
 	"version": 3,
 	"slug": "uppercase",
 	"title": "Uppercase",
-	"blockTypes": [ "core/heading", "core/paragraph", "core/post-terms" ],
+	"blockTypes": [ "core/heading","core/post-terms" ],
 	"styles": {
 		"typography": {
 			"fontSize": "var:preset|font-size|small",

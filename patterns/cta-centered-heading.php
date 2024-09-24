@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Hero Centered Heading
- * Slug: twentytwentyfive/hero-centered-heading
- * Categories: banner, call-to-action, featured
+ * Title: Centered Heading
+ * Slug: twentytwentyfive/centered-heading
+ * Categories: call-to-action, featured
  * Description: A hero with a centered heading, paragraph and button.
  *
  * @package WordPress

@@ -23,8 +23,8 @@
 
 		<!-- wp:group {"align":"full","layout":{"type":"default"}} -->
 		<div class="wp-block-group alignfull">
-			<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"21vw","letterSpacing":"-0.02em","lineHeight":"1","fontWeight":"700"}}} -->
-			<p class="has-text-align-left" style="font-size:21vw;font-weight:700;letter-spacing:-0.02em;line-height:1">Stories</p>
+			<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"clamp(1rem, 380px, 24vw)","letterSpacing":"-0.02em","lineHeight":"1","fontWeight":"700"}}} -->
+			<p class="has-text-align-left" style="font-size:clamp(1rem, 380px, 24vw);font-weight:700;letter-spacing:-0.02em;line-height:1">Stories</p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:group -->

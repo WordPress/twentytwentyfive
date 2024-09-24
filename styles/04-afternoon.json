@@ -231,6 +231,23 @@
 			"fontWeight": "400",
 			"letterSpacing": "-0.22px",
 			"lineHeight": "1.6"
+		},
+		"variations": {
+			"section-1": {
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--accent-2)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--contrast)"
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }

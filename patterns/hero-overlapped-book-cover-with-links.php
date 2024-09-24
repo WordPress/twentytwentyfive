@@ -26,19 +26,18 @@
 					<div class="wp-block-group">
 						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
-							<!-- wp:heading {"fontSize":"xx-large"} -->
-							<h2 class="wp-block-heading has-xx-large-font-size">
+							<!-- wp:heading {"className":"is-style-text-title"} -->
+							<h2 class="wp-block-heading is-style-text-title">
 								<?php echo esc_html_x( 'The Stories Book', 'Hero - Overlapped book cover pattern headline text', 'twentytwentyfive' ); ?>
 							</h2>
 							<!-- /wp:heading -->
-							<!-- wp:paragraph {"fontSize":"x-large"} -->
-							<p class="has-x-large-font-size">
+							<!-- wp:paragraph {"className":"is-style-text-heading"} -->
+							<p class="is-style-text-heading">
 								<?php echo esc_html_x( 'A fine collection of moments in time featuring photographs from Louis Fleckenstein, Paul Strand and Asahachi Kōno.', 'Hero - Overlapped book cover pattern subline text', 'twentytwentyfive' ); ?>
 							</p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->
-
 						<!-- wp:spacer {"style":{"layout":{"selfStretch":"fit","flexSize":null},"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}}} -->
 						<div style="margin-top:var(--wp--preset--spacing--70);margin-bottom:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>
 						<!-- /wp:spacer -->

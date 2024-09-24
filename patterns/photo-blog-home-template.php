@@ -18,8 +18,8 @@
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
 	<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 	<div class="wp-block-group">
-		<!-- wp:heading {"textAlign":"center","level":1,"className":"is-style-pill"} -->
-		<h1 class="wp-block-heading has-text-align-center is-style-pill">Stories</h1>
+		<!-- wp:heading {"textAlign":"center","level":1,"className":"is-style-text-subtitle"} -->
+		<h1 class="wp-block-heading has-text-align-center is-style-text-subtitle">Stories</h1>
 		<!-- /wp:heading -->
 	</div>
 	<!-- /wp:group -->

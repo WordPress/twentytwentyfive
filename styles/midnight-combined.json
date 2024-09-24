@@ -335,6 +335,24 @@
 						}
 					}
 				}
+			},
+			"section-5": {
+				"color": {
+					"text": "var(--wp--preset--color--accent-3)"
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var(--wp--preset--color--accent-3)",
+							"text": "var(--wp--preset--color--secondary)"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--accent-3)"
+						}
+					}
+				}
 			}
 		}
 	}

@@ -16,8 +16,9 @@
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 	<div class="wp-block-group alignwide">
-		<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"var(--wp--custom--font-size--huge)"}}} -->
-		<p class="has-text-align-center" style="font-size:var(--wp--custom--font-size--huge);"><?php echo wp_kses_post( _x( 'Got questions? <br><a href="#" rel="nofollow">Feel free to reach out.</a>', 'Heading of the Contact social link pattern', 'twentytwentyfive' ) ); ?></p>
+
+		<!-- wp:paragraph {"align":"center","className":"is-style-text-title"} -->
+		<p class="has-text-align-center is-style-text-title"><?php echo wp_kses_post( _x( 'Got questions? <br><a href="#" rel="nofollow">Feel free to reach out.</a>', 'Heading of the Contact social link pattern', 'twentytwentyfive' ) ); ?></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:social-links {"iconColor":"contrast","className":"is-style-logos-only","layout":{"type":"flex","justifyContent":"center"}} -->

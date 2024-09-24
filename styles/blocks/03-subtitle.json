@@ -19,9 +19,9 @@
 		},
 		"spacing": {
 			"padding": {
-				"top": "0.3rem",
+				"top": "0.2rem",
 				"right": "0.6rem",
-				"bottom": "0.35rem",
+				"bottom": "0.25rem",
 				"left": "0.6rem"
 			}
 		},

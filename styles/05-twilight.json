@@ -80,6 +80,11 @@
 					}
 				}
 			},
+			"core/code": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--medium)"
+				}
+			},
 			"core/navigation": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--large)",
@@ -140,6 +145,15 @@
 				"color": {
 					"background": "var(--wp--preset--color--contrast)",
 					"text": "var(--wp--preset--color--base)"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--base)",
+						"text": "var(--wp--preset--color--contrast)"
+					},
+					"border": {
+						"color": "currentColor"
+					}
 				}
 			},
 			"h4": {

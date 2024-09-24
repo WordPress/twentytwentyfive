@@ -169,6 +169,10 @@
 					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontStyle": "normal",
 					"fontWeight": "300"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--accent-2)",
+					"text": "var(--wp--preset--color--contrast)"
 				}
 			},
 			"core/cover": {

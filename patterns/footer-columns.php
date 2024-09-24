@@ -62,9 +62,7 @@
 		<!-- /wp:spacer -->
 		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 		<div class="wp-block-group alignfull">
-			<!-- wp:paragraph {"fontSize":"small"} -->
-			<p class="has-small-font-size">Twenty Twenty-Five</p>
-			<!-- /wp:paragraph -->
+			<!-- wp:pattern {"slug":"twentytwentyfive/copyright"} /-->
 			<!-- wp:paragraph {"fontSize":"small"} -->
 			<p class="has-small-font-size">
 			<?php

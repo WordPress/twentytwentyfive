@@ -292,6 +292,21 @@
 						}
 					}
 				}
+			},
+			"section-4": {
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--contrast)",
+								"text": "var(--wp--preset--color--base)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--base)"
+							}
+						}
+					}
+				}
 			}
 		}
 	}

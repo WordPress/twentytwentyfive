@@ -54,14 +54,14 @@
 										<!-- wp:button {"width":100,"className":"is-style-fill"} -->
 										<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
 											<a class="wp-block-button__link wp-element-button" href="#">
-												<?php echo esc_html_x( 'Shop at Amazon', 'Hero - Overlapped book cover pattern button 1', 'twentytwentyfive' ); ?>
+												<?php echo esc_html_x( 'Amazon', 'Hero - Overlapped book cover pattern button 1', 'twentytwentyfive' ); ?>
 											</a>
 										</div>
 										<!-- /wp:button -->
 										<!-- wp:button {"width":100,"className":"is-style-fill"} -->
 										<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
 											<a class="wp-block-button__link wp-element-button" href="#">
-												<?php echo esc_html_x( 'Shop at Apple Books', 'Hero - Overlapped book cover pattern button 2', 'twentytwentyfive' ); ?>
+												<?php echo esc_html_x( 'Apple Books', 'Hero - Overlapped book cover pattern button 2', 'twentytwentyfive' ); ?>
 											</a>
 										</div>
 										<!-- /wp:button -->
@@ -76,14 +76,14 @@
 										<!-- wp:button {"width":100,"className":"is-style-fill"} -->
 										<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
 											<a class="wp-block-button__link wp-element-button" href="#">
-												<?php echo esc_html_x( 'Shop at Audible', 'Hero - Overlapped book cover pattern button 3', 'twentytwentyfive' ); ?>
+												<?php echo esc_html_x( 'Audible', 'Hero - Overlapped book cover pattern button 3', 'twentytwentyfive' ); ?>
 											</a>
 										</div>
 										<!-- /wp:button -->
 										<!-- wp:button {"width":100,"className":"is-style-fill"} -->
 										<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-fill">
 											<a class="wp-block-button__link wp-element-button" href="#">
-												<?php echo esc_html_x( 'Shop at Barnes & Noble', 'Hero - Overlapped book cover pattern button 4', 'twentytwentyfive' ); ?>
+												<?php echo esc_html_x( 'Barnes & Noble', 'Hero - Overlapped book cover pattern button 4', 'twentytwentyfive' ); ?>
 											</a>
 										</div>
 										<!-- /wp:button -->

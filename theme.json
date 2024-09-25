@@ -981,7 +981,7 @@
 				"variations": {
 					"outline": {
 						"border": {
-							"color": "var:preset|color|contrast",
+							"color": "currentColor",
 							"width": "1px"
 						},
 						"spacing": {

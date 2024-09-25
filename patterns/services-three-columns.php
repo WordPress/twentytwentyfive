@@ -21,8 +21,9 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full"} -->
-			<figure class="wp-block-image size-full">
+
+			<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","style":{"spacing":{"margin":{"bottom":"24px"}}}} -->
+			<figure class="wp-block-image size-full" style="margin-bottom:24px">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-2222755.webp" alt="Image for service" style="aspect-ratio:4/3;object-fit:cover"/>
 			</figure>
 			<!-- /wp:image -->
@@ -39,8 +40,8 @@
 
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full"} -->
-			<figure class="wp-block-image size-full">
+			<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","style":{"spacing":{"margin":{"bottom":"24px"}}}} -->
+			<figure class="wp-block-image size-full" style="margin-bottom:24px">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-2224378.webp" alt="Image for service" style="aspect-ratio:4/3;object-fit:cover"/>
 			</figure>
 			<!-- /wp:image -->
@@ -57,8 +58,8 @@
 
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full"} -->
-			<figure class="wp-block-image size-full">
+			<!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"full","style":{"spacing":{"margin":{"bottom":"24px"}}}} -->
+			<figure class="wp-block-image size-full" style="margin-bottom:24px">
 				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-2211732.webp" alt="Image for service" style="aspect-ratio:4/3;object-fit:cover"/>
 			</figure>
 			<!-- /wp:image -->

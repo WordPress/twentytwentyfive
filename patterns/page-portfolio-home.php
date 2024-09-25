@@ -221,11 +221,9 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 		<div class="wp-block-group alignwide">
-			<!-- wp:group {"textColor":"primary","layout":{"type":"flex","orientation":"vertical"}} -->
-			<div class="wp-block-group has-primary-color has-text-color">
-				<!-- wp:pattern {"slug":"twentytwentyfive/copyright"} /-->
-			</div>
-			<!-- /wp:group -->
+			<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"twentytwentyfive/copyright"}}},"textColor":"primary","fontSize":"small"} -->
+			<p class="has-primary-color has-text-color has-small-font-size"></p>
+			<!-- /wp:paragraph -->
 
 			<!-- wp:paragraph {"fontSize":"small"} -->
 			<p class="has-small-font-size">email@example.com<br>+1 555 349 1806</p>

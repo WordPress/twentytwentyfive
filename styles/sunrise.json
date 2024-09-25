@@ -273,6 +273,11 @@
 					"text": "var:preset|color|base"
 				},
 				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
 					"button": {
 						"color": {
 							"background": "var:preset|color|base",
@@ -280,6 +285,15 @@
 						},
 						"border": {
 							"color": "var:preset|color|base"
+						},
+						":hover": {
+							"color": {
+								"background": "var:preset|color|contrast",
+								"text": "var:preset|color|base"
+							},
+							"border": {
+								"color": "transparent"
+							}
 						}
 					}
 				}
@@ -289,6 +303,11 @@
 					"text": "var:preset|color|base"
 				},
 				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
 					"button": {
 						"color": {
 							"background": "var:preset|color|base",
@@ -296,6 +315,15 @@
 						},
 						"border": {
 							"color": "var:preset|color|base"
+						},
+						":hover": {
+							"color": {
+								"background": "var:preset|color|contrast",
+								"text": "var:preset|color|base"
+							},
+							"border": {
+								"color": "transparent"
+							}
 						}
 					}
 				}
@@ -317,29 +345,82 @@
 						},
 						"border": {
 							"color": "var:preset|color|base"
+						},
+						":hover": {
+							"color": {
+								"background": "var:preset|color|contrast",
+								"text": "var:preset|color|base"
+							},
+							"border": {
+								"color": "transparent"
+							}
 						}
 					}
 				}
 			},
 			"section-4": {
+				"color": {
+					"text": "var:preset|color|contrast",
+					"background": "var:preset|color|secondary"
+				},
 				"elements": {
 					"heading": {
 						"color": {
-							"text": "var:preset|color|base"
+							"text": "var:preset|color|contrast"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|contrast"
 						}
 					},
 					"button": {
+						"color": {
+							"background": "var:preset|color|contrast",
+							"text": "var:preset|color|base"
+						},
 						"border": {
 							"color": "var:preset|color|base"
+						},
+						":hover": {
+							"color": {
+								"background": "var:preset|color|secondary",
+								"text": "var:preset|color|contrast"
+							},
+							"border": {
+								"color": "var:preset|color|contrast"
+							}
 						}
 					}
 				}
 			},
 			"section-5": {
+				"color": {
+					"text": "var:preset|color|secondary",
+					"background": "var:preset|color|contrast"
+				},
 				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|secondary"
+						}
+					},
 					"button": {
+						"color": {
+							"background": "var:preset|color|base",
+							"text": "var:preset|color|contrast"
+						},
 						"border": {
-							"color": "var:preset|color|contrast"
+							"color": "var:preset|color|base"
+						},
+						":hover": {
+							"color": {
+								"background": "var:preset|color|contrast",
+								"text": "var:preset|color|base"
+							},
+							"border": {
+								"color": "var:preset|color|base"
+							}
 						}
 					}
 				}

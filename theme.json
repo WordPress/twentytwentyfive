@@ -992,6 +992,11 @@
 					}
 				}
 			},
+			"core/buttons": {
+				"spacing": {
+					"blockGap": "16px"
+				}
+			},
 			"core/code": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|fira-code",

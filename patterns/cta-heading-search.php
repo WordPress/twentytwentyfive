@@ -1,8 +1,8 @@
 <?php
 /**
- * Title: Search - Big heading and search form
- * Slug: twentytwentyfive/search-big-heading
- * Categories: call-to-action, text
+ * Title: Heading and search form
+ * Slug: twentytwentyfive/cta-heading-search
+ * Categories: call-to-action
  * Description: Large heading with a search form for quick navigation.
  *
  * @package WordPress

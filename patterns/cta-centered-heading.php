@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Centered Heading
- * Slug: twentytwentyfive/centered-heading
+ * Slug: twentytwentyfive/cta-centered-heading
  * Categories: call-to-action, featured
  * Description: A hero with a centered heading, paragraph and button.
  *

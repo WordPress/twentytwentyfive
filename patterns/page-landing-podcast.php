@@ -7,7 +7,7 @@
  * Block Types: core/post-content
  * Post Types: page, wp_template
  * Viewport width: 1400
- * Description: .
+ * Description: A landing page for the podcast with a hero section, description, clients, grid with videos and newsletter signup.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -15,9 +15,12 @@
  */
 
 ?>
-
-<!-- wp:pattern {"slug":"twentytwentyfive/hero-podcast"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/heading-and-paragraph-with-image"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/clients-section"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/grid-videos"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
+<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull">
+	<!-- wp:pattern {"slug":"twentytwentyfive/hero-podcast"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/heading-and-paragraph-with-image"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/clients-section"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/grid-videos"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
+</div>
+<!-- /wp:group -->

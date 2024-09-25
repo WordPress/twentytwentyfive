@@ -13,12 +13,12 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="margin-top:0;margin-bottom:0">
+<!-- wp:group {"align":"full","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull">
 	<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
-		<!-- wp:heading -->
-		<h2 class="wp-block-heading"><?php echo esc_html_x( 'Frequently Asked Questions', 'Heading of the FAQs', 'twentytwentyfive' ); ?></h2>
+		<!-- wp:heading {"fontSize":"x-large"} -->
+		<h2 class="wp-block-heading has-x-large-font-size"><?php echo esc_html_x( 'Frequently Asked Questions', 'Heading of the FAQs', 'twentytwentyfive' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->

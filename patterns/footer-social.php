@@ -4,7 +4,7 @@
  * Slug: twentytwentyfive/footer-social
  * Categories: footer
  * Block Types: core/template-part/footer
- * Description: Footer with centered site title and social links
+ * Description: Footer with centered site title and social links.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -28,7 +28,15 @@
 	<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 	<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-	<p class="has-text-align-center has-small-font-size">Designed with <a href="https://wordpress.org">WordPress</a></p>
+	<p class="has-text-align-center has-small-font-size">
+		<?php
+		printf(
+			/* Translators: Designed with WordPress. %1$s: WordPress link. */
+			esc_html__( 'Designed with %1$s', 'twentytwentyfive' ),
+			'<a href="' . esc_url( __( 'https://wordpress.org', 'twentytwentyfive' ) ) . '" rel="nofollow">WordPress</a>'
+		);
+		?>
+	</p>
 	<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

@@ -11,27 +11,27 @@
 					"slug": "base"
 				},
 				{
-					"color": "#D1D1D1",
+					"color": "#F0F0F0",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#6F6720",
+					"color": "#786D0A",
 					"name": "Accent 1",
 					"slug": "accent-1"
 				},
 				{
-					"color": "#CFBEE4",
+					"color": "#442369",
 					"name": "Accent 2",
 					"slug": "accent-2"
 				},
 				{
-					"color": "#3F3272",
+					"color": "#D1D0EA",
 					"name": "Accent 3",
 					"slug": "accent-3"
 				},
 				{
-					"color": "#A1A1A1",
+					"color": "#CBCBCB",
 					"name": "Primary",
 					"slug": "primary"
 				},

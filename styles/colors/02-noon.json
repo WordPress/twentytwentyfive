@@ -11,7 +11,7 @@
 					"slug": "base"
 				},
 				{
-					"color": "#5F5F5F",
+					"color": "#191919",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
@@ -21,7 +21,7 @@
 					"slug": "accent-1"
 				},
 				{
-					"color": "#914D0E",
+					"color": "#F5B684",
 					"name": "Accent 2",
 					"slug": "accent-2"
 				},

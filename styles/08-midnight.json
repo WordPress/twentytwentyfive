@@ -276,7 +276,6 @@
 				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|literata",
-					"fontSize": "var:preset|font-size|large",
 					"fontStyle": "normal",
 					"fontWeight": "600",
 					"letterSpacing": "-0.96px",
@@ -298,7 +297,6 @@
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|fira-sans",
-			"fontSize":  "var:preset|font-size|large",
 			"fontStyle": "normal",
 			"fontWeight": "300",
 			"letterSpacing": "-0.24px",

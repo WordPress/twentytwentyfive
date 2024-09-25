@@ -38,8 +38,8 @@
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:group -->
-			<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
-			<p class="has-x-large-font-size" style="line-height:1.2"><?php echo wp_kses_post( _x( '<strong>Fleurs</strong> is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers.', 'Content of the overlap images and paragraph pattern', 'twentytwentyfive' ) ); ?></p>
+			<!-- wp:paragraph -->
+			<p><?php echo wp_kses_post( _x( '<strong>Fleurs</strong> is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers.', 'Content of the overlap images and paragraph pattern', 'twentytwentyfive' ) ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

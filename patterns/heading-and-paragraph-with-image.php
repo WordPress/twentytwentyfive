@@ -20,12 +20,12 @@
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
 			<!-- wp:heading {"className":"wp-block-heading"} -->
 			<h2 class="wp-block-heading">
-				<?php esc_html_e( 'About the Event', 'twentytwentyfive' ); ?>
+				<?php esc_html_e( 'About the event', 'twentytwentyfive' ); ?>
 			</h2>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-medium-font-size"><?php echo esc_html_x( 'Held over a weekend, the event is structured around a series of exhibitions, workshops, and panel discussions. The exhibitions showcase a curated selection of photographs that tell compelling stories from various corners of the globe, each image accompanied by detailed narratives that provide context and deeper insight into the historical significance of the scenes depicted. These photographs are drawn from the archives of renowned photographers, as well as emerging talents, ensuring a blend of both classical and contemporary perspectives.', 'Event Overview Text', 'twentytwentyfive' ); ?></p>
+			<!-- wp:paragraph -->
+			<p><?php echo esc_html_x( 'Held over a weekend, the event is structured around a series of exhibitions, workshops, and panel discussions. The exhibitions showcase a curated selection of photographs that tell compelling stories from various corners of the globe, each image accompanied by detailed narratives that provide context and deeper insight into the historical significance of the scenes depicted. These photographs are drawn from the archives of renowned photographers, as well as emerging talents, ensuring a blend of both classical and contemporary perspectives.', 'Event Overview Text', 'twentytwentyfive' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

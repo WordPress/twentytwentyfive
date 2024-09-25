@@ -19,8 +19,8 @@
 	<div class="wp-block-cover__inner-container">
 		<!-- wp:group {"metadata":{"name":"Contents"},"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
 		<div class="wp-block-group alignwide">
-			<!-- wp:heading {"textAlign":"left"} -->
-			<h2 class="wp-block-heading has-text-align-left"><?php echo esc_html_x( 'Tell your story', 'Sample hero heading', 'twentytwentyfive' ); ?></h2>
+			<!-- wp:heading {"textAlign":"left","fontSize":"xx-large"} -->
+			<h2 class="wp-block-heading has-text-align-left has-xx-large-font-size"><?php echo esc_html_x( 'Tell your story', 'Sample hero heading', 'twentytwentyfive' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

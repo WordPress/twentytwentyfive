@@ -927,17 +927,6 @@
 				}
 			]
 		},
-		"custom": {
-			"fontSize": {
-				"huge": "clamp(2.5rem, 4vw, 4.375rem)",
-				"heading-1": "clamp(1.561rem, 1.2288rem + 1.661vw, 2.62rem)",
-				"heading-2": "clamp(1.146rem, 0.9408rem + 1.026vw, 1.8rem)",
-				"heading-3": "clamp(1.06rem, 0.878rem + 0.91vw, 1.64rem)",
-				"heading-4": "clamp(0.984rem, 0.8222rem + 0.809vw, 1.5rem)",
-				"heading-5": "clamp(0.875rem, 0.7574rem + 0.588vw, 1.25rem)",
-				"heading-6": "0.875rem"
-			}
-		},
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
@@ -957,7 +946,7 @@
 			"fontSize": "var:preset|font-size|large",
 			"fontStyle": "normal",
 			"fontWeight": "300",
-			"letterSpacing": "-0.22px",
+			"letterSpacing": "-0.1px",
 			"lineHeight": "1.4"
 		},
 		"blocks": {
@@ -1424,43 +1413,45 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize": "var:custom|font-size|heading-1"
+					"fontSize": "var:preset|font-size|xx-large"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "var:custom|font-size|heading-2"
+					"fontSize": "var:preset|font-size|x-large"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "var:custom|font-size|heading-3"
+					"fontSize": "var:preset|font-size|large"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var:custom|font-size|heading-4"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "var:custom|font-size|heading-5"
-				}
-			},
-			"h6": {
-				"typography": {
-					"fontSize": "var:custom|font-size|heading-6",
+					"fontSize": "var:preset|font-size|small",
 					"fontStyle": "normal",
 					"fontWeight": "700",
 					"letterSpacing": "1.4px",
 					"textTransform": "uppercase"
 				}
 			},
+			"h6": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small",
+					"letterSpacing": "0.5px"
+				}
+			},
 			"heading": {
 				"typography": {
 					"fontStyle": "normal",
 					"fontWeight": "400",
-					"lineHeight": "1.125"
+					"lineHeight": "1.125",
+					"letterSpacing": "-0.1px"
 				}
 			},
 			"link": {

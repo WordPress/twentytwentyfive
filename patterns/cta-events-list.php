@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Events - List with Call to Action
- * Slug: twentytwentyfive/events-list-with-cta
+ * Title: Events list
+ * Slug: twentytwentyfive/cta-events-list
  * Categories: call-to-action
  * Description: A list of events with call to action.
  *

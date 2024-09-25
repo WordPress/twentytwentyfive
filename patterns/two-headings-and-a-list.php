@@ -2,7 +2,7 @@
 /**
  * Title: Two Headings and a List
  * Slug: twentytwentyfive/two-headings-and-a-list
- * Categories: text, about, columns
+ * Categories: about, columns
  * Description: An About section with a detailed description in a two-column layout, using bullet points.
  *
  * @package WordPress

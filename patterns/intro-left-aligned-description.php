@@ -11,10 +11,10 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}},"dimensions":{"minHeight":"0vh"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="min-height:0vh;padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)">
-	<!-- wp:heading {"textAlign":"left","level":1,"align":"wide"} -->
-	<h1 class="wp-block-heading alignwide has-text-align-left">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
+	<!-- wp:heading {"align":"wide","fontSize":"x-large"} -->
+	<h2 class="wp-block-heading alignwide has-x-large-font-size">
 		<?php
 			printf(
 				/* translators: %1$s is the brand name, e.g., 'Fleurs'. */
@@ -22,7 +22,7 @@
 				'<strong>' . esc_html_x( 'Fleurs', 'Example brand name in pattern', 'twentytwentyfive' ) . '</strong>'
 			);
 			?>
-	</h1>
+	</h2>
 	<!-- /wp:heading -->
 </div>
 <!-- /wp:group -->

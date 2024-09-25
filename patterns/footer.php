@@ -18,52 +18,53 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:site-logo /-->
 
-		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
-		<div class="wp-block-group alignfull">
-			<!-- wp:columns -->
-			<div class="wp-block-columns">
-				<!-- wp:column {"width":"100%"} -->
-				<div class="wp-block-column" style="flex-basis:100%"><!-- wp:site-title {"level":2} /-->
+		<!-- wp:columns -->
+		<div class="wp-block-columns">
+			<!-- wp:column {"width":"40%"} -->
+			<div class="wp-block-column" style="flex-basis:40%">
+				<!-- wp:site-title {"level":2} /-->
 
 				<!-- wp:site-tagline /-->
-				</div>
-				<!-- /wp:column -->
-
-				<!-- wp:column {"width":""} -->
-				<div class="wp-block-column">
-					<!-- wp:spacer {"height":"var:preset|spacing|40","width":"0px"} -->
-					<div style="height:var(--wp--preset--spacing--40);width:0px" aria-hidden="true" class="wp-block-spacer"></div>
-					<!-- /wp:spacer -->
-				</div>
-				<!-- /wp:column -->
 			</div>
-			<!-- /wp:columns -->
+			<!-- /wp:column -->
 
-			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|80"}},"layout":{"type":"flex","flexWrap":"wrap","verticalAlignment":"top","justifyContent":"space-between"}} -->
-			<div class="wp-block-group">
-				<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
-					<!-- wp:navigation-link {"label":"Blog","url":"#"} /-->
-
-					<!-- wp:navigation-link {"label":"About","url":"#"} /-->
-
-					<!-- wp:navigation-link {"label":"FAQs","url":"#"} /-->
-
-					<!-- wp:navigation-link {"label":"Authors","url":"#"} /-->
-				<!-- /wp:navigation -->
-
-				<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
-					<!-- wp:navigation-link {"label":"Events","url":"#"} /-->
-
-					<!-- wp:navigation-link {"label":"Shop","url":"#"} /-->
-
-					<!-- wp:navigation-link {"label":"Patterns","url":"#"} /-->
-
-					<!-- wp:navigation-link {"label":"Themes","url":"#"} /-->
-				<!-- /wp:navigation -->
+			<!-- wp:column {"width":"25%"} -->
+			<div class="wp-block-column" style="flex-basis:25%">
+				<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
+				<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- /wp:spacer -->
 			</div>
+			<!-- /wp:column -->
+
+			<!-- wp:column  -->
+			<div class="wp-block-column">
+				<!-- wp:group {"layout":{"type":"grid","columnCount":2}} -->
+				<div class="wp-block-group">
+					<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
+						<!-- wp:navigation-link {"label":"Blog","url":"#"} /-->
+
+						<!-- wp:navigation-link {"label":"About","url":"#"} /-->
+
+						<!-- wp:navigation-link {"label":"FAQs","url":"#"} /-->
+
+						<!-- wp:navigation-link {"label":"Authors","url":"#"} /-->
+					<!-- /wp:navigation -->
+
+					<!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","orientation":"vertical"}} -->
+						<!-- wp:navigation-link {"label":"Events","url":"#"} /-->
+
+						<!-- wp:navigation-link {"label":"Shop","url":"#"} /-->
+
+						<!-- wp:navigation-link {"label":"Patterns","url":"#"} /-->
+
+						<!-- wp:navigation-link {"label":"Themes","url":"#"} /-->
+					<!-- /wp:navigation -->
+				</div>
 				<!-- /wp:group -->
+			</div>
+			<!-- /wp:column -->
 		</div>
-		<!-- /wp:group -->
+		<!-- /wp:columns -->
 
 		<!-- wp:spacer {"height":"var:preset|spacing|70"} -->
 		<div style="height:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>

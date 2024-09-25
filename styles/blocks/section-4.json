@@ -25,11 +25,12 @@
 				"color": {
 					"background": "var:preset|color|base",
 					"text": "var:preset|color|contrast"
-				}
-			},
-			"link": {
-				"color": {
-					"text": "var:preset|color|base"
+				},
+				":hover": {
+					"color": {
+						"background": "color-mix(in srgb, var(--wp--preset--color--base) 80%, transparent)",
+						"text": "var:preset|color|contrast"
+					}
 				}
 			}
 		}

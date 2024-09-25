@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Heading and search form
- * Slug: twentytwentyfive/search-big-heading
+ * Slug: twentytwentyfive/cta-heading-search
  * Categories: call-to-action
  * Description: Large heading with a search form for quick navigation.
  *

@@ -17,7 +17,7 @@
 	<span aria-hidden="true" class="wp-block-cover__background has-background-dim-10 has-background-dim"></span>
 	<img class="wp-block-cover__image-background" alt="<?php echo esc_attr_x( 'Picture of a flower', 'Alt text for cover image', 'twentytwentyfive' ); ?>" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-8802603-original.webp" style="object-position:50% 95%" data-object-fit="cover" data-object-position="50% 95%"/>
 	<div class="wp-block-cover__inner-container">
-		<!-- wp:group {"metadata":{"name":"Contents"},"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
+		<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
 		<div class="wp-block-group alignwide">
 			<!-- wp:heading {"textAlign":"left"} -->
 			<h2 class="wp-block-heading has-text-align-left"><?php echo esc_html_x( 'Tell your story', 'Sample hero heading', 'twentytwentyfive' ); ?></h2>

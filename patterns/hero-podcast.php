@@ -41,24 +41,24 @@
 
 			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Youtube', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+				<p class="is-style-text-annotation"><a href="#"><?php echo esc_html_x( 'Youtube', 'Button text', 'twentytwentyfive' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Apple Podcasts', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+				<p class="is-style-text-annotation"><a href="#"><?php echo esc_html_x( 'Apple Podcasts', 'Button text', 'twentytwentyfive' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Spotify', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+				<p class="is-style-text-annotation"><a href="#"><?php echo esc_html_x( 'Spotify', 'Button text', 'twentytwentyfive' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Pocket Casts', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+				<p class="is-style-text-annotation"><a href="#"><?php echo esc_html_x( 'Pocket Casts', 'Button text', 'twentytwentyfive' ); ?></a></p>
 				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'RSS', 'Button text', 'twentytwentyfive' ); ?></a></p>
+				<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+				<p class="is-style-text-annotation"><a href="#"><?php echo esc_html_x( 'RSS', 'Button text', 'twentytwentyfive' ); ?></a></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

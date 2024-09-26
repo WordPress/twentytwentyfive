@@ -5,6 +5,8 @@
  * Keywords: call-to-action, rsvp, event
  * Categories: call-to-action
  * Block Types: core/post-content
+ * Viewport width: 1400
+ * Description: RSVP for an upcoming event with a cover image and event details.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

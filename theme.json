@@ -1398,7 +1398,7 @@
 						"text": "var:preset|color|contrast"
 					},
 					"border": {
-						"color": "currentColor"
+						"color": "transparent"
 					}
 				},
 				"border": {

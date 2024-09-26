@@ -23,9 +23,9 @@
 				<span aria-hidden="true" class="wp-block-cover__background has-background-dim-0 has-background-dim" style="background-color:#6b6b6b"></span>
 				<img class="wp-block-cover__image-background" alt="Image of the book" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/book-image-landing.webp" data-object-fit="cover"/>
 				<div class="wp-block-cover__inner-container">
-					<!-- wp:paragraph {"align":"center","fontSize":"large"} -->
-					<p class="has-text-align-center has-large-font-size"></p>
-					<!-- /wp:paragraph -->
+					<!-- wp:spacer {"height":"var:preset|spacing|20"} -->
+					<div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
+					<!-- /wp:spacer -->
 				</div>
 			</div>
 			<!-- /wp:cover -->

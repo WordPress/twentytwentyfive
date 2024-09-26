@@ -38,9 +38,9 @@
 
 		<!-- wp:cover {"overlayColor":"contrast","isUserOverlayColor":true,"style":{"dimensions":{"aspectRatio":"1"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-cover"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
-			<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-			<p class="has-text-align-center has-medium-font-size"></p>
-			<!-- /wp:paragraph -->
+			<!-- wp:spacer {"height":"var:preset|spacing|20"} -->
+			<div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
 		</div></div>
 		<!-- /wp:cover -->
 
@@ -86,9 +86,9 @@
 
 		<!-- wp:cover {"overlayColor":"accent-2","isUserOverlayColor":true,"isDark":false,"style":{"dimensions":{"aspectRatio":"1"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-accent-2-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
-			<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-			<p class="has-text-align-center has-medium-font-size"></p>
-			<!-- /wp:paragraph -->
+			<!-- wp:spacer {"height":"var:preset|spacing|20"} -->
+			<div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
 		</div></div>
 		<!-- /wp:cover -->
 
@@ -102,9 +102,9 @@
 
 		<!-- wp:cover {"overlayColor":"accent-3","isUserOverlayColor":true,"style":{"dimensions":{"aspectRatio":"1"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-cover"><span aria-hidden="true" class="wp-block-cover__background has-accent-3-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
-			<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-			<p class="has-text-align-center has-medium-font-size"></p>
-			<!-- /wp:paragraph -->
+			<!-- wp:spacer {"height":"var:preset|spacing|20"} -->
+			<div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
 		</div></div>
 		<!-- /wp:cover -->
 
@@ -114,9 +114,9 @@
 
 		<!-- wp:cover {"overlayColor":"accent-1","isUserOverlayColor":true,"isDark":false,"style":{"dimensions":{"aspectRatio":"1"}},"layout":{"type":"constrained"}} -->
 		<div class="wp-block-cover is-light"><span aria-hidden="true" class="wp-block-cover__background has-accent-1-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
-			<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-			<p class="has-text-align-center has-medium-font-size"></p>
-			<!-- /wp:paragraph -->
+			<!-- wp:spacer {"height":"var:preset|spacing|20"} -->
+			<div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
+			<!-- /wp:spacer -->
 		</div></div>
 		<!-- /wp:cover -->
 

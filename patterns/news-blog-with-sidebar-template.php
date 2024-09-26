@@ -20,7 +20,7 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"width":"75%"} -->
 		<div class="wp-block-column" style="flex-basis:75%">
-			<!-- wp:query {"query":{"perPage":1,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"metadata":{"categories":["posts"],"patternName":"core/query-standard-posts","name":"Standard"}} -->
+			<!-- wp:query {"query":{"perPage":1,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false}} -->
 			<div class="wp-block-query">
 				<!-- wp:post-template -->
 					<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2","align":"wide"} /-->

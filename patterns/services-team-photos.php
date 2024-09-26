@@ -31,7 +31,7 @@
 			<div class="wp-block-group">
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-1.webp" alt="Ms. Gail Falk Seltzer, a Staff Lawyer for Field Services." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-1.webp" alt="Ms. Nora Winslow Keene, a dedicated public interest attorney based in Denver." style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 

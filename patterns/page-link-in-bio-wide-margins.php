@@ -31,11 +31,11 @@
 			<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 			<div class="wp-block-group">
 				<!-- wp:heading {"textAlign":"left"} -->
-				<h2 class="wp-block-heading has-text-align-left">Gail Falk Seltzer</h2>
+				<h2 class="wp-block-heading has-text-align-left">Nora Winslow Keene</h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
-				<p>I’m Gail, a passionate and Staff Lawyer. Based in Charleston. I’m a graduate of Yale University.</p>
+				<p>I’m Nora, a dedicated public interest attorney based in Denver. I’m a graduate of Stanford University.</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#111111","className":"is-style-logos-only"} -->

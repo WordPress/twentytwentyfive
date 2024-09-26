@@ -1,10 +1,8 @@
 <?php
 /**
- * Title: Blog posts for the right aligned blog
+ * Title: Right-aligned posts
  * Slug: twentytwentyfive/right-aligned-posts
- * Categories: query
- * Block Types: core/query
- * Description:
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

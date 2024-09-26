@@ -31,8 +31,8 @@
 								<?php echo esc_html_x( 'The Stories Book', 'Hero - Overlapped book cover pattern headline text', 'twentytwentyfive' ); ?>
 							</h2>
 							<!-- /wp:heading -->
-							<!-- wp:paragraph {"fontSize":"x-large"} -->
-							<p class="has-x-large-font-size">
+							<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
+							<p class="is-style-text-subtitle">
 								<?php echo esc_html_x( 'A fine collection of moments in time featuring photographs from Louis Fleckenstein, Paul Strand and Asahachi Kōno.', 'Hero - Overlapped book cover pattern subline text', 'twentytwentyfive' ); ?>
 							</p>
 							<!-- /wp:paragraph -->

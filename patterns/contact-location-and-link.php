@@ -2,7 +2,7 @@
 /**
  * Title: Contact location and link
  * Slug: twentytwentyfive/contact-location-and-link
- * Categories: banner, featured
+ * Categories: contact, featured
  * Description: Contact section with a location address, a directions link, and an image of the location.
  *
  * @package WordPress
@@ -17,10 +17,9 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"top","width":""} -->
 		<div class="wp-block-column is-vertically-aligned-top">
-			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
-			<div class="wp-block-group" style="min-height:100%">
-				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
-				<p class="is-style-text-subtitle">Visit us at 123 Example St. Manhattan, NY 10300, United States</p>
+			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
+			<div class="wp-block-group" style="min-height:100%"><!-- wp:paragraph {"className":"is-style-text-display","fontSize":"xx-large"} -->
+				<p class="is-style-text-display has-xx-large-font-size">Visit us at 123 Example St. Manhattan, NY 10300, United States</p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"medium"} -->

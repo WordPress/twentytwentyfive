@@ -11,7 +11,7 @@
  */
 
 ?>
-<!-- wp:template-part {"slug":"header","area":"header"} /-->
+<!-- wp:template-part {"slug":"header"} /-->
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
 <main class="wp-block-group" style="margin-top:0;margin-bottom:0;">
@@ -133,4 +133,4 @@
 
 <!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
 
-<!-- wp:template-part {"slug":"footer-newsletter","area":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-newsletter"} /-->

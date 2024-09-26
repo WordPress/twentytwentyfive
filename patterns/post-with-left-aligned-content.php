@@ -12,7 +12,7 @@
  */
 
 ?>
-<!-- wp:template-part {"slug":"header","tagName":"header","area":"header"} /-->
+<!-- wp:template-part {"slug":"header"} /-->
 
 	<!-- wp:group {"tagName":"main","align":"wide","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"default"}} -->
 	<main class="wp-block-group alignwide">
@@ -110,4 +110,4 @@
 	</main>
 	<!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"footer"} /-->

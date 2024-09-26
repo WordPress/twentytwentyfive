@@ -19,8 +19,8 @@
 		<div class="wp-block-column is-vertically-aligned-top">
 			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
 			<div class="wp-block-group" style="min-height:100%">
-				<!-- wp:heading {"className":"wp-block-heading"} -->
-				<h2 class="wp-block-heading">Visit us at 123 Example St. Manhattan, NY 10300, United States</h2>
+				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
+				<h2 class="is-style-text-subtitle">Visit us at 123 Example St. Manhattan, NY 10300, United States</h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"medium"} -->

@@ -1,27 +1,28 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Pill",
-	"slug": "pill",
+	"title": "Annotation",
+	"slug": "text-annotation",
 	"blockTypes": ["core/heading", "core/paragraph"],
 	"styles": {
+		"css": "display: inline-flex",
 		"typography": {
 			"fontSize": "var:preset|font-size|small",
-			"lineHeight": "1",
+			"lineHeight": "1.5",
 			"letterSpacing": "normal"
 		},
 		"border": {
 			"color": "currentColor",
 			"style": "solid",
 			"width": "1px",
-			"radius": "999px"
+			"radius": "16px"
 		},
 		"spacing": {
 			"padding": {
-				"top": "0.31rem",
-				"right": "var:preset|spacing|20",
-				"bottom": "0.31rem",
-				"left": "var:preset|spacing|20"
+				"top": "0.2rem",
+				"right": "0.6rem",
+				"bottom": "0.25rem",
+				"left": "0.6rem"
 			}
 		},
 		"elements": {

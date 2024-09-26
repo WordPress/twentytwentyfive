@@ -995,6 +995,14 @@
 					}
 				}
 			},
+			"core/columns": {
+				"spacing": {
+					"blockGap": {
+						"left": "var:preset|spacing|50",
+						"top": "var:preset|spacing|50"
+					}
+				}
+			},
 			"core/code": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|fira-code",

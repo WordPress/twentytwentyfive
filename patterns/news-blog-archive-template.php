@@ -12,7 +12,7 @@
  */
 
 ?>
-<!-- wp:template-part {"slug":"header","area":"header"} /-->
+<!-- wp:template-part {"slug":"header"} /-->
 
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
 <main class="wp-block-group">
@@ -36,4 +36,4 @@
 </main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer-newsletter","area":"footer"} /-->
+<!-- wp:template-part {"slug":"footer-newsletter"} /-->

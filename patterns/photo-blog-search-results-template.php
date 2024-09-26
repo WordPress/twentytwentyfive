@@ -12,7 +12,7 @@
  */
 
 ?>
-<!-- wp:template-part {"slug":"header","area":"header","tagName":"header"} /-->
+<!-- wp:template-part {"slug":"header"} /-->
 
 <!-- wp:group {"tagName":"main","style":{"spacing":{"margin":{"top":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
@@ -26,4 +26,4 @@
 </main>
 <!-- /wp:group -->
 
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
+<!-- wp:template-part {"slug":"footer"} /-->

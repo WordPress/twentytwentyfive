@@ -46,7 +46,7 @@
 
 	<!-- wp:query-no-results -->
 		<!-- wp:paragraph -->
-		<p>No posts were found.</p>
+		<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?>.</p>
 		<!-- /wp:paragraph -->
 	<!-- /wp:query-no-results -->
 </div>

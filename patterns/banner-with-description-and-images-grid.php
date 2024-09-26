@@ -19,13 +19,14 @@
 		<div class="wp-block-group">
 			<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"left"}} -->
 			<div class="wp-block-group">
-				<!-- wp:heading {"className":"is-style-pill"} -->
-				<h2 class="wp-block-heading is-style-pill">About Us</h2>
+				<!-- wp:heading {"className":"is-style-text-annotation"} -->
+				<h2 class="wp-block-heading is-style-text-annotation"><?php esc_html_e( 'About Us', 'twentytwentyfive' ); ?></h2>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph -->
-				<p><strong>Fleurs</strong> is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers.</p>
+				<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
+				<p class="is-style-text-subtitle"><strong>Fleurs</strong> is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers.</p>
 				<!-- /wp:paragraph -->
+
 			</div>
 			<!-- /wp:group -->
 

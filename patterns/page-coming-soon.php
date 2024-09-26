@@ -20,8 +20,8 @@
 	<div class="wp-block-cover__inner-container">
 		<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 		<div class="wp-block-group">
-			<!-- wp:heading {"textAlign":"center","level":1,"className":"is-style-pill"} -->
-			<h1 class="wp-block-heading has-text-align-center is-style-pill">Event</h1>
+			<!-- wp:heading {"textAlign":"center","level":1,"className":"is-style-text-annotation"} -->
+			<h1 class="wp-block-heading has-text-align-center is-style-text-annotation">Event</h1>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:group -->

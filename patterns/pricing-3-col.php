@@ -19,8 +19,8 @@
 		<h2 class="wp-block-heading has-x-large-font-size">Choose your membership</h2>
 		<!-- /wp:heading -->
 
-		<!-- wp:paragraph {"className":"is-style-pill"} -->
-		<p class="is-style-pill">Pricing</p>
+		<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+		<p class="is-style-text-annotation">Pricing</p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

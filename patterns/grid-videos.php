@@ -19,8 +19,8 @@
 		<h3 class="wp-block-heading alignwide has-text-align-left">Explore the episodes</h3>
 		<!-- /wp:heading -->
 
-		<!-- wp:paragraph {"className":"is-style-pill"} -->
-		<p class="is-style-pill">Podcast</p>
+		<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+		<p class="is-style-text-annotation">Podcast</p>
 		<!-- /wp:paragraph -->
 	</div>
 	<!-- /wp:group -->

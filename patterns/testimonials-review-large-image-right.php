@@ -20,8 +20,8 @@
 		<div class="wp-block-column">
 			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"spacing":{"blockGap":"var:preset|spacing|60"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"left","flexWrap":"wrap","verticalAlignment":"space-between"}} -->
 			<div class="wp-block-group" style="min-height:100%">
-				<!-- wp:heading {"className":"is-style-pill","style":{"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"x-small"} -->
-				<h2 class="wp-block-heading is-style-pill has-x-small-font-size"><?php echo esc_html_x( 'What people are saying', 'Testimonial heading', 'twentytwentyfive' ); ?></h2>
+				<!-- wp:heading {"className":"is-style-text-annotation","style":{"layout":{"selfStretch":"fit","flexSize":null}},"fontSize":"x-small"} -->
+				<h2 class="wp-block-heading is-style-text-annotation has-x-small-font-size"><?php echo esc_html_x( 'What people are saying', 'Testimonial heading', 'twentytwentyfive' ); ?></h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:quote {"className":"is-style-plain","style":{"spacing":{"blockGap":"var:preset|spacing|50"},"typography":{"fontStyle":"normal","fontWeight":"400"}},"fontSize":"x-large"} -->

@@ -71,8 +71,8 @@
 
 	<!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignfull">
-		<!-- wp:paragraph {"fontSize":"small"} -->
-		<p class="has-small-font-size">Twenty Twenty-Five</p>
+		<!-- wp:paragraph { "metadata":{ "bindings":{ "content":{ "source":"twentytwentyfive/copyright" } } }, "fontSize":"small" } -->
+		<p class="has-small-font-size"></p>
 		<!-- /wp:paragraph -->
 
 		<!-- wp:paragraph {"fontSize":"small"} -->

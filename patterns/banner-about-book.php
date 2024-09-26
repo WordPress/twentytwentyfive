@@ -18,8 +18,8 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"center","width":""} -->
 		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:heading {"level":3,"className":"wp-block-heading","fontSize":"x-large"} -->
-			<h3 class="wp-block-heading has-x-large-font-size">About the book</h3>
+			<!-- wp:heading {"level":3,"className":"wp-block-heading","fontSize":"xx-large"} -->
+			<h3 class="wp-block-heading has-xx-large-font-size">About the book</h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->

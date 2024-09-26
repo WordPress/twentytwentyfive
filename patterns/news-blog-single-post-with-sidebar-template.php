@@ -24,7 +24,7 @@
 			<!-- wp:spacer {"height":"var:preset|spacing|80"} -->
 			<div style="height:var(--wp--preset--spacing--80)" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->
-			<!-- wp:post-title {"align":"wide","fontSize":"xx-large"} /-->
+			<!-- wp:post-title {"level":1,"align":"wide","fontSize":"xx-large"} /-->
 			<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
 			<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 			<!-- /wp:spacer -->

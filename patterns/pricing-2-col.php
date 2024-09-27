@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Pricing, two columns
+ * Title: Pricing, 2 columns
  * Slug: twentytwentyfive/pricing-2-col
  * Categories: call-to-action, featured
  * Viewport width: 1400

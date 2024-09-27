@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: 3 columns
+ * Title: Services, 3 columns
  * Slug: twentytwentyfive/services-3-col
  * Categories: call-to-action, banner, featured, services
  * Description: Three columns with images and text to showcase services.

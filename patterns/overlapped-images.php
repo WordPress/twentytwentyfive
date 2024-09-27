@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Overlapping images and paragraph on right
- * Slug: twentytwentyfive/overlap-images-and-paragraph
+ * Slug: twentytwentyfive/overlapped-images
  * Categories: about
  * Description: A section with overlapping images, and a description.
  *

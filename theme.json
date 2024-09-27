@@ -1422,16 +1422,15 @@
 			"h5": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
-					"fontStyle": "normal",
-					"fontWeight": "700",
-					"letterSpacing": "1.4px",
-					"textTransform": "uppercase"
+					"letterSpacing": "0.5px"
 				}
 			},
 			"h6": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
-					"letterSpacing": "0.5px"
+					"fontWeight": "700",
+					"letterSpacing": "1.4px",
+					"textTransform": "uppercase"
 				}
 			},
 			"heading": {

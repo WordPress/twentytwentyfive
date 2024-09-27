@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Services - Team photos
+ * Title: Team photos
  * Slug: twentytwentyfive/services-team-photos
  * Categories: banner, call-to-action, featured
  * Description: Display team photos in a services section with grid layout.

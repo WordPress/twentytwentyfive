@@ -305,7 +305,7 @@
 			"lineHeight": "1.4"
 		},
 		"variations": {
-			"section-1": {
+			"section-2": {
 				"elements": {
 					"button": {
 						":hover": {
@@ -320,7 +320,7 @@
 					}
 				}
 			},
-			"section-2": {
+			"section-4": {
 				"color": {
 					"text": "var:preset|color|accent-5"
 				},
@@ -362,7 +362,7 @@
 					}
 				}
 			},
-			"section-4": {
+			"section-5": {
 				"elements": {
 					"button": {
 						":hover": {
@@ -377,7 +377,7 @@
 					}
 				}
 			},
-			"section-5": {
+			"section-1": {
 				"color": {
 					"text": "var:preset|color|accent-3"
 				},

@@ -1,8 +1,8 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"slug": "section-5",
-	"title": "Style 5",
+	"slug": "section-2",
+	"title": "Style 2",
 	"blockTypes": [
 		"core/group",
 		"core/columns",
@@ -10,7 +10,7 @@
 	],
 	"styles": {
 		"color": {
-			"background": "var:preset|color|accent-5",
+			"background": "var:preset|color|accent-2",
 			"text": "var:preset|color|contrast"
 		},
 		"blocks": {

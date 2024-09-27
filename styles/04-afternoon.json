@@ -236,7 +236,7 @@
 			"lineHeight": "1.6"
 		},
 		"variations": {
-			"section-1": {
+			"section-2": {
 				"elements": {
 					"button": {
 						":hover": {
@@ -251,7 +251,7 @@
 					}
 				}
 			},
-			"section-2": {
+			"section-4": {
 				"color": {
 					"text": "var(--wp--preset--color--base)"
 				},
@@ -293,7 +293,7 @@
 					}
 				}
 			},
-			"section-4": {
+			"section-5": {
 				"elements": {
 					"button": {
 						":hover": {

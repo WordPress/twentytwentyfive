@@ -263,7 +263,7 @@
 					}
 				}
 			},
-			"section-1": {
+			"section-2": {
 				"elements": {
 					"button": {
 						"color": {
@@ -276,7 +276,7 @@
 					}
 				}
 			},
-			"section-2": {
+			"section-4": {
 				"color": {
 					"text": "var:preset|color|base"
 				},
@@ -310,7 +310,7 @@
 					}
 				}
 			},
-			"section-4": {
+			"section-5": {
 				"elements": {
 					"heading": {
 						"color": {
@@ -324,7 +324,7 @@
 					}
 				}
 			},
-			"section-5": {
+			"section-1": {
 				"elements": {
 					"button": {
 						"border": {

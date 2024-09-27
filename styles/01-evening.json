@@ -119,7 +119,7 @@
 			}
 		},
 		"variations": {
-			"section-1": {
+			"section-2": {
 				"elements": {
 					"button": {
 						"color": {
@@ -141,7 +141,7 @@
 					}
 				}
 			},
-			"section-2": {
+			"section-4": {
 				"elements": {
 					"button": {
 						"color": {
@@ -179,7 +179,7 @@
 					}
 				}
 			},
-			"section-4": {
+			"section-5": {
 				"elements": {
 					"button": {
 						":hover":{
@@ -194,7 +194,7 @@
 					}
 				}
 			},
-			"section-5": {
+			"section-1": {
 				"elements": {
 					"button": {
 						":hover":{

@@ -268,7 +268,7 @@
 					}
 				}
 			},
-			"section-1": {
+			"section-2": {
 				"color": {
 					"text": "var:preset|color|base"
 				},
@@ -298,7 +298,7 @@
 					}
 				}
 			},
-			"section-2": {
+			"section-4": {
 				"color": {
 					"text": "var:preset|color|base"
 				},
@@ -358,7 +358,7 @@
 					}
 				}
 			},
-			"section-4": {
+			"section-5": {
 				"color": {
 					"text": "var:preset|color|contrast",
 					"background": "var:preset|color|accent-5"
@@ -394,7 +394,7 @@
 					}
 				}
 			},
-			"section-5": {
+			"section-1": {
 				"color": {
 					"text": "var:preset|color|accent-5",
 					"background": "var:preset|color|contrast"

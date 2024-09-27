@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Contact Location and Link
+ * Title: Contact location and link
  * Slug: twentytwentyfive/contact-location-and-link
  * Categories: banner, featured
  * Description: Contact section with a location address, a directions link, and an image of the location.

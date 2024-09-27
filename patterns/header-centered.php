@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Centered Header
+ * Title: Centered header
  * Slug: twentytwentyfive/header-centered
  * Categories: header
  * Block Types: core/template-part/header

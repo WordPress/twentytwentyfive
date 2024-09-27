@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Landing page for Event
+ * Title: Landing page for event
  * Slug: twentytwentyfive/page-landing-event
  * Categories: twentytwentyfive_page, featured
  * Keywords: starter

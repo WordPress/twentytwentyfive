@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Landing page for Book
+ * Title: Landing page for book
  * Slug: twentytwentyfive/page-landing-book
  * Categories: twentytwentyfive_page, featured
  * Keywords: starter
@@ -22,6 +22,6 @@
 	<!-- wp:pattern {"slug":"twentytwentyfive/banner-about-book"} /-->
 	<!-- wp:pattern {"slug":"twentytwentyfive/cta-book-locations"} /-->
 	<!-- wp:pattern {"slug":"twentytwentyfive/text-faqs"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/cta-newsletter"} /-->
 </div>
 <!-- /wp:group -->

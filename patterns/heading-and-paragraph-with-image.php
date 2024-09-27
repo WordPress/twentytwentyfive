@@ -12,7 +12,7 @@
 
 ?>
 
-<!-- wp:group {"metadata":{"categories":["text","about"],"patternName":"twentytwentyfive/heading-and-paragraph-with-image"},"align":"full","className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<!-- wp:group {"align":"full","className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull is-style-section-4" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|80"}}}} -->
 	<div class="wp-block-columns alignwide">

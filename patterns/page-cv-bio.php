@@ -28,8 +28,8 @@
 					<p class="has-text-align-left" style="font-size:22rem;letter-spacing:-0.03em">Hey,</p>
 					<!-- /wp:paragraph -->
 
-					<!-- wp:paragraph {"style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
-					<p class="has-x-large-font-size" style="line-height:1.2">My name is Nora Winslow Keene, and I’m a committed public interest attorney. Living in Denver, Colorado, I’ve spent years championing the rights of underrepresented workers. A graduate of Stanford University, I played a key role in securing critical protections for agricultural laborers, ensuring better wages and access to healthcare. My work has focused on advocating for environmental justice and improving the quality of life for rural communities. Every case I take on is driven by the belief that everyone deserves dignity and fair treatment in the workplace.</p>
+					<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
+					<p class="is-style-text-subtitle">My name is Nora Winslow Keene, and I’m a committed public interest attorney. Living in Denver, Colorado, I’ve spent years championing the rights of underrepresented workers. A graduate of Stanford University, I played a key role in securing critical protections for agricultural laborers, ensuring better wages and access to healthcare. My work has focused on advocating for environmental justice and improving the quality of life for rural communities. Every case I take on is driven by the belief that everyone deserves dignity and fair treatment in the workplace.</p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->

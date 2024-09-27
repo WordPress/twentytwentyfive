@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: News blog search results
- * Slug: twentytwentyfive/news-blog-search-results
+ * Slug: twentytwentyfive/template-search-news-blog
  * Template Types: search
  * Viewport width: 1400
  * Inserter: no

@@ -967,29 +967,18 @@
 				}
 			},
 			"core/button": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				},
-				"spacing": {
-					"padding": {
-						"bottom": "1rem",
-						"left": "2.25rem",
-						"right": "2.25rem",
-						"top": "1rem"
-					}
-				},
 				"variations": {
 					"outline": {
 						"border": {
-							"color": "var:preset|color|contrast",
+							"color": "currentColor",
 							"width": "1px"
 						},
 						"spacing": {
 							"padding": {
-								"bottom": "1rem",
-								"left": "2.25rem",
-								"right": "2.25rem",
-								"top": "1rem"
+								"bottom": "calc(1rem - 1px)",
+								"left": "calc(2.25rem - 1px)",
+								"right": "calc(2.25rem - 1px)",
+								"top": "calc(1rem - 1px)"
 							}
 						}
 					}
@@ -1001,6 +990,11 @@
 						"left": "var:preset|spacing|50",
 						"top": "var:preset|spacing|50"
 					}
+				}
+			},
+			"core/buttons": {
+				"spacing": {
+					"blockGap": "16px"
 				}
 			},
 			"core/code": {
@@ -1382,17 +1376,7 @@
 					"background": "var:preset|color|contrast",
 					"text": "var:preset|color|base"
 				},
-				":active": {
-					"color": {
-						"background": "var:preset|color|accent-1",
-						"text": "var:preset|color|contrast"
-					}
-				},
 				":focus": {
-					"color": {
-						"background": "var:preset|color|accent-1",
-						"text": "var:preset|color|contrast"
-					},
 					"outline": {
 						"color": "var:preset|color|primary",
 						"offset": "2px",
@@ -1402,18 +1386,23 @@
 				},
 				":hover": {
 					"color": {
-						"background": "var:preset|color|accent-1",
-						"text": "var:preset|color|contrast"
+						"background": "color-mix(in srgb, var(--wp--preset--color--contrast) 85%, transparent)",
+						"text": "var:preset|color|base"
 					},
 					"border": {
 						"color": "transparent"
 					}
 				},
-				"border": {
-					"color": "var:preset|color|contrast",
-					"radius": "100px",
-					"width": "1px",
-					"style": "solid"
+				"spacing": {
+					"padding": {
+						"bottom": "1rem",
+						"left": "2.25rem",
+						"right": "2.25rem",
+						"top": "1rem"
+					}
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"caption": {
@@ -1465,7 +1454,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var:preset|color|contrast"
+					"text": "currentColor"
 				}
 			}
 		}

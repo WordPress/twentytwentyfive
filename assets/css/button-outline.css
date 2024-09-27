@@ -1,6 +1,3 @@
-.wp-block-button.is-style-outline
-	> .wp-block-button__link:not(.has-text-color, .has-background):hover {
-	background-color: var(--wp--preset--color--contrast, transparent);
-	color: var(--wp--preset--color--base);
-	border-color: var(--wp--preset--color--contrast, currentColor);
+.wp-block-button.is-style-outline > .wp-block-button__link:not(.has-background):hover {
+	background-color: color-mix(in srgb, var(--wp--preset--color--contrast) 5%, transparent);
 }

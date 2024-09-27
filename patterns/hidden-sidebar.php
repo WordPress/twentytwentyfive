@@ -36,7 +36,7 @@
 
 	<!-- wp:query-no-results -->
 		<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results.","fontSize":"medium"} -->
-		<p class="has-medium-font-size"><?php esc_html_e( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?></p>
+		<p class="has-medium-font-size"><?php esc_html_e( 'Sorry, but nothing was found. Please try a search with different keywords.', 'twentytwentyfive' ); ?></p>
 		<!-- /wp:paragraph -->
 	<!-- /wp:query-no-results -->
 </div>

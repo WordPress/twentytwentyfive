@@ -2,7 +2,7 @@
 /**
  * Title: Instagram grid
  * Slug: twentytwentyfive/media-instagram-grid
- * Categories: media, featured
+ * Categories: media, gallery, featured
  * Viewport width: 1440
  * Description: A grid section with photos and a link to an Instagram profile.
  *

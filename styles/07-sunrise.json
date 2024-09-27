@@ -79,7 +79,7 @@
 			"core/code": {
 				"color": {
 					"text": "var:preset|color|accent-2",
-					"background": "var:preset|color|secondary"
+					"background": "var:preset|color|accent-5"
 				}
 			},
 			"core/navigation": {
@@ -251,11 +251,11 @@
 				"elements": {
 					"link": {
 						"color": {
-							"background": "var:preset|color|secondary"
+							"background": "var:preset|color|accent-5"
 						},
 						"border": {
 							"radius": "100px",
-							"color": "var:preset|color|secondary"
+							"color": "var:preset|color|accent-5"
 						},
 						"typography": {
 							"textDecoration": "none"
@@ -361,7 +361,7 @@
 			"section-4": {
 				"color": {
 					"text": "var:preset|color|contrast",
-					"background": "var:preset|color|secondary"
+					"background": "var:preset|color|accent-5"
 				},
 				"elements": {
 					"heading": {
@@ -384,7 +384,7 @@
 						},
 						":hover": {
 							"color": {
-								"background": "var:preset|color|secondary",
+								"background": "var:preset|color|accent-5",
 								"text": "var:preset|color|contrast"
 							},
 							"border": {
@@ -396,13 +396,13 @@
 			},
 			"section-5": {
 				"color": {
-					"text": "var:preset|color|secondary",
+					"text": "var:preset|color|accent-5",
 					"background": "var:preset|color|contrast"
 				},
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var:preset|color|secondary"
+							"text": "var:preset|color|accent-5"
 						}
 					},
 					"button": {

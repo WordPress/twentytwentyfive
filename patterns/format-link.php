@@ -2,7 +2,7 @@
 /**
  * Title: Link format
  * Slug: twentytwentyfive/format-link
- * Categories: pages, featured
+ * Categories: twentytwentyfive_post-format, featured
  * Description: A link post format with a description and an emphasized link for key content.
  *
  * @package WordPress

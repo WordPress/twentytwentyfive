@@ -2,7 +2,7 @@
 /**
  * Title: Audio format
  * Slug: twentytwentyfive/format-audio
- * Categories: pages, featured
+ * Categories: twentytwentyfive_post-format, featured
  * Description: An audio post format with an image, title, audio player, and description.
  *
  * @package WordPress

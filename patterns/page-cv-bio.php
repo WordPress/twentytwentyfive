@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: CV/Bio
+ * Title: CV/bio
  * Slug: twentytwentyfive/page-cv-bio
  * Categories: twentytwentyfive_page, about
  * Keywords: starter

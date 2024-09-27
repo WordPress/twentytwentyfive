@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Services - Subscriber only section
+ * Title: Services, subscriber only section
  * Slug: twentytwentyfive/services-subscriber-only-section
  * Categories: call-to-action, featured, services
  * Description: A subscriber-only section highlighting exclusive services and offerings.

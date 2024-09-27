@@ -18,12 +18,10 @@
 	<!-- /wp:paragraph -->
 
 	<!-- wp:group {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"medium","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
-	<div class="wp-block-group has-accent-4-color has-text-color has-link-color has-medium-font-size"><!-- wp:paragraph -->
+	<div class="wp-block-group has-accent-4-color has-text-color has-link-color has-medium-font-size">
+		<!-- wp:paragraph -->
 		<p><a href="#">https://example.com</a></p>
 		<!-- /wp:paragraph -->
-
-		<!-- wp:paragraph -->
-		<p>↗</p>
-		<!-- /wp:paragraph --></div>
-	<!-- /wp:group --></div>
+	<!-- /wp:group -->
+	</div>
 <!-- /wp:group -->

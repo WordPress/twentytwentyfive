@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Newsletter Sign Up
+ * Title: Newsletter sign-up
  * Slug: twentytwentyfive/cta-newsletter
  * Keywords: call-to-action, newsletter
  * Categories: call-to-action

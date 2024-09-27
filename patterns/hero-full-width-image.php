@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Hero Full Width Image
+ * Title: Hero, full width image
  * Slug: twentytwentyfive/hero-full-width-image
  * Categories: banner, featured
  * Description: A hero with a full width image, heading, short paragraph and button.

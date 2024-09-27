@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Landing page for Podcast
+ * Title: Landing page for podcast
  * Slug: twentytwentyfive/page-landing-podcast
  * Categories: twentytwentyfive_page, featured
  * Keywords: starter

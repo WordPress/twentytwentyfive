@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Contact: Info and locations
+ * Title: Contact, info and locations
  * Slug: twentytwentyfive/contact-info-locations
  * Keywords: contact, location
  * Categories: contact

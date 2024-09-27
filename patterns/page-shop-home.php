@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Shop Homepage
+ * Title: Shop homepage
  * Slug: twentytwentyfive/page-shop-home
  * Categories: twentytwentyfive_page, posts, featured
  * Keywords: starter

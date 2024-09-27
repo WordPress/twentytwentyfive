@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Landing page for Book
+ * Title: Landing page for book
  * Slug: twentytwentyfive/page-landing-book
  * Categories: twentytwentyfive_page, featured
  * Keywords: starter

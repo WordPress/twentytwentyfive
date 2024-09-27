@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Events three columns with event images and titles
+ * Title: Events, 3 columns with event images and titles
  * Slug: twentytwentyfive/event-3-col
  * Categories: featured
  * Description: A header with title and text and three columns that show 3 events with their images and titles.

@@ -32,25 +32,25 @@
 				},
 				{
 					"color": "#5F5F5F",
-					"name": "Primary",
-					"slug": "primary"
+					"name": "Accent 4",
+					"slug": "accent-4"
 				},
 				{
 					"color": "#D7D3CC",
-					"name": "Secondary",
-					"slug": "secondary"
+					"name": "Accent 5",
+					"slug": "accent-5"
 				},
 				{
 					"color": "#19191933",
-					"name": "Opacity 20%",
-					"slug": "opacity-20"
+					"name": "Accent 6",
+					"slug": "accent-6"
 				}
 			]
 		}
 	},
 	"styles": {
 		"color": {
-			"text": "var:preset|color|primary"
+			"text": "var:preset|color|accent-4"
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|ysabeau-office",
@@ -73,7 +73,7 @@
 			"core/code": {
 				"color": {
 					"text": "var:preset|color|contrast",
-					"background": "var:preset|color|secondary"
+					"background": "var:preset|color|accent-5"
 				}
 			},
 			"core/navigation": {
@@ -165,7 +165,7 @@
 							"letterSpacing": "-0.14px"
 						},
 						"color": {
-							"text": "var:preset|color|primary"
+							"text": "var:preset|color|accent-4"
 						}
 					}
 				}
@@ -187,7 +187,7 @@
 							"letterSpacing": "-0.14px"
 						},
 						"color": {
-							"text": "var:preset|color|primary"
+							"text": "var:preset|color|accent-4"
 						}
 					}
 				}
@@ -246,11 +246,11 @@
 				"elements": {
 					"link": {
 						"color": {
-							"background": "var:preset|color|secondary"
+							"background": "var:preset|color|accent-5"
 						},
 						"border": {
 							"radius": "100px",
-							"color": "var:preset|color|secondary"
+							"color": "var:preset|color|accent-5"
 						},
 						"typography": {
 							"textDecoration": "none"

@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Post with left aligned content
+ * Title: Post with left-aligned content
  * Slug: twentytwentyfive/post-with-left-aligned-content
  * Template Types: posts, single
  * Viewport width: 1400

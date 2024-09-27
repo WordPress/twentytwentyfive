@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Landing page for Podcast
+ * Title: Landing page for podcast
  * Slug: twentytwentyfive/page-landing-podcast
  * Categories: twentytwentyfive_page, featured
  * Keywords: starter
@@ -21,6 +21,6 @@
 	<!-- wp:pattern {"slug":"twentytwentyfive/heading-and-paragraph-with-image"} /-->
 	<!-- wp:pattern {"slug":"twentytwentyfive/logos"} /-->
 	<!-- wp:pattern {"slug":"twentytwentyfive/grid-videos"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/cta-newsletter"} /-->
 </div>
 <!-- /wp:group -->

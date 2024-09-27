@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Centered Footer
+ * Title: Centered footer
  * Slug: twentytwentyfive/footer-centered
  * Categories: footer
  * Block Types: core/template-part/footer

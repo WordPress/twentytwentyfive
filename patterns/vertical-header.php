@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Vertical Header
+ * Title: Vertical header
  * Slug: twentytwentyfive/vertical-header
  * Categories: header
  * Block Types: core/template-part/vertical-header

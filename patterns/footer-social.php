@@ -1,6 +1,6 @@
 <?php
 /**
- * Title: Centered Footer with social links
+ * Title: Centered footer with social links
  * Slug: twentytwentyfive/footer-social
  * Categories: footer
  * Block Types: core/template-part/footer

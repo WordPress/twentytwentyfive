@@ -17,8 +17,8 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull">
-	<!-- wp:pattern {"slug":"twentytwentyfive/intro-short-heading-image"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/banner-intro-image"} /-->
 	<!-- wp:pattern {"slug":"twentytwentyfive/grid-with-categories"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/instagram-grid"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/media-instagram-grid"} /-->
 </div>
 <!-- /wp:group -->

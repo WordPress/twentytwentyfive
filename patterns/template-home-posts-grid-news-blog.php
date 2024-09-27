@@ -131,6 +131,6 @@
 </main>
 <!-- /wp:group -->
 
-<!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
+<!-- wp:pattern {"slug":"twentytwentyfive/cta-newsletter"} /-->
 
 <!-- wp:template-part {"slug":"footer-newsletter"} /-->

@@ -22,6 +22,6 @@
 	<!-- wp:pattern {"slug":"twentytwentyfive/services-3-col"} /-->
 	<!-- wp:pattern {"slug":"twentytwentyfive/testimonials-large"} /-->
 	<!-- wp:pattern {"slug":"twentytwentyfive/pricing-2-col"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/cta-newsletter"} /-->
 </div>
 <!-- /wp:group -->

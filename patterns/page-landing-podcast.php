@@ -21,6 +21,6 @@
 	<!-- wp:pattern {"slug":"twentytwentyfive/heading-and-paragraph-with-image"} /-->
 	<!-- wp:pattern {"slug":"twentytwentyfive/logos"} /-->
 	<!-- wp:pattern {"slug":"twentytwentyfive/grid-videos"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/newsletter-sign-up"} /-->
+	<!-- wp:pattern {"slug":"twentytwentyfive/cta-newsletter"} /-->
 </div>
 <!-- /wp:group -->

@@ -75,7 +75,7 @@
 			"core/code": {
 				"color": {
 					"text": "var:preset|color|black",
-					"background": "var:preset|color|secondary"
+					"background": "var:preset|color|accent-5"
 				}
 			},
 			"core/paragraph": {

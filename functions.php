@@ -147,6 +147,14 @@ if ( ! function_exists( 'twentytwentyfive_pattern_categories' ) ) :
 				'description' => __( 'A collection of full page layouts.', 'twentytwentyfive' ),
 			)
 		);
+
+		register_block_pattern_category(
+			'twentytwentyfive_post-format',
+			array(
+				'label'       => __( 'Post format', 'twentytwentyfive' ),
+				'description' => __( 'A collection of post format patterns.', 'twentytwentyfive' ),
+			)
+		);
 	}
 endif;
 

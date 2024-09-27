@@ -12,8 +12,9 @@
 
 ?>
 <!-- wp:cover {"overlayColor":"accent-1","isUserOverlayColor":true,"minHeight":460,"isDark":false,"metadata":{"categories":["call-to-action"],"patternName":"twentytwentyfive/newsletter-sign-up","name":"Newsletter Sign Up"},"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|50","left":"var:preset|spacing|50","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"800px"}} -->
-<div class="wp-block-cover alignfull is-light" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50);min-height:460px"><span aria-hidden="true" class="wp-block-cover__background has-accent-1-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","className":"is-style-default","fontSize":"xx-large"} -->
-	<h2 class="wp-block-heading has-text-align-center is-style-default has-xx-large-font-size">Sign up to get daily stories</h2>
+<div class="wp-block-cover alignfull is-light" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50);min-height:460px"><span aria-hidden="true" class="wp-block-cover__background has-accent-1-background-color has-background-dim-100 has-background-dim"></span><div class="wp-block-cover__inner-container">
+	<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
+	<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size">Sign up to get daily stories</h2>
 	<!-- /wp:heading -->
 
 	<!-- wp:paragraph {"align":"center","className":"is-style-text-subtitle"} -->

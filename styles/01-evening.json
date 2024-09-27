@@ -85,19 +85,19 @@
 			},
 			"core/site-tagline": {
 				"color": {
-					"text": "var(--wp--preset--color--primary)"
+					"text": "var:preset|color|accent-4"
 				},
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var(--wp--preset--color--primary)"
+							"text": "var:preset|color|accent-4"
 						}
 					}
 				}
 			}
 		},
 		"color": {
-			"text": "var(--wp--preset--color--primary)"
+			"text": "var:preset|color|accent-4"
 		},
 		"elements": {
 			"button": {
@@ -114,7 +114,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var(--wp--preset--color--primary)"
+					"text": "var:preset|color|accent-4"
 				}
 			}
 		},

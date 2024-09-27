@@ -10,6 +10,24 @@
  */
 
 /**
+ * Add theme support for post formats.
+ */
+if ( ! function_exists( 'twentytwentyfive_post_format_setup' ) ) :
+	/**
+	 * Add theme support for post formats.
+	 *
+	 * @since Twenty Twenty-Five 1.0
+	 * @return void
+	 */
+	function twentytwentyfive_post_format_setup() {
+		add_theme_support( 'post-formats', array( 'audio', 'gallery', 'image', 'link', 'quote', 'video' ) );
+	}
+endif;
+
+add_action( 'after_setup_theme', 'twentytwentyfive_post_format_setup' );
+
+
+/**
  * Enqueue editor-style.css in the editors.
  */
 if ( ! function_exists( 'twentytwentyfive_editor_style' ) ) :

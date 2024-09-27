@@ -52,14 +52,14 @@
 
 							<!-- wp:post-title {"isLink":true} /-->
 
-							<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
+							<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>
 						<!-- /wp:group -->
 					<!-- /wp:post-template -->
 
 					<!-- wp:query-no-results -->
 					<!-- wp:paragraph -->
-					<p>No posts were found.</p>
+					<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?>.</p>
 					<!-- /wp:paragraph -->
 					<!-- /wp:query-no-results -->
 				</div>
@@ -78,14 +78,14 @@
 
 							<!-- wp:post-title {"isLink":true} /-->
 
-							<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
+							<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>
 						<!-- /wp:group -->
 					<!-- /wp:post-template -->
 
 					<!-- wp:query-no-results -->
 					<!-- wp:paragraph -->
-					<p>No posts were found.</p>
+					<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?>.</p>
 					<!-- /wp:paragraph -->
 					<!-- /wp:query-no-results -->
 				</div>
@@ -108,14 +108,14 @@
 
 					<!-- wp:post-title {"isLink":true} /-->
 
-					<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
+					<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 				</div>
 				<!-- /wp:group -->
 			<!-- /wp:post-template -->
 
 			<!-- wp:query-no-results -->
 			<!-- wp:paragraph -->
-			<p>No posts were found.</p>
+			<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?>.</p>
 			<!-- /wp:paragraph -->
 			<!-- /wp:query-no-results -->
 		</div>
@@ -138,14 +138,14 @@
 
 							<!-- wp:post-title {"isLink":true} /-->
 
-							<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
+							<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>
 						<!-- /wp:group -->
 					<!-- /wp:post-template -->
 
 					<!-- wp:query-no-results -->
 					<!-- wp:paragraph -->
-					<p>No posts were found.</p>
+					<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?>.</p>
 					<!-- /wp:paragraph -->
 					<!-- /wp:query-no-results -->
 				</div>
@@ -164,14 +164,14 @@
 
 							<!-- wp:post-title {"isLink":true} /-->
 
-							<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
+							<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>
 						<!-- /wp:group -->
 					<!-- /wp:post-template -->
 
 					<!-- wp:query-no-results -->
 					<!-- wp:paragraph -->
-					<p>No posts were found.</p>
+					<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?>.</p>
 					<!-- /wp:paragraph -->
 					<!-- /wp:query-no-results -->
 				</div>
@@ -194,14 +194,14 @@
 
 					<!-- wp:post-title {"isLink":true} /-->
 
-					<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
+					<!-- wp:post-terms {"term":"category","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}},"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 				</div>
 				<!-- /wp:group -->
 			<!-- /wp:post-template -->
 
 			<!-- wp:query-no-results -->
 			<!-- wp:paragraph -->
-			<p>No posts were found.</p>
+			<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?>.</p>
 			<!-- /wp:paragraph -->
 			<!-- /wp:query-no-results -->
 		</div>
@@ -221,7 +221,9 @@
 	<div class="wp-block-group alignwide">
 		<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 		<div class="wp-block-group alignwide">
-			<!-- wp:pattern {"slug":"twentytwentyfive/copyright"} /-->
+			<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"twentytwentyfive/copyright"}}},"textColor":"accent-4","fontSize":"small"} -->
+			<p class="has-accent-4-color has-text-color has-small-font-size"></p>
+			<!-- /wp:paragraph -->
 
 			<!-- wp:paragraph {"fontSize":"small"} -->
 			<p class="has-small-font-size">email@example.com<br>+1 555 349 1806</p>

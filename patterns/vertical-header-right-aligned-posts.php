@@ -1,10 +1,8 @@
 <?php
 /**
- * Title: Blog posts for the right aligned blog
+ * Title: Right-aligned posts
  * Slug: twentytwentyfive/right-aligned-posts
- * Categories: query
- * Block Types: core/query
- * Description:
+ * Inserter: no
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -46,7 +44,7 @@
 
 	<!-- wp:query-no-results -->
 		<!-- wp:paragraph -->
-		<p>No posts were found.</p>
+		<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search', 'twentytwentyfive' ); ?>.</p>
 		<!-- /wp:paragraph -->
 	<!-- /wp:query-no-results -->
 </div>

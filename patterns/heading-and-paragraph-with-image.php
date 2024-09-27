@@ -2,7 +2,7 @@
 /**
  * Title: Heading and paragraph with image on the right
  * Slug: twentytwentyfive/heading-and-paragraph-with-image
- * Categories: text, about
+ * Categories: about
  * Description: A two-column section with a heading and paragraph on the left, and an image on the right.
  *
  * @package WordPress
@@ -11,21 +11,21 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","right":"var:preset|spacing|50","left":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-section-4" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--80)">
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|80"}}}} -->
+
+<!-- wp:group {"align":"full","className":"is-style-section-4","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-4" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|80"}}}} -->
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"center","width":"50%"} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:50%">
-			<!-- wp:heading {"level":3,"className":"wp-block-heading"} -->
-			<h3 class="wp-block-heading">
+			<!-- wp:heading {"className":"wp-block-heading"} -->
+			<h2 class="wp-block-heading">
 				<?php esc_html_e( 'About the Event', 'twentytwentyfive' ); ?>
-			</h3>
+			</h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"fontSize":"medium"} -->
-			<p class="has-medium-font-size"><?php echo esc_html_x( 'Held over a weekend, the event is structured around a series of exhibitions, workshops, and panel discussions. The exhibitions showcase a curated selection of photographs that tell compelling stories from various corners of the globe, each image accompanied by detailed narratives that provide context and deeper insight into the historical significance of the scenes depicted. These photographs are drawn from the archives of renowned photographers, as well as emerging talents, ensuring a blend of both classical and contemporary perspectives.', 'Event Overview Text', 'twentytwentyfive' ); ?>
-			</p>
+			<p class="has-medium-font-size"><?php echo esc_html_x( 'Held over a weekend, the event is structured around a series of exhibitions, workshops, and panel discussions. The exhibitions showcase a curated selection of photographs that tell compelling stories from various corners of the globe, each image accompanied by detailed narratives that provide context and deeper insight into the historical significance of the scenes depicted. These photographs are drawn from the archives of renowned photographers, as well as emerging talents, ensuring a blend of both classical and contemporary perspectives.', 'Event Overview Text', 'twentytwentyfive' ); ?></p>
 			<!-- /wp:paragraph -->
 		</div>
 		<!-- /wp:column -->

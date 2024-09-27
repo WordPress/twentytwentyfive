@@ -35,18 +35,18 @@
 				},
 				{
 					"color": "#686868",
-					"name": "Primary",
-					"slug": "primary"
+					"name": "Accent 4",
+					"slug": "accent-4"
 				},
 				{
 					"color": "#FBFAF3",
-					"name": "Secondary",
-					"slug": "secondary"
+					"name": "Accent 5",
+					"slug": "accent-5"
 				},
 				{
 					"color": "#11111133",
-					"name": "Opacity 20%",
-					"slug": "opacity-20"
+					"name": "Accent 6",
+					"slug": "accent-6"
 				}
 			]
 		},
@@ -967,32 +967,34 @@
 				}
 			},
 			"core/button": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				},
-				"spacing": {
-					"padding": {
-						"bottom": "1rem",
-						"left": "2.25rem",
-						"right": "2.25rem",
-						"top": "1rem"
-					}
-				},
 				"variations": {
 					"outline": {
 						"border": {
-							"color": "var:preset|color|contrast",
+							"color": "currentColor",
 							"width": "1px"
 						},
 						"spacing": {
 							"padding": {
-								"bottom": "1rem",
-								"left": "2.25rem",
-								"right": "2.25rem",
-								"top": "1rem"
+								"bottom": "calc(1rem - 1px)",
+								"left": "calc(2.25rem - 1px)",
+								"right": "calc(2.25rem - 1px)",
+								"top": "calc(1rem - 1px)"
 							}
 						}
 					}
+				}
+			},
+			"core/columns": {
+				"spacing": {
+					"blockGap": {
+						"left": "var:preset|spacing|50",
+						"top": "var:preset|spacing|50"
+					}
+				}
+			},
+			"core/buttons": {
+				"spacing": {
+					"blockGap": "16px"
 				}
 			},
 			"core/code": {
@@ -1002,7 +1004,7 @@
 					"fontWeight": "400"
 				},
 				"color": {
-					"background": "var:preset|color|secondary",
+					"background": "var:preset|color|accent-5",
 					"text": "var:preset|color|contrast"
 				},
 				"spacing": {
@@ -1016,12 +1018,12 @@
 			},
 			"core/comment-author-name": {
 				"color": {
-					"text": "var:preset|color|primary"
+					"text": "var:preset|color|accent-4"
 				},
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var:preset|color|primary"
+							"text": "var:preset|color|accent-4"
 						},
 						"typography": {
 							"textDecoration": "none"
@@ -1095,7 +1097,7 @@
 				}
 			},
 			"core/post-comments-form": {
-				"css": "& textarea, input:not([type=submit]){border-radius:.25rem; border-color: var(--wp--preset--color--opacity-20) !important;} & input[type=checkbox]{margin:0 .2rem 0 0 !important;} & label {font-size: var(--wp--preset--font-size--small); }",
+				"css": "& textarea, input:not([type=submit]){border-radius:.25rem; border-color: var(--wp--preset--color--accent-6) !important;} & input[type=checkbox]{margin:0 .2rem 0 0 !important;} & label {font-size: var(--wp--preset--font-size--small); }",
 				"typography": {
 					"fontSize": "var:preset|font-size|medium"
 				},
@@ -1134,12 +1136,12 @@
 			},
 			"core/post-date": {
 				"color":{
-					"text": "var:preset|color|primary"
+					"text": "var:preset|color|accent-4"
 				},
 				"elements": {
 					"link": {
 						"color" : {
-							"text": "var:preset|color|primary"
+							"text": "var:preset|color|accent-4"
 						},
 						":hover": {
 							"typography": {
@@ -1195,7 +1197,7 @@
 			"core/quote": {
 				"border": {
 					"style": "solid",
-					"width": "0 2px 0 2px",
+					"width": "0 0 0 2px",
 					"color": "var:preset|color|contrast"
 				},
 				"spacing": {
@@ -1226,7 +1228,7 @@
 						"css": "& sub { font-size: 0.65em }"
 					}
 				},
-				"css": "&.has-text-align-right { border-left: 0; padding-left: 0; } &.has-text-align-center { border-inline: 0; padding-inline: 0; } &:not(.has-text-align-right):not(.has-text-align-center) { border-right: 0; padding-right: 0; }",
+				"css": "&.has-text-align-right { border-width: 0 2px 0 0; } &.has-text-align-center { border-width: 0;border-inline: 0; padding-inline: 0; }",
 				"variations": {
 					"plain": {
 						"border": {
@@ -1277,7 +1279,7 @@
 				}
 			},
 			"core/search": {
-				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;border-color:var(--wp--preset--color--opacity-20);}",
+				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;border-color:var(--wp--preset--color--accent-6);}",
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
 					"lineHeight": "1.6"
@@ -1307,7 +1309,7 @@
 					"width": "0 0 1px 0"
 				},
 				"color": {
-					"text": "var:preset|color|opacity-20"
+					"text": "var:preset|color|accent-6"
 				},
 				"variations": {
 					"wide": {
@@ -1341,7 +1343,7 @@
 			},
 			"core/term-description": {
 				"color":{
-					"text": "var:preset|color|primary"
+					"text": "var:preset|color|accent-4"
 				},
 				"typography": {
 					"fontSize": "var:preset|font-size|medium"
@@ -1374,19 +1376,9 @@
 					"background": "var:preset|color|contrast",
 					"text": "var:preset|color|base"
 				},
-				":active": {
-					"color": {
-						"background": "var:preset|color|accent-1",
-						"text": "var:preset|color|contrast"
-					}
-				},
 				":focus": {
-					"color": {
-						"background": "var:preset|color|accent-1",
-						"text": "var:preset|color|contrast"
-					},
 					"outline": {
-						"color": "var:preset|color|primary",
+						"color": "var:preset|color|accent-4",
 						"offset": "2px",
 						"style": "dotted",
 						"width": "1px"
@@ -1394,18 +1386,23 @@
 				},
 				":hover": {
 					"color": {
-						"background": "var:preset|color|accent-1",
-						"text": "var:preset|color|contrast"
+						"background": "color-mix(in srgb, var(--wp--preset--color--contrast) 85%, transparent)",
+						"text": "var:preset|color|base"
 					},
 					"border": {
-						"color": "currentColor"
+						"color": "transparent"
 					}
 				},
-				"border": {
-					"color": "var:preset|color|contrast",
-					"radius": "100px",
-					"width": "1px",
-					"style": "solid"
+				"spacing": {
+					"padding": {
+						"bottom": "1rem",
+						"left": "2.25rem",
+						"right": "2.25rem",
+						"top": "1rem"
+					}
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"caption": {
@@ -1457,7 +1454,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var:preset|color|contrast"
+					"text": "currentColor"
 				}
 			}
 		}

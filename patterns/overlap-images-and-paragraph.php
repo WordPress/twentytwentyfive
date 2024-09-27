@@ -2,7 +2,7 @@
 /**
  * Title: Overlapping images and paragraph on right
  * Slug: twentytwentyfive/overlap-images-and-paragraph
- * Categories: about, media, text
+ * Categories: about
  * Description: A section with overlapping images, and a description.
  *
  * @package WordPress
@@ -11,8 +11,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","className":"is-style-section-5","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull is-style-section-5" style="padding-top:var(--wp--preset--spacing--80);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--50)">
+<!-- wp:group {"align":"full","className":"is-style-section-5","style":{"spacing":{"padding":{"top":"var:preset|spacing|80","bottom":"var:preset|spacing|80"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull is-style-section-5" style="padding-top:var(--wp--preset--spacing--80);padding-bottom:var(--wp--preset--spacing--80)">
 	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|80","left":"var:preset|spacing|80"}}}} -->
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"width":"45%","style":{"spacing":{"padding":{"right":"var:preset|spacing|50"}}}} -->

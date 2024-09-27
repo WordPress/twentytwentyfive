@@ -42,18 +42,18 @@
 				},
 				{
 					"color": "#79F3B1",
-					"name": "Primary",
-					"slug": "primary"
+					"name": "Accent 4",
+					"slug": "accent-4"
 				},
 				{
 					"color": "#E8B7FF",
-					"name": "Secondary",
-					"slug": "secondary"
+					"name": "Accent 5",
+					"slug": "accent-5"
 				},
 				{
 					"color": "#79F3B133",
-					"name": "Opacity 20%",
-					"slug": "opacity-20"
+					"name": "Accent 6",
+					"slug": "accent-6"
 				}
 			]
 		},
@@ -322,27 +322,27 @@
 			},
 			"section-2": {
 				"color": {
-					"text": "var:preset|color|secondary"
+					"text": "var:preset|color|accent-5"
 				},
 				"elements": {
 					"button": {
 						"color": {
-							"background": "var:preset|color|secondary",
+							"background": "var:preset|color|accent-5",
 							"text": "var:preset|color|accent-3"
 						},
 						":hover": {
 							"color": {
 								"background": "var:preset|color|accent-3",
-								"text": "var:preset|color|secondary"
+								"text": "var:preset|color|accent-5"
 							},
 							"border": {
-								"color": "var:preset|color|secondary"
+								"color": "var:preset|color|accent-5"
 							}
 						}
 					},
 					"link": {
 						"color": {
-							"text": "var:preset|color|secondary"
+							"text": "var:preset|color|accent-5"
 						}
 					}
 				}
@@ -385,11 +385,11 @@
 					"button": {
 						"color": {
 							"background": "var:preset|color|accent-3",
-							"text": "var:preset|color|secondary"
+							"text": "var:preset|color|accent-5"
 						},
 						":hover": {
 							"color": {
-								"background": "var:preset|color|secondary",
+								"background": "var:preset|color|accent-5",
 								"text": "var:preset|color|accent-3"
 							},
 							"border": {

@@ -32,18 +32,18 @@
 				},
 				{
 					"color": "#F7E6FF",
-					"name": "Primary",
-					"slug": "primary"
+					"name": "Accent 4",
+					"slug": "accent-4"
 				},
 				{
 					"color": "#D7D3CC",
-					"name": "Secondary",
-					"slug": "secondary"
+					"name": "Accent 5",
+					"slug": "accent-5"
 				},
 				{
 					"color": "#1A1A1A33",
-					"name": "Opacity 20%",
-					"slug": "opacity-20"
+					"name": "Accent 6",
+					"slug": "accent-6"
 				}
 			]
 		}

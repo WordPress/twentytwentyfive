@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Pricing two columns
- * Slug: twentytwentyfive/cta-pricing
+ * Title: Pricing, two columns
+ * Slug: twentytwentyfive/pricing-2-col
  * Categories: call-to-action, featured
  * Viewport width: 1400
  * Description: Pricing section with two columns, pricing plan, description, and call-to-action buttons.
@@ -14,44 +14,32 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)">
-	<!-- wp:group {"align":"wide","layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
-	<div class="wp-block-group alignwide">
-		<!-- wp:heading {"textAlign":"center","align":"wide"} -->
-		<h2 class="wp-block-heading alignwide has-text-align-center">Pricing</h2>
-		<!-- /wp:heading -->
+	<!-- wp:heading {"textAlign":"center","align":"wide"} -->
+	<h2 class="wp-block-heading alignwide has-text-align-center">Pricing</h2>
+	<!-- /wp:heading -->
 
-		<!-- wp:paragraph {"align":"center"} -->
-		<p class="has-text-align-center">These are our membership options. You can cancel or pause anytime.</p>
-		<!-- /wp:paragraph -->
-	</div>
-	<!-- /wp:group -->
+	<!-- wp:paragraph {"align":"center"} -->
+	<p class="has-text-align-center">Cancel or pause anytime.</p>
+	<!-- /wp:paragraph -->
 
 	<!-- wp:spacer {"height":"var:preset|spacing|40"} -->
 	<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 	<!-- /wp:spacer -->
 
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|50"}}}} -->
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|30","left":"var:preset|spacing|50"}}}} -->
 	<div class="wp-block-columns alignwide">
-		<!-- wp:column {"width":"9%"} -->
-		<div class="wp-block-column" style="flex-basis:9%">
-			<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
-			<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
-			<!-- /wp:spacer -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"width":"1px","color":"var:preset|color|opacity-20","radius":"10px"}}} -->
-		<div class="wp-block-column has-border-color" style="border-color:var(--wp--preset--color--opacity-20);border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
+		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"width":"1px","color":"var:preset|color|accent-6","radius":"10px"}}} -->
+		<div class="wp-block-column has-border-color" style="border-color:var(--wp--preset--color--accent-6);border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 			<!-- wp:heading {"level":3} -->
 			<h3 class="wp-block-heading" id="free">Free</h3>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"large"} -->
-			<p class="has-primary-color has-text-color has-link-color has-large-font-size">0€</p>
+			<!-- wp:paragraph {"fontSize":"large"} -->
+			<p class="has-large-font-size">0€</p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:list {"className":"is-style-checkmark-list","style":{"spacing":{"padding":{"left":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}}},"fontSize":"small"} -->
-			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)" class="wp-block-list has-small-font-size is-style-checkmark-list">
+			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)" class="wp-block-list is-style-checkmark-list has-small-font-size">
 				<!-- wp:list-item -->
 				<li>Get access to our paid articles and weekly newsletter.</li>
 				<!-- /wp:list-item -->
@@ -84,8 +72,8 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"width":"1px","color":"var:preset|color|opacity-20","radius":"10px"}},"layout":{"type":"default"}} -->
-		<div class="wp-block-column has-border-color" style="border-color:var(--wp--preset--color--opacity-20);border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
+		<!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}},"border":{"width":"1px","color":"var:preset|color|accent-6","radius":"10px"}},"layout":{"type":"default"}} -->
+		<div class="wp-block-column has-border-color" style="border-color:var(--wp--preset--color--accent-6);border-width:1px;border-radius:10px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
 			<!-- wp:heading {"level":3} -->
 			<h3 class="wp-block-heading" id="single">Single</h3>
 			<!-- /wp:heading -->
@@ -95,7 +83,7 @@
 			<!-- /wp:paragraph -->
 
 			<!-- wp:list {"className":"is-style-checkmark-list","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|20","left":"var:preset|spacing|20"}}},"fontSize":"small"} -->
-			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)" class="wp-block-list has-small-font-size is-style-checkmark-list">
+			<ul style="padding-bottom:var(--wp--preset--spacing--20);padding-left:var(--wp--preset--spacing--20)" class="wp-block-list is-style-checkmark-list has-small-font-size">
 				<!-- wp:list-item -->
 				<li>Get access to our paid articles and weekly newsletter.</li>
 				<!-- /wp:list-item -->
@@ -125,14 +113,6 @@
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
-		</div>
-		<!-- /wp:column -->
-
-		<!-- wp:column {"width":"9%"} -->
-		<div class="wp-block-column" style="flex-basis:9%">
-			<!-- wp:spacer {"height":"var:preset|spacing|30"} -->
-			<div style="height:var(--wp--preset--spacing--30)" aria-hidden="true" class="wp-block-spacer"></div>
-			<!-- /wp:spacer -->
 		</div>
 		<!-- /wp:column -->
 	</div>

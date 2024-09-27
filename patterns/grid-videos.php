@@ -2,7 +2,7 @@
 /**
  * Title: Grid with videos
  * Slug: twentytwentyfive/grid-videos
- * Categories: banner, about, featured
+ * Categories: about, featured
  * Description: A grid with videos.
  *
  * @package WordPress
@@ -11,8 +11,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
 	<!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:heading {"textAlign":"left","level":3,"align":"wide","style":{"layout":{"selfStretch":"fit","flexSize":null}}} -->
@@ -25,7 +25,7 @@
 	</div>
 	<!-- /wp:group -->
 
-	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","minimumColumnWidth":"23rem"}} -->
+	<!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","minimumColumnWidth":"19rem"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:video -->
 		<figure class="wp-block-video"></figure>

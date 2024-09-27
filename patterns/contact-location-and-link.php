@@ -2,7 +2,7 @@
 /**
  * Title: Contact Location and Link
  * Slug: twentytwentyfive/contact-location-and-link
- * Categories: banner, call-to-action, featured
+ * Categories: banner, featured
  * Description: Contact section with a location address, a directions link, and an image of the location.
  *
  * @package WordPress
@@ -11,16 +11,16 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","className":"is-style-section-3","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-group alignfull is-style-section-3" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)">
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|40","left":"var:preset|spacing|50"}}}} -->
+<!-- wp:group {"align":"full","className":"is-style-section-3","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
+<div class="wp-block-group alignfull is-style-section-3" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|80"}}}} -->
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"top","width":""} -->
 		<div class="wp-block-column is-vertically-aligned-top">
 			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
 			<div class="wp-block-group" style="min-height:100%">
-				<!-- wp:heading {"level":3,"className":"wp-block-heading"} -->
-				<h3 class="wp-block-heading">Visit us at 123 Example St. Manhattan, NY 10300, United States</h3>
+				<!-- wp:heading {"className":"wp-block-heading"} -->
+				<h2 class="wp-block-heading">Visit us at 123 Example St. Manhattan, NY 10300, United States</h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"medium"} -->
@@ -31,13 +31,14 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"verticalAlignment":"top","width":"40%"} -->
-		<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:40%">
+		<!-- wp:column {"verticalAlignment":"top","width":""} -->
+		<div class="wp-block-column is-vertically-aligned-top">
 			<!-- wp:image {"aspectRatio":"1","scale":"cover","linkDestination":"none","className":"wp-block-image size-large"} -->
 			<figure class="wp-block-image size-large"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/location.webp" alt="The business location" /></figure>
-			<!-- /wp:image --></div>
-		<!-- /wp:column -->
+			<!-- /wp:image -->
 		</div>
+		<!-- /wp:column -->
+	</div>
 	<!-- /wp:columns -->
 </div>
 <!-- /wp:group -->

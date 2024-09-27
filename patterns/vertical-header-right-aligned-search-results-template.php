@@ -16,7 +16,7 @@
 <div class="wp-block-columns is-not-stacked-on-mobile" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 	<!-- wp:column {"width":"8rem"} -->
 	<div class="wp-block-column" style="flex-basis:8rem">
-		<!-- wp:template-part {"slug":"vertical-header","area":"header"} /-->
+		<!-- wp:template-part {"slug":"vertical-header"} /-->
 	</div>
 	<!-- /wp:column -->
 	<!-- wp:column {"width":"90%","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50","right":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
@@ -42,4 +42,4 @@
 </div>
 <!-- /wp:columns -->
 
-<!-- wp:template-part {"slug":"footer","area":"footer"} /-->
+<!-- wp:template-part {"slug":"footer"} /-->

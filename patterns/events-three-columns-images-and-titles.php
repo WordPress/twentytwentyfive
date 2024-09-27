@@ -40,8 +40,8 @@
 				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'twentytwentyfive' ); ?></h3>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
-				<p class="has-primary-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"medium"} -->
+				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -64,8 +64,8 @@
 				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'twentytwentyfive' ); ?></h3>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
-				<p class="has-primary-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"medium"} -->
+				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -88,8 +88,8 @@
 				<h3 class="wp-block-heading" style="padding-top:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Tell your story', 'twentytwentyfive' ); ?></h3>
 				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"textColor":"primary","fontSize":"medium"} -->
-				<p class="has-primary-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
+				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"medium"} -->
+				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

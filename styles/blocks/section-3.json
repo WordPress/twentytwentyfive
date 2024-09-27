@@ -19,19 +19,6 @@
 					"text": "color-mix(in srgb, currentColor 25%, transparent)"
 				}
 			}
-		},
-		"elements": {
-			"button": {
-				"color": {
-					"background": "var:preset|color|contrast",
-					"text": "var:preset|color|base"
-				}
-			},
-			"link": {
-				"color": {
-					"text": "var:preset|color|contrast"
-				}
-			}
 		}
 	}
 }

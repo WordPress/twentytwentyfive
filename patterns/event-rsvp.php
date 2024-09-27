@@ -5,6 +5,8 @@
  * Keywords: call-to-action, rsvp, event
  * Categories: call-to-action
  * Block Types: core/post-content
+ * Viewport width: 1400
+ * Description: RSVP for an upcoming event with a cover image and event details.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -64,9 +66,9 @@
 		<div class="wp-block-cover is-light">
 			<span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Close up photo of white flowers on a grey background" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-8812207.webp" data-object-fit="cover"/>
 			<div class="wp-block-cover__inner-container">
-				<!-- wp:paragraph {"align":"center","fontSize":"large"} -->
-				<p class="has-text-align-center has-large-font-size"></p>
-				<!-- /wp:paragraph -->
+				<!-- wp:spacer {"height":"var:preset|spacing|20"} -->
+				<div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>
+				<!-- /wp:spacer -->
 			</div>
 		</div>
 		<!-- /wp:cover -->

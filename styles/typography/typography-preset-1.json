@@ -54,7 +54,7 @@
 	"styles": {
 		"typography": {
 			"fontFamily": "var:preset|font-family|literata",
-			"fontSize": "var:wp:preset|font-size|medium",
+			"fontSize": "var:preset|font-size|medium",
 			"fontStyle": "normal",
 			"fontWeight": "300",
 			"letterSpacing": "-0.22px",
@@ -64,12 +64,12 @@
 			"core/button": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|beiruti",
-					"fontSize": "var:wp:preset|font-size|medium"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/code": {
 				"typography": {
-					"fontSize": "var:wp:preset|font-size|medium",
+					"fontSize": "var:preset|font-size|medium",
 					"fontStyle": "normal",
 					"fontWeight": "300"
 				}
@@ -81,13 +81,13 @@
 			},
 			"core/loginout": {
 				"typography": {
-					"fontSize": "var:wp:preset|font-size|medium"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/post-author": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|beiruti",
-					"fontSize": "var:wp:preset|font-size|medium",
+					"fontSize": "var:preset|font-size|medium",
 					"fontStyle": "normal",
 					"fontWeight": "300"
 				}
@@ -95,7 +95,7 @@
 			"core/post-author-name": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|beiruti",
-					"fontSize": "var:wp:preset|font-size|medium",
+					"fontSize": "var:preset|font-size|medium",
 					"fontStyle": "normal",
 					"fontWeight": "300"
 				}
@@ -103,7 +103,7 @@
 			"core/post-date": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|beiruti",
-					"fontSize": "var:wp:preset|font-size|medium",
+					"fontSize": "var:preset|font-size|medium",
 					"fontStyle": "normal",
 					"fontWeight": "300"
 				}
@@ -111,7 +111,7 @@
 			"core/post-terms": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|beiruti",
-					"fontSize": "var:wp:preset|font-size|medium",
+					"fontSize": "var:preset|font-size|medium",
 					"fontStyle": "normal",
 					"fontWeight": "300"
 				}
@@ -145,7 +145,7 @@
 			},
 			"core/site-tagline": {
 				"typography": {
-					"fontSize": "var:wp:preset|font-size|small"
+					"fontSize": "var:preset|font-size|small"
 				}
 			},
 			"core/site-title": {
@@ -170,12 +170,12 @@
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "var:wp:preset|font-size|medium"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var:wp:preset|font-size|small"
+					"fontSize": "var:preset|font-size|small"
 				}
 			},
 			"heading": {

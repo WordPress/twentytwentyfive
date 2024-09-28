@@ -6,7 +6,7 @@
 	"blockTypes": ["core/heading", "core/paragraph"],
 	"styles": {
 		"typography": {
-			"fontSize": "var:preset|font-size|xx-large",
+			"fontSize": "clamp(2.2rem, 2.2rem + ((1vw - 0.2rem) * 1.333), 3.5rem)",
 			"lineHeight": "1.2"
 		}
 	}

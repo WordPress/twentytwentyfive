@@ -31,8 +31,8 @@
 			<h2 class="wp-block-heading"><?php echo esc_html_x( 'New arrivals', 'Heading for banner with flower', 'twentytwentyfive' ); ?></h2>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"fontSize":"large"} -->
-			<p class="has-large-font-size"><?php echo esc_html_x( 'Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience, revealing hidden wonders.', 'Sample description for banner with flower', 'twentytwentyfive' ); ?></p>
+			<!-- wp:paragraph -->
+			<p><?php echo esc_html_x( 'Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience, revealing hidden wonders.', 'Sample description for banner with flower', 'twentytwentyfive' ); ?></p>
 			<!-- /wp:paragraph -->
 
 			<!-- wp:buttons -->

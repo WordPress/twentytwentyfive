@@ -2,7 +2,7 @@
 /**
  * Title: Contact location and link
  * Slug: twentytwentyfive/contact-location-and-link
- * Categories: banner, featured
+ * Categories: contact, featured
  * Description: Contact section with a location address, a directions link, and an image of the location.
  *
  * @package WordPress
@@ -13,15 +13,14 @@
 ?>
 <!-- wp:group {"align":"full","className":"is-style-section-3","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained","justifyContent":"center"}} -->
 <div class="wp-block-group alignfull is-style-section-3" style="padding-top:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50)">
-	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|80"}}}} -->
+	<!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|50","left":"var:preset|spacing|50"}}}} -->
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"top","width":""} -->
 		<div class="wp-block-column is-vertically-aligned-top">
-			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
-			<div class="wp-block-group" style="min-height:100%">
-				<!-- wp:heading {"className":"wp-block-heading"} -->
-				<h2 class="wp-block-heading">Visit us at 123 Example St. Manhattan, NY 10300, United States</h2>
-				<!-- /wp:heading -->
+			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch","verticalAlignment":"space-between"}} -->
+			<div class="wp-block-group" style="min-height:100%"><!-- wp:paragraph {"className":"is-style-text-display","fontSize":"xx-large"} -->
+				<p class="is-style-text-display has-xx-large-font-size">Visit us at 123 Example St. Manhattan, NY 10300, United States</p>
+				<!-- /wp:paragraph -->
 
 				<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}},"fontSize":"medium"} -->
 				<p class="has-medium-font-size" style="text-transform:uppercase"><a href="#">Get directions</a></p>

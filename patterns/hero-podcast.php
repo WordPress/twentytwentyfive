@@ -25,43 +25,51 @@
 		</div>
 		<!-- /wp:column -->
 
-		<!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
+
+		<!-- wp:column {"verticalAlignment":"center","width":"60%","style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
 		<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%">
-			<!-- wp:heading {"level":1,"fontSize":"xx-large"} -->
-			<h1 class="wp-block-heading has-xx-large-font-size">The Stories Podcast</h1>
+			<!-- wp:heading {"fontSize":"xx-large"} -->
+			<h2 class="wp-block-heading has-xx-large-font-size">The Stories Podcast</h2>
 			<!-- /wp:heading -->
 
-			<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}}}} -->
-			<p style="padding-top:var(--wp--preset--spacing--30)"><?php echo esc_html_x( 'Storytelling, expert analysis, and vivid descriptions. The Stories Podcast brings history to life, making it accessible and engaging for a global audience.', 'Podcast description', 'twentytwentyfive' ); ?></p>
+			<!-- wp:paragraph -->
+			<p><?php echo esc_html_x( 'Storytelling, expert analysis, and vivid descriptions. The Stories Podcast brings history to life, making it accessible and engaging for a global audience.', 'Podcast description', 'twentytwentyfive' ); ?></p>
 			<!-- /wp:paragraph -->
 
-			<!-- wp:heading {"style":{"spacing":{"padding":{"top":"var:preset|spacing|30"}}},"fontSize":"large"} -->
-			<h2 class="wp-block-heading has-large-font-size" style="padding-top:var(--wp--preset--spacing--30)"><strong>Subscribe on your favorite platform</strong></h2>
-			<!-- /wp:heading -->
-
-			<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
+			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap"}} -->
 			<div class="wp-block-group">
-				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Youtube', 'Button text', 'twentytwentyfive' ); ?></a></p>
-				<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Apple Podcasts', 'Button text', 'twentytwentyfive' ); ?></a></p>
-				<!-- /wp:paragraph -->
+				<!-- wp:heading {"level":3,"style":{"typography":{"textTransform":"uppercase","letterSpacing":"1px","fontStyle":"normal","fontWeight":"600"}},"fontSize":"small"} -->
+				<h3 class="wp-block-heading has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:1px;text-transform:uppercase">Subscribe on your favorite platform</h3>
+				<!-- /wp:heading -->
 
-				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Spotify', 'Button text', 'twentytwentyfive' ); ?></a></p>
-				<!-- /wp:paragraph -->
+				<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
+				<div class="wp-block-group">
+					<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+					<p class="is-style-text-annotation"><a href="#"><?php echo esc_html_x( 'Youtube', 'Button text', 'twentytwentyfive' ); ?></a></p>
+					<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'Pocket Casts', 'Button text', 'twentytwentyfive' ); ?></a></p>
-				<!-- /wp:paragraph -->
+					<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+					<p class="is-style-text-annotation"><a href="#"><?php echo esc_html_x( 'Apple Podcasts', 'Button text', 'twentytwentyfive' ); ?></a></p>
+					<!-- /wp:paragraph -->
 
-				<!-- wp:paragraph {"className":"is-style-pill"} -->
-				<p class="is-style-pill"><a href="#"><?php echo esc_html_x( 'RSS', 'Button text', 'twentytwentyfive' ); ?></a></p>
-				<!-- /wp:paragraph -->
+					<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+					<p class="is-style-text-annotation"><a href="#"><?php echo esc_html_x( 'Spotify', 'Button text', 'twentytwentyfive' ); ?></a></p>
+					<!-- /wp:paragraph -->
+
+					<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+					<p class="is-style-text-annotation"><a href="#"><?php echo esc_html_x( 'Pocket Casts', 'Button text', 'twentytwentyfive' ); ?></a></p>
+					<!-- /wp:paragraph -->
+
+					<!-- wp:paragraph {"className":"is-style-text-annotation"} -->
+					<p class="is-style-text-annotation"><a href="#"><?php echo esc_html_x( 'RSS', 'Button text', 'twentytwentyfive' ); ?></a></p>
+					<!-- /wp:paragraph -->
+				</div>
+				<!-- /wp:group -->
+
 			</div>
 			<!-- /wp:group -->
+
 		</div>
 		<!-- /wp:column -->
 	</div>

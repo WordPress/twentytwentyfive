@@ -186,8 +186,7 @@
 					"text": "var:preset|color|accent-3"
 				},
 				"typography": {
-					"fontFamily": "var:preset|font-family|vollkorn",
-					"fontSize": "var:preset|font-size|large"
+					"fontFamily": "var:preset|font-family|vollkorn"
 				},
 				"elements": {
 					"link": {

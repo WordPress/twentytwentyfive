@@ -19,8 +19,8 @@
 		<div class="wp-block-column" style="flex-basis:60%">
 			<!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|30"}}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"wrap"}} -->
 			<div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--30)">
-				<!-- wp:heading {"fontSize":"x-large"} -->
-				<h2 class="wp-block-heading has-x-large-font-size">International editions</h2>
+				<!-- wp:heading -->
+				<h2 class="wp-block-heading">International editions</h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"medium"} -->

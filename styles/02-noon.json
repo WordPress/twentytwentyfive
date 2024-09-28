@@ -330,7 +330,7 @@
 			"lineHeight": "1.5"
 		},
 		"variations": {
-			"section-2": {
+			"section-1": {
 				"elements": {
 					"button": {
 						":hover": {
@@ -345,13 +345,9 @@
 					}
 				}
 			},
-			"section-4": {
+			"section-2": {
 				"elements": {
 					"button": {
-						"color": {
-							"background": "var(--wp--preset--color--accent-2)",
-							"text": "var(--wp--preset--color--accent-3)"
-						},
 						":hover": {
 							"color": {
 								"background": "var(--wp--preset--color--base)",
@@ -379,6 +375,25 @@
 					}
 				}
 			},
+			"section-4": {
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var(--wp--preset--color--accent-2)",
+							"text": "var(--wp--preset--color--accent-3)"
+						},
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--base)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--base)"
+							}
+						}
+					}
+				}
+			},
 			"section-5": {
 				"elements": {
 					"button": {
@@ -389,21 +404,6 @@
 							},
 							"border": {
 								"color": "var(--wp--preset--color--accent-2)"
-							}
-						}
-					}
-				}
-			},
-			"section-1": {
-				"elements": {
-					"button": {
-						":hover": {
-							"color": {
-								"background": "var(--wp--preset--color--base)",
-								"text": "var(--wp--preset--color--contrast)"
-							},
-							"border": {
-								"color": "var(--wp--preset--color--base)"
 							}
 						}
 					}

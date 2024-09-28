@@ -303,6 +303,33 @@
 			"lineHeight": "1.4"
 		},
 		"variations": {
+			"section-1": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-3",
+							"text": "var:preset|color|accent-5"
+						},
+						":hover": {
+							"color": {
+								"background": "var:preset|color|accent-5",
+								"text": "var:preset|color|accent-3"
+							},
+							"border": {
+								"color": "var:preset|color|acent-3"
+							}
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					}
+				}
+			},
 			"section-2": {
 				"elements": {
 					"button": {
@@ -371,33 +398,6 @@
 							"border": {
 								"color": "var:preset|color|base"
 							}
-						}
-					}
-				}
-			},
-			"section-1": {
-				"color": {
-					"text": "var:preset|color|accent-3"
-				},
-				"elements": {
-					"button": {
-						"color": {
-							"background": "var:preset|color|accent-3",
-							"text": "var:preset|color|accent-5"
-						},
-						":hover": {
-							"color": {
-								"background": "var:preset|color|accent-5",
-								"text": "var:preset|color|accent-3"
-							},
-							"border": {
-								"color": "var:preset|color|acent-3"
-							}
-						}
-					},
-					"link": {
-						"color": {
-							"text": "var:preset|color|accent-3"
 						}
 					}
 				}

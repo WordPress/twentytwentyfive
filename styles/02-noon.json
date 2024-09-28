@@ -175,18 +175,12 @@
 			},
 			"core/post-author": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|beiruti",
-					"fontSize": "var:preset|font-size|medium",
-					"fontStyle": "normal",
-					"fontWeight": "300"
+					"fontFamily": "var:preset|font-family|beiruti"
 				}
 			},
 			"core/post-author-name": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|beiruti",
-					"fontSize": "var:preset|font-size|medium",
-					"fontStyle": "normal",
-					"fontWeight": "300"
+					"fontFamily": "var:preset|font-family|beiruti"
 				}
 			},
 			"core/post-date": {

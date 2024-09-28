@@ -1185,7 +1185,7 @@
 					}
 				},
 				"typography": {
-					"letterSpacing": "px"
+					"letterSpacing": "-.5px"
 				}
 			},
 			"core/quote": {

@@ -168,7 +168,6 @@
 			"heading": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|beiruti",
-					"fontStyle": "normal",
 					"fontWeight": "500",
 					"letterSpacing": "-1px"
 				}

@@ -139,8 +139,8 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|beiruti",
 					"fontWeight": "600",
-					"textTransform": "uppercase",
-					"letterSpacing": "2.4px"
+					"letterSpacing": "2.4px",
+					"textTransform": "uppercase"
 				}
 			}
 		},

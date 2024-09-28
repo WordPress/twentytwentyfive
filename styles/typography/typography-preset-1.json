@@ -103,7 +103,6 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|beiruti",
 					"fontSize": "var:preset|font-size|medium",
-					"fontStyle": "normal",
 					"fontWeight": "300"
 				}
 			},

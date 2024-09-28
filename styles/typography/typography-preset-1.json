@@ -96,9 +96,7 @@
 			"core/post-date": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|beiruti",
-					"fontSize": "var:preset|font-size|medium",
-					"fontStyle": "normal",
-					"fontWeight": "300"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/post-terms": {

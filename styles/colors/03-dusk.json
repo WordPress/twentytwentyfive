@@ -46,6 +46,201 @@
 					"slug": "accent-6"
 				}
 			]
+		},
+		"custom": {
+			"color": {
+				"accent-2-opacity-20": "#650DD433"
+			}
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"variations": {
+					"outline": {
+						"border": {
+							"color": "currentColor"
+						}
+					}
+				}
+			},
+			"core/code": {
+				"color": {
+					"text": "var:preset|color|black",
+					"background": "var:preset|color|accent-5"
+				}
+			},
+			"core/paragraph": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						}
+					}
+				}
+			},
+			"core/post-author-name": {
+				"color": {
+					"text": "var:preset|color|accent-2"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						}
+					}
+				}
+			},
+			"core/post-terms": {
+				"color": {
+					"text": "var:preset|color|accent-2"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						}
+					}
+				}
+			},
+			"core/post-title": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					}
+				}
+			},
+			"core/pullquote": {
+				"color": {
+					"text": "var:preset|color|black"
+				},
+				"elements": {
+					"cite": {
+						"color": {
+							"text": "var:preset|color|contrast"
+						}
+					}
+				}
+			},
+			"core/quote": {
+				"color": {
+					"text": "var:preset|color|black"
+				}
+			},
+			"core/site-title": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					}
+				}
+			}
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"text": "var:preset|color|base",
+					"background": "var:preset|color|accent-2"
+				},
+				"border": {
+					"color": "transparent"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				}
+			}
+		},
+		"variations": {
+			"post-terms-1": {
+				"elements": {
+					"link": {
+						"border": {
+							"color": "var:custom|color|accent-2-opacity-20"
+						}
+					}
+				}
+			},
+			"section-1": {
+				"color": {
+					"text": "var:preset|color|base"
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-3",
+							"text": "var:preset|color|white"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
+					"heading": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					}
+				}
+			},
+			"section-2": {
+				"color": {
+					"text": "var:preset|color|base"
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-2",
+							"text": "var:preset|color|accent-1"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
+					"heading": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					}
+				}
+			},
+			"section-3": {
+				"color": {
+					"text": "var:preset|color|accent-2"
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-2",
+							"text": "var:preset|color|accent-1"
+						}
+					}
+				}
+			},
+			"section-4": {
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					}
+				}
+			}
 		}
 	}
 }

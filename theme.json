@@ -1367,9 +1367,7 @@
 				":focus": {
 					"outline": {
 						"color": "var:preset|color|accent-4",
-						"offset": "2px",
-						"style": "dotted",
-						"width": "1px"
+						"offset": "2px"
 					}
 				},
 				":hover": {

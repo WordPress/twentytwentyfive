@@ -109,7 +109,6 @@
 			"core/post-title": {
 				"typography": {
 					"fontSize": "var:preset|font-size|xx-large",
-					"fontStyle": "normal",
 					"fontWeight": "500",
 					"letterSpacing": "-1px"
 				}

@@ -103,6 +103,7 @@
 			]
 		},
 		"typography": {
+			"writingMode": true,
 			"defaultFontSizes": false,
 			"fluid": true,
 			"fontSizes": [

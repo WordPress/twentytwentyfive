@@ -63,8 +63,7 @@
 		"blocks": {
 			"core/button": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|beiruti",
-					"fontSize": "var:preset|font-size|medium"
+					"fontFamily": "var:preset|font-family|beiruti"
 				}
 			},
 			"core/code": {
@@ -119,6 +118,7 @@
 			"core/post-title": {
 				"typography": {
 					"fontSize": "var:preset|font-size|xx-large",
+					"fontStyle": "normal",
 					"fontWeight": "500",
 					"letterSpacing": "-1px"
 				}
@@ -165,7 +165,7 @@
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)"
+					"fontSize": "var:preset|font-size|large"
 				}
 			},
 			"h5": {

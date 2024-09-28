@@ -137,8 +137,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var:preset|font-family|beiruti",
-					"fontSize": "var:preset|font-size|medium"
+					"fontFamily": "var:preset|font-family|beiruti"
 				},
 				"variations": {
 					"outline": {
@@ -218,7 +217,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--xx-large)",
+					"fontSize": "var:preset|font-size|xx-large",
 					"fontStyle": "normal",
 					"fontWeight": "500",
 					"letterSpacing": "-1px"
@@ -294,7 +293,7 @@
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)"
+					"fontSize": "var:preset|font-size|large"
 				}
 			},
 			"h5": {

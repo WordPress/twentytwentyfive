@@ -22,6 +22,7 @@
 		<!-- wp:paragraph -->
 		<p><a href="#">https://example.com</a></p>
 		<!-- /wp:paragraph -->
+		</div>
 	<!-- /wp:group -->
-	</div>
+</div>
 <!-- /wp:group -->

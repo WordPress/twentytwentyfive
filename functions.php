@@ -67,37 +67,6 @@ endif;
 add_action( 'wp_enqueue_scripts', 'twentytwentyfive_enqueue_styles' );
 
 /**
- * Enqueue custom block stylesheets.
- */
-if ( ! function_exists( 'twentytwentyfive_block_stylesheets' ) ) :
-	/**
-	 * Enqueue custom block stylesheets.
-	 *
-	 * @since Twenty Twenty-Five 1.0
-	 * @return void
-	 */
-	function twentytwentyfive_block_stylesheets() {
-		/**
-		 * The wp_enqueue_block_style() function allows us to enqueue a stylesheet
-		 * for a specific block. These will only get loaded when the block is rendered
-		 * (both in the editor and on the front end), improving performance
-		 * and reducing the amount of data requested by visitors.
-		 */
-		wp_enqueue_block_style(
-			'core/button',
-			array(
-				'handle' => 'twentytwentyfive-button-style-outline',
-				'src'    => get_parent_theme_file_uri( 'assets/css/button-outline.css' ),
-				'ver'    => wp_get_theme( get_template() )->get( 'Version' ),
-				'path'   => get_parent_theme_file_path( 'assets/css/button-outline.css' ),
-			)
-		);
-	}
-endif;
-
-add_action( 'init', 'twentytwentyfive_block_stylesheets' );
-
-/**
  * Register custom block styles.
  */
 if ( ! function_exists( 'twentytwentyfive_block_styles' ) ) :

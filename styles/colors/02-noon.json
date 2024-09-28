@@ -47,5 +47,170 @@
 				}
 			]
 		}
+	},
+	"styles": {
+		"color": {
+			"text": "var:preset|color|accent-4"
+		},
+		"blocks": {
+			"core/button": {
+				"border": {
+					"bottom": {
+						"color": "var(--wp--preset--color--contrast)"
+					},
+					"left": {
+						"color": "var(--wp--preset--color--contrast)"
+					},
+					"right": {
+						"color": "var(--wp--preset--color--contrast)"
+					},
+					"top": {
+						"color": "var(--wp--preset--color--contrast)"
+					}
+				},
+				"variations": {
+					"outline": {
+						"border": {
+							"color": "currentColor"
+						}
+					}
+				}
+			},
+			"core/post-title": {
+				"color": {
+					"text": "var(--wp--preset--color--accent-3)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--accent-3)"
+						}
+					}
+				}
+			},
+			"core/pullquote": {
+				"color": {
+					"text": "var(--wp--preset--color--accent-3)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--accent-3)"
+						}
+					}
+				}
+			},
+			"core/query-title": {
+				"color": {
+					"text": "var(--wp--preset--color--accent-3)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--accent-3)"
+						}
+					}
+				}
+			}
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--contrast)",
+					"text": "var(--wp--preset--color--base)"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--accent-3)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--contrast)"
+				}
+			}
+		},
+		"variations": {
+			"section-1": {
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--base)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--base)"
+							}
+						}
+					}
+				}
+			},
+			"section-2": {
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var(--wp--preset--color--accent-2)",
+							"text": "var(--wp--preset--color--accent-3)"
+						},
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--base)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--base)"
+							}
+						}
+					}
+				}
+			},
+			"section-3": {
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--accent-2)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--accent-2)"
+							}
+						}
+					}
+				}
+			},
+			"section-4": {
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--accent-2)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--accent-2)"
+							}
+						}
+					}
+				}
+			},
+			"section-5": {
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--base)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--base)"
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }

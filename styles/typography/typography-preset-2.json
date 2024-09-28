@@ -13,10 +13,38 @@
 			"lineHeight": "1.5"
 		},
 		"blocks": {
-			"core/site-title": {
+			"core/post-author-name": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|vollkorn",
-					"fontSize": "var:preset|font-size|x-large"
+					"fontWeight": "300"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						}
+					}
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontWeight": "300"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "underline"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						}
+					}
 				}
 			},
 			"core/post-title": {
@@ -24,20 +52,68 @@
 					"fontWeight": "400",
 					"letterSpacing": "-0.96px"
 				}
+			},
+			"core/pullquote": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|vollkorn",
+					"fontSize": "var:preset|font-size|x-large",
+					"fontWeight": "400",
+					"letterSpacing": "-0.76px"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontFamily": "var:preset|font-family|fira-code",
+							"fontSize": "var:preset|font-size|small",
+							"fontWeight": "300",
+							"letterSpacing": "-0.14px"
+						}
+					}
+				}
+			},
+			"core/quote": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|fira-code",
+					"fontSize": "var:preset|font-size|medium",
+					"fontWeight": "500",
+					"letterSpacing": "-0.18px"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|vollkorn",
+					"fontSize": "var:preset|font-size|x-large"
+				}
 			}
 		},
 		"elements": {
-			"heading": {
-				"typography": {
-					"fontFamily": "var:preset|font-family|vollkorn"
-				}
-			},
 			"button": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|fira-code",
 					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "400",
 					"letterSpacing": "-0.36px"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|vollkorn"
+				}
+			}
+		},
+		"variations": {
+			"post-terms-1": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
 				}
 			}
 		}

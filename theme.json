@@ -1183,6 +1183,9 @@
 							"textDecoration": "none"
 						}
 					}
+				},
+				"typography": {
+					"letterSpacing": "px"
 				}
 			},
 			"core/quote": {

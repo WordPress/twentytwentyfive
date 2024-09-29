@@ -49,17 +49,6 @@
 		}
 	},
 	"styles": {
-		"blocks": {
-			"core/button": {
-				"variations": {
-					"outline": {
-						"border": {
-							"color": "currentColor"
-						}
-					}
-				}
-			}
-		},
 		"variations": {
 			"section-1": {
 				"elements": {

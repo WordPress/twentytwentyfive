@@ -128,7 +128,6 @@
 			},
 			"core/site-title": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|manrope",
 					"fontStyle": "normal",
 					"fontWeight": "500",
 					"letterSpacing": "-0.28px",

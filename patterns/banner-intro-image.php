@@ -27,8 +27,8 @@
 
 		<!-- wp:column {"verticalAlignment":"center","style":{"spacing":{"blockGap":"var:preset|spacing|40"}}} -->
 		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:heading -->
-			<h2 class="wp-block-heading"><?php echo esc_html_x( 'New arrivals', 'Heading for banner with flower', 'twentytwentyfive' ); ?></h2>
+			<!-- wp:heading {"level":1,"fontSize":"x-large"} -->
+			<h2 class="wp-block-heading has-x-large-font-size"><?php echo esc_html_x( 'New arrivals', 'Heading for banner with flower', 'twentytwentyfive' ); ?></h2>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph -->

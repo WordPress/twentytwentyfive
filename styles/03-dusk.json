@@ -324,6 +324,11 @@
 							"background": "var:preset|color|accent-2",
 							"text": "var:preset|color|accent-1"
 						}
+					},
+					"heading": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						}
 					}
 				}
 			},
@@ -332,6 +337,28 @@
 					"heading": {
 						"color": {
 							"text": "var:preset|color|base"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					}
+				}
+			},
+			"section-5": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
 						}
 					}
 				}

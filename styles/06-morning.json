@@ -55,21 +55,11 @@
 		"typography": {
 			"fontFamily": "var:preset|font-family|ysabeau-office",
 			"fontSize": "1.5rem",
-			"fontStyle": "normal",
 			"fontWeight": "400",
 			"letterSpacing": "-0.24px",
 			"lineHeight": "1.5"
 		},
 		"blocks": {
-			"core/button": {
-				"variations": {
-					"outline": {
-						"border": {
-							"color": "currentColor"
-						}
-					}
-				}
-			},
 			"core/code": {
 				"color": {
 					"text": "var:preset|color|contrast",
@@ -196,7 +186,8 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|ysabeau-office",
 					"fontWeight": "700",
-					"textTransform": "uppercase"
+					"textTransform": "uppercase",
+					"letterSpacing": "1.6px"
 				}
 			}
 		},
@@ -235,7 +226,7 @@
 		"variations": {
 			"post-terms-1": {
 				"typography": {
-					"fontSize": "16px"
+					"fontSize": "var:preset|font-size|medium"
 				},
 				"elements": {
 					"link": {

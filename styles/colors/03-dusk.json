@@ -141,6 +141,11 @@
 				},
 				"border": {
 					"color": "transparent"
+				},
+				":hover": {
+					"color": {
+						"background": "color-mix(in srgb, var(--wp--preset--color--accent-2) 85%, transparent)"
+					}
 				}
 			},
 			"heading": {
@@ -173,6 +178,11 @@
 						"color": {
 							"background": "var:preset|color|accent-3",
 							"text": "var:preset|color|white"
+						},
+						":hover": {
+							"color": {
+								"background": "color-mix(in srgb, var(--wp--preset--color--accent-3) 85%, transparent)"
+							}
 						}
 					},
 					"link": {

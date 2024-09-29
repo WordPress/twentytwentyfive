@@ -136,7 +136,7 @@
 					"background": "var:preset|color|accent-2"
 				},
 				"border":{
-					"color": "var:preset|color|accent-2",
+					"color": "var:preset|color|accent-2"
 				},
 				":hover": {
 					"color": {

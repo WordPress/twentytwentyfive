@@ -235,6 +235,12 @@
 							"text": "var:preset|color|base"
 						}
 					},
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-2",
+							"text": "var:preset|color|accent-1"
+						}
+					},
 					"link": {
 						"color": {
 							"text": "var:preset|color|base"

@@ -60,8 +60,7 @@
 			},
 			"core/pullquote": {
 				"typography": {
-					"fontSize": "var:preset|font-size|x-large",
-					"letterSpacing": "-0.76px"
+					"fontSize": "var:preset|font-size|x-large"
 				},
 				"elements": {
 					"cite": {
@@ -96,7 +95,6 @@
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|ysabeau-office",
-					"fontWeight": "700",
 					"textTransform": "uppercase",
 					"letterSpacing": "1.6px"
 				}

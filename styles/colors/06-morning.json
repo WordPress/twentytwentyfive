@@ -47,5 +47,189 @@
 				}
 			]
 		}
+	},
+	"styles": {
+		"color": {
+			"text": "var:preset|color|accent-4"
+		},
+		"blocks": {
+			"core/code": {
+				"color": {
+					"text": "var:preset|color|contrast",
+					"background": "var:preset|color|accent-5"
+				}
+			},
+			"core/paragraph": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|contrast"
+						}
+					}
+				}
+			},
+			"core/post-author-name": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|contrast"
+						}
+					}
+				}
+			},
+			"core/post-terms": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|contrast"
+						}
+					}
+				}
+			},
+			"core/post-title": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|contrast"
+						}
+					}
+				}
+			},
+			"core/pullquote": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				},
+				"elements": {
+					"cite": {
+						"color": {
+							"text": "var:preset|color|accent-4"
+						}
+					}
+				}
+			},
+			"core/quote": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				},
+				"elements": {
+					"cite": {
+						"color": {
+							"text": "var:preset|color|accent-4"
+						}
+					}
+				}
+			}
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"text": "var:preset|color|contrast",
+					"background": "var:preset|color|accent-1"
+				},
+				"border":{
+					"color": "var:preset|color|accent-1"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				}
+			}
+		},
+		"variations": {
+			"post-terms-1": {
+				"elements": {
+					"link": {
+						"color": {
+							"background": "var:preset|color|accent-5"
+						},
+						"border": {
+							"color": "var:preset|color|accent-5"
+						}
+					}
+				}
+			},
+			"section-1": {
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-1",
+							"text": "var:preset|color|contrast"
+						},
+						"border": {
+							"color": "var:preset|color|accent-1"
+						}
+					}
+				}
+			},
+			"section-2": {
+				"color": {
+					"text": "var:preset|color|base"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-2",
+							"text": "var:preset|color|contrast"
+						},
+						"border": {
+							"color": "var:preset|color|accent-2"
+						}
+					}
+				}
+			},
+			"section-3": {
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-2",
+							"text": "var:preset|color|contrast"
+						},
+						"border": {
+							"color": "var:preset|color|accent-2"
+						}
+					}
+				}
+			},
+			"section-4": {
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
+					"button": {
+						"border": {
+							"color": "var:preset|color|base"
+						}
+					}
+				}
+			},
+			"section-5": {
+				"elements": {
+					"button": {
+						"border": {
+							"color": "var:preset|color|contrast"
+						}
+					}
+				}
+			}
+		}
 	}
 }

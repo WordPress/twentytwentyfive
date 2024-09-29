@@ -137,7 +137,6 @@
 				},
 				"border":{
 					"color": "var:preset|color|accent-2",
-					"radius": "0px"
 				},
 				":hover": {
 					"color": {

@@ -53,8 +53,8 @@
 			"button": {
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--base)",
-						"text": "var(--wp--preset--color--contrast)"
+						"background": "var:preset|color|base",
+						"text": "var:preset|color|contrast"
 					},
 					"border": {
 						"color": "currentColor"
@@ -65,12 +65,12 @@
 		"variations": {
 			"section-1": {
 				"color": {
-					"text": "var(--wp--preset--color--base)"
+					"text": "var:preset|color|base"
 				},
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var(--wp--preset--color--base)"
+							"text": "var:preset|color|base"
 						}
 					}
 				}

@@ -17,7 +17,7 @@ if ( ! function_exists( 'twentytwentyfive_post_format_setup' ) ) :
 	 * Adds theme support for post formats.
 	 *
 	 * @since Twenty Twenty-Five 1.0
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentyfive_post_format_setup() {
@@ -34,7 +34,7 @@ if ( ! function_exists( 'twentytwentyfive_editor_style' ) ) :
 	 * Enqueues editor-style.css in the editors.
 	 *
 	 * @since Twenty Twenty-Five 1.0
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentyfive_editor_style() {
@@ -51,7 +51,7 @@ if ( ! function_exists( 'twentytwentyfive_enqueue_styles' ) ) :
 	 * Enqueues style.css on the front.
 	 *
 	 * @since Twenty Twenty-Five 1.0
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentyfive_enqueue_styles() {
@@ -73,7 +73,7 @@ if ( ! function_exists( 'twentytwentyfive_block_styles' ) ) :
 	 * Registers custom block styles.
 	 *
 	 * @since Twenty Twenty-Five 1.0
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentyfive_block_styles() {
@@ -104,7 +104,7 @@ if ( ! function_exists( 'twentytwentyfive_pattern_categories' ) ) :
 	 * Registers pattern categories.
 	 *
 	 * @since Twenty Twenty-Five 1.0
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentyfive_pattern_categories() {
@@ -136,7 +136,7 @@ if ( ! function_exists( 'twentytwentyfive_register_block_bindings' ) ) :
 	 * Registers the copyright block binding source.
 	 *
 	 * @since Twenty Twenty-Five 1.0
-	 * 
+	 *
 	 * @return void
 	 */
 	function twentytwentyfive_register_block_bindings() {
@@ -158,7 +158,7 @@ if ( ! function_exists( 'twentytwentyfive_copyright_binding' ) ) :
 	 * Callback function for the copyright block binding source.
 	 *
 	 * @since Twenty Twenty-Five 1.0
-	 * 
+	 *
 	 * @return string Copyright text.
 	 */
 	function twentytwentyfive_copyright_binding() {

@@ -55,27 +55,10 @@
 		"typography": {
 			"fontFamily": "var:preset|font-family|literata",
 			"fontSize": "1.5rem",
-			"fontStyle": "normal",
-			"fontWeight": "400",
 			"letterSpacing": "-0.24px",
 			"lineHeight": "1.3"
 		},
 		"blocks": {
-			"core/button": {
-				"typography": {
-					"fontFamily": "var:preset|font-family|literata",
-					"fontSize": "var:preset|font-size|large",
-					"fontWeight": "900",
-					"letterSpacing": "-0.36px"
-				},
-				"variations": {
-					"outline": {
-						"border": {
-							"color": "currentColor"
-						}
-					}
-				}
-			},
 			"core/code": {
 				"color": {
 					"text": "var:preset|color|accent-2",
@@ -112,8 +95,7 @@
 			},
 			"core/post-terms": {
 				"typography": {
-					"fontWeight": "400",
-					"fontSize": "var:preset|font-size|small"
+					"fontWeight": "400"
 				},
 				"color": {
 					"text": "var:preset|color|contrast"
@@ -200,7 +182,8 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|platypi",
 					"fontSize": "30px",
-					"fontWeight": "800"
+					"fontWeight": "800",
+					"letterSpacing": "-0.6px"
 				},
 				"elements": {
 					"link": {
@@ -229,11 +212,16 @@
 					"border": {
 						"color": "var:preset|color|contrast"
 					}
+				},
+				"typography": {
+					"fontFamily": "var:preset|font-family|platypi",
+					"fontSize": "1.5rem",
+					"fontWeight": "800"
 				}
 			},
 			"heading": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|literata",
+					"fontFamily": "var:preset|font-family|platypi",
 					"fontWeight": "800"
 				}
 			},

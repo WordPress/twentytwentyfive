@@ -241,13 +241,6 @@
 					"letterSpacing": "-0.48px"
 				}
 			},
-			"h6": {
-				"typography": {
-					"fontSize": "var:preset|font-size|small",
-					"fontWeight": "700",
-					"textTransform": "uppercase"
-				}
-			},
 			"link": {
 				"color": {
 					"text": "var:preset|color|accent-3"

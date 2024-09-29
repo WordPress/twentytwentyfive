@@ -57,14 +57,12 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|vollkorn",
 					"fontSize": "var:preset|font-size|x-large",
-					"fontWeight": "400",
-					"letterSpacing": "-0.76px"
+					"fontWeight": "400"
 				},
 				"elements": {
 					"cite": {
 						"typography": {
 							"fontFamily": "var:preset|font-family|fira-code",
-							"fontSize": "var:preset|font-size|small",
 							"fontWeight": "300",
 							"letterSpacing": "-0.14px"
 						}
@@ -74,7 +72,6 @@
 			"core/quote": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|fira-code",
-					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "500",
 					"letterSpacing": "-0.18px"
 				}

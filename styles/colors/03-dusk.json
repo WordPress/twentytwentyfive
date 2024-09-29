@@ -55,15 +55,6 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/button": {
-				"variations": {
-					"outline": {
-						"border": {
-							"color": "currentColor"
-						}
-					}
-				}
-			},
 			"core/code": {
 				"color": {
 					"text": "var:preset|color|black",

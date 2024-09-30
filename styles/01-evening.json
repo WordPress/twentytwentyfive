@@ -49,16 +49,11 @@
 		}
 	},
 	"styles": {
+		"color": {
+			"text": "var:preset|color|accent-4"
+		},
 		"blocks": {
 			"core/button": {
-				"spacing": {
-					"padding": {
-						"bottom": "0.6rem",
-						"left": "1.6rem",
-						"right": "1.6rem",
-						"top": "0.6rem"
-					}
-				},
 				"variations": {
 					"outline": {
 						"spacing": {
@@ -68,16 +63,13 @@
 								"right": "1.6rem",
 								"top": "0.6rem"
 							}
-						},
-						"border": {
-							"color": "currentColor"
 						}
 					}
 				}
 			},
 			"core/code": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontSize": "var:preset|font-size|medium",
 					"fontStyle": "normal",
 					"fontWeight": "300",
 					"letterSpacing": "0px"
@@ -96,19 +88,24 @@
 				}
 			}
 		},
-		"color": {
-			"text": "var:preset|color|accent-4"
-		},
 		"elements": {
 			"button": {
 				"color": {
-					"background": "var(--wp--preset--color--contrast)",
-					"text": "var(--wp--preset--color--base)"
+					"background": "var:preset|color|contrast",
+					"text": "var:preset|color|base"
 				},
 				":hover": {
 					"color": {
-						"background": "var(--wp--preset--color--base)",
-						"text": "var(--wp--preset--color--contrast)"
+						"background": "color-mix(in srgb, var(--wp--preset--color--contrast) 85%, transparent)",
+						"text": "var:preset|color|base"
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "0.6rem",
+						"left": "1.6rem",
+						"right": "1.6rem",
+						"top": "0.6rem"
 					}
 				}
 			},
@@ -119,53 +116,16 @@
 			}
 		},
 		"variations": {
-			"section-1": {
-				"elements": {
-					"button": {
-						":hover":{
-							"color": {
-								"background": "var(--wp--preset--color-base)",
-								"text": "var(--wp--preset--color--contrast)"
-							},
-							"border": {
-								"color": "var(--wp--preset--color--constrast)"
-							}
-						}
-					}
-				}
-			},
 			"section-2": {
 				"elements": {
 					"button": {
 						"color": {
-							"background": "var(--wp--preset--color--base)",
-							"text": "var(--wp--preset--color--contrast)"
+							"background": "var:preset|color|base",
+							"text": "var:preset|color|contrast"
 						},
-						"border": {
-							"color": "var(--wp--preset--color--base)"
-						},
-						":hover":{
+						":hover": {
 							"color": {
-								"background": "var(--wp--preset--color--accent-2)"
-							},
-							"border": {
-								"color": "var(--wp--preset--color--contrast)"
-							}
-
-						}
-					}
-				}
-			},
-			"section-3": {
-				"elements": {
-					"button": {
-						":hover":{
-							"color": {
-								"background": "var(--wp--preset--color-accent-1)",
-								"text": "var(--wp--preset--color--contrast)"
-							},
-							"border": {
-								"color": "var(--wp--preset--color--contrast)"
+								"background": "color-mix(in srgb, var(--wp--preset--color--base) 85%, transparent)"
 							}
 						}
 					}
@@ -175,36 +135,27 @@
 				"elements": {
 					"button": {
 						"color": {
-							"background": "var(--wp--preset--color--accent-2)",
-							"text": "var(--wp--preset--color--contrast)"
+							"background": "var:preset|color|accent-2",
+							"text": "var:preset|color|contrast"
 						},
-						"border": {
-							"color": "var(--wp--preset--color--accent-2)"
-						},
-						":hover":{
+						":hover": {
 							"color": {
-								"background": "transparent",
-								"text": "var(--wp--preset--color--accent-2)"
-							},
-							"border": {
-								"color": "var(--wp--preset--color--accent-2)"
+								"background": "color-mix(in srgb, var(--wp--preset--color--accent-2) 85%, transparent)"
 							}
-
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-2"
 						}
 					}
 				}
 			},
 			"section-5": {
 				"elements": {
-					"button": {
-						":hover":{
-							"color": {
-								"background": "var(--wp--preset--color-contrast)",
-								"text": "var(--wp--preset--color--base)"
-							},
-							"border": {
-								"color": "var(--wp--preset--color--base)"
-							}
+					"link": {
+						"color": {
+							"text": "var:preset|color|base"
 						}
 					}
 				}

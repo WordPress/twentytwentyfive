@@ -1156,7 +1156,8 @@
 			"core/post-terms": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
-					"fontWeight": "600"
+					"fontWeight": "600",
+					"lineHeight": "2.6"
 				},
 				"elements": {
 					"link": {

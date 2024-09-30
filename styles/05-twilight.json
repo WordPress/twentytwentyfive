@@ -60,10 +60,10 @@
 					"outline": {
 						"spacing": {
 							"padding": {
-								"bottom": "4px",
-								"left": "14px",
-								"right": "14px",
-								"top": "4px"
+								"bottom": "0.625rem",
+								"left": "1.375rem",
+								"right": "1.375rem",
+								"top": "0.625rem"
 							}
 						}
 					}
@@ -138,21 +138,12 @@
 		},
 		"elements": {
 			"button": {
-				":hover": {
-					"color": {
-						"background": "var:preset|color|base",
-						"text": "var:preset|color|contrast"
-					},
-					"border": {
-						"color": "currentColor"
-					}
-				},
 				"spacing": {
 					"padding": {
-						"bottom": "4px",
-						"left": "14px",
-						"right": "14px",
-						"top": "4px"
+						"bottom": "0.625rem",
+						"left": "1.375rem",
+						"right": "1.375rem",
+						"top": "0.625rem"
 					}
 				},
 				"typography": {
@@ -194,6 +185,17 @@
 					"text": "var:preset|color|base"
 				},
 				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|base",
+							"text": "var:preset|color|accent-2"
+						},
+						":hover": {
+							"color": {
+								"text": "var:preset|color|accent-2"
+							}
+						}
+					},
 					"link": {
 						"color": {
 							"text": "var:preset|color|base"

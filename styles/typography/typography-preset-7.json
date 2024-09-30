@@ -60,12 +60,25 @@
 			"lineHeight": "1.4"
 		},
 		"blocks": {
-			"core/site-title": {
+			"core/code": {
 				"typography": {
-					"fontFamily": "var:preset|font-family|literata",
-					"fontSize": "var:preset|font-size|x-large",
-					"fontWeight": "300",
-					"letterSpacing": "-0.56px",
+					"fontSize": "var:preset|font-size|medium",
+					"fontWeight": "300"
+				}
+			},
+			"core/post-author": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
+				}
+			},
+			"core/post-author-name": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontWeight": "400",
 					"textTransform": "uppercase"
 				}
 			},
@@ -75,8 +88,32 @@
 					"letterSpacing": "-2.72px"
 				}
 			},
-			"core/post-terms": {
+			"core/pullquote": {
 				"typography": {
+					"fontFamily": "var:preset|font-family|literata",
+					"fontWeight": "200",
+					"letterSpacing": "0em",
+					"lineHeight": "1.1"
+				}
+			},
+			"core/query-pagination": {
+				"typography": {
+					"fontWeight": "300",
+					"letterSpacing": "0px"
+				}
+			},
+			"core/quote": {
+				"typography": {
+					"fontStyle": "normal",
+					"fontWeight": "300"
+				}
+			},
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|literata",
+					"fontSize": "var:preset|font-size|x-large",
+					"fontWeight": "300",
+					"letterSpacing": "-0.56px",
 					"textTransform": "uppercase"
 				}
 			}

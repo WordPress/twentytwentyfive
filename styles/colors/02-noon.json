@@ -47,5 +47,139 @@
 				}
 			]
 		}
+	},
+	"styles": {
+		"color": {
+			"text": "var:preset|color|accent-4"
+		},
+		"blocks": {
+			"core/button": {
+				"border": {
+					"bottom": {
+						"color": "var:preset|color|contrast"
+					},
+					"left": {
+						"color": "var:preset|color|contrast"
+					},
+					"right": {
+						"color": "var:preset|color|contrast"
+					},
+					"top": {
+						"color": "var:preset|color|contrast"
+					}
+				},
+				"variations": {
+					"outline": {
+						"border": {
+							"color": "currentColor"
+						}
+					}
+				}
+			},
+			"core/post-title": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					}
+				}
+			},
+			"core/pullquote": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					}
+				}
+			},
+			"core/query-title": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					}
+				}
+			}
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var:preset|color|contrast",
+					"text": "var:preset|color|base"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				}
+			}
+		},
+		"variations": {
+			"section-4": {
+				"color": {
+					"text": "var:preset|color|accent-2"
+				},
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "color-mix(in srgb, var(--wp--preset--color--accent-2) 85%, transparent)"
+							}
+						}
+					},
+					"heading": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						}
+					}
+				}
+			},
+			"section-5": {
+				"color": {
+					"text": "var:preset|color|base"
+				},
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "color-mix(in srgb, var(--wp--preset--color--base) 85%, transparent)"
+							}
+						}
+					},
+					"heading": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					}
+				}
+			}
+		}
 	}
 }

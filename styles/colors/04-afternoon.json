@@ -16,12 +16,12 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#EBF6D3",
+					"color": "#C7F642",
 					"name": "Accent 1",
 					"slug": "accent-1"
 				},
 				{
-					"color": "#C7F642",
+					"color": "#EBF6D3",
 					"name": "Accent 2",
 					"slug": "accent-2"
 				},
@@ -46,6 +46,29 @@
 					"slug": "accent-6"
 				}
 			]
+		}
+	},
+	"styles": {
+		"variations": {
+			"section-2": {
+				"color": {
+					"background": "var:preset|color|accent-3",
+					"text": "var:preset|color|accent-1"
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-1",
+							"text": "var:preset|color|accent-3"
+						},
+						":hover": {
+							"color": {
+								"background": "color-mix(in srgb, var(--wp--preset--color--accent-1) 85%, transparent)"
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 }

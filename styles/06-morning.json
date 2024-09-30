@@ -57,7 +57,7 @@
 			"fontSize": "1.5rem",
 			"fontWeight": "400",
 			"letterSpacing": "-0.24px",
-			"lineHeight": "1.5"
+			"lineHeight": "1.4"
 		},
 		"blocks": {
 			"core/code": {
@@ -179,6 +179,11 @@
 							"text": "var:preset|color|accent-4"
 						}
 					}
+				}
+			},
+			"core/query-title": {
+				"typography": {
+					"fontWeight": "900"
 				}
 			},
 			"core/site-title": {

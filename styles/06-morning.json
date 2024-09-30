@@ -249,6 +249,15 @@
 			"section-1": {
 				"elements": {
 					"button": {
+						"border": {
+							"color": "var:preset|color|contrast"
+						}
+					}
+				}
+			},
+			"section-2": {
+				"elements": {
+					"button": {
 						"color": {
 							"background": "var:preset|color|accent-1",
 							"text": "var:preset|color|contrast"
@@ -259,7 +268,20 @@
 					}
 				}
 			},
-			"section-2": {
+			"section-3": {
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-2",
+							"text": "var:preset|color|contrast"
+						},
+						"border": {
+							"color": "var:preset|color|accent-2"
+						}
+					}
+				}
+			},
+			"section-4": {
 				"color": {
 					"text": "var:preset|color|base"
 				},
@@ -280,20 +302,7 @@
 					}
 				}
 			},
-			"section-3": {
-				"elements": {
-					"button": {
-						"color": {
-							"background": "var:preset|color|accent-2",
-							"text": "var:preset|color|contrast"
-						},
-						"border": {
-							"color": "var:preset|color|accent-2"
-						}
-					}
-				}
-			},
-			"section-4": {
+			"section-5": {
 				"elements": {
 					"heading": {
 						"color": {
@@ -303,15 +312,6 @@
 					"button": {
 						"border": {
 							"color": "var:preset|color|base"
-						}
-					}
-				}
-			},
-			"section-5": {
-				"elements": {
-					"button": {
-						"border": {
-							"color": "var:preset|color|contrast"
 						}
 					}
 				}

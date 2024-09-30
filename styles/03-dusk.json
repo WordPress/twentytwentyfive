@@ -286,7 +286,7 @@
 					}
 				}
 			},
-			"section-1": {
+			"section-2": {
 				"color": {
 					"text": "var:preset|color|base"
 				},
@@ -295,29 +295,6 @@
 						"color": {
 							"background": "var:preset|color|accent-3",
 							"text": "var:preset|color|white"
-						}
-					},
-					"link": {
-						"color": {
-							"text": "var:preset|color|base"
-						}
-					},
-					"heading": {
-						"color": {
-							"text": "var:preset|color|base"
-						}
-					}
-				}
-			},
-			"section-2": {
-				"color": {
-					"text": "var:preset|color|base"
-				},
-				"elements": {
-					"button": {
-						"color": {
-							"background": "var:preset|color|accent-2",
-							"text": "var:preset|color|accent-1"
 						}
 					},
 					"link": {
@@ -346,6 +323,29 @@
 				}
 			},
 			"section-4": {
+				"color": {
+					"text": "var:preset|color|base"
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-2",
+							"text": "var:preset|color|accent-1"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
+					"heading": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					}
+				}
+			},
+			"section-5": {
 				"elements": {
 					"heading": {
 						"color": {

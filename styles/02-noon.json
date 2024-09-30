@@ -362,6 +362,10 @@
 			"section-4": {
 				"elements": {
 					"button": {
+						"color": {
+							"background": "var(--wp--preset--color--accent-2)",
+							"text": "var(--wp--preset--color--accent-3)"
+						},
 						":hover": {
 							"color": {
 								"background": "var:preset|color|accent-2",

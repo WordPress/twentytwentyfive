@@ -169,7 +169,16 @@
 					}
 				}
 			},
-			"section-1": {
+			"section-1":{
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					}
+				}
+			},
+			"section-2": {
 				"color": {
 					"text": "var:preset|color|base"
 				},
@@ -177,7 +186,7 @@
 					"button": {
 						"color": {
 							"background": "var:preset|color|accent-3",
-							"text": "var:preset|color|white"
+							"text": "var:preset|color|base"
 						},
 						":hover": {
 							"color": {
@@ -197,40 +206,11 @@
 					}
 				}
 			},
-			"section-2": {
-				"color": {
-					"text": "var:preset|color|base"
-				},
-				"elements": {
-					"button": {
-						"color": {
-							"background": "var:preset|color|accent-2",
-							"text": "var:preset|color|accent-1"
-						}
-					},
-					"link": {
-						"color": {
-							"text": "var:preset|color|base"
-						}
-					},
-					"heading": {
-						"color": {
-							"text": "var:preset|color|base"
-						}
-					}
-				}
-			},
 			"section-3": {
 				"color": {
 					"text": "var:preset|color|accent-2"
 				},
 				"elements": {
-					"button": {
-						"color": {
-							"background": "var:preset|color|accent-2",
-							"text": "var:preset|color|accent-1"
-						}
-					},
 					"heading": {
 						"color": {
 							"text": "var:preset|color|accent-2"
@@ -239,19 +219,26 @@
 				}
 			},
 			"section-4": {
+				"color": {
+					"text": "var:preset|color|base"
+				},
 				"elements": {
-					"heading": {
+					"button": {
+						"color": {
+							"text": "var:preset|color|base"
+						},
+						":hover": {
+							"color": {
+								"text": "var:preset|color|base"
+							}
+						}
+					},
+					"link": {
 						"color": {
 							"text": "var:preset|color|base"
 						}
 					},
-					"button": {
-						"color": {
-							"background": "var:preset|color|accent-2",
-							"text": "var:preset|color|accent-1"
-						}
-					},
-					"link": {
+					"heading": {
 						"color": {
 							"text": "var:preset|color|base"
 						}
@@ -259,18 +246,27 @@
 				}
 			},
 			"section-5": {
-				"color": {
-					"text": "var:preset|color|accent-3"
-				},
 				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-2",
+							"text": "var:preset|color|base"
+						},
+						":hover": {
+							"color": {
+								"background": "color-mix(in srgb, var(--wp--preset--color--accent-2) 85%, transparent)",
+								"text": "var:preset|color|base"
+							}
+						}
+					},
 					"heading": {
 						"color": {
-							"text": "var:preset|color|accent-3"
+							"text": "var:preset|color|base"
 						}
 					},
 					"link": {
 						"color": {
-							"text": "var:preset|color|accent-3"
+							"text": "var:preset|color|base"
 						}
 					}
 				}

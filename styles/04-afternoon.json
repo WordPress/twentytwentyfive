@@ -235,7 +235,7 @@
 			"lineHeight": "1.6"
 		},
 		"variations": {
-			"section-1": {
+			"section-2": {
 				"elements": {
 					"button": {
 						":hover": {
@@ -250,7 +250,22 @@
 					}
 				}
 			},
-			"section-2": {
+			"section-3": {
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var(--wp--preset--color--accent-1)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--contrast)"
+							}
+						}
+					}
+				}
+			},
+			"section-4": {
 				"color": {
 					"text": "var(--wp--preset--color--base)"
 				},
@@ -277,22 +292,7 @@
 					}
 				}
 			},
-			"section-3": {
-				"elements": {
-					"button": {
-						":hover": {
-							"color": {
-								"background": "var(--wp--preset--color--accent-1)",
-								"text": "var(--wp--preset--color--contrast)"
-							},
-							"border": {
-								"color": "var(--wp--preset--color--contrast)"
-							}
-						}
-					}
-				}
-			},
-			"section-4": {
+			"section-5": {
 				"elements": {
 					"button": {
 						":hover": {

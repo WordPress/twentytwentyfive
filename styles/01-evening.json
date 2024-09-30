@@ -122,6 +122,21 @@
 			"section-1": {
 				"elements": {
 					"button": {
+						":hover":{
+							"color": {
+								"background": "var(--wp--preset--color-base)",
+								"text": "var(--wp--preset--color--contrast)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--constrast)"
+							}
+						}
+					}
+				}
+			},
+			"section-2": {
+				"elements": {
+					"button": {
 						"color": {
 							"background": "var(--wp--preset--color--base)",
 							"text": "var(--wp--preset--color--contrast)"
@@ -135,29 +150,6 @@
 							},
 							"border": {
 								"color": "var(--wp--preset--color--contrast)"
-							}
-
-						}
-					}
-				}
-			},
-			"section-2": {
-				"elements": {
-					"button": {
-						"color": {
-							"background": "var(--wp--preset--color--accent-2)",
-							"text": "var(--wp--preset--color--contrast)"
-						},
-						"border": {
-							"color": "var(--wp--preset--color--accent-2)"
-						},
-						":hover":{
-							"color": {
-								"background": "transparent",
-								"text": "var(--wp--preset--color--accent-2)"
-							},
-							"border": {
-								"color": "var(--wp--preset--color--accent-2)"
 							}
 
 						}
@@ -182,6 +174,29 @@
 			"section-4": {
 				"elements": {
 					"button": {
+						"color": {
+							"background": "var(--wp--preset--color--accent-2)",
+							"text": "var(--wp--preset--color--contrast)"
+						},
+						"border": {
+							"color": "var(--wp--preset--color--accent-2)"
+						},
+						":hover":{
+							"color": {
+								"background": "transparent",
+								"text": "var(--wp--preset--color--accent-2)"
+							},
+							"border": {
+								"color": "var(--wp--preset--color--accent-2)"
+							}
+
+						}
+					}
+				}
+			},
+			"section-5": {
+				"elements": {
+					"button": {
 						":hover":{
 							"color": {
 								"background": "var(--wp--preset--color-contrast)",
@@ -193,23 +208,7 @@
 						}
 					}
 				}
-			},
-			"section-5": {
-				"elements": {
-					"button": {
-						":hover":{
-							"color": {
-								"background": "var(--wp--preset--color-base)",
-								"text": "var(--wp--preset--color--contrast)"
-							},
-							"border": {
-								"color": "var(--wp--preset--color--constrast)"
-							}
-						}
-					}
-				}
 			}
 		}
-
 	}
 }

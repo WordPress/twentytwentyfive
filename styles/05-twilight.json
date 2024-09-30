@@ -189,7 +189,7 @@
 			}
 		},
 		"variations": {
-			"section-1": {
+			"section-2": {
 				"color": {
 					"text": "var:preset|color|base"
 				},

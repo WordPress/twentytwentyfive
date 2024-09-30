@@ -119,18 +119,19 @@
 			}
 		},
 		"elements": {
-			"heading": {
-				"typography": {
-					"fontFamily": "var:preset|font-family|literata",
-					"fontWeight": "200"
-				}
-			},
 			"button": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|literata",
 					"fontWeight": "600",
 					"letterSpacing": "-0.96px",
 					"textTransform": "uppercase"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|literata",
+					"fontWeight": "200",
+					"letterSpacing": "-0.02em"
 				}
 			}
 		}

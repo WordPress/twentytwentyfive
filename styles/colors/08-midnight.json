@@ -47,5 +47,88 @@
 				}
 			]
 		}
+	},
+	"styles": {
+		"blocks": {
+			"core/code": {
+				"color": {
+					"background": "var:preset|color|accent-2",
+					"text": "var:preset|color|contrast"
+				}
+			},
+			"core/post-date": {
+				"color": {
+					"text": "var:preset|color|contrast"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|contrast"
+						}
+					}
+				}
+			}
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "var:preset|color|contrast",
+					"text": "var:preset|color|base"
+				},
+				":hover": {
+					"color": {
+						"background": "color-mix(in srgb, var(--wp--preset--color--contrast) 85%, transparent)"
+					}
+				}
+			}
+		},
+		"variations": {
+			"section-1": {
+				"color": {
+					"text": "var:preset|color|accent-3"
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-3",
+							"text": "var:preset|color|accent-5"
+						},
+						":hover": {
+							"color": {
+								"background": "color-mix(in srgb, var(--wp--preset--color--accent-3) 85%, transparent)"
+							}
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-3"
+						}
+					}
+				}
+			},
+			"section-4": {
+				"color": {
+					"text": "var:preset|color|accent-5"
+				},
+				"elements": {
+					"button": {
+						"color": {
+							"background": "var:preset|color|accent-5",
+							"text": "var:preset|color|accent-3"
+						},
+						":hover": {
+							"color": {
+								"background": "color-mix(in srgb, var(--wp--preset--color--accent-5) 85%, transparent)"
+							}
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-5"
+						}
+					}
+				}
+			}
+		}
 	}
 }

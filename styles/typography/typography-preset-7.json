@@ -3,6 +3,54 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"title": "Literata & Fira Sans",
 	"slug": "typography-preset-7",
+	"settings": {
+		"typography": {
+			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "Small",
+					"size": "0.875rem",
+					"slug": "small"
+				},
+				{
+					"fluid": {
+						"max": "1.1rem",
+						"min": "0.9rem"
+					},
+					"name": "Medium",
+					"size": "1rem",
+					"slug": "medium"
+				},
+				{
+					"fluid": {
+						"max": "1.2rem",
+						"min": "1.09rem"
+					},
+					"name": "Large",
+					"size": "1.38rem",
+					"slug": "large"
+				},
+				{
+					"fluid": {
+						"max": "2rem",
+						"min": "1.75rem"
+					},
+					"name": "Extra Large",
+					"size": "1.75rem",
+					"slug": "x-large"
+				},
+				{
+					"fluid": {
+						"max": "3.625rem",
+						"min": "2.625rem"
+					},
+					"name": "Extra Extra Large",
+					"size": "2.625rem",
+					"slug": "xx-large"
+				}
+			]
+		}
+	},
 	"styles": {
 		"typography": {
 			"fontFamily": "var:preset|font-family|fira-sans",

@@ -132,81 +132,50 @@
 			}
 		},
 		"variations": {
-			"section-1": {
-				"elements": {
-					"button": {
-						":hover": {
-							"color": {
-								"background": "var:preset|color|base",
-								"text": "var:preset|color|contrast"
-							},
-							"border": {
-								"color": "var:preset|color|base"
-							}
-						}
-					}
-				}
-			},
-			"section-2": {
-				"elements": {
-					"button": {
-						"color": {
-							"background": "var:preset|color|accent-2",
-							"text": "var:preset|color|accent-3"
-						},
-						":hover": {
-							"color": {
-								"background": "var:preset|color|base",
-								"text": "var:preset|color|contrast"
-							},
-							"border": {
-								"color": "var:preset|color|base"
-							}
-						}
-					}
-				}
-			},
-			"section-3": {
-				"elements": {
-					"button": {
-						":hover": {
-							"color": {
-								"background": "var:preset|color|accent-2",
-								"text": "var:preset|color|contrast"
-							},
-							"border": {
-								"color": "var:preset|color|accent-2"
-							}
-						}
-					}
-				}
-			},
 			"section-4": {
+				"color": {
+					"text": "var:preset|color|accent-2"
+				},
 				"elements": {
 					"button": {
 						":hover": {
 							"color": {
-								"background": "var:preset|color|accent-2",
-								"text": "var:preset|color|contrast"
-							},
-							"border": {
-								"color": "var:preset|color|accent-2"
+								"background": "color-mix(in srgb, var(--wp--preset--color--accent-2) 85%, transparent)"
 							}
+						}
+					},
+					"heading": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-2"
 						}
 					}
 				}
 			},
 			"section-5": {
+				"color": {
+					"text": "var:preset|color|base"
+				},
 				"elements": {
 					"button": {
 						":hover": {
 							"color": {
-								"background": "var:preset|color|base",
-								"text": "var:preset|color|contrast"
-							},
-							"border": {
-								"color": "var:preset|color|base"
+								"background": "color-mix(in srgb, var(--wp--preset--color--base) 85%, transparent)"
 							}
+						}
+					},
+					"heading": {
+						"color": {
+							"text": "var:preset|color|base"
+						}
+					},
+					"link": {
+						"color": {
+							"text": "var:preset|color|base"
 						}
 					}
 				}

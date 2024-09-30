@@ -212,7 +212,7 @@
 			}
 		},
 		"variations": {
-			"section-2": {
+			"section-1": {
 				"elements": {
 					"button": {
 						":hover": {
@@ -227,22 +227,7 @@
 					}
 				}
 			},
-			"section-3": {
-				"elements": {
-					"button": {
-						":hover": {
-							"color": {
-								"background": "var(--wp--preset--color--accent-1)",
-								"text": "var(--wp--preset--color--contrast)"
-							},
-							"border": {
-								"color": "var(--wp--preset--color--contrast)"
-							}
-						}
-					}
-				}
-			},
-			"section-4": {
+			"section-2": {
 				"color": {
 					"text": "var:preset|color|base"
 				},
@@ -269,7 +254,22 @@
 					}
 				}
 			},
-			"section-5": {
+			"section-3": {
+				"elements": {
+					"button": {
+						":hover": {
+							"color": {
+								"background": "var:preset|color|accent-1",
+								"text": "var:preset|color|contrast"
+							},
+							"border": {
+								"color": "var:preset|color|contrast"
+							}
+						}
+					}
+				}
+			},
+			"section-4": {
 				"elements": {
 					"button": {
 						":hover": {

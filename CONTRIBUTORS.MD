@@ -66,5 +66,3 @@
 | ddewan-git            | ddewan |
 | justintadlock         | greenshady |
 | SeanAverS            |  |
-| markallasread        |  |
-| mathew-crisp         |  |

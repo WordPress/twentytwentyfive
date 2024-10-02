@@ -2,7 +2,7 @@
 /**
  * Title: Grid with categories
  * Slug: twentytwentyfive/grid-with-categories
- * Categories: media, featured
+ * Categories: featured
  * Viewport width: 1400
  * Description: A grid section with different categories.
  *

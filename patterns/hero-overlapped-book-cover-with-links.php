@@ -100,8 +100,7 @@
 
 							<!-- wp:paragraph {"fontSize":"medium"} -->
 							<p class="has-medium-font-size">
-								<?php echo wp_kses_post( _x( 'Outside Europe? View <a href="#" rel="nofollow">international editions</a>.', 'Hero - Overlapped book cover pattern bottom text', 'twentytwentyfive' ) ); ?>
-							</p>
+								<?php echo wp_kses_post( _x( 'Outside Europe? View <a href="#" rel="nofollow">international editions</a>', 'Hero - Overlapped book cover pattern bottom text', 'twentytwentyfive' ) ); ?></p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->

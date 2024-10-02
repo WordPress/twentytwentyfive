@@ -36,7 +36,7 @@
 					<div class="wp-block-group has-small-font-size">
 						<!-- wp:post-date /-->
 						<!-- wp:paragraph -->
-						<p>·</p>
+						<p><?php echo esc_html_x( '·', 'Separator between date and categories', 'twentytwentyfive' ); ?></p>
 						<!-- /wp:paragraph -->
 						<!-- wp:post-terms {"term":"category","separator":",  ","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
 					</div>

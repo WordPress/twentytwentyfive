@@ -28,7 +28,7 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 							<div class="wp-block-group has-small-font-size">
 								<!-- wp:paragraph -->
-							<p>by</p>
+							<p><?php esc_html_e( 'by', 'twentytwentyfive' ); ?></p>
 							<!-- /wp:paragraph -->
 
 							<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /-->
@@ -54,7 +54,7 @@
 					<div class="wp-block-group alignwide has-small-font-size">
 						<!-- wp:post-date /-->
 						<!-- wp:paragraph -->
-						<p>·</p>
+						<p><?php esc_html_e( '·', 'twentytwentyfive' ); ?></p>
 						<!-- /wp:paragraph -->
 						<!-- wp:post-terms {"term":"category"} /-->
 					</div>

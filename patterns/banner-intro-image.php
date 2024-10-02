@@ -19,7 +19,7 @@
 		<div class="wp-block-column" style="flex-basis:56%">
 			<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 			<figure class="wp-block-image size-full">
-				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/botany-flowers.webp" alt="<?php echo esc_attr_x( 'Picture of a flower', 'Alt text for intro picture', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover" />
+				<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/botany-flowers.webp" alt="<?php echo esc_attr_x( 'Picture of a flower', 'Alt text for intro picture', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover"/>
 			</figure>
 			<!-- /wp:image -->
 		</div>

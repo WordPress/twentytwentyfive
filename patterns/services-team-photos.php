@@ -18,9 +18,7 @@
 		<!-- wp:column -->
 		<div class="wp-block-column">
 			<!-- wp:heading -->
-			<h2 class="wp-block-heading">
-				Our small team is a group of driven, detail-oriented people who are passionate about their customers.
-			</h2>
+			<h2 class="wp-block-heading"><?php esc_html_e( 'Our small team is a group of driven, detail-oriented people who are passionate about their customers.', 'twentytwentyfive' ); ?></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->
@@ -31,25 +29,25 @@
 			<div class="wp-block-group">
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-1.webp" alt="Ms. Nora Winslow Keene, a dedicated public interest attorney based in Denver." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-1.webp" alt="<?php esc_attr_e( 'Ms. Nora Winslow Keene, a dedicated public interest attorney based in Denver.', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-2.webp" alt="Young sugarcane field worker." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-2.webp" alt="<?php esc_attr_e( 'Young sugarcane field worker.', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-3.webp" alt="Portraits of Miners." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-3.webp" alt="<?php esc_attr_e( 'Portraits of Miners.', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-4.webp" alt="Young Woman Soliciting Funds." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team-photo-4.webp" alt="<?php esc_attr_e( 'Young Woman Soliciting Funds.', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 			</div>

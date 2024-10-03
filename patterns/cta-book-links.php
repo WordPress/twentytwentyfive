@@ -57,8 +57,8 @@
 	<p class="has-text-align-center has-medium-font-size">
 		<?php
 		printf(
-			/* Translators: $s: Example link with link text. */
-			esc_html_e( 'Outside Europe? View $s.', 'twentytwentyfive' ),
+			/* Translators: %s: Example link with link text. */
+			esc_html_e( 'Outside Europe? View %s.', 'twentytwentyfive' ),
 			'<a href="#">international editions</a>'
 		);
 		?>

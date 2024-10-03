@@ -27,8 +27,8 @@
 				<p class="is-style-text-subtitle">
 				<?php
 				printf(
-					/* translators: %1$s is the brand name, e.g., 'Fleurs'. */
-					esc_html_x( '%1$s is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers.', 'twentytwentyfive' ),
+					/* translators: %s is the brand name, e.g., 'Fleurs'. */
+					esc_html_x( '%s is a flower delivery and subscription business. Based in the EU, our mission is not only to deliver stunning flower arrangements across but also foster knowledge and enthusiasm on the beautiful gift of nature: flowers.', 'twentytwentyfive' ),
 					'<strong>' . esc_html_x( 'Fleurs', 'Example brand name in pattern', 'twentytwentyfive' ) . '</strong>'
 				);
 				?>

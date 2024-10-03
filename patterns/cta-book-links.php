@@ -57,12 +57,12 @@
 	<p class="has-text-align-center has-medium-font-size">
 		<?php
 		printf(
-			/* Translators: %1$s: Example link with link text. */
-			esc_html_e( 'Outside Europe? View %1$s.', 'twentytwentyfive' ),
+			/* Translators: $s: Example link with link text. */
+			esc_html_e( 'Outside Europe? View $s.', 'twentytwentyfive' ),
 			'<a href="#">international editions</a>'
 		);
 		?>
-		</p>
+	</p>
 	<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

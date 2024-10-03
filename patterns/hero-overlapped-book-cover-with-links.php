@@ -99,7 +99,7 @@
 							<!-- /wp:spacer -->
 
 							<!-- wp:paragraph {"fontSize":"medium"} -->
-							<p class="has-medium-font-size"><?php echo wp_kses_post( _x( 'Outside Europe? View <a href="#" rel="nofollow">international editions</a>', 'Sample text with link.', 'twentytwentyfive' ) ); ?></p>
+							<p class="has-medium-font-size"><?php echo wp_kses_post( _x( 'Outside Europe? View <a href="#" rel="nofollow">international editions</a>.', 'Sample text with link.', 'twentytwentyfive' ) ); ?></p>
 							<!-- /wp:paragraph -->
 						</div>
 						<!-- /wp:group -->

@@ -54,7 +54,7 @@
 	<!-- /wp:buttons -->
 
 	<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-	<p class="has-text-align-center has-medium-font-size"><?php echo wp_kses_post( _x( 'Outside Europe? View <a href="#" rel="nofollow">international editions</a>', 'Sample text with link.', 'twentytwentyfive' ) ); ?></p>
+	<p class="has-text-align-center has-medium-font-size"><?php echo wp_kses_post( _x( 'Outside Europe? View <a href="#" rel="nofollow">international editions</a>.', 'Sample text with link.', 'twentytwentyfive' ) ); ?></p>
 	<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

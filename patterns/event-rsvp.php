@@ -22,8 +22,8 @@
 		<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--80);padding-left:var(--wp--preset--spacing--40)">
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 			<div class="wp-block-group">
-				<!-- wp:heading {"level":1} -->
-				<h1 class="wp-block-heading"><?php echo esc_html_x( '“Stories, historias, iсторії, iστορίες”', 'Sample heading in four languages', 'twentytwentyfive' ); ?></h1>
+				<!-- wp:heading {"fontSize":"xx-large"} -->
+				<h2 class="wp-block-heading has-xx-large-font-size">><?php echo esc_html_x( '“Stories, historias, iсторії, iστορίες”', 'Sample heading in four languages', 'twentytwentyfive' ); ?></h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"x-large"} -->

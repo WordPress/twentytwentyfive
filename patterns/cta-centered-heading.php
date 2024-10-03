@@ -15,10 +15,9 @@
 <div class="wp-block-group alignfull" style="min-height:0vh;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--40);">
 	<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"constrained"}} -->
 	<div class="wp-block-group">
-		<!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"right":"0","left":"0"},"padding":{"right":"0","left":"0"}}}} -->
-		<h1 class="wp-block-heading has-text-align-center" style="margin-right:0;margin-left:0;padding-right:0;padding-left:0"><?php esc_html_e( 'Tell your story', 'twentytwentyfive' ); ?></h1>
+		<!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"right":"0","left":"0"},"padding":{"right":"0","left":"0"}}},"fontSize":"xx-large"} -->
+		<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size" style="margin-right:0;margin-left:0;padding-right:0;padding-left:0"><?php esc_html_e( 'Tell your story', 'twentytwentyfive' ); ?></h2>
 		<!-- /wp:heading -->
-
 		<!-- wp:paragraph {"align":"center"} -->
 		<p class="has-text-align-center"><?php esc_html_e( 'Like flowers that bloom in unexpected places, every story unfolds with beauty and resilience, revealing hidden wonders.', 'twentytwentyfive' ); ?></p>
 		<!-- /wp:paragraph -->

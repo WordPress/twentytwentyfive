@@ -20,14 +20,13 @@
 	<div class="wp-block-cover__inner-container">
 		<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
 		<div class="wp-block-group">
-			<!-- wp:heading {"textAlign":"center","level":1,"className":"is-style-text-annotation"} -->
-			<h1 class="wp-block-heading has-text-align-center is-style-text-annotation"><?php esc_html_e( 'Event', 'twentytwentyfive' ); ?></h1>
+			<!-- wp:heading {"textAlign":"center","className":"is-style-text-annotation"} -->
+			<h2 class="wp-block-heading has-text-align-center is-style-text-annotation"><?php esc_html_e( 'Event', 'twentytwentyfive' ); ?></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:group -->
-
-		<!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
-		<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size"><?php esc_html_e( 'Something great is coming soon', 'twentytwentyfive' ); ?></h2>
+		<!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xx-large"} -->
+		<h3 class="wp-block-heading has-text-align-center has-xx-large-font-size"><?php esc_html_e( 'Something great is coming soon', 'twentytwentyfive' ); ?></h3>
 		<!-- /wp:heading -->
 
 		<!-- wp:paragraph {"align":"center"} -->

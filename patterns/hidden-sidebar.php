@@ -24,8 +24,7 @@
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 		<div class="wp-block-group">
 			<!-- wp:post-title {"isLink":true,"fontSize":"medium"} /-->
-
-			<!-- wp:post-date {"fontSize":"small"} /-->
+			<!-- wp:post-date {"fontSize":"small","isLink":true} /-->
 		</div>
 		<!-- /wp:group -->
 

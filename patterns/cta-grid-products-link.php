@@ -51,15 +51,15 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"}}},"fontSize":"medium","layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center","justifyContent":"center"}} -->
 				<div class="wp-block-group has-medium-font-size" style="padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
 					<!-- wp:paragraph {"align":"center"} -->
-					<p class="has-text-align-center"><?php esc_html_e( 'Starting at', 'twentytwentyfive' ); ?></p>
-					<!-- /wp:paragraph -->
-
-					<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"2.63rem"}}} -->
-					<p class="has-text-align-center" style="font-size:2.63rem"><?php esc_html_e( '$30', 'twentytwentyfive' ); ?></p>
-					<!-- /wp:paragraph -->
-
-					<!-- wp:paragraph {"align":"center"} -->
-					<p class="has-text-align-center"><?php esc_html_e( '/month', 'twentytwentyfive' ); ?></p>
+					<p class="has-text-align-center">
+						<?php
+						printf(
+							/* translators: %s: Starting price, split into three rows using HTML <br> tags. The price value has a font size set.*/
+							esc_html__( 'Starting at%s/month', 'twentytwentyfive' ),
+							'<br /><span style="font-size:2.63rem;">' . esc_html__( '$30', 'twentytwentyyfive' ) . '</span><br />'
+						);
+						?>
+					</p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->

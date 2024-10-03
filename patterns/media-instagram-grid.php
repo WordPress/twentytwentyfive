@@ -21,12 +21,12 @@
 			<span aria-hidden="true" class="wp-block-cover__background has-accent-1-background-color has-background-dim-100 has-background-dim"></span>
 			<div class="wp-block-cover__inner-container">
 				<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center","justifyContent":"center"}} -->
-				<div class="wp-block-group" style="min-height:100%"><!-- wp:heading {"fontSize":"large"} -->
+				<div class="wp-block-group" style="min-height:100%">
+					<!-- wp:heading {"fontSize":"large"} -->
 					<h2 class="wp-block-heading has-large-font-size"><?php esc_html_e( 'Instagram', 'twentytwentyfive' ); ?></h2>
 					<!-- /wp:heading -->
-
 					<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-					<p class="has-text-align-center has-medium-font-size"><?php esc_html_e( '@', 'twentytwentyfive' ); ?><a href="#"><?php esc_html_e( 'example', 'twentytwentyfive' ); ?></a></p>
+					<p class="has-text-align-center has-medium-font-size"><a href="#"><?php echo esc_html_x( '@example', 'Example username for social media account.', 'twentytwentyfive' ); ?></a></p>
 					<!-- /wp:paragraph -->
 				</div>
 				<!-- /wp:group -->

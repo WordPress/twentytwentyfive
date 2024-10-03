@@ -20,49 +20,41 @@
 	<!-- wp:buttons {"align":"wide","fontSize":"medium","layout":{"type":"flex","justifyContent":"center","flexWrap":"wrap"}} -->
 	<div class="wp-block-buttons alignwide has-custom-font-size has-medium-font-size">
 		<!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Amazon', 'twentytwentyfive' ); ?></a></div>
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Amazon', 'Example brand name', 'twentytwentyfive' ); ?></a></div>
 		<!-- /wp:button -->
 
 		<!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Audible', 'twentytwentyfive' ); ?></a></div>
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Audible', 'Example brand name', 'twentytwentyfive' ); ?></a></div>
 		<!-- /wp:button -->
 
 		<!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Barnes &amp; Noble', 'twentytwentyfive' ); ?></a></div>
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Barnes &amp; Noble', 'Example brand name', 'twentytwentyfive' ); ?></a></div>
 		<!-- /wp:button -->
 
 		<!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Apple Books', 'twentytwentyfive' ); ?></a></div>
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Apple Books', 'Example brand name', 'twentytwentyfive' ); ?></a></div>
 		<!-- /wp:button -->
 
 		<!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Bookshop.org', 'twentytwentyfive' ); ?></a></div>
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Bookshop.org', 'Example brand name', 'twentytwentyfive' ); ?></a></div>
 		<!-- /wp:button -->
 
 		<!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Spotify', 'twentytwentyfive' ); ?></a></div>
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Spotify', 'Example brand name', 'twentytwentyfive' ); ?></a></div>
 		<!-- /wp:button -->
 
 		<!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'BAM!', 'twentytwentyfive' ); ?></a></div>
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'BAM!', 'Example brand name', 'twentytwentyfive' ); ?></a></div>
 		<!-- /wp:button -->
 
 		<!-- wp:button -->
-		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php esc_html_e( 'Simon &amp; Schuster', 'twentytwentyfive' ); ?></a></div>
+		<div class="wp-block-button"><a class="wp-block-button__link wp-element-button"><?php echo esc_html_x( 'Simon &amp; Schuster', 'Example brand name', 'twentytwentyfive' ); ?></a></div>
 		<!-- /wp:button -->
 	</div>
 	<!-- /wp:buttons -->
 
 	<!-- wp:paragraph {"align":"center","fontSize":"medium"} -->
-	<p class="has-text-align-center has-medium-font-size">
-		<?php
-		printf(
-			/* Translators: %s: Example link with link text. */
-			esc_html_e( 'Outside Europe? View %s.', 'twentytwentyfive' ),
-			'<a href="#">international editions</a>'
-		);
-		?>
-	</p>
+	<p class="has-text-align-center has-medium-font-size"><?php echo wp_kses_post( _x( 'Outside Europe? View <a href="#" rel="nofollow">international editions</a>', 'Sample text with link.', 'twentytwentyfive' ) ); ?></p>
 	<!-- /wp:paragraph -->
 </div>
 <!-- /wp:group -->

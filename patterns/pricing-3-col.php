@@ -70,7 +70,7 @@
 				<!-- wp:column {"width":"70%"} -->
 				<div class="wp-block-column" style="flex-basis:70%">
 					<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
-					<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Single', 'twentytwentyfive' ); ?></h3>
+					<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)"><?php echo esc_html_x( 'Single', 'Name of membership package', 'twentytwentyfive' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph {"fontSize":"small"} -->
@@ -110,7 +110,7 @@
 				<!-- wp:column {"width":"70%"} -->
 				<div class="wp-block-column" style="flex-basis:70%">
 					<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|20"}}},"fontSize":"large"} -->
-					<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)"><?php esc_html_e( 'Expert', 'twentytwentyfive' ); ?></h3>
+					<h3 class="wp-block-heading has-large-font-size" style="margin-bottom:var(--wp--preset--spacing--20)"><?php echo esc_html_x( 'Expert', 'Name of membership package', 'twentytwentyfive' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph {"fontSize":"small"} -->

@@ -23,7 +23,7 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 			<div class="wp-block-group">
 				<!-- wp:heading {"fontSize":"xx-large"} -->
-				<h2 class="wp-block-heading has-xx-large-font-size">><?php echo esc_html_x( '“Stories, historias, iсторії, iστορίες”', 'Sample heading in four languages', 'twentytwentyfive' ); ?></h2>
+				<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html_x( '&ldquo;Stories, historias, iсторії, iστορίες&rdquo;', 'Sample heading in four languages', 'twentytwentyfive' ); ?></h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"x-large"} -->

@@ -35,7 +35,7 @@
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph -->
-				<p><?php echo esc_html_x( 'I’m Nora, a dedicated public interest attorney based in Denver. I’m a graduate of Stanford University.', 'Sample pattern text', 'twentytwentyfive' ); ?></p>
+				<p><?php echo esc_html_x( 'I&rsquo;m Nora, a dedicated public interest attorney based in Denver. I&rsquo;m a graduate of Stanford University.', 'Sample pattern text', 'twentytwentyfive' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:social-links {"iconColor":"contrast","iconColorValue":"#111111","className":"is-style-logos-only"} -->

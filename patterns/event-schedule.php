@@ -86,7 +86,7 @@
 								<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 								<div class="wp-block-group">
 									<!-- wp:heading {"level":4} -->
-									<h4 class="wp-block-heading"><a href="#"><?php esc_html_e( 'Things you didn’t know about the deep ocean', 'twentytwentyfive' ); ?></a></h4>
+									<h4 class="wp-block-heading"><a href="#"><?php esc_html_e( 'Things you didn&rsquo;t know about the deep ocean', 'twentytwentyfive' ); ?></a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
 									<p><?php esc_html_e( '9 AM — 11 AM', 'twentytwentyfive' ); ?></p>

@@ -65,4 +65,4 @@
 | hanneslsm             | hanneslsm |
 | ddewan-git            | ddewan |
 | justintadlock         | greenshady |
-| SeanAverS            |  |
+| SeanAverS             | seanavers |

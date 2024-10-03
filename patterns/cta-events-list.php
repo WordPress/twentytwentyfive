@@ -123,7 +123,7 @@
 			<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--accent-6);border-top-width:1px;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 				<div class="wp-block-group">
 					<!-- wp:heading {"level":3} -->
-					<h3 class="wp-block-heading"><?php esc_html_e( '“Stories, historias, iсторії, iστορίες”', 'twentytwentyfive' ); ?></h3>
+					<h3 class="wp-block-heading"><?php echo esc_html_x( '“Stories, historias, iсторії, iστορίες”', 'Sample heading in four languages', 'twentytwentyfive' ); ?></h3>
 					<!-- /wp:heading -->
 
 					<!-- wp:paragraph -->

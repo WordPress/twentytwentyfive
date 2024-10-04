@@ -15,7 +15,7 @@
 	<!-- wp:paragraph -->
 	<p>Written by </p>
 	<!-- /wp:paragraph -->
-	<!-- wp:post-author-name {"isLink":true} /-->
+	<!-- wp:post-author-name {"isLink":true,"style":{"typography":{"textDecoration":"underline"}}} /-->
 	<!-- wp:paragraph -->
 	<p>in</p>
 	<!-- /wp:paragraph -->

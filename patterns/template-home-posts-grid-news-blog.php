@@ -26,7 +26,7 @@
 				<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40)">
 					<!-- wp:post-title {"textAlign":"center","level":1,"isLink":true,"fontSize":"xx-large"} /-->
 					<!-- wp:post-terms {"term":"category","textAlign":"center","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
-					<!-- wp:post-date {"textAlign":"center"} /-->
+					<!-- wp:post-date {"textAlign":"center","isLink":true} /-->
 				</div>
 				<!-- /wp:group -->
 			<!-- /wp:post-template -->

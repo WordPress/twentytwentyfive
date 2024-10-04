@@ -28,7 +28,7 @@
 					<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
 						<!-- wp:post-title {"level":1,"isLink":true} /-->
 						<!-- wp:post-terms {"term":"category","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
-						<!-- wp:post-date /-->
+						<!-- wp:post-date {"isLink":true} /-->
 					</div>
 					<!-- /wp:group -->
 				<!-- /wp:post-template -->
@@ -50,7 +50,7 @@
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 					<div class="wp-block-group">
 						<!-- wp:post-title {"level":3,"isLink":true,"fontSize":"large"} /-->
-						<!-- wp:post-date {"fontSize":"small"} /-->
+						<!-- wp:post-date {"fontSize":"small","isLink":true} /-->
 					</div>
 					<!-- /wp:group -->
 					<!-- wp:spacer {"height":"var:preset|spacing|20"} -->
@@ -87,7 +87,7 @@
 							<!-- wp:paragraph -->
 							<p><?php echo esc_html_x( '·', 'Separator between date and categories', 'twentytwentyfive' ); ?></p>
 							<!-- /wp:paragraph -->
-							<!-- wp:post-date /-->
+							<!-- wp:post-date {"isLink":true} /-->
 						</div>
 						<!-- /wp:group -->
 					</div>

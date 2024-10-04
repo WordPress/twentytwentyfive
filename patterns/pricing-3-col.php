@@ -56,7 +56,7 @@
 			<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
 			<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)">
 				<!-- wp:button {"width":100,"style":{"typography":{"lineHeight":"1.2","letterSpacing":"0.08px"}}} -->
-				<div class="wp-block-button has-custom-width wp-block-button__width-100" style="letter-spacing:0.08px;line-height:1.2"><a class="wp-block-button__link wp-element-button" rel="#"><?php esc_html_e( 'Join', 'twentytwentyfive' ); ?></a></div>
+				<div class="wp-block-button has-custom-width wp-block-button__width-100" style="letter-spacing:0.08px;line-height:1.2"><a class="wp-block-button__link wp-element-button" rel="#"><?php echo esc_html_x( 'Join', 'Button text, refers to joining a community.', 'twentytwentyfive' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
@@ -96,7 +96,7 @@
 			<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
 			<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)">
 				<!-- wp:button {"width":100,"style":{"typography":{"lineHeight":"1.2","letterSpacing":"0.08px"}}} -->
-				<div class="wp-block-button has-custom-width wp-block-button__width-100" style="letter-spacing:0.08px;line-height:1.2"><a class="wp-block-button__link wp-element-button" rel="#"><?php esc_html_e( 'Join', 'twentytwentyfive' ); ?></a></div>
+				<div class="wp-block-button has-custom-width wp-block-button__width-100" style="letter-spacing:0.08px;line-height:1.2"><a class="wp-block-button__link wp-element-button" rel="#"><?php echo esc_html_x( 'Join', 'Button text, refers to joining a community.', 'twentytwentyfive' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->
@@ -136,7 +136,7 @@
 			<!-- wp:buttons {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30"}}},"layout":{"type":"flex","justifyContent":"center"}} -->
 			<div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--30)">
 				<!-- wp:button {"width":100,"style":{"typography":{"lineHeight":"1.2","letterSpacing":"0.08px"}}} -->
-				<div class="wp-block-button has-custom-width wp-block-button__width-100" style="letter-spacing:0.08px;line-height:1.2"><a class="wp-block-button__link wp-element-button" rel=""><?php esc_html_e( 'Join', 'twentytwentyfive' ); ?></a></div>
+				<div class="wp-block-button has-custom-width wp-block-button__width-100" style="letter-spacing:0.08px;line-height:1.2"><a class="wp-block-button__link wp-element-button" rel=""><?php echo esc_html_x( 'Join', 'Button text, refers to joining a community.', 'twentytwentyfive' ); ?></a></div>
 				<!-- /wp:button -->
 			</div>
 			<!-- /wp:buttons -->

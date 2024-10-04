@@ -31,19 +31,28 @@
 				<div class="wp-block-group">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 					<div class="wp-block-group">
-						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
-						<div class="wp-block-group">
-							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size"><?php esc_html_e( 'Published on', 'twentytwentyfive' ); ?></p>
-							<!-- /wp:paragraph -->
-							<!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"small"} /--></div>
+						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","layout":{"type":"constrained"}} -->
+						<div class="wp-block-group has-small-font-size">
+							<?php
+							printf(
+								/* translators: 1: "Published on". This text is followed by the post date block on a new line. 2: The post date block. */
+								'<!-- wp:paragraph --><p>%1$s</p><!-- /wp:paragraph -->%2$s',
+								esc_html__( 'Published on', 'twentytwentyfive' ),
+								'<!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} /-->'
+							);
+							?>
+						</div>
 						<!-- /wp:group -->
-						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"layout":{"type":"constrained"}} -->
-						<div class="wp-block-group">
-							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size"><?php esc_html_e( 'Posted by', 'twentytwentyfive' ); ?></p>
-							<!-- /wp:paragraph -->
-							<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /-->
+						<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|10"}},"fontSize":"small","layout":{"type":"constrained"}} -->
+						<div class="wp-block-group has-small-font-size">
+							<?php
+							printf(
+								/* translators: 1: "Posted by". This text is followed by the author name on a new line. 2: The post author name block. */
+								'<!-- wp:paragraph --><p>%1$s</p><!-- /wp:paragraph -->%2$s',
+								esc_html__( 'Posted by', 'twentytwentyfive' ),
+								'<!-- wp:post-author-name {"isLink":true} /-->'
+							);
+							?>
 						</div>
 						<!-- /wp:group -->
 					</div>

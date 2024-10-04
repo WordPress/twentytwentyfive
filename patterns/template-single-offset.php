@@ -37,10 +37,14 @@
 				<div class="wp-block-column" style="flex-basis:30%">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group has-small-font-size">
-						<!-- wp:paragraph -->
-						<p><?php esc_html_e( 'Published on', 'twentytwentyfive' ); ?></p>
-						<!-- /wp:paragraph -->
-						<!-- wp:post-date /-->
+					<?php
+						printf(
+							/* translators: 1: "Published on ". There is a space after "on". 2: The post date block. */
+							'<!-- wp:paragraph --><p>%1$s</p><!-- /wp:paragraph -->%2$s',
+							esc_html__( 'Published on ', 'twentytwentyfive' ),
+							'<!-- wp:post-date /-->'
+						)
+						?>
 					</div>
 					<!-- /wp:group -->
 				</div>

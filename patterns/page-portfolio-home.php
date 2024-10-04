@@ -24,7 +24,7 @@
 			<!-- wp:column {"width":"50%"} -->
 			<div class="wp-block-column" style="flex-basis:50%">
 				<!-- wp:heading {"align":"wide","fontSize":"x-large"} -->
-				<h2 class="wp-block-heading alignwide has-x-large-font-size"<?php esc_html_e( 'My name is Anna Möller and these are some of my photo projects.', 'twentytwentyfive' ); ?></h2>
+				<h2 class="wp-block-heading alignwide has-x-large-font-size"><?php esc_html_e( 'My name is Anna Möller and these are some of my photo projects.', 'twentytwentyfive' ); ?></h2>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->

@@ -31,7 +31,7 @@
 							<p>by</p>
 							<!-- /wp:paragraph -->
 
-							<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /-->
+							<!-- wp:post-author-name {"isLink":true,"style":{"typography":{"textDecoration":"underline"}},"fontSize":"small"} /-->
 						</div>
 						<!-- /wp:group -->
 					</div>

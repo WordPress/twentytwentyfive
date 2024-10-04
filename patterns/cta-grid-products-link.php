@@ -55,7 +55,7 @@
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"2.63rem"}}} -->
-					<p class="has-text-align-center" style="font-size:2.63rem">$30</p>
+					<p class="has-text-align-center" style="font-size:2.63rem">30€</p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"align":"center"} -->

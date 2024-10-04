@@ -53,7 +53,7 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size"><?php echo esc_html_x( 'Categories:', 'Prefix before one or more categories. Categories: category name', 'twentytwentyfive' ); ?></p>
+							<p class="has-small-font-size"><?php echo esc_html_x( 'Categories:', 'Prefix before one or more categories. Categories: category name.', 'twentytwentyfive' ); ?></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-terms {"term":"category","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>
@@ -61,7 +61,7 @@
 						<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"constrained"}} -->
 						<div class="wp-block-group">
 							<!-- wp:paragraph {"fontSize":"small"} -->
-							<p class="has-small-font-size"><?php echo esc_html_x( 'Tagged:', 'Prefix before one or more tags. Tagged: tag name', 'twentytwentyfive' ); ?></p>
+							<p class="has-small-font-size"><?php echo esc_html_x( 'Tagged:', 'Prefix before one or more tags. Tagged: tag name.', 'twentytwentyfive' ); ?></p>
 							<!-- /wp:paragraph -->
 							<!-- wp:post-terms {"term":"post_tag","style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} /-->
 						</div>
@@ -100,7 +100,7 @@
 	</div>
 	<!-- /wp:columns -->
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
-	<div class="wp-block-group alignwide">	
+	<div class="wp-block-group alignwide">
 		<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
 	</div>
 	<!-- /wp:group -->

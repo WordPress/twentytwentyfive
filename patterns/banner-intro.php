@@ -18,8 +18,8 @@
 		<?php
 			printf(
 				/* translators: %s is the brand name, e.g., 'Fleurs'. */
-				esc_html_x( 'We\'re %s, our mission is to deliver exquisite flower arrangements that not only adorn living spaces but also inspire a deeper appreciation for natural beauty.', 'Example pattern text', 'twentytwentyfive' ),
-				'<strong>' . esc_html_x( 'Fleurs', 'Example brand name in pattern', 'twentytwentyfive' ) . '</strong>'
+				esc_html_x( 'We\'re %s, our mission is to deliver exquisite flower arrangements that not only adorn living spaces but also inspire a deeper appreciation for natural beauty.', 'Pattern placeholder text.', 'twentytwentyfive' ),
+				'<strong>' . esc_html_x( 'Fleurs', 'Example brand name.', 'twentytwentyfive' ) . '</strong>'
 			);
 			?>
 	</h2>

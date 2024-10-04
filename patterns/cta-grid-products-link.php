@@ -56,7 +56,7 @@
 						printf(
 							/* translators: %s: Starting price, split into three rows using HTML <br> tags. The price value has a font size set.*/
 							esc_html__( 'Starting at%s/month', 'twentytwentyfive' ),
-							'<br /><span style="font-size:2.63rem;">' . esc_html__( '$30', 'twentytwentyfive' ) . '</span><br />'
+							'<br /><span style="font-size:2.63rem;">' . esc_html__( '30€', 'twentytwentyfive' ) . '</span><br />'
 						);
 						?>
 					</p>

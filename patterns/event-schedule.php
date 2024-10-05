@@ -57,7 +57,7 @@
 									<h4 class="wp-block-heading"><a href="#"><?php esc_html_e( 'Fauna from North America and its characteristics', 'twentytwentyfive' ); ?></a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
-									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Exmaple event time in pattern.', 'twentytwentyfive' ); ?></p>
+									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Example event time in pattern.', 'twentytwentyfive' ); ?></p>
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->
@@ -89,7 +89,7 @@
 									<h4 class="wp-block-heading"><a href="#"><?php esc_html_e( 'Things you didn&rsquo;t know about the deep ocean', 'twentytwentyfive' ); ?></a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
-									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Exmaple event time in pattern.', 'twentytwentyfive' ); ?></p>
+									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Example event time in pattern.', 'twentytwentyfive' ); ?></p>
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->
@@ -142,7 +142,7 @@
 									<h4 class="wp-block-heading"><a href="#"><?php esc_html_e( 'Ancient buildings and symbols', 'twentytwentyfive' ); ?></a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
-									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Exmaple event time in pattern.', 'twentytwentyfive' ); ?></p>
+									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Example event time in pattern.', 'twentytwentyfive' ); ?></p>
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->
@@ -174,7 +174,7 @@
 									<h4 class="wp-block-heading"><a href="#"><?php esc_html_e( 'An introduction to African dialects', 'twentytwentyfive' ); ?></a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
-									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Exmaple event time in pattern.', 'twentytwentyfive' ); ?></p>
+									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Example event time in pattern.', 'twentytwentyfive' ); ?></p>
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->

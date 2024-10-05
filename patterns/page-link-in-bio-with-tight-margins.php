@@ -49,7 +49,7 @@
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph -->
-					<p><a href="#"><?php esc_html_e( 'X', 'twentytwentyfive' ); ?></a></p>
+					<p><a href="#"><?php echo esc_html_x( 'X', 'Refers to the social media platform formerly known as Twitter.', 'twentytwentyfive' ); ?></a></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph -->

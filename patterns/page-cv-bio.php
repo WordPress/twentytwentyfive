@@ -25,7 +25,7 @@
 				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"22rem","letterSpacing":"-0.03em"}}} -->
-					<p class="has-text-align-left" style="font-size:22rem;letter-spacing:-0.03em"><?php esc_html_e( 'Hey,', 'twentytwentyfive' ); ?></p>
+					<p class="has-text-align-left" style="font-size:22rem;letter-spacing:-0.03em"><?php echo esc_html_x( 'Hey,', 'Example heading above the content of the CV/Bio pattern.', 'twentytwentyfive' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->

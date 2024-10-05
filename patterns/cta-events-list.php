@@ -42,7 +42,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase"><?php esc_html_e( 'Mon, Jan 1', 'twentytwentyfive' ); ?></p>
+					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'twentytwentyfive' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
@@ -73,7 +73,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase"><?php esc_html_e( 'Mon, Jan 1', 'twentytwentyfive' ); ?></p>
+					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'twentytwentyfive' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
@@ -104,7 +104,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase"><?php esc_html_e( 'Mon, Jan 1', 'twentytwentyfive' ); ?></p>
+					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'twentytwentyfive' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->
@@ -135,7 +135,7 @@
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 				<div class="wp-block-group">
 					<!-- wp:paragraph {"style":{"typography":{"textTransform":"uppercase"}}} -->
-					<p style="text-transform:uppercase"><?php esc_html_e( 'Mon, Jan 1', 'twentytwentyfive' ); ?></p>
+					<p style="text-transform:uppercase"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'twentytwentyfive' ); ?></p>
 					<!-- /wp:paragraph -->
 
 					<!-- wp:buttons -->

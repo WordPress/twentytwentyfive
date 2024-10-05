@@ -32,7 +32,7 @@
 				<!-- wp:column {"verticalAlignment":"top","width":"40%"} -->
 				<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:40%">
 					<!-- wp:heading {"level":3} -->
-					<h3 class="wp-block-heading"><?php esc_html_e( 'Friday, Feb. 1', 'twentytwentyfive' ); ?></h3>
+					<h3 class="wp-block-heading"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'twentytwentyfive' ); ?></h3>
 					<!-- /wp:heading -->
 				</div>
 				<!-- /wp:column -->
@@ -57,7 +57,7 @@
 									<h4 class="wp-block-heading"><a href="#"><?php esc_html_e( 'Fauna from North America and its characteristics', 'twentytwentyfive' ); ?></a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
-									<p><?php esc_html_e( '9 AM — 11 AM', 'twentytwentyfive' ); ?></p>
+									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Exmaple event time in pattern.', 'twentytwentyfive' ); ?></p>
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->
@@ -89,7 +89,7 @@
 									<h4 class="wp-block-heading"><a href="#"><?php esc_html_e( 'Things you didn&rsquo;t know about the deep ocean', 'twentytwentyfive' ); ?></a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
-									<p><?php esc_html_e( '9 AM — 11 AM', 'twentytwentyfive' ); ?></p>
+									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Exmaple event time in pattern.', 'twentytwentyfive' ); ?></p>
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->
@@ -118,7 +118,7 @@
 				<!-- wp:column {"verticalAlignment":"top","width":"40%"} -->
 				<div class="wp-block-column is-vertically-aligned-top" style="flex-basis:40%">
 					<!-- wp:heading {"level":3} -->
-					<h3 class="wp-block-heading"><?php esc_html_e( 'Saturday, Feb. 2', 'twentytwentyfive' ); ?></h3>
+					<h3 class="wp-block-heading"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'twentytwentyfive' ); ?></h3>
 					<!-- /wp:heading -->
 				</div>
 				<!-- /wp:column -->
@@ -142,7 +142,7 @@
 									<h4 class="wp-block-heading"><a href="#"><?php esc_html_e( 'Ancient buildings and symbols', 'twentytwentyfive' ); ?></a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
-									<p><?php esc_html_e( '9 AM — 11 AM', 'twentytwentyfive' ); ?></p>
+									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Exmaple event time in pattern.', 'twentytwentyfive' ); ?></p>
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->
@@ -174,7 +174,7 @@
 									<h4 class="wp-block-heading"><a href="#"><?php esc_html_e( 'An introduction to African dialects', 'twentytwentyfive' ); ?></a></h4>
 									<!-- /wp:heading -->
 									<!-- wp:paragraph -->
-									<p><?php esc_html_e( '9 AM — 11 AM', 'twentytwentyfive' ); ?></p>
+									<p><?php echo esc_html_x( '9 AM — 11 AM', 'Exmaple event time in pattern.', 'twentytwentyfive' ); ?></p>
 									<!-- /wp:paragraph -->
 								</div>
 								<!-- /wp:group -->

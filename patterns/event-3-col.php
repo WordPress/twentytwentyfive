@@ -41,7 +41,7 @@
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"medium"} -->
-				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
+				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'twentytwentyfive' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -65,7 +65,7 @@
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"medium"} -->
-				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
+				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'twentytwentyfive' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->
@@ -89,7 +89,7 @@
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"medium"} -->
-				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php esc_html_e( 'September 2, 2024', 'twentytwentyfive' ); ?></p>
+				<p class="has-accent-4-color has-text-color has-link-color has-medium-font-size"><?php echo esc_html_x( 'Mon, Jan 1', 'Example event date in pattern.', 'twentytwentyfive' ); ?></p>
 				<!-- /wp:paragraph -->
 			</div>
 			<!-- /wp:group -->

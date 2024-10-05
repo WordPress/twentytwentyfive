@@ -37,14 +37,8 @@
 				<div class="wp-block-column" style="flex-basis:30%">
 					<!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"fontSize":"small","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group has-small-font-size">
-					<?php
-						printf(
-							/* translators: 1: "Published on ". There is a space after "on". 2: The post date block. */
-							'<!-- wp:paragraph --><p>%1$s</p><!-- /wp:paragraph -->%2$s',
-							esc_html__( 'Published on ', 'twentytwentyfive' ),
-							'<!-- wp:post-date /-->'
-						)
-						?>
+						<!-- wp:paragraph --><p><?php echo esc_html_x( 'Published on', 'Prefix before the post date block.', 'twentytwentyfive' ); ?></p><!-- /wp:paragraph -->
+						<!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast"} /-->
 					</div>
 					<!-- /wp:group -->
 				</div>

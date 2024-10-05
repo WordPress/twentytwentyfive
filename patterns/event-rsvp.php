@@ -57,7 +57,7 @@
 			<!-- /wp:spacer -->
 
 			<!-- wp:heading {"fontSize":"xx-large"} -->
-			<h2 class="wp-block-heading has-xx-large-font-size"><a href="#"><?php esc_html_e( 'RSVP', 'twentytwentyfive' ); ?></a></h2>
+			<h2 class="wp-block-heading has-xx-large-font-size"><a href="#"><?php echo esc_html_x( 'RSVP', 'Abbreviation for "Please respond".', 'twentytwentyfive' ); ?></a></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:group -->

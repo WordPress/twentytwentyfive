@@ -43,8 +43,8 @@
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 					<div class="wp-block-group">
-						<!-- wp:avatar {"size":30,"style":{"border":{"radius":"100px"}}} /-->
-						<!-- wp:post-author-name {"fontSize":"small"} /-->
+						<!-- wp:avatar {"size":30,"isLink":true,"style":{"border":{"radius":"100px"}}} /-->
+						<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /-->
 					</div>
 					<!-- /wp:group -->
 				</div>

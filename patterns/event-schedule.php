@@ -62,7 +62,7 @@
 								</div>
 								<!-- /wp:group -->
 								<!-- wp:paragraph {"fontSize":"small"} -->
-								<p class="has-small-font-size"><?php esc_html_e( 'Lecture by', 'twentytwentyfive' ); ?><a href="#"><?php esc_html_e( 'Prof. Fiona Presley', 'twentytwentyfive' ); ?></a></p>
+								<p class="has-small-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'twentytwentyfive' ) ); ?></p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:group -->
@@ -94,7 +94,7 @@
 								</div>
 								<!-- /wp:group -->
 								<!-- wp:paragraph {"fontSize":"small"} -->
-								<p class="has-small-font-size"><?php esc_html_e( 'Lecture by', 'twentytwentyfive' ); ?><a href="#"><?php esc_html_e( 'Prof. Fiona Presley', 'twentytwentyfive' ); ?></a></p>
+								<p class="has-small-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'twentytwentyfive' ) ); ?></p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:group -->
@@ -147,7 +147,7 @@
 								</div>
 								<!-- /wp:group -->
 								<!-- wp:paragraph {"fontSize":"small"} -->
-								<p class="has-small-font-size"><?php esc_html_e( 'Lecture by', 'twentytwentyfive' ); ?><a href="#"><?php esc_html_e( 'Prof. Fiona Presley', 'twentytwentyfive' ); ?></a></p>
+								<p class="has-small-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'twentytwentyfive' ) ); ?></p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:group -->
@@ -179,7 +179,7 @@
 								</div>
 								<!-- /wp:group -->
 								<!-- wp:paragraph {"fontSize":"small"} -->
-								<p class="has-small-font-size"><?php esc_html_e( 'Lecture by', 'twentytwentyfive' ); ?><a href="#"><?php esc_html_e( 'Prof. Fiona Presley', 'twentytwentyfive' ); ?></a></p>
+								<p class="has-small-font-size"><?php echo wp_kses_post( _x( 'Lecture by <a href="#">Prof. Fiona Presley</a>', 'Pattern placeholder text with link.', 'twentytwentyfive' ) ); ?></p>
 								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:group -->

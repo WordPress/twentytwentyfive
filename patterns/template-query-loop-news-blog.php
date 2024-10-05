@@ -25,11 +25,12 @@
 <!-- wp:post-excerpt {"showMoreOnNewLine":false,"fontSize":"medium"} /-->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.12em"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"small"} -->
-<p class="has-accent-4-color has-text-color has-link-color has-small-font-size"><?php esc_html_e( 'Written by', 'twentytwentyfive' ); ?></p>
-<!-- /wp:paragraph -->
-
-<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /--></div>
+<div class="wp-block-group">
+	<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"small"} -->
+	<p class="has-accent-4-color has-text-color has-link-color has-small-font-size"><?php echo esc_html_x( 'Written by', 'Prefix before the author name. The post author name is displayed in a separate block.', 'twentytwentyfive' ); ?></p>
+	<!-- /wp:paragraph -->
+	<!-- wp:post-author-name {"isLink":true,"fontSize":"small"} /-->
+</div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 

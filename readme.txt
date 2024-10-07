@@ -219,11 +219,6 @@ Free public domain CC0 image.
 coral-square.webp
 https://www.rawpixel.com/image/8799931
 
-[The fair "Sauimatani"] (23 July 1884) by Burton Brothers and Alfred Burton.
-Free public domain CC0 image.
-fair-sauimatani-square.webp
-https://www.rawpixel.com/image/13028387
-
 Parthenon op de Akropolis in Athene (westzijde) (c. 1880 - c. 1890) by Rhomaides Frères.
 Free public domain CC0 image.
 parthenon-square.webp

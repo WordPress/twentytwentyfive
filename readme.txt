@@ -141,10 +141,15 @@ No known copyright restrictions
 team-photo-1.webp
 https://www.flickr.com/photos/usnationalarchives/3906419575/
 
-Young sugarcane field worker.
-No known copyright restrictions
-team-photo-2.webp
-https://www.flickr.com/photos/usnationalarchives/7157920320
+Person typing on a typewriter.
+Free public domain CC0 image.
+typewriter.webp
+https://www.rawpixel.com/image/12240004/photo-image-face-person-technology
+
+Woman wearing a traditional nurse's cap, photographed from behind.
+nurse.webp
+Free public domain CC0 image.
+https://www.rawpixel.com/image/8782633/photo-image-person-white
 
 Young Woman Soliciting Funds.
 No known copyright restrictions

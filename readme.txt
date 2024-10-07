@@ -146,11 +146,6 @@ No known copyright restrictions
 team-photo-2.webp
 https://www.flickr.com/photos/usnationalarchives/7157920320
 
-Portraits of Miners.
-No known copyright restrictions
-team-photo-3.webp
-https://www.flickr.com/photos/usnationalarchives/3906400735/
-
 Young Woman Soliciting Funds.
 No known copyright restrictions
 team-photo-4.webp

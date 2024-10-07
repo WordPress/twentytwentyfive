@@ -87,10 +87,10 @@
 			<!-- /wp:group -->
 		</main>
 		<!-- /wp:group -->
-		<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"},"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
-		<div class="wp-block-group alignwide" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+		<!-- wp:group {"tagName":"aside","align":"wide","layout":{"type":"constrained","justifyContent":"left"},"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"}}}} -->
+		<aside class="wp-block-group alignwide" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
 			<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->
-		</div>
+		</aside>
 		<!-- /wp:group -->
 	</div>
 	<!-- /wp:column -->

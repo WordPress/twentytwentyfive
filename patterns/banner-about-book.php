@@ -18,7 +18,7 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column {"verticalAlignment":"center","width":""} -->
 		<div class="wp-block-column is-vertically-aligned-center">
-			<!-- wp:heading {"level":2,"className":"wp-block-heading","fontSize":"xx-large"} -->
+			<!-- wp:heading {"className":"wp-block-heading","fontSize":"xx-large"} -->
 			<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'About the book', 'twentytwentyfive' ); ?></h2>
 			<!-- /wp:heading -->
 

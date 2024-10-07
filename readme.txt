@@ -136,25 +136,25 @@ botany-flowers.webp
 image-from-rawpixel-id-8812207.webp
 https://www.rawpixel.com/image/8812207
 
-Ms. Gail Falk Seltzer, a Staff Lawyer for Field Services.
-No known copyright restrictions
-team-photo-1.webp
-https://www.flickr.com/photos/usnationalarchives/3906419575/
+Person typing on a typewriter.
+Free public domain CC0 image.
+typewriter.webp
+https://www.rawpixel.com/image/12240004/photo-image-face-person-technology
 
-Young sugarcane field worker.
-No known copyright restrictions
-team-photo-2.webp
-https://www.flickr.com/photos/usnationalarchives/7157920320
+Woman wearing a traditional nurse's cap, photographed from behind.
+nurse.webp
+Free public domain CC0 image.
+https://www.rawpixel.com/image/8782633/photo-image-person-white
 
-Portraits of Miners.
-No known copyright restrictions
-team-photo-3.webp
-https://www.flickr.com/photos/usnationalarchives/3906400735/
+Woman splashing water, at Lake George.
+woman-splashing-water.webp
+Free public domain CC0 image.
+https://www.rawpixel.com/image/9758986/photo-image-people-art-vintage
 
-Young Woman Soliciting Funds.
-No known copyright restrictions
-team-photo-4.webp
-https://www.flickr.com/photos/usnationalarchives/8676029464
+Man in hat, standing in front of a building.
+man-in-hat.webp
+Free public domain CC0 image.
+https://www.slam.org/collection/objects/62642/
 
 Corner view showing mostly left wall, Church, Acoma Pueblo.
 Free public domain CC0 image.

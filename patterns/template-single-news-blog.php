@@ -38,7 +38,7 @@
 						<!-- wp:paragraph -->
 						<p><?php echo esc_html_x( '·', 'Separator between date and categories.', 'twentytwentyfive' ); ?></p>
 						<!-- /wp:paragraph -->
-						<!-- wp:post-terms {"term":"category","separator":",  ","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
+						<!-- wp:post-terms {"term":"category","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
 					</div>
 					<!-- /wp:group -->
 					<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

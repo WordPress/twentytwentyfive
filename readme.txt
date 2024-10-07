@@ -146,15 +146,15 @@ nurse.webp
 Free public domain CC0 image.
 https://www.rawpixel.com/image/8782633/photo-image-person-white
 
-Woman splashing water, at Lake George
+Woman splashing water, at Lake George.
 woman-splashing-water.webp
 Free public domain CC0 image.
 https://www.rawpixel.com/image/9758986/photo-image-people-art-vintage
 
-Young Woman Soliciting Funds.
-No known copyright restrictions
-team-photo-4.webp
-https://www.flickr.com/photos/usnationalarchives/8676029464
+Man in hat, standing in front of a building.
+man-in-hat.webp
+Free public domain CC0 image.
+https://www.slam.org/collection/objects/62642/
 
 Corner view showing mostly left wall, Church, Acoma Pueblo.
 Free public domain CC0 image.

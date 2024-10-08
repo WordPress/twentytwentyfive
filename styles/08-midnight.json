@@ -187,8 +187,7 @@
 			},
 			"core/post-title": {
 				"typography": {
-					"fontWeight": "200",
-					"letterSpacing": "-2.72px"
+					"fontWeight": "200"
 				}
 			},
 			"core/pullquote": {

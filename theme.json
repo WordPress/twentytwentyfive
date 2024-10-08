@@ -977,10 +977,7 @@
 			},
 			"core/columns": {
 				"spacing": {
-					"blockGap": {
-						"left": "var:preset|spacing|50",
-						"top": "var:preset|spacing|50"
-					}
+					"blockGap": "var:preset|spacing|50"
 				}
 			},
 			"core/buttons": {

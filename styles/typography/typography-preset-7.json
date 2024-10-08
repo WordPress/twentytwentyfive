@@ -60,12 +60,6 @@
 			"lineHeight": "1.4"
 		},
 		"blocks": {
-			"core/code": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium",
-					"fontWeight": "300"
-				}
-			},
 			"core/post-author": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"

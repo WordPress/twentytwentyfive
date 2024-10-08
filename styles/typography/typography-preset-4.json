@@ -10,11 +10,6 @@
 			"letterSpacing": "-0.22px"
 		},
 		"blocks": {
-			"core/code": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				}
-			},
 			"core/navigation": {
 				"typography": {
 					"fontSize": "var:preset|font-size|large",

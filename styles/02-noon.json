@@ -156,13 +156,6 @@
 					}
 				}
 			},
-			"core/code": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium",
-					"fontStyle": "normal",
-					"fontWeight": "300"
-				}
-			},
 			"core/list": {
 				"typography": {
 					"lineHeight": "1.3"

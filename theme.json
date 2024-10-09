@@ -1165,6 +1165,7 @@
 				}
 			},
 			"core/post-terms": {
+				"css": "& a { white-space: nowrap; }",
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "600"

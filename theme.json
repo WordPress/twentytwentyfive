@@ -945,7 +945,6 @@
 		"typography": {
 			"fontFamily": "var:preset|font-family|manrope",
 			"fontSize": "var:preset|font-size|large",
-			"fontStyle": "normal",
 			"fontWeight": "300",
 			"letterSpacing": "-0.1px",
 			"lineHeight": "1.4"
@@ -1024,8 +1023,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|small",
-					"fontStyle": "normal"
+					"fontSize": "var:preset|font-size|small"
 				},
 				"spacing": {
 					"margin": {
@@ -1253,7 +1251,6 @@
 			"core/pullquote": {
 				"typography": {
 					"fontSize": "var:preset|font-size|xx-large",
-					"fontStyle": "normal",
 					"fontWeight": "300",
 					"lineHeight": "1.2"
 				},
@@ -1445,7 +1442,6 @@
 			},
 			"heading": {
 				"typography": {
-					"fontStyle": "normal",
 					"fontWeight": "400",
 					"lineHeight": "1.125",
 					"letterSpacing": "-0.1px"

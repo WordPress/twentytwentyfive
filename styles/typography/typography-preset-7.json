@@ -54,8 +54,6 @@
 	"styles": {
 		"typography": {
 			"fontFamily": "var:preset|font-family|fira-sans",
-			"fontStyle": "normal",
-			"fontWeight": "300",
 			"letterSpacing": "-0.24px",
 			"lineHeight": "1.4"
 		},
@@ -97,7 +95,6 @@
 			},
 			"core/quote": {
 				"typography": {
-					"fontStyle": "normal",
 					"fontWeight": "300"
 				}
 			},

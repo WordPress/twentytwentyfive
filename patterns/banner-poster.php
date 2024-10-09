@@ -21,7 +21,7 @@
 			<!-- wp:column {"width":"66.66%"} -->
 			<div class="wp-block-column" style="flex-basis:66.66%">
 				<!-- wp:heading {"textAlign":"left","align":"wide","style":{"typography":{"fontSize":"12vw","lineHeight":"0.9","fontStyle":"normal","fontWeight":"300"}}} -->
-				<h2 class="wp-block-heading alignwide has-text-align-left" style="font-size:12vw;font-style:normal;font-weight:300;line-height:0.9"><?php echo esc_html_x( '&ldquo;Stories, historias, iсторії, iστορίες&rdquo;', 'Sample heading in four languages.', 'twentytwentyfive' ); ?></h2>
+				<h2 class="wp-block-heading alignwide has-text-align-left" style="font-size:12vw;font-style:normal;font-weight:300;line-height:0.9"><?php echo esc_html_x( '“Stories, historias, iсторії, iστορίες”', 'Sample heading in four languages.', 'twentytwentyfive' ); ?></h2>
 				<!-- /wp:heading -->
 			</div>
 			<!-- /wp:column -->

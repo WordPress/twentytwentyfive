@@ -2,7 +2,7 @@
 /**
  * Title: Pricing, 2 columns
  * Slug: twentytwentyfive/pricing-2-col
- * Categories: call-to-action
+ * Categories: call-to-action, featured
  * Viewport width: 1400
  * Description: Pricing section with two columns, pricing plan, description, and call-to-action buttons.
  *

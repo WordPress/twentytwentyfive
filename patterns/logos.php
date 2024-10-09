@@ -2,7 +2,7 @@
 /**
  * Title: Logos
  * Slug: twentytwentyfive/logos
- * Categories: banner
+ * Categories: banner, featured
  * Description: Showcasing the podcast's clients with a heading and a series of client logos.
  *
  * @package WordPress

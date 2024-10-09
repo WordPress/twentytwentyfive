@@ -2,7 +2,7 @@
 /**
  * Title: Hero podcast
  * Slug: twentytwentyfive/hero-podcast
- * Categories: banner
+ * Categories: featured, hero
  * Keywords: podcast, hero, stories
  *
  * @package WordPress

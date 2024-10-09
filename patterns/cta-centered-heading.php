@@ -2,7 +2,7 @@
 /**
  * Title: Centered heading
  * Slug: twentytwentyfive/cta-centered-heading
- * Categories: call-to-action
+ * Categories: call-to-action, featured
  * Description: A hero with a centered heading, paragraph and button.
  *
  * @package WordPress

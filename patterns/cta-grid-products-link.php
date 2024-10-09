@@ -2,7 +2,7 @@
 /**
  * Title: Call to action with grid layout with products and link
  * Slug: twentytwentyfive/cta-grid-products-link
- * Categories: call-to-action, featured
+ * Categories: call-to-action
  * Viewport width: 1400
  * Description: A call to action featuring product images.
  *

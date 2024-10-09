@@ -2,7 +2,7 @@
 /**
  * Title: CV/bio
  * Slug: twentytwentyfive/page-cv-bio
- * Categories: twentytwentyfive_page, about, featured
+ * Categories: twentytwentyfive_page, about
  * Keywords: starter
  * Block Types: core/post-content
  * Viewport width: 1400

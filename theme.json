@@ -1154,7 +1154,7 @@
 				}
 			},
 			"core/post-terms": {
-				"css": ".wp-block-post-terms a { white-space: nowrap; }",
+				"css": "& a { white-space: nowrap; }",
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "600"

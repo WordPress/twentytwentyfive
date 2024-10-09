@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Services - Team photos
+ * Title: Services, team photos
  * Slug: twentytwentyfive/services-team-photos
  * Categories: banner, call-to-action, featured
- * Description: Team photos in services section.
+ * Description: Display team photos in a services section with grid layout.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -17,10 +17,8 @@
 	<div class="wp-block-columns alignwide">
 		<!-- wp:column -->
 		<div class="wp-block-column">
-			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading">
-				Our small team is a group of driven, detail-oriented people who are passionate about their customers.
-			</h3>
+			<!-- wp:heading -->
+			<h2 class="wp-block-heading"><?php esc_html_e( 'Our small team is a group of driven, detail-oriented people who are passionate about their customers.', 'twentytwentyfive' ); ?></h2>
 			<!-- /wp:heading -->
 		</div>
 		<!-- /wp:column -->
@@ -31,25 +29,25 @@
 			<div class="wp-block-group">
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team_photo_1.webp" alt="Ms. Gail Falk Seltzer, a Staff Lawyer for Field Services." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/woman-splashing-water.webp" alt="<?php esc_attr_e( 'Woman on beach, splashing water.', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team_photo_2.webp" alt="Young sugarcane field worker." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/nurse.webp" alt="<?php esc_attr_e( 'Portrait of a nurse', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team_photo_3.webp" alt="Portraits of Miners." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/typewriter.webp" alt="<?php esc_attr_e( 'Picture of a person typing on a typewriter.', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 
 				<!-- wp:image {"aspectRatio":"1","scale":"cover","sizeSlug":"full"} -->
 				<figure class="wp-block-image size-full">
-					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/team_photo_4.webp" alt="Young Woman Soliciting Funds." style="aspect-ratio:1;object-fit:cover"/>
+					<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/man-in-hat.webp" alt="<?php esc_attr_e( 'Man in hat, standing in front of a building.', 'twentytwentyfive' ); ?>" style="aspect-ratio:1;object-fit:cover"/>
 				</figure>
 				<!-- /wp:image -->
 			</div>

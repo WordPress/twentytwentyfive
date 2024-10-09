@@ -1,9 +1,68 @@
 # Contributor Usernames
 
-| GitHub Username | WordPress.org Username |
-| --------------- | --------------------- |
-| @carolinan | @poena |
-| @karmatosed | @karmatosed |
-| @MaggieCabrera | @onemaggie |
-| @kafleg | @kafleg |
-| @SeanAverS | |
+| GitHub Username       | WordPress.org Username |
+|-----------------------| --------------------- |
+| carolinan            | poena |
+| karmatosed           | karmatosed |
+| MaggieCabrera        | onemaggie |
+| kafleg               | kafleg |
+| juanfra              | juanfra |
+| g-elwell             | garethelwell |
+| jasmussen            | joen |
+| beafialho            | beafialho |
+| richtabor            | richtabor |
+| noruzzamans          | noruzzaman |
+| shail-mehta          | shailu25 |
+| kishanjasani         | kishanjasani |
+| up1512001            | up1512001 |
+| ajlende              | ajlende |
+| huzaifaalmesbah      | huzaifaalmesbah |
+| dballari             | dballari |
+| bobmatyas            | lastsplash |
+| jenniferfarhat       | jennifarhat |
+| amjadr360            | amjadr360 |
+| rejaulalomkhan       | rejaulalomkhan |
+| graylaurenm          | oncecoupled |
+| devmuhib009          | devmuhib |
+| tanvirulhaque        | tanvirul |
+| arkenon              | arkenon |
+| efu98                | elfu98 |
+| eirichmond           | erichmond |
+| ibrahim-kardi        | kardi420 |
+| kevintaron           | ktaron |
+| melchoyce            | melchoyce |
+| maneshtimilsina      | maneshtimilsina |
+| aaronjorbin          | jorbin |
+| mikeritter           | ritterml |
+| evanherman           | eherman24 |
+| vcanales             | vcanales |
+| ikamal7              | ikamal |
+| bobbylee-noble       | bobbyleenoblestudios |
+| germanfrelo          | germanfrelo |
+| kraftbj              | kraftbj |
+| mathew-crisp         | mcrisp1972 |
+| peterwilsoncc        | peterwilsoncc |
+| luminuu              | luminuu |
+| eliorivero           | eliorivero |
+| jeherve              | jeherve |
+| markallasread        | fac3less |
+| alexandrebuffet      | alexandrebuffet |
+| joedolson             | joedolson |
+| mukeshpanchal27       | mukesh27 |
+| jonnywatersbb         | jonnywatersbb |
+| ralessio              | cliffralessio |
+| afercia               | afercia |
+| iamsam2e              | samtoohey93 |
+| codersantosh          | codersantosh |
+| carstenbach           | carstenbach |
+| gohelkunjan           | gohelkunjan |
+| ryelle                | ryelle |
+| aaronrobertshaw       | aaronrobertshaw |
+| t-hamano              | wildworks |
+| YukinobuAsakawa       | yukinobu |
+| viralsampat-multidots | mdviralsampat |
+| audrasjb              | audrasjb |
+| hanneslsm             | hanneslsm |
+| ddewan-git            | ddewan |
+| justintadlock         | greenshady |
+| SeanAverS             | seanavers |

@@ -2,7 +2,6 @@
 /**
  * Title: Sidebar
  * Slug: twentytwentyfive/hidden-sidebar
- * Categories: hidden
  * Inserter: no
  *
  * @package WordPress
@@ -19,14 +18,13 @@
 <div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:query {"queryId":12,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[]}} -->
+<!-- wp:query {"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false,"taxQuery":null,"parents":[]}} -->
 <div class="wp-block-query">
 	<!-- wp:post-template -->
 		<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical"}} -->
 		<div class="wp-block-group">
 			<!-- wp:post-title {"isLink":true,"fontSize":"medium"} /-->
-
-			<!-- wp:post-date {"fontSize":"small"} /-->
+			<!-- wp:post-date {"fontSize":"small","isLink":true} /-->
 		</div>
 		<!-- /wp:group -->
 
@@ -36,8 +34,8 @@
 	<!-- /wp:post-template -->
 
 	<!-- wp:query-no-results -->
-		<!-- wp:paragraph {"placeholder":"Add text or blocks that will display when a query returns no results.","fontSize":"medium"} -->
-		<p class="has-medium-font-size"><?php esc_html_e( 'No posts were found.', 'twentytwentyfive' ); ?></p>
+		<!-- wp:paragraph {"placeholder":"<?php esc_attr_e( 'Add text or blocks that will display when a query returns no results.', 'twentytwentyfive' ); ?>","fontSize":"medium"} -->
+		<p class="has-medium-font-size"><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'twentytwentyfive' ); ?></p>
 		<!-- /wp:paragraph -->
 	<!-- /wp:query-no-results -->
 </div>

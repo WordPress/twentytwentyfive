@@ -8,7 +8,7 @@
 		"elements": {
 			"link": {
 				"border": {
-					"color": "var:preset|color|opacity-20",
+					"color": "var:preset|color|accent-6",
 					"radius": "20px",
 					"width": "0.8px",
 					"style": "solid"

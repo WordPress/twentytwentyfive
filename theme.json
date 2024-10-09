@@ -4,6 +4,9 @@
 	"settings": {
 		"appearanceTools": true,
 		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
 			"palette": [
 				{
 					"color": "#FFFFFF",
@@ -32,18 +35,18 @@
 				},
 				{
 					"color": "#686868",
-					"name": "Primary",
-					"slug": "primary"
+					"name": "Accent 4",
+					"slug": "accent-4"
 				},
 				{
 					"color": "#FBFAF3",
-					"name": "Secondary",
-					"slug": "secondary"
+					"name": "Accent 5",
+					"slug": "accent-5"
 				},
 				{
-					"color": "#11111133",
-					"name": "Opacity 20%",
-					"slug": "opacity-20"
+					"color": "color-mix(in srgb, currentColor 20%, transparent);",
+					"name": "Accent 6",
+					"slug": "accent-6"
 				}
 			]
 		},
@@ -100,6 +103,7 @@
 			]
 		},
 		"typography": {
+			"writingMode": true,
 			"defaultFontSizes": false,
 			"fluid": true,
 			"fontSizes": [
@@ -138,11 +142,11 @@
 				},
 				{
 					"fluid": {
-						"max": "3.625rem",
-						"min": "2.625rem"
+						"max": "3rem",
+						"min": "2.15rem"
 					},
 					"name": "Extra Extra Large",
-					"size": "2.625rem",
+					"size": "2.15rem",
 					"slug": "xx-large"
 				}
 			],
@@ -211,6 +215,236 @@
 					]
 				},
 				{
+					"name": "Literata",
+					"slug": "literata",
+					"fontFamily": "Literata, serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-ExtraLight.woff2"
+							],
+							"fontWeight": "200",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-ExtraLightItalic.woff2"
+							],
+							"fontWeight": "200",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-Light.woff2"
+							],
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-LightItalic.woff2"
+							],
+							"fontWeight": "300",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-Regular.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-RegularItalic.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-Medium.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-MediumItalic.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-SemiBold.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-SemiBoldItalic.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-Bold.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-BoldItalic.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-ExtraBold.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-ExtraBoldItalic.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-Black.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontFamily": "Literata"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/literata/Literata72pt-BlackItalic.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontFamily": "Literata"
+						}
+					]
+				},
+				{
+					"name": "Vollkorn",
+					"slug": "vollkorn",
+					"fontFamily": "Vollkorn, serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Italic.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Regular.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Medium.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-MediumItalic.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-SemiBold.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Bold.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-BoldItalic.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-ExtraBold.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-ExtraBoldItalic.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Black.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-BlackItalic.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						}
+					]
+				},
+				{
 					"name": "Fira Code",
 					"slug": "fira-code",
 					"fontFamily": "\"Fira Code\", monospace",
@@ -259,11 +493,6 @@
 				}
 			]
 		},
-		"custom": {
-			"fontSize": {
-				"huge": "clamp(2.5rem, 4vw, 4.375rem)"
-			}
-		},
 		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
@@ -274,16 +503,15 @@
 		"spacing": {
 			"blockGap": "1.2rem",
 			"padding": {
-				"left": "var(--wp--preset--spacing--50)",
-				"right": "var(--wp--preset--spacing--50)"
+				"left": "var:preset|spacing|50",
+				"right": "var:preset|spacing|50"
 			}
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|manrope",
 			"fontSize": "var:preset|font-size|large",
-			"fontStyle": "normal",
 			"fontWeight": "300",
-			"letterSpacing": "-0.22px",
+			"letterSpacing": "-0.1px",
 			"lineHeight": "1.4"
 		},
 		"blocks": {
@@ -293,42 +521,42 @@
 				}
 			},
 			"core/button": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				},
-				"spacing": {
-					"padding": {
-						"bottom": "1rem",
-						"left": "2.25rem",
-						"right": "2.25rem",
-						"top": "1rem"
-					}
-				},
 				"variations": {
 					"outline": {
 						"border": {
-							"color": "var:preset|color|contrast",
+							"color": "currentColor",
 							"width": "1px"
 						},
+						"css": ".wp-block-button__link:not(.has-background):hover {background-color:color-mix(in srgb, var(--wp--preset--color--contrast) 5%, transparent);}",
 						"spacing": {
 							"padding": {
-								"bottom": "1rem",
-								"left": "2.25rem",
-								"right": "2.25rem",
-								"top": "1rem"
+								"bottom": "calc(1rem - 1px)",
+								"left": "calc(2.25rem - 1px)",
+								"right": "calc(2.25rem - 1px)",
+								"top": "calc(1rem - 1px)"
 							}
 						}
 					}
 				}
 			},
+			"core/columns": {
+				"spacing": {
+					"blockGap": "var:preset|spacing|50"
+				}
+			},
+			"core/buttons": {
+				"spacing": {
+					"blockGap": "16px"
+				}
+			},
 			"core/code": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|fira-code",
-					"fontSize": "var:preset|font-size|small",
-					"fontWeight": "400"
+					"fontSize": "var:preset|font-size|medium",
+					"fontWeight": "300"
 				},
 				"color": {
-					"background": "var:preset|color|secondary",
+					"background": "var:preset|color|accent-5",
 					"text": "var:preset|color|contrast"
 				},
 				"spacing": {
@@ -342,12 +570,12 @@
 			},
 			"core/comment-author-name": {
 				"color": {
-					"text": "var:preset|color|primary"
+					"text": "var:preset|color|accent-4"
 				},
 				"elements": {
 					"link": {
 						"color": {
-							"text": "var:preset|color|primary"
+							"text": "var:preset|color|accent-4"
 						},
 						"typography": {
 							"textDecoration": "none"
@@ -360,8 +588,7 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|small",
-					"fontStyle": "normal"
+					"fontSize": "var:preset|font-size|small"
 				},
 				"spacing": {
 					"margin": {
@@ -421,7 +648,7 @@
 				}
 			},
 			"core/post-comments-form": {
-				"css": "& textarea, input:not([type=submit]){border-radius:.25rem; border-color: var(--wp--preset--color--opacity-20) !important;} & input[type=checkbox]{margin:0 .2rem 0 0 !important;} & label {font-size: var(--wp--preset--font-size--small); }",
+				"css": "& textarea, input:not([type=submit]){border-radius:.25rem; border-color: var(--wp--preset--color--accent-6) !important;} & input[type=checkbox]{margin:0 .2rem 0 0 !important;} & label {font-size: var(--wp--preset--font-size--small); }",
 				"typography": {
 					"fontSize": "var:preset|font-size|medium"
 				},
@@ -458,14 +685,28 @@
 					"fontSize": "var:preset|font-size|medium"
 				}
 			},
+			"core/post-author-name": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
+				}
+			},
 			"core/post-date": {
 				"color":{
-					"text": "var:preset|color|primary"
+					"text": "var:preset|color|accent-4"
 				},
 				"elements": {
 					"link": {
 						"color" : {
-							"text": "var:preset|color|primary"
+							"text": "var:preset|color|accent-4"
 						},
 						":hover": {
 							"typography": {
@@ -487,6 +728,7 @@
 				}
 			},
 			"core/post-terms": {
+				"css": "& a { white-space: nowrap; }",
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "600"
@@ -518,14 +760,80 @@
 					}
 				}
 			},
+			"core/quote": {
+				"border": {
+					"style": "solid",
+					"width": "0 0 0 2px",
+					"color": "var:preset|color|contrast"
+				},
+				"spacing": {
+					"blockGap": "var:preset|spacing|30",
+					"margin": {
+						"left": "0",
+						"right": "0"
+					},
+					"padding": {
+						"top": "var:preset|spacing|30",
+						"right": "var:preset|spacing|40",
+						"bottom": "var:preset|spacing|30",
+						"left": "var:preset|spacing|40"
+					}
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|large",
+					"fontWeight": "300"
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|small",
+							"fontStyle": "normal",
+							"fontWeight": "300"
+						},
+						"css": "& sub { font-size: 0.65em }"
+					}
+				},
+				"css": "&.has-text-align-right { border-width: 0 2px 0 0; } &.has-text-align-center { border-width: 0;border-inline: 0; padding-inline: 0; }",
+				"variations": {
+					"plain": {
+						"border": {
+							"color": "transparent",
+							"style": "none",
+							"width": "0",
+							"radius": "0"
+						},
+						"spacing": {
+							"padding": {
+								"top": "0",
+								"right": "0",
+								"bottom": "0",
+								"left": "0"
+							}
+						}
+					}
+				}
+			},
 			"core/pullquote": {
 				"typography": {
 					"fontSize": "var:preset|font-size|xx-large",
-					"fontStyle": "normal",
 					"fontWeight": "300",
-					"letterSpacing": "-0.76px",
 					"lineHeight": "1.2"
-				}
+				},
+				"elements": {
+					"cite": {
+						"typography": {
+							"fontSize": "var:preset|font-size|small",
+							"fontStyle": "normal"
+						}
+					}
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "var:preset|spacing|30",
+						"top": "var:preset|spacing|30"
+					}
+				},
+				"css": "& p:last-of-type {margin-bottom: var(--wp--preset--spacing--30);}"
 			},
 			"core/query-pagination": {
 				"typography": {
@@ -533,13 +841,8 @@
 					"fontWeight": "500"
 				}
 			},
-			"core/query-title":{
-				"typography": {
-					"fontSize": "var:preset|font-size|xx-large"
-				}
-			},
 			"core/search": {
-				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;}",
+				"css": "& .wp-block-search__input{border-radius:3.125rem;padding-left:1.5625rem;padding-right:1.5625rem;border-color:var(--wp--preset--color--accent-6);}",
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
 					"lineHeight": "1.6"
@@ -553,18 +856,37 @@
 							"margin": {
 								"left": "1.125rem"
 							}
+						},
+						":hover" : {
+							"border": {
+								"color": "transparent"
+							}
 						}
+					}
+				}
+			},
+			"core/separator": {
+				"border": {
+					"color": "currentColor",
+					"style": "solid",
+					"width": "0 0 1px 0"
+				},
+				"color": {
+					"text": "var:preset|color|accent-6"
+				},
+				"variations": {
+					"wide": {
+						"css": " &:not(.alignfull){max-width: var(--wp--style--global--wide-size) !important;}"
 					}
 				}
 			},
 			"core/site-tagline": {
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/site-title": {
 				"typography": {
-					"fontSize": "var:preset|font-size|large",
 					"fontWeight": "700",
 					"letterSpacing": "-.5px"
 				},
@@ -583,10 +905,10 @@
 			},
 			"core/term-description": {
 				"color":{
-					"text":"var:preset|color|primary"
+					"text": "var:preset|color|accent-4"
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|small"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"core/navigation": {
@@ -616,38 +938,31 @@
 					"background": "var:preset|color|contrast",
 					"text": "var:preset|color|base"
 				},
-				":active": {
-					"color": {
-						"background": "var:preset|color|accent-1",
-						"text": "var:preset|color|contrast"
-					}
-				},
 				":focus": {
-					"color": {
-						"background": "var:preset|color|accent-1",
-						"text": "var:preset|color|contrast"
-					},
 					"outline": {
-						"color": "var:preset|color|primary",
-						"offset": "2px",
-						"style": "dotted",
-						"width": "1px"
+						"color": "var:preset|color|accent-4",
+						"offset": "2px"
 					}
 				},
 				":hover": {
 					"color": {
-						"background": "var:preset|color|accent-1",
-						"text": "var:preset|color|contrast"
+						"background": "color-mix(in srgb, var(--wp--preset--color--contrast) 85%, transparent)",
+						"text": "var:preset|color|base"
 					},
 					"border": {
-						"color": "var:preset|color|accent-1"
+						"color": "transparent"
 					}
 				},
-				"border": {
-					"color": "var:preset|color|contrast",
-					"radius": "100px",
-					"width": "1px",
-					"style": "solid"
+				"spacing": {
+					"padding": {
+						"bottom": "1rem",
+						"left": "2.25rem",
+						"right": "2.25rem",
+						"top": "1rem"
+					}
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"caption": {
@@ -658,46 +973,48 @@
 			},
 			"h1": {
 				"typography": {
-					"fontSize":"var(--wp--custom--font-size--huge)"
+					"fontSize": "var:preset|font-size|xx-large"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "48px"
+					"fontSize": "var:preset|font-size|x-large"
 				}
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "38px"
+					"fontSize": "var:preset|font-size|large"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "28px"
+					"fontSize": "var:preset|font-size|medium"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "24px"
+					"fontSize": "var:preset|font-size|small",
+					"letterSpacing": "0.5px"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var:preset|font-size|medium",
-					"fontStyle": "normal",
-					"fontWeight": "700"
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "700",
+					"letterSpacing": "1.4px",
+					"textTransform": "uppercase"
 				}
 			},
 			"heading": {
 				"typography": {
-					"fontStyle": "normal",
 					"fontWeight": "400",
-					"lineHeight": "1.125"
+					"lineHeight": "1.125",
+					"letterSpacing": "-0.1px"
 				}
 			},
 			"link": {
 				"color": {
-					"text": "var:preset|color|contrast"
+					"text": "currentColor"
 				}
 			}
 		}
@@ -709,9 +1026,31 @@
 			"title": "Header"
 		},
 		{
+			"area": "header",
+			"name": "vertical-header",
+			"title": "Vertical Header"
+		},
+		{
 			"area": "footer",
 			"name": "footer",
 			"title": "Footer"
+		},
+		{
+			"area": "footer",
+			"name": "footer-newsletter",
+			"title": "Footer Newsletter"
+		},
+		{
+			"area": "uncategorized",
+			"name": "sidebar",
+			"title": "Sidebar"
+		}
+	],
+	"customTemplates": [
+		{
+			"name": "page-no-title",
+			"postTypes": ["page"],
+			"title": "Page No Title"
 		}
 	]
 }

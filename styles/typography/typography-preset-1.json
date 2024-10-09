@@ -12,28 +12,12 @@
 					"fontFamily": "Beiruti, sans-serif",
 					"fontFace": [
 						{
-							"src": [
-								"file:./assets/fonts/beiruti/Beiruti-Regular.woff2"
-							],
-							"fontWeight": "400",
+							"fontFamily": "Beiruti",
 							"fontStyle": "normal",
-							"fontFamily": "Beiruti"
-						},
-						{
+							"fontWeight": "200 900",
 							"src": [
-								"file:./assets/fonts/beiruti/Beiruti-Bold.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "normal",
-							"fontFamily": "Beiruti"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/beiruti/Beiruti-Black.woff2"
-							],
-							"fontWeight": "900",
-							"fontStyle": "normal",
-							"fontFamily": "Beiruti"
+								"file:./assets/fonts/beiruti/Beiruti-VariableFont_wght.woff2"
+							]
 						}
 					]
 				},

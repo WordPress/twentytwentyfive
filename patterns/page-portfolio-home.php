@@ -2,7 +2,7 @@
 /**
  * Title: Portfolio homepage
  * Slug: twentytwentyfive/page-portfolio-home
- * Categories: twentytwentyfive_page, posts, featured
+ * Categories: twentytwentyfive_page, posts
  * Keywords: starter
  * Block Types: core/post-content
  * Post Types: page, wp_template

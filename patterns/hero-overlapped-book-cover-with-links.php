@@ -2,7 +2,7 @@
 /**
  * Title: Hero, overlapped book cover with links
  * Slug: twentytwentyfive/hero-overlapped-book-cover-with-links
- * Categories: banner, featured
+ * Categories: banner
  * Description: A hero with an overlapped book cover and links.
  *
  * @package WordPress

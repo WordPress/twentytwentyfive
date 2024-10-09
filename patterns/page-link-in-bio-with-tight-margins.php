@@ -2,7 +2,7 @@
 /**
  * Title: Link in bio with tight margins
  * Slug: twentytwentyfive/page-link-in-bio-with-tight-margins
- * Categories: twentytwentyfive_page, banner, featured
+ * Categories: twentytwentyfive_page, banner
  * Keywords: starter
  * Block Types: core/post-content
  * Post Types: page, wp_template

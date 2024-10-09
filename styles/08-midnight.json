@@ -225,8 +225,13 @@
 				}
 			},
 			"core/search": {
-				"border": {
-					"radius": "0px"
+				"css": "& .wp-block-search__input{border-radius:0px;border-color:var(--wp--preset--color--accent-6);}",
+				"elements": {
+					"button": {
+						"border": {
+							"radius": "0px"
+						}
+					}
 				}
 			},
 			"core/site-logo": {

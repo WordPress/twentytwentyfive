@@ -24,8 +24,8 @@
 			<div class="wp-block-column" style="flex-basis:65%">
 				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 				<div class="wp-block-group">
-					<!-- wp:heading {"align":"left","style":{"typography":{"fontSize":"22rem","letterSpacing":"-0.03em"}}} -->
-					<h2 class="wp-block-heading has-text-align-left" style="font-size:22rem;letter-spacing:-0.03em"><?php echo esc_html_x( 'Hey,', 'Example heading above the content of the CV/Bio pattern.', 'twentytwentyfive' ); ?></h2>
+					<!-- wp:heading {"textAlign":"left","className":"wp-block-heading","style":{"typography":{"fontSize":"22rem","letterSpacing":"-0.03em","fontStyle":"normal","fontWeight":"300","lineHeight":"1.4"}}} -->
+					<h2 class="wp-block-heading has-text-align-left" style="font-size:22rem;font-style:normal;font-weight:300;letter-spacing:-0.03em;line-height:1.4"><?php echo esc_html_x( 'Hey,', 'Example heading above the content of the CV/Bio pattern.', 'twentytwentyfive' ); ?></h2>
 					<!-- /wp:heading -->
 					 
 					<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->

@@ -38,9 +38,13 @@
 		<div class="wp-block-column">
 			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between","flexWrap":"nowrap","justifyContent":"stretch"}} -->
 			<div class="wp-block-group" style="min-height:100%">
-				<!-- wp:paragraph {"align":"left","style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
-				<p class="has-text-align-left has-x-large-font-size" style="line-height:1.2"><?php esc_html_e( 'I&rsquo;m Asahachi Kōno, a Japanese&nbsp;photographer, a member of&nbsp;Los Angeles\'s Japanese Camera Pictorialists of California. Before returning to Japan, I worked as a photo retoucher.', 'twentytwentyfive' ); ?></p>
-				<!-- /wp:paragraph -->
+				<!-- wp:heading {"textAlign":"left","style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
+				<h2 class="wp-block-heading has-text-align-left has-x-large-font-size" style="line-height:1.2"><?php esc_html_e( 'I&rsquo;m Asahachi Kōno, a Japanese&nbsp;photographer, a member of&nbsp;Los Angeles\'s Japanese Camera Pictorialists of California. Before returning to Japan, I worked as a photo retoucher.', 'twentytwentyfive' ); ?></p>
+				<!-- /wp:heading -->
+
+				<!-- wp:heading -->
+				<h2 class="wp-block-heading">afas</h2>
+				<!-- /wp:heading -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 				<div class="wp-block-group">

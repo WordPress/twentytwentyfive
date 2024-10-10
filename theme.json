@@ -1364,7 +1364,7 @@
 				}
 			},
 			"core/list": {
-				"css": "& li{margin-bottom: 0.5rem;}"
+				"css": "& li{margin-top: 0.5rem;}"
 			}
 		},
 		"elements": {

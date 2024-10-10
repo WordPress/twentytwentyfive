@@ -104,12 +104,6 @@
 					"textTransform": "uppercase"
 				}
 			},
-			"h4": {
-				"typography": {
-					"fontWeight": "300",
-					"letterSpacing": "-0.5px"
-				}
-			},
 			"heading": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|roboto-slab",

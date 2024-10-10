@@ -51,6 +51,152 @@
 			"color": {
 				"accent-2-opacity-20": "#650DD433"
 			}
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Vollkorn",
+					"slug": "vollkorn",
+					"fontFamily": "Vollkorn, serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Italic.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Regular.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Medium.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-MediumItalic.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-SemiBold.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Bold.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-BoldItalic.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-ExtraBold.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-ExtraBoldItalic.woff2"
+							],
+							"fontWeight": "800",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-Black.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "normal",
+							"fontFamily": "Vollkorn"
+						},
+						{
+							"src": [
+								"file:./assets/fonts/vollkorn/Vollkorn-BlackItalic.woff2"
+							],
+							"fontWeight": "900",
+							"fontStyle": "italic",
+							"fontFamily": "Vollkorn"
+						}
+					]
+				},
+				{
+					"name": "Fira Code",
+					"slug": "fira-code",
+					"fontFamily": "\"Fira Code\", monospace",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-Light.woff2"
+							],
+							"fontWeight": "300",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-Regular.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-Medium.woff2"
+							],
+							"fontWeight": "500",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-SemiBold.woff2"
+							],
+							"fontWeight": "600",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						},
+						{
+							"src": [
+								"file:./assets/fonts/fira-code/FiraCode-Bold.woff2"
+							],
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontFamily": "\"Fira Code\""
+						}
+					]
+				}
+			]
 		}
 	},
 	"styles": {

@@ -3,6 +3,27 @@
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"title": "Roboto Slab & Manrope",
 	"slug": "typography-preset-4",
+	"settings": {
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Roboto Slab",
+					"slug": "roboto-slab",
+					"fontFamily": "\"Roboto Slab\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/roboto-slab/RobotoSlab-VariableFont_wght.woff2"
+							]
+						}
+					]
+				}
+			]
+		}
+	},
 	"styles": {
 		"typography": {
 			"fontWeight": "500",

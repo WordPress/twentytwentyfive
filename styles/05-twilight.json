@@ -46,6 +46,25 @@
 					"slug": "accent-6"
 				}
 			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Roboto Slab",
+					"slug": "roboto-slab",
+					"fontFamily": "\"Roboto Slab\", serif",
+					"fontFace": [
+						{
+							"fontFamily": "\"Roboto Slab\"",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/roboto-slab/RobotoSlab-VariableFont_wght.woff2"
+							]
+						}
+					]
+				}
+			]
 		}
 	},
 	"styles": {

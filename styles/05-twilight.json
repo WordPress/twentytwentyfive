@@ -146,6 +146,11 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|large"
 				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontWeight": "500"
+				}
 			}
 		},
 		"elements": {

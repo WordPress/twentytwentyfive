@@ -94,7 +94,7 @@
 					"button": {
 						":hover": {
 							"color": {
-								"background": "color-mix(in srgb, var(--wp--preset--color--base) 88%, transparent)"
+								"background": "color-mix(in srgb, var(--wp--preset--color--base) 90%, transparent)"
 							}
 						}
 					}

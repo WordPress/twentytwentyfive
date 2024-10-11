@@ -114,9 +114,6 @@
 				}
 			},
 			"core/quote": {
-				"color": {
-					"text": "var:preset|color|contrast"
-				},
 				"elements": {
 					"cite": {
 						"color": {

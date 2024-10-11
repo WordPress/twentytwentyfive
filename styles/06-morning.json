@@ -104,7 +104,6 @@
 			},
 			"core/post-terms": {
 				"typography": {
-					"fontWeight": "400",
 					"fontSize": "var:preset|font-size|medium"
 				},
 				"color": {

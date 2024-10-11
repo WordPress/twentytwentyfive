@@ -126,35 +126,6 @@
 				}
 			},
 			"core/post-author-name": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				},
-				"color": {
-					"text": "var:preset|color|contrast"
-				},
-				"elements": {
-					"link": {
-						"color": {
-							"text": "var:preset|color|contrast"
-						},
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
-				}
-			},
-			"core/post-terms": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				},
-				"color": {
-					"text": "var:preset|color|contrast"
-				},
 				"elements": {
 					"link": {
 						"color": {

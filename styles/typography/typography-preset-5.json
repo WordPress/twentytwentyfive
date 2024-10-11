@@ -65,27 +65,6 @@
 				}
 			},
 			"core/post-author-name": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
-				}
-			},
-			"core/post-terms": {
-				"typography": {
-					"fontWeight": "400",
-					"fontSize": "var:preset|font-size|medium"
-				},
 				"elements": {
 					"link": {
 						"typography": {

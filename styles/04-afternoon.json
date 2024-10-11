@@ -132,6 +132,13 @@
 					"letterSpacing": "0px"
 				}
 			},
+			"core/heading": {
+				"typography": {
+					"fontWeight": "400",
+					"letterSpacing": "-0.1px",
+					"lineHeight": "1.2"
+				}
+			},
 			"core/list": {
 				"typography": {
 					"lineHeight": "1.3"

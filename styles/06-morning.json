@@ -144,7 +144,7 @@
 					"text": "var:preset|color|contrast"
 				},
 				"typography": {
-					"fontSize": "var:preset|font-size|x-large"
+					"fontSize": "var:preset|font-size|xx-large"
 				},
 				"elements": {
 					"cite": {

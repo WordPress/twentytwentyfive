@@ -190,7 +190,7 @@
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|ysabeau-office",
-					"fontSize": "var:preset|font-size|medium",
+					"fontSize": "var:preset|font-size|large",
 					"letterSpacing": "1.44px",
 					"textTransform": "uppercase"
 				}

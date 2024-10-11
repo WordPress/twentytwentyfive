@@ -215,6 +215,17 @@
 					"lineHeight": "1.2"
 				}
 			},
+			"h5": {
+				"typography": {
+					"letterSpacing": "0px"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "900",
+					"letterSpacing": "0px"
+				}
+			},
 			"link": {
 				"color": {
 					"text": "var:preset|color|contrast"

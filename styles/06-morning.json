@@ -54,7 +54,7 @@
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|ysabeau-office",
-			"fontSize": "1.5rem",
+			"fontSize": "var:preset|font-size|large",
 			"letterSpacing": "-0.24px",
 			"lineHeight": "1.4"
 		},

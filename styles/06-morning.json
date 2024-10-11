@@ -196,7 +196,7 @@
 			"button": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|literata",
-					"fontSize": "1.375rem",
+					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "900",
 					"letterSpacing": "-0.36px"
 				},

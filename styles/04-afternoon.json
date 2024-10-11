@@ -169,12 +169,6 @@
 					"fontWeight": "400"
 				}
 			},
-			"core/post-title": {
-				"typography": {
-					"fontWeight": "500",
-					"letterSpacing": "-0.8px"
-				}
-			},
 			"core/pullquote": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|platypi",

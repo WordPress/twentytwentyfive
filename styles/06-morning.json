@@ -55,7 +55,6 @@
 		"typography": {
 			"fontFamily": "var:preset|font-family|ysabeau-office",
 			"fontSize": "1.5rem",
-			"fontWeight": "400",
 			"letterSpacing": "-0.24px",
 			"lineHeight": "1.4"
 		},

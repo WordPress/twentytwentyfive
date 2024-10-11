@@ -159,14 +159,6 @@
 				}
 			},
 			"core/quote": {
-				"color": {
-					"text": "var:preset|color|contrast"
-				},
-				"typography": {
-					"fontSize": "1.5rem",
-					"fontWeight": "500",
-					"letterSpacing": "-0.18px"
-				},
 				"elements": {
 					"cite": {
 						"typography": {

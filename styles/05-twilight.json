@@ -130,6 +130,11 @@
 					"fontSize": "var:preset|font-size|small"
 				}
 			},
+			"core/post-terms": {
+				"typography": {
+					"fontWeight": "500"
+				}
+			},
 			"core/pullquote": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|roboto-slab",
@@ -147,9 +152,9 @@
 					"fontSize": "var:preset|font-size|large"
 				}
 			},
-			"core/post-terms": {
+			"core/site-title": {
 				"typography": {
-					"fontWeight": "500"
+					"textTransform": "uppercase"
 				}
 			}
 		},

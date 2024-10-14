@@ -84,18 +84,9 @@
 		<!-- wp:post-featured-image {"aspectRatio":"auto","align":"wide"} /-->
 		</div>
 	<!-- /wp:group -->
-	<!-- wp:columns {"align":"wide"} -->
-	<div class="wp-block-columns alignwide">
-		<!-- wp:column {"width":"66.66%"} -->
-		<div class="wp-block-column" style="flex-basis:66.66%">
-			<!-- wp:post-content {"align":"full","layout":{"type":"default"}} /-->
-		</div>
-		<!-- /wp:column -->
-		<!-- wp:column {"width":"33.33%"} -->
-		<div class="wp-block-column" style="flex-basis:33.33%"></div>
-		<!-- /wp:column -->
-	</div>
-	<!-- /wp:columns -->
+
+	<!-- wp:post-content {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} /-->
+
 	<!-- wp:group {"align":"wide","layout":{"type":"constrained","justifyContent":"left"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:pattern {"slug":"twentytwentyfive/comments"} /-->

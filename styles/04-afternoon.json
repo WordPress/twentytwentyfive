@@ -149,16 +149,6 @@
 					"fontSize": "var:preset|font-size|medium"
 				}
 			},
-			"core/post-author": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				}
-			},
-			"core/post-author-biography": {
-				"typography": {
-					"fontSize": "var:preset|font-size|medium"
-				}
-			},
 			"core/post-terms": {
 				"typography": {
 					"fontWeight": "400"

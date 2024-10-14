@@ -198,6 +198,11 @@
 					"lineHeight": "1"
 				}
 			},
+			"core/quote": {
+				"typography": {
+					"fontSize": "var:preset|font-size|medium"
+				}
+			},
 			"core/query-pagination": {
 				"typography": {
 					"fontWeight": "300"

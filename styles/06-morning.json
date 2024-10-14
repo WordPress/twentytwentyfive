@@ -302,9 +302,10 @@
 						},
 						":hover": {
 							"color": {
-								"background": "color-mix(in srgb, var(--wp--preset--color--accent-1) 85%, transparent)"
+								"background": "color-mix(in srgb, var(--wp--preset--color--accent-1) 85%, transparent)",
+								"text": "var:preset|color|contrast"
+							}
 						}
-					}
 					},
 					"link": {
 						"color": {

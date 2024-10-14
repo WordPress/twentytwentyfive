@@ -208,6 +208,15 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|medium"
 				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var:preset|font-size|small",
+					"fontWeight": "400",
+					"fontStyle": "initial",
+					"letterSpacing": "initial",
+					"textTransform": "initial"
+				}
 			}
 		},
 		"variations": {

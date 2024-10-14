@@ -99,7 +99,7 @@
 			"fontFamily": "var:preset|font-family|ysabeau-office",
 			"fontWeight": "300",
 			"letterSpacing": "-0.22px",
-			"lineHeight": "1.6"
+			"lineHeight": "1.5"
 		},
 		"blocks": {
 			"core/button": {

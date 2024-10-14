@@ -215,13 +215,6 @@
 					}
 				}
 			},
-			"core/quote": {
-				"typography": {
-					"fontSize": "var:preset|font-size|large",
-					"fontWeight": "300",
-					"lineHeight": "1.6"
-				}
-			},
 			"core/site-tagline": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"
@@ -241,11 +234,6 @@
 				"color": {
 					"background": "var:preset|color|contrast",
 					"text": "var:preset|color|base"
-				}
-			},
-			"h3": {
-				"typography": {
-					"fontSize": "var:preset|font-size|large"
 				}
 			},
 			"h4": {

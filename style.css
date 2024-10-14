@@ -44,3 +44,26 @@ h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
 .more-link {
 	display: block;
 }
+
+/*
+ * Form elements
+*/
+:where(textarea),
+:where(select),
+:where(input:not([type="submit"])) {
+	border: 1px solid;
+	font-size: 1em;
+	font-family: inherit;
+	border-radius: .25rem;
+	border-color: var(--wp--preset--color--accent-6);
+}
+
+:where(textarea),
+:where(select),
+:where(input:not([type="submit"]):not([type="checkbox"])) {
+	padding: 0.667rem;
+}
+
+:where(textarea) {
+	width: 100%;
+}

@@ -6,3 +6,22 @@ a {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: .1em;
 }
+
+/*
+ * Form elements
+*/
+:where(textarea),
+:where(select),
+:where(input:not([type="submit"])) {
+	border: 1px solid;
+	font-size: 1em;
+	font-family: inherit;
+	border-radius: .25rem;
+	border-color: var(--wp--preset--color--accent-6);
+}
+
+:where(textarea),
+:where(select),
+:where(input:not([type="submit"]):not([type="checkbox"])) {
+	padding: 0.667rem;
+}

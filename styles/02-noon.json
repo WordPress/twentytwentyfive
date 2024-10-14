@@ -101,8 +101,6 @@
 		"typography": {
 			"fontFamily": "var:preset|font-family|literata",
 			"fontSize": "var:preset|font-size|medium",
-			"fontStyle": "normal",
-			"fontWeight": "300",
 			"letterSpacing": "-0.22px",
 			"lineHeight": "1.5"
 		},

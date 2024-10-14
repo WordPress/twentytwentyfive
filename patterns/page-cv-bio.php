@@ -2,7 +2,7 @@
 /**
  * Title: CV/bio
  * Slug: twentytwentyfive/page-cv-bio
- * Categories: twentytwentyfive_page, about
+ * Categories: twentytwentyfive_page, about, featured
  * Keywords: starter
  * Block Types: core/post-content
  * Viewport width: 1400
@@ -24,10 +24,9 @@
 			<div class="wp-block-column" style="flex-basis:65%">
 				<!-- wp:group {"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 				<div class="wp-block-group">
-					<!-- wp:paragraph {"align":"left","style":{"typography":{"fontSize":"22rem","letterSpacing":"-0.03em"}}} -->
-					<p class="has-text-align-left" style="font-size:22rem;letter-spacing:-0.03em"><?php echo esc_html_x( 'Hey,', 'Example heading above the content of the CV/Bio pattern.', 'twentytwentyfive' ); ?></p>
-					<!-- /wp:paragraph -->
-
+					<!-- wp:heading {"textAlign":"left","style":{"typography":{"fontSize":"22rem","letterSpacing":"-0.03em","fontStyle":"normal","fontWeight":"300","lineHeight":"1.4"}}} -->
+					<h2 class="wp-block-heading has-text-align-left" style="font-size:22rem;font-style:normal;font-weight:300;letter-spacing:-0.03em;line-height:1.4"><?php echo esc_html_x( 'Hey,', 'Example heading in pattern.', 'twentytwentyfive' ); ?></h2>
+					<!-- /wp:heading -->
 					<!-- wp:paragraph {"className":"is-style-text-subtitle"} -->
 					<p class="is-style-text-subtitle"><?php echo esc_html_x( 'My name is Nora Winslow Keene, and I&rsquo;m a committed public interest attorney. Living in Denver, Colorado, I&rsquo;ve spent years championing the rights of underrepresented workers. A graduate of Stanford University, I played a key role in securing critical protections for agricultural laborers, ensuring better wages and access to healthcare. My work has focused on advocating for environmental justice and improving the quality of life for rural communities. Every case I take on is driven by the belief that everyone deserves dignity and fair treatment in the workplace.', 'Pattern placeholder text.', 'twentytwentyfive' ); ?></p>
 					<!-- /wp:paragraph -->

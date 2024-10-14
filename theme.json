@@ -44,7 +44,7 @@
 					"slug": "accent-5"
 				},
 				{
-					"color": "color-mix(in srgb, currentColor 20%, transparent);",
+					"color": "color-mix(in srgb, currentColor 20%, transparent)",
 					"name": "Accent 6",
 					"slug": "accent-6"
 				}
@@ -74,22 +74,22 @@
 				},
 				{
 					"name": "Regular",
-					"size": "clamp(30px, 5vw, 50px);",
+					"size": "clamp(30px, 5vw, 50px)",
 					"slug": "50"
 				},
 				{
 					"name": "Large",
-					"size": "clamp(30px, 7vw, 70px);",
+					"size": "clamp(30px, 7vw, 70px)",
 					"slug": "60"
 				},
 				{
 					"name": "X-Large",
-					"size": "clamp(50px, 7vw, 90px);",
+					"size": "clamp(50px, 7vw, 90px)",
 					"slug": "70"
 				},
 				{
 					"name": "XX-Large",
-					"size": "clamp(70px, 10vw, 140px);",
+					"size": "clamp(70px, 10vw, 140px)",
 					"slug": "80"
 				}
 			],

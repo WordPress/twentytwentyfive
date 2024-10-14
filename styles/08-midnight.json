@@ -95,7 +95,7 @@
 				{
 					"fluid": {
 						"max": "2.8rem",
-						"min": "2em"
+						"min": "2rem"
 					},
 					"name": "Extra Extra Large",
 					"size": "2rem",
@@ -108,7 +108,7 @@
 		"typography": {
 			"fontSize": "var:preset|font-size|medium",
 			"fontFamily": "var:preset|font-family|fira-sans",
-			"letterSpacing": "-0,01em",
+			"letterSpacing": "-0.01em",
 			"lineHeight": "1.5"
 		},
 		"blocks": {
@@ -203,7 +203,7 @@
 			"core/quote": {
 				"typography": {
 					"fontSize": "var:preset|font-size|medium",
-					"letterSpacing": "-0,01em",
+					"letterSpacing": "-0.01em",
 					"lineHeight": "1.5",
 					"fontWeight": "300"
 				}

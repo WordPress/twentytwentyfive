@@ -99,9 +99,7 @@
 			"button": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|literata",
-					"fontSize": "var:preset|font-size|medium",
 					"fontWeight": "400",
-					"letterSpacing": "-0.01em",
 					"textTransform": "uppercase"
 				}
 			},

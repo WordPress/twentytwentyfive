@@ -133,4 +133,4 @@
 
 <!-- wp:pattern {"slug":"twentytwentyfive/cta-newsletter"} /-->
 
-<!-- wp:template-part {"slug":"footer-newsletter"} /-->
+<!-- wp:template-part {"slug":"footer-columns"} /-->

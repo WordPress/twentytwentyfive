@@ -1472,6 +1472,11 @@
 		},
 		{
 			"area": "footer",
+			"name": "footer-columns",
+			"title": "Footer Columns"
+		},
+		{
+			"area": "footer",
 			"name": "footer-newsletter",
 			"title": "Footer Newsletter"
 		},

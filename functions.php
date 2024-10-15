@@ -157,7 +157,7 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 	function twentytwentyfive_format_binding() {
 		$post_format_slug = get_post_format();
 
-		if ( $post_format_slug && $post_format_slug !== 'standard' ) {
+		if ( $post_format_slug && 'standard' !== $post_format_slug ) {
 			return get_post_format_string( $post_format_slug );
 		}
 	}

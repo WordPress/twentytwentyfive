@@ -152,7 +152,7 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 	 *
 	 * @since Twenty Twenty-Five 1.0
 	 *
-     * @return string|void Post format name, or nothing if the format is 'standard'.
+	 * @return string|void Post format name, or nothing if the format is 'standard'.
 	 */
 	function twentytwentyfive_format_binding() {
 		$post_format_slug = get_post_format();
@@ -170,7 +170,7 @@ if ( ! function_exists( 'twentytwentyfive_category_binding' ) ) :
 	 *
 	 * @since Twenty Twenty-Five 1.0
 	 *
-     * @return string|void Category name, or nothing if the are no categories.
+	 * @return string|void Category name, or nothing if the are no categories.
 	 */
 	function twentytwentyfive_category_binding() {
 		$categories = get_the_category();

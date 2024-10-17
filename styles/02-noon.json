@@ -220,6 +220,24 @@
 					}
 				}
 			},
+			"core/search": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|beiruti"
+				},
+				"elements": {
+					"button": {
+						"shadow": "var:preset|shadow|natural",
+						"spacing": {
+							"padding": {
+								"bottom": "0.6rem",
+								"left": "1.6rem",
+								"right": "1.6rem",
+								"top": "0.6rem"
+							}
+						}
+					}
+				}
+			},
 			"core/site-tagline": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"

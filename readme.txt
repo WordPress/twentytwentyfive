@@ -177,6 +177,7 @@ https://www.rawpixel.com/image/8800058
 Hibiscus flower.
 Free public domain CC0 image.
 grid-flower-1.webp
+red-hibiscus-closeup.webp
 https://www.rawpixel.com/image/8799471
 
 Phacelia tanacetifolia (Lacy Phacelia) enlarged 4 times from Urformen der Kunst (1928) by Karl Blossfeldt.

@@ -112,7 +112,7 @@ https://www.rawpixel.com/image/6033837
 
 Delphinium (Larkspur).
 Free public domain CC0 image.
-image-from-rawpixel-id-2224378.webp
+delphinium-flowers.webp
 https://www.rawpixel.com/image/2224378
 
 Campanula Alliariifolia (Cornish Bellflower).

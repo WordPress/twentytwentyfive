@@ -122,7 +122,7 @@ https://www.rawpixel.com/image/2222755
 
 Centaurea Ruthenica(Star Thristle).
 Free public domain CC0 image.
-image-from-rawpixel-id-2211732.webp
+star-thristle-flower.webp
 https://www.rawpixel.com/image/2211732
 
 Botany flowers.

@@ -102,7 +102,7 @@ https://www.rawpixel.com/image/8802603
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 Small totara tree on ridge above Long Point, Porirua Harbour, by Leslie Adkin.
 Free public domain CC0 image.
-image-from-rawpixel-id-13029755.webp
+404-image.webp
 https://www.rawpixel.com/image/13029755
 
 Old gray paris map.

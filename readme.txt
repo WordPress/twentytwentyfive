@@ -243,7 +243,7 @@ Book template by Beatriz Fialho, public domain.
 
 Flora of Akaka Falls State Park.
 Free public domain CC0 image.
-image-from-rawpixel-id-8802845.webp
+akaka-falls-state-park-flora.webp
 https://www.rawpixel.com/image/8802845
 
 Closeup of plantlife in the Malibu Canyon area of the Santa Monica Mountains.

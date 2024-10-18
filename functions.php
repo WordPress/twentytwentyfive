@@ -117,3 +117,44 @@ if ( ! function_exists( 'twentytwentyfive_pattern_categories' ) ) :
 	}
 endif;
 add_action( 'init', 'twentytwentyfive_pattern_categories' );
+
+// Registers block binding sources.
+if ( ! function_exists( 'twentytwentyfive_register_block_bindings' ) ) :
+	/**
+	 * Registers the category block binding source.
+	 *
+	 * @since Twenty Twenty-Five 1.0
+	 *
+	 * @return void
+	 */
+	function twentytwentyfive_register_block_bindings() {
+		register_block_bindings_source(
+			'twentytwentyfive/category',
+			array(
+				'label'              => _x( 'First category', 'Label for the block binding placeholder in the editor', 'twentytwentyfive' ),
+				'get_value_callback' => 'twentytwentyfive_category_binding',
+			)
+		);
+	}
+endif;
+
+// Registers block binding callback function for the first category on a post.
+if ( ! function_exists( 'twentytwentyfive_category_binding' ) ) :
+	/**
+	 * Callback function for the category block binding source.
+	 *
+	 * @since Twenty Twenty-Five 1.0
+	 *
+	 * @return string|void Category name, or nothing if the are no categories.
+	 */
+	function twentytwentyfive_category_binding() {
+		$categories = get_the_category();
+
+		if ( ! empty( $categories ) ) {
+			$category_name = esc_html( $categories[0]->name );
+			$category_link = esc_url( get_category_link( $categories[0]->term_id ) );
+			return sprintf( '<a href="%s">%s</a>', $category_link, $category_name );
+		}
+	}
+endif;
+add_action( 'init', 'twentytwentyfive_register_block_bindings' );

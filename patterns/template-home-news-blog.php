@@ -32,6 +32,9 @@
 								<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"3/2"} /-->
 								<!-- wp:post-title {"isLink":true,"fontSize":"large"} /-->
 								<!-- wp:post-terms {"term":"category","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px"}}} /-->
+								<!-- wp:paragraph {"metadata":{"bindings":{"content":{"source":"twentytwentyfive/category"}}},"fontSize":"small","style":{"typography":{"textTransform":"uppercase","letterSpacing":"1.4px","fontStyle":"normal","fontWeight":"600"}}} -->
+								<p class="has-small-font-size" style="font-style:normal;font-weight:600;letter-spacing:1.4px;text-transform:uppercase"></p>
+								<!-- /wp:paragraph -->
 							</div>
 							<!-- /wp:group -->
 						<!-- /wp:post-template -->

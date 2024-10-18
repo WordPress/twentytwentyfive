@@ -248,5 +248,5 @@ https://www.rawpixel.com/image/8802845
 
 Closeup of plantlife in the Malibu Canyon area of the Santa Monica Mountains.
 Free public domain CC0 image.
-image-from-rawpixel-id-8799918.webp
+malibu-plantlife.webp
 https://www.rawpixel.com/image/8799918

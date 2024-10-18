@@ -164,7 +164,7 @@ https://www.rawpixel.com/image/14265869
 Cliff Palace, Mesa Verde National Park, Colorado (vertical orientation)
 Free public domain CC0 image.
 poster-image-background.webp
-image-from-rawpixel-id-8802835-jpeg-scaled.webp
+ruins-image.webp
 https://www.rawpixel.com/image/8802835
 
 Flower meadow in Llano, Texas.

@@ -96,6 +96,11 @@
 					"fontWeight": "300"
 				}
 			},
+			"core/search": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|beiruti"
+				}
+			},
 			"core/site-tagline": {
 				"typography": {
 					"fontSize": "var:preset|font-size|small"

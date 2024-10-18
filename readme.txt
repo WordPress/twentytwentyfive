@@ -117,7 +117,7 @@ https://www.rawpixel.com/image/2224378
 
 Campanula Alliariifolia (Cornish Bellflower).
 Free public domain CC0 image.
-image-from-rawpixel-id-2222755.webp
+campanula-alliariifolia-flower.webp
 https://www.rawpixel.com/image/2222755
 
 Centaurea Ruthenica(Star Thristle).

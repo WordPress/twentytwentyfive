@@ -62,9 +62,9 @@
 		</div>
 		<!-- /wp:group -->
 
-		<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-8812207.webp","dimRatio":0,"overlayColor":"base","isUserOverlayColor":true,"isDark":false,"layout":{"type":"constrained"}} -->
+		<!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/botany-flowers-closeup.webp","dimRatio":0,"overlayColor":"base","isUserOverlayColor":true,"isDark":false,"layout":{"type":"constrained"}} -->
 		<div class="wp-block-cover is-light">
-			<span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php esc_attr_e( 'Close up photo of white flowers on a grey background', 'twentytwentyfive' ); ?>" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/image-from-rawpixel-id-8812207.webp" data-object-fit="cover"/>
+			<span aria-hidden="true" class="wp-block-cover__background has-base-background-color has-background-dim-0 has-background-dim"></span><img class="wp-block-cover__image-background" alt="<?php esc_attr_e( 'Close up photo of white flowers on a grey background', 'twentytwentyfive' ); ?>" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/botany-flowers-closeup.webp" data-object-fit="cover"/>
 			<div class="wp-block-cover__inner-container">
 				<!-- wp:spacer {"height":"var:preset|spacing|20"} -->
 				<div style="height:var(--wp--preset--spacing--20)" aria-hidden="true" class="wp-block-spacer"></div>

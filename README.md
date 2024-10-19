@@ -1,4 +1,4 @@
-# Twenty Twenty-Five
+## Twenty Twenty-Five
 
 Welcome to the development repository for the default theme that will launch with [WordPress 6.7](https://make.wordpress.org/core/6-7/).
 

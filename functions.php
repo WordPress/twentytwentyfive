@@ -137,6 +137,7 @@ if ( ! function_exists( 'twentytwentyfive_register_block_bindings' ) ) :
 		);
 	}
 endif;
+add_action( 'init', 'twentytwentyfive_register_block_bindings' );
 
 // Registers block binding callback function for the post format name.
 if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
@@ -155,4 +156,3 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 		}
 	}
 endif;
-add_action( 'init', 'twentytwentyfive_register_block_bindings' );

@@ -497,145 +497,17 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Thin.woff2"
+								"file:./assets/fonts/ysabeau-office/YsabeauOffice-VariableFont_wght.woff2"
 							],
-							"fontWeight": "100",
+							"fontWeight": "100 900",
 							"fontStyle": "normal",
 							"fontFamily": "\"Ysabeau Office\""
 						},
 						{
 							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-ThinItalic.woff2"
+								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Italic-VariableFont_wght.woff2"
 							],
-							"fontWeight": "100",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-ExtraLight.woff2"
-							],
-							"fontWeight": "200",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-ExtraLightItalic.woff2"
-							],
-							"fontWeight": "200",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Light.woff2"
-							],
-							"fontWeight": "300",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-LightItalic.woff2"
-							],
-							"fontWeight": "300",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Italic.woff2"
-							],
-							"fontWeight": "400",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Regular.woff2"
-							],
-							"fontWeight": "400",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Medium.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-MediumItalic.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-SemiBoldItalic.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Bold.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-BoldItalic.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-ExtraBold.woff2"
-							],
-							"fontWeight": "800",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-ExtraBoldItalic.woff2"
-							],
-							"fontWeight": "800",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Black.woff2"
-							],
-							"fontWeight": "900",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-BlackItalic.woff2"
-							],
-							"fontWeight": "900",
+							"fontWeight": "100 900",
 							"fontStyle": "italic",
 							"fontFamily": "\"Ysabeau Office\""
 						}

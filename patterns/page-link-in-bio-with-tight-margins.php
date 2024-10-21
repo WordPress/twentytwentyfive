@@ -2,7 +2,7 @@
 /**
  * Title: Link in bio with tight margins
  * Slug: twentytwentyfive/page-link-in-bio-with-tight-margins
- * Categories: twentytwentyfive_page, banner, featured
+ * Categories: twentytwentyfive_page, banner
  * Keywords: starter
  * Block Types: core/post-content
  * Post Types: page, wp_template
@@ -39,7 +39,7 @@
 			<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"space-between","flexWrap":"nowrap","justifyContent":"stretch"}} -->
 			<div class="wp-block-group" style="min-height:100%">
 				<!-- wp:paragraph {"align":"left","style":{"typography":{"lineHeight":"1.2"}},"fontSize":"x-large"} -->
-				<p class="has-text-align-left has-x-large-font-size" style="line-height:1.2"><?php esc_html_e( 'I&rsquo;m Asahachi Kōno, a Japanese&nbsp;photographer, a member of&nbsp;Los Angeles\'s Japanese Camera Pictorialists of California. Before returning to Japan, I worked as a photo retoucher.', 'twentytwentyfive' ); ?></p>
+				<p class="has-text-align-left has-x-large-font-size" style="line-height:1.2"><?php esc_html_e( 'I’m Asahachi Kōno, a Japanese photographer, a member of Los Angeles’s Japanese Camera Pictorialists of California. Before returning to Japan, I worked as a photo retoucher.', 'twentytwentyfive' ); ?></p>
 				<!-- /wp:paragraph -->
 
 				<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->

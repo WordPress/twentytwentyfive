@@ -297,12 +297,12 @@
 				{
 					"fluid": false,
 					"name": "Small",
-					"size": "0.875rem",
+					"size": "0.9rem",
 					"slug": "small"
 				},
 				{
 					"fluid": {
-						"max": "1.1rem",
+						"max": "1.2rem",
 						"min": "0.9rem"
 					},
 					"name": "Medium",
@@ -311,29 +311,29 @@
 				},
 				{
 					"fluid": {
-						"max": "1.2rem",
-						"min": "1.09rem"
+						"max": "1.8rem",
+						"min": "1.2rem"
 					},
 					"name": "Large",
-					"size": "1.38rem",
+					"size": "1.2rem",
 					"slug": "large"
 				},
 				{
 					"fluid": {
-						"max": "2rem",
-						"min": "1.75rem"
+						"max": "2.2rem",
+						"min": "1.8rem"
 					},
 					"name": "Extra Large",
-					"size": "1.75rem",
+					"size": "1.8rem",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"max": "3.625rem",
-						"min": "2.625rem"
+						"max": "2.8rem",
+						"min": "2rem"
 					},
 					"name": "Extra Extra Large",
-					"size": "2.625rem",
+					"size": "2rem",
 					"slug": "xx-large"
 				}
 			]
@@ -341,27 +341,12 @@
 	},
 	"styles": {
 		"typography": {
+			"fontSize": "var:preset|font-size|medium",
 			"fontFamily": "var:preset|font-family|fira-sans",
-			"letterSpacing": "-0.24px",
-			"lineHeight": "1.4"
+			"letterSpacing": "-0.01em",
+			"lineHeight": "1.5"
 		},
 		"blocks": {
-			"core/post-author": {
-				"typography": {
-					"fontSize": "var:preset|font-size|small"
-				}
-			},
-			"core/post-author-name": {
-				"typography": {
-					"fontSize": "var:preset|font-size|small"
-				}
-			},
-			"core/post-terms": {
-				"typography": {
-					"fontWeight": "400",
-					"textTransform": "uppercase"
-				}
-			},
 			"core/post-title": {
 				"typography": {
 					"fontWeight": "200"
@@ -371,8 +356,7 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|literata",
 					"fontWeight": "200",
-					"letterSpacing": "0em",
-					"lineHeight": "1.1"
+					"letterSpacing": "0em"
 				}
 			},
 			"core/query-pagination": {
@@ -383,6 +367,9 @@
 			},
 			"core/quote": {
 				"typography": {
+					"fontSize": "var:preset|font-size|medium",
+					"letterSpacing": "-0.01em",
+					"lineHeight": "1.5",
 					"fontWeight": "300"
 				}
 			},
@@ -400,8 +387,7 @@
 			"button": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|literata",
-					"fontWeight": "600",
-					"letterSpacing": "-0.96px",
+					"fontWeight": "400",
 					"textTransform": "uppercase"
 				}
 			},
@@ -409,7 +395,13 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|literata",
 					"fontWeight": "200",
-					"letterSpacing": "-0.02em"
+					"letterSpacing": "-0.02em",
+					"lineHeight": "1.24"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontWeight": "200"
 				}
 			}
 		}

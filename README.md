@@ -103,7 +103,7 @@ When adding images to the theme, we need to add the license attribution to the r
 The filename of each image includes the ID, and the way to get the license is by following the link `rawpixel.com/image/$id`. Let's take the following filename as an example:
 
 ```
-image-from-rawpixel-id-2211732-jpeg.webp
+star-thristle-flower-jpeg.webp
 ```
 
 For that particular image, the id would be `2211732`. And the link you should follow to get the license would be `rawpixel.com/image/2211732`.

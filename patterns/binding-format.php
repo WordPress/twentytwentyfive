@@ -2,6 +2,8 @@
 /**
  * Title: Post format name
  * Slug: twentytwentyfive/binding-format
+ * Categories: twentytwentyfive_post-format
+ * Description: Prints the name of the post format with the help of the Block Bindings API.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five

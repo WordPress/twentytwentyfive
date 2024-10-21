@@ -160,7 +160,7 @@
 							"src": [
 								"file:./assets/fonts/manrope/Manrope-VariableFont_wght.woff2"
 							],
-							"fontWeight": "200-800",
+							"fontWeight": "200 800",
 							"fontStyle": "normal",
 							"fontFamily": "Manrope"
 						}
@@ -405,7 +405,7 @@
 							"src": [
 								"file:./assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2"
 							],
-							"fontWeight": "300-700",
+							"fontWeight": "300 700",
 							"fontStyle": "normal",
 							"fontFamily": "\"Fira Code\""
 						}

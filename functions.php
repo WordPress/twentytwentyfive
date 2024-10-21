@@ -155,3 +155,4 @@ if ( ! function_exists( 'twentytwentyfive_format_binding' ) ) :
 		}
 	}
 endif;
+add_action( 'init', 'twentytwentyfive_register_block_bindings' );

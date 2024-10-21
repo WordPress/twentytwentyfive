@@ -158,57 +158,9 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/manrope/Manrope-ExtraLight.woff2"
+								"file:./assets/fonts/manrope/Manrope-VariableFont_wght.woff2"
 							],
-							"fontWeight": "200",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Light.woff2"
-							],
-							"fontWeight": "300",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Regular.woff2"
-							],
-							"fontWeight": "400",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Medium.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Bold.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-ExtraBold.woff2"
-							],
-							"fontWeight": "800",
+							"fontWeight": "200-800",
 							"fontStyle": "normal",
 							"fontFamily": "Manrope"
 						}

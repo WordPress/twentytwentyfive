@@ -67,15 +67,6 @@
 					"background": "var:preset|color|accent-5"
 				}
 			},
-			"core/paragraph": {
-				"elements": {
-					"link": {
-						"color": {
-							"text": "var:preset|color|accent-2"
-						}
-					}
-				}
-			},
 			"core/post-author-name": {
 				"typography": {
 					"fontWeight": "300"

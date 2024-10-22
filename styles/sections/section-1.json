@@ -19,6 +19,18 @@
 					"text": "color-mix(in srgb, currentColor 25%, transparent)"
 				}
 			},
+			"core/site-title": {
+				"color": {
+					"text": "currentColor"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "currentColor"
+						}
+					}
+				}
+			},
 			"core/post-author-name": {
 				"color": {
 					"text": "currentColor"

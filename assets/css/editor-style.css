@@ -2,7 +2,8 @@
  * Link styles
  * https://github.com/WordPress/gutenberg/issues/42319
  */
-a {
+a,
+.wp-block[style*="text-decoration: underline"] {
 	text-decoration-thickness: 1px !important;
 	text-underline-offset: .1em;
 }

@@ -23,7 +23,12 @@
 			<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|20"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 			<div class="wp-block-group">
 				<!-- wp:heading {"fontSize":"xx-large"} -->
-				<h2 class="wp-block-heading has-xx-large-font-size"><?php echo esc_html_x( '“Stories, historias, iсторії, iστορίες”', 'Placeholder heading in four languages.', 'twentytwentyfive' ); ?></h2>
+				<h2 class="wp-block-heading has-xx-large-font-size">
+					<?php
+						/* translators: This string contains the word "Stories" in four different languages with the first item in the locale's language. */
+						echo esc_html_x( '“Stories, historias, iсторії, iστορίες”', 'Placeholder heading in four languages.', 'twentytwentyfive' );
+					?>
+				</h2>
 				<!-- /wp:heading -->
 
 				<!-- wp:paragraph {"fontSize":"x-large"} -->

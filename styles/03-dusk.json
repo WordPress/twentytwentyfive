@@ -87,14 +87,6 @@
 					"link": {
 						"color": {
 							"text": "var:preset|color|accent-2"
-						},
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
 						}
 					}
 				}
@@ -105,6 +97,13 @@
 				},
 				"color": {
 					"text": "var:preset|color|accent-2"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						}
+					}
 				}
 			},
 			"core/post-title": {
@@ -244,14 +243,6 @@
 							"radius": "4px",
 							"width": "0.8px",
 							"style": "solid"
-						},
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
 						}
 					}
 				}

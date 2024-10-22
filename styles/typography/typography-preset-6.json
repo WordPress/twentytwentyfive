@@ -19,18 +19,6 @@
 			"core/post-author-name": {
 				"typography": {
 					"fontSize": "var:preset|font-size|medium"
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
 				}
 			},
 			"core/post-terms": {
@@ -108,18 +96,6 @@
 			"post-terms-1": {
 				"typography": {
 					"fontSize": "16px"
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
 				}
 			}
 		}

@@ -14,18 +14,6 @@
 			"core/post-author-name": {
 				"typography": {
 					"fontWeight": "300"
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
 				}
 			},
 			"core/post-terms": {
@@ -111,22 +99,6 @@
 				"typography": {
 					"fontSize": "24px",
 					"letterSpacing": "-0.48px"
-				}
-			}
-		},
-		"variations": {
-			"post-terms-1": {
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
 				}
 			}
 		}

@@ -16,35 +16,9 @@
 					"fontSize": "1.25rem"
 				}
 			},
-			"core/post-author-name": {
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
-				}
-			},
 			"core/post-terms": {
 				"typography": {
 					"fontWeight": "400"
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
 				}
 			},
 			"core/post-title": {
@@ -117,18 +91,6 @@
 			"post-terms-1": {
 				"typography": {
 					"fontSize": "16px"
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
 				}
 			}
 		}

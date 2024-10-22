@@ -62,20 +62,6 @@
 					"fontSize": "1.25rem"
 				}
 			},
-			"core/post-author-name": {
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
-				}
-			},
 			"core/post-title": {
 				"typography": {
 					"fontWeight": "900",
@@ -150,18 +136,6 @@
 			"post-terms-1": {
 				"typography": {
 					"fontSize": "var:preset|font-size|medium"
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
 				}
 			}
 		}

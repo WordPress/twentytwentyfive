@@ -105,21 +105,6 @@
 				},
 				"color": {
 					"text": "var:preset|color|accent-2"
-				},
-				"elements": {
-					"link": {
-						"color": {
-							"text": "var:preset|color|accent-2"
-						},
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
 				}
 			},
 			"core/post-title": {

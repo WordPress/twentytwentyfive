@@ -31,18 +31,6 @@
 			"core/post-terms": {
 				"typography": {
 					"fontWeight": "300"
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
-						}
-					}
 				}
 			},
 			"core/post-title": {

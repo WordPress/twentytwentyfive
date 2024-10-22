@@ -271,7 +271,7 @@
 					}
 				}
 			},
-			"section-1":{
+			"section-1": {
 				"elements": {
 					"link": {
 						"color": {
@@ -298,12 +298,12 @@
 					},
 					"link": {
 						"color": {
-							"text": "var:preset|color|base"
+							"text": "currentColor"
 						}
 					},
 					"heading": {
 						"color": {
-							"text": "var:preset|color|base"
+							"text": "currentColor"
 						}
 					}
 				}
@@ -315,7 +315,7 @@
 				"elements": {
 					"heading": {
 						"color": {
-							"text": "var:preset|color|accent-2"
+							"text": "currentColor"
 						}
 					}
 				}
@@ -337,12 +337,12 @@
 					},
 					"link": {
 						"color": {
-							"text": "var:preset|color|base"
+							"text": "currentColor"
 						}
 					},
 					"heading": {
 						"color": {
-							"text": "var:preset|color|base"
+							"text": "currentColor"
 						}
 					}
 				}

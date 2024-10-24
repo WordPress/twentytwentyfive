@@ -158,57 +158,9 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/manrope/Manrope-ExtraLight.woff2"
+								"file:./assets/fonts/manrope/Manrope-VariableFont_wght.woff2"
 							],
-							"fontWeight": "200",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Light.woff2"
-							],
-							"fontWeight": "300",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Regular.woff2"
-							],
-							"fontWeight": "400",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Medium.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Bold.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-ExtraBold.woff2"
-							],
-							"fontWeight": "800",
+							"fontWeight": "200 800",
 							"fontStyle": "normal",
 							"fontFamily": "Manrope"
 						}
@@ -221,41 +173,9 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-Light.woff2"
+								"file:./assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2"
 							],
-							"fontWeight": "300",
-							"fontStyle": "normal",
-							"fontFamily": "\"Fira Code\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-Regular.woff2"
-							],
-							"fontWeight": "400",
-							"fontStyle": "normal",
-							"fontFamily": "\"Fira Code\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-Medium.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "normal",
-							"fontFamily": "\"Fira Code\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "\"Fira Code\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-Bold.woff2"
-							],
-							"fontWeight": "700",
+							"fontWeight": "300 700",
 							"fontStyle": "normal",
 							"fontFamily": "\"Fira Code\""
 						}
@@ -455,20 +375,6 @@
 					"fontSize": "var:preset|font-size|medium"
 				}
 			},
-			"core/post-author-name": {
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
-				}
-			},
 			"core/post-date": {
 				"color":{
 					"text": "var:preset|color|accent-4"
@@ -502,18 +408,6 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "600"
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
 				}
 			},
 			"core/post-title": {
@@ -785,6 +679,11 @@
 			"link": {
 				"color": {
 					"text": "currentColor"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "none"
+					}
 				}
 			}
 		}

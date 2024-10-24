@@ -158,57 +158,9 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/manrope/Manrope-ExtraLight.woff2"
+								"file:./assets/fonts/manrope/Manrope-VariableFont_wght.woff2"
 							],
-							"fontWeight": "200",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Light.woff2"
-							],
-							"fontWeight": "300",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Regular.woff2"
-							],
-							"fontWeight": "400",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Medium.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-Bold.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "normal",
-							"fontFamily": "Manrope"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/manrope/Manrope-ExtraBold.woff2"
-							],
-							"fontWeight": "800",
+							"fontWeight": "200 800",
 							"fontStyle": "normal",
 							"fontFamily": "Manrope"
 						}
@@ -356,90 +308,18 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-Italic.woff2"
+								"file:./assets/fonts/vollkorn/Vollkorn-Italic-VariableFont_wght.woff2"
 							],
-							"fontWeight": "400",
+							"fontWeight": "400 900",
 							"fontStyle": "italic",
 							"fontFamily": "Vollkorn"
 						},
 						{
 							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-Regular.woff2"
+								"file:./assets/fonts/vollkorn/Vollkorn-VariableFont_wght.woff2"
 							],
-							"fontWeight": "400",
+							"fontWeight": "400 900",
 							"fontStyle": "normal",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-Medium.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "normal",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-MediumItalic.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "italic",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-Bold.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "normal",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-BoldItalic.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "italic",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-ExtraBold.woff2"
-							],
-							"fontWeight": "800",
-							"fontStyle": "normal",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-ExtraBoldItalic.woff2"
-							],
-							"fontWeight": "800",
-							"fontStyle": "italic",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-Black.woff2"
-							],
-							"fontWeight": "900",
-							"fontStyle": "normal",
-							"fontFamily": "Vollkorn"
-						},
-						{
-							"src": [
-								"file:./assets/fonts/vollkorn/Vollkorn-BlackItalic.woff2"
-							],
-							"fontWeight": "900",
-							"fontStyle": "italic",
 							"fontFamily": "Vollkorn"
 						}
 					]
@@ -451,41 +331,9 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-Light.woff2"
+								"file:./assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2"
 							],
-							"fontWeight": "300",
-							"fontStyle": "normal",
-							"fontFamily": "\"Fira Code\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-Regular.woff2"
-							],
-							"fontWeight": "400",
-							"fontStyle": "normal",
-							"fontFamily": "\"Fira Code\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-Medium.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "normal",
-							"fontFamily": "\"Fira Code\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "\"Fira Code\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/fira-code/FiraCode-Bold.woff2"
-							],
-							"fontWeight": "700",
+							"fontWeight": "300 700",
 							"fontStyle": "normal",
 							"fontFamily": "\"Fira Code\""
 						}
@@ -649,145 +497,17 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Thin.woff2"
+								"file:./assets/fonts/ysabeau-office/YsabeauOffice-VariableFont_wght.woff2"
 							],
-							"fontWeight": "100",
+							"fontWeight": "100 900",
 							"fontStyle": "normal",
 							"fontFamily": "\"Ysabeau Office\""
 						},
 						{
 							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-ThinItalic.woff2"
+								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Italic-VariableFont_wght.woff2"
 							],
-							"fontWeight": "100",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-ExtraLight.woff2"
-							],
-							"fontWeight": "200",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-ExtraLightItalic.woff2"
-							],
-							"fontWeight": "200",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Light.woff2"
-							],
-							"fontWeight": "300",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-LightItalic.woff2"
-							],
-							"fontWeight": "300",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Italic.woff2"
-							],
-							"fontWeight": "400",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Regular.woff2"
-							],
-							"fontWeight": "400",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Medium.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-MediumItalic.woff2"
-							],
-							"fontWeight": "500",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-SemiBold.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-SemiBoldItalic.woff2"
-							],
-							"fontWeight": "600",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Bold.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-BoldItalic.woff2"
-							],
-							"fontWeight": "700",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-ExtraBold.woff2"
-							],
-							"fontWeight": "800",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-ExtraBoldItalic.woff2"
-							],
-							"fontWeight": "800",
-							"fontStyle": "italic",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-Black.woff2"
-							],
-							"fontWeight": "900",
-							"fontStyle": "normal",
-							"fontFamily": "\"Ysabeau Office\""
-						},
-						{
-							"src": [
-								"file:./assets/fonts/ysabeau-office/YsabeauOffice-BlackItalic.woff2"
-							],
-							"fontWeight": "900",
+							"fontWeight": "100 900",
 							"fontStyle": "italic",
 							"fontFamily": "\"Ysabeau Office\""
 						}
@@ -801,97 +521,17 @@
 						{
 							"fontFamily": "Platypi",
 							"fontStyle": "normal",
-							"fontWeight": "300",
+							"fontWeight": "300 800",
 							"src": [
-								"file:./assets/fonts/platypi/Platypi-Light.woff2"
+								"file:./assets/fonts/platypi/Platypi-VariableFont_wght.woff2"
 							]
 						},
 						{
 							"fontFamily": "Platypi",
 							"fontStyle": "italic",
-							"fontWeight": "300",
+							"fontWeight": "300 800",
 							"src": [
-								"file:./assets/fonts/platypi/Platypi-LightItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Platypi",
-							"fontStyle": "italic",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/platypi/Platypi-Italic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Platypi",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": [
-								"file:./assets/fonts/platypi/Platypi-Regular.woff2"
-							]
-						},
-						{
-							"fontFamily": "Platypi",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/platypi/Platypi-Medium.woff2"
-							]
-						},
-						{
-							"fontFamily": "Platypi",
-							"fontStyle": "italic",
-							"fontWeight": "500",
-							"src": [
-								"file:./assets/fonts/platypi/Platypi-MediumItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Platypi",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/platypi/Platypi-SemiBold.woff2"
-							]
-						},
-						{
-							"fontFamily": "Platypi",
-							"fontStyle": "italic",
-							"fontWeight": "600",
-							"src": [
-								"file:./assets/fonts/platypi/Platypi-SemiBoldItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Platypi",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/platypi/Platypi-Bold.woff2"
-							]
-						},
-						{
-							"fontFamily": "Platypi",
-							"fontStyle": "italic",
-							"fontWeight": "700",
-							"src": [
-								"file:./assets/fonts/platypi/Platypi-BoldItalic.woff2"
-							]
-						},
-						{
-							"fontFamily": "Platypi",
-							"fontStyle": "normal",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/platypi/Platypi-ExtraBold.woff2"
-							]
-						},
-						{
-							"fontFamily": "Platypi",
-							"fontStyle": "italic",
-							"fontWeight": "800",
-							"src": [
-								"file:./assets/fonts/platypi/Platypi-ExtraBoldItalic.woff2"
+								"file:./assets/fonts/platypi/Platypi-Italic-VariableFont_wght.woff2"
 							]
 						}
 					]
@@ -1120,20 +760,6 @@
 					"fontSize": "var:preset|font-size|medium"
 				}
 			},
-			"core/post-author-name": {
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
-				}
-			},
 			"core/post-date": {
 				"color":{
 					"text": "var:preset|color|accent-4"
@@ -1167,18 +793,6 @@
 				"typography": {
 					"fontSize": "var:preset|font-size|small",
 					"fontWeight": "600"
-				},
-				"elements": {
-					"link": {
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
-						}
-					}
 				}
 			},
 			"core/post-title": {
@@ -1450,6 +1064,11 @@
 			"link": {
 				"color": {
 					"text": "currentColor"
+				},
+				":hover": {
+					"typography": {
+						"textDecoration": "none"
+					}
 				}
 			}
 		}

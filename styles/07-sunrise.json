@@ -78,14 +78,6 @@
 					"link": {
 						"color": {
 							"text": "var:preset|color|contrast"
-						},
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
 						}
 					}
 				}
@@ -101,14 +93,6 @@
 					"link": {
 						"color": {
 							"text": "var:preset|color|contrast"
-						},
-						"typography": {
-							"textDecoration": "underline"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "none"
-							}
 						}
 					}
 				}
@@ -233,14 +217,6 @@
 						"border": {
 							"radius": "100px",
 							"color": "var:preset|color|accent-5"
-						},
-						"typography": {
-							"textDecoration": "none"
-						},
-						":hover": {
-							"typography": {
-								"textDecoration": "underline"
-							}
 						}
 					}
 				}

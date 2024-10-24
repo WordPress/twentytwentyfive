@@ -163,6 +163,16 @@
 					"fontWeight": "300"
 				}
 			},
+			"core/search": {
+				"css": "& .wp-block-search__input{border-radius:0px;border-color:var(--wp--preset--color--accent-6);}",
+				"elements": {
+					"button": {
+						"border": {
+							"radius": "0px"
+						}
+					}
+				}
+			},
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|ysabeau-office",

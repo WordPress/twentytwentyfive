@@ -63,8 +63,10 @@
 					<!-- wp:heading {"level":3} -->
 					<h3 class="wp-block-heading">
 						<?php
+						echo wp_kses_post(
 							/* translators: This string contains the word "Stories" in four different languages with the first item in the locale's language. */
-							echo esc_html_x( '“Stories, historias, iсторії, iστορίες”', 'Placeholder heading in four languages.', 'twentytwentyfive' );
+							_x( '“Stories, <span lang="es">historias</span>, <span lang="uk">iсторії</span>, <span lang="el">iστορίες</span>”', 'Placeholder heading in four languages.', 'twentytwentyfive' )
+						);
 						?>
 					</h3>
 					<!-- /wp:heading -->
@@ -130,8 +132,10 @@
 					<!-- wp:heading {"level":3} -->
 					<h3 class="wp-block-heading">
 						<?php
+						echo wp_kses_post(
 							/* translators: This string contains the word "Stories" in four different languages with the first item in the locale's language. */
-							echo esc_html_x( '“Stories, historias, iсторії, iστορίες”', 'Placeholder heading in four languages.', 'twentytwentyfive' );
+							_x( '“Stories, <span lang="es">historias</span>, <span lang="uk">iсторії</span>, <span lang="el">iστορίες</span>”', 'Placeholder heading in four languages.', 'twentytwentyfive' )
+						);
 						?>
 					</h3>
 					<!-- /wp:heading -->

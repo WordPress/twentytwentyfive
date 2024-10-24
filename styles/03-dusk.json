@@ -67,6 +67,15 @@
 					"background": "var:preset|color|accent-5"
 				}
 			},
+			"core/paragraph": {
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var:preset|color|accent-2"
+						}
+					}
+				}
+			},
 			"core/post-author-name": {
 				"typography": {
 					"fontWeight": "300"
@@ -78,6 +87,14 @@
 					"link": {
 						"color": {
 							"text": "var:preset|color|accent-2"
+						},
+						"typography": {
+							"textDecoration": "underline"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
 						}
 					}
 				}
@@ -93,6 +110,14 @@
 					"link": {
 						"color": {
 							"text": "var:preset|color|accent-2"
+						},
+						"typography": {
+							"textDecoration": "underline"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
 						}
 					}
 				}
@@ -234,6 +259,14 @@
 							"radius": "4px",
 							"width": "0.8px",
 							"style": "solid"
+						},
+						"typography": {
+							"textDecoration": "none"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
 						}
 					}
 				}

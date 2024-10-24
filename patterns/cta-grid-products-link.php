@@ -17,7 +17,7 @@
 	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-group alignwide">
 		<!-- wp:heading {"style":{"typography":{"fontSize":"11.58rem","letterSpacing":"-0.02em"}}} -->
-		<h2 class="wp-block-heading" style="font-size:11.58rem;letter-spacing:-0.02em"><?php esc_html_e( 'Our online store.', 'twentytwentyfive' ); ?></h2>
+		<h2 class="wp-block-heading" style="font-size:9,6rem;letter-spacing:-0.02em"><?php esc_html_e( 'Our online store.', 'twentytwentyfive' ); ?></h2>
 		<!-- /wp:heading -->
 
 		<!-- wp:group {"layout":{"type":"grid","columnCount":null,"minimumColumnWidth":"10rem"}} -->

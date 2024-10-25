@@ -174,16 +174,10 @@
 				"typography": {
 					"fontFamily": "var:preset|font-family|vollkorn",
 					"fontSize": "var:preset|font-size|x-large"
-				},
-				"elements": {
-					"link": {
-						"color": {
-							"text": "var:preset|color|accent-3"
-						}
-					}
 				}
 			}
 		},
+		"css": "p.wp-block-site-title:not(.has-link-color) a { color: var(--wp--preset--color--accent-3);}",
 		"elements": {
 			"button": {
 				"typography": {

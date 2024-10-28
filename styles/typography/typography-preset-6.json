@@ -58,11 +58,6 @@
 					}
 				}
 			},
-			"core/query-title": {
-				"typography": {
-					"fontWeight": "800"
-				}
-			},
 			"core/site-title": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|platypi",

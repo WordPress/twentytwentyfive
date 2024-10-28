@@ -72,7 +72,7 @@
 			<!-- /wp:separator -->
 
 			<!-- wp:heading {"level":3} -->
-			<h3 class="wp-block-heading"><?php echo esc_html_x( 'Will The Stories Book be available in other languages other that English?', 'Question in the FAQs pattern', 'twentytwentyfive' ); ?></h3>
+			<h3 class="wp-block-heading"><?php echo esc_html_x( 'Will The Stories Book be available in languages other than English?', 'Question in the FAQs pattern', 'twentytwentyfive' ); ?></h3>
 			<!-- /wp:heading -->
 
 			<!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"300"}}} -->

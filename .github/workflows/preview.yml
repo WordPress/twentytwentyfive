@@ -17,11 +17,11 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Preview Theme Changes
-        uses: juanfra/action-wp-playground-pr-preview@try/fix-theme-preview-link
+        uses: juanfra/action-wp-playground-pr-preview@debug
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           ref: ${{ github.event.pull_request.head.sha }}
           base-branch: trunk
           single-theme: true
-          php-version: "8.0"
           wp-version: "nightly"
+          php-version: "8.0"
